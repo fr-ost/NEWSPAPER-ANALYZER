@@ -33851,37 +33851,6 @@
  "runs": [
   {
    "dry_run": false,
-   "edition_date": "2026-10-26",
-   "errors": [],
-   "estimated_cost_usd": 0.0,
-   "finished_at": "2026-10-26T08:14:10+00:00",
-   "llm_calls": 0,
-   "llm_usage": {
-    "gemini": {
-     "calls_incl_retries": 0,
-     "input_tokens": 0,
-     "output_tokens": 0,
-     "requests": 0
-    },
-    "openai": {
-     "calls_incl_retries": 0,
-     "input_tokens": 0,
-     "output_tokens": 0,
-     "requests": 0
-    }
-   },
-   "manual": false,
-   "mcqs": 0,
-   "outcome": "already_delivered",
-   "partial": false,
-   "prefiltered": 0,
-   "providers_disabled": {},
-   "run_id": "e19f4afa7c",
-   "started_at": "2026-10-26T08:14:09+00:00",
-   "stories": 5
-  },
-  {
-   "dry_run": false,
    "edition_date": "2026-10-27",
    "errors": [],
    "estimated_cost_usd": 0.1399,
@@ -34778,6 +34747,37 @@
    "run_id": "f8f469b4e9",
    "started_at": "2026-11-03T02:00:01+00:00",
    "stories": 6
+  },
+  {
+   "dry_run": false,
+   "edition_date": "2026-11-03",
+   "errors": [],
+   "estimated_cost_usd": 0.0,
+   "finished_at": "2026-11-03T02:01:18+00:00",
+   "llm_calls": 0,
+   "llm_usage": {
+    "gemini": {
+     "calls_incl_retries": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "requests": 0
+    },
+    "openai": {
+     "calls_incl_retries": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "requests": 0
+    }
+   },
+   "manual": false,
+   "mcqs": 0,
+   "outcome": "already_delivered",
+   "partial": false,
+   "prefiltered": 0,
+   "providers_disabled": {},
+   "run_id": "66f0f149b6",
+   "started_at": "2026-11-03T02:01:18+00:00",
+   "stories": 6
   }
  ],
  "schedule": {
@@ -34811,11 +34811,12 @@
    "2026-11-03": {
     "lag_minutes": [
      407,
-     385
+     385,
+     368
     ],
     "last_job_status": "success",
-    "last_run_at": "2026-11-03T02:00:40+00:00",
-    "runs": 2
+    "last_run_at": "2026-11-03T02:01:18+00:00",
+    "runs": 3
    }
   }
  },
@@ -34940,5 +34941,5 @@
  "telegram": {
   "last_update_id": 894171906
  },
- "updated_at": "2026-11-03T02:00:40+00:00"
+ "updated_at": "2026-11-03T02:01:18+00:00"
 }
