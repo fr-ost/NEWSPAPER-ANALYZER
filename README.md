@@ -150,7 +150,7 @@ Typical model usage per day: 2 screening calls + up to 14 analyses + 2 static-GK
 | `app/questions.py` | Stage G — MCQ generation and validation |
 | `app/render.py` | Telegram HTML rendering (Bengali) |
 | `app/telegram_delivery.py` | Chunking, sending, retries |
-| `app/subscribers.py` | `/start`, `/stop`, invite code, subscriber list |
+| `app/subscribers.py` | `/start`, `/stop`, optional invite code, subscriber list |
 | `app/state.py` | Versioned JSON state store |
 | `app/pipeline.py` | Orchestration, checkpoints, idempotency |
 | `app/llm/` | Provider interface + fallback chain: `openai.py`, `gemini.py`, `ollama.py` (local), `mock.py` (offline/tests) |
@@ -206,7 +206,7 @@ GitHub only runs **scheduled** workflows from the repository's **default branch*
    If it isn't, choose a free Flash or Flash-Lite model and set it (Step 4, optional variable `GEMINI_MODEL`).
 5. Privacy note: on the free tier, Google states prompts and responses may be used to improve its products. The app only sends public news text, never personal data.
 
-### Step 3: Create the Telegram bot and choose an invite code
+### Step 3: Create the Telegram bot
 
 1. In Telegram, open **@BotFather** → send `/newbot` → choose a name and a username ending in `bot` (e.g. `bcs_daily_brief_bot`).
 2. BotFather replies with a **token** like `123456789:AAH…`. That's `TELE_BOT_TOKEN`. Treat it like a password.
@@ -216,11 +216,7 @@ GitHub only runs **scheduled** workflows from the repository's **default branch*
    stop - ব্রিফিং বন্ধ করুন
    help - সাহায্য
    ```
-4. **Make up an invite code** (`BOT_INVITE_CODE`): 8–64 characters using only `A-Z a-z 0-9 _ -`, e.g. `bcs-friends-7Kq2xP`. Your **invite link** is then:
-   ```
-   https://t.me/<your_bot_username>?start=<your_invite_code>
-   ```
-   Only people who open the bot through this link can subscribe. Without a code, anyone who finds the bot could join (still capped at `max_subscribers` = 10).
+4. The bot is **public**: anyone who opens `https://t.me/<your_bot_username>` and presses **Start** is subscribed, with no limit on numbers. To make it private again, set `require_invite_code = true` (and optionally `max_subscribers`) under `[telegram]` in `config/settings.toml`, and add a `BOT_INVITE_CODE` secret: 8–64 characters of `A-Z a-z 0-9 _ -`. Then only the invite link `https://t.me/<your_bot_username>?start=<your_invite_code>` works.
 
 There's no chat id to look up: the bot learns who to send to when people press **Start**. See [Subscribers](#subscribers-you-and-your-friends).
 
@@ -235,7 +231,7 @@ Repository → **Settings → Secrets and variables → Actions**.
 | `OPENAI_API_KEY` | key from Step 2a (primary model) |
 | `GEMINI_API_KEY` | key from Step 2b (free fallback) |
 | `TELE_BOT_TOKEN` | token from Step 3 |
-| `BOT_INVITE_CODE` | invite code from Step 3 (optional but recommended) |
+| `BOT_INVITE_CODE` | only if you make the bot private again (Step 3); ignored while it is public |
 
 Optional, on the **Variables** tab → **New repository variable**: `OPENAI_MODEL` and/or `GEMINI_MODEL` = a model id. These override the config file without a code change.
 
@@ -258,7 +254,7 @@ Secrets are masked in logs, and this app also redacts them from its own messages
 | 1 | `offline` | Code, tests and rendering work | No API calls, nothing sent |
 | 2 | `verify-sources` | Each feed is reachable, allowed by robots.txt and parses | Fetches feeds only |
 | 3 | `check-model` | Both keys work and both model ids exist | 1 metadata call each (no generation, no cost) |
-| 4 | `subscribers` | First, you (and your friends) open the **invite link** and press **Start**. Then this run registers you, sends each person a welcome message, and lists who's subscribed | Welcome replies only |
+| 4 | `subscribers` | First, you (and your friends) open the **bot** and press **Start**. Then this run registers you, sends each person a welcome message, and lists who's subscribed | Welcome replies only |
 | 5 | `test-telegram` | Delivery works for every subscriber | 1 test message per subscriber |
 | 6 | `dry-run` | Full real pipeline. Download the artifact to read the edition; the run summary shows tokens used and estimated cost | ~11 OpenAI calls (≈ $0.05–0.25), **nothing sent**, saved state untouched |
 | 7 | `live` | The real thing | Sends an edition (text + PDF) to every subscriber, commits state. Run it **as often as you like**: each manual run sends whatever is new since the last edition |
@@ -323,9 +319,9 @@ GitHub doesn't guarantee when scheduled runs start; here they start hours late. 
 - [ ] Code merged into the **default branch** (`main`)
 - [ ] OpenAI credit added, **auto-recharge off**, API key created; model id and price checked
 - [ ] Gemini key created in a project **without billing**; model's free-tier status confirmed on Google's pricing page
-- [ ] Telegram bot created; invite code chosen
+- [ ] Telegram bot created
 - [ ] Secrets `OPENAI_API_KEY`, `GEMINI_API_KEY`, `TELE_BOT_TOKEN`, `BOT_INVITE_CODE` added
-- [ ] You and your friends opened the invite link and pressed **Start**
+- [ ] You and your friends opened the bot and pressed **Start**
 - [ ] Actions enabled
 - [ ] Manual runs: `offline` → `verify-sources` (and adjust `sources.toml`) → `check-model` → `subscribers` → `test-telegram` → `dry-run` → `live`
 - [ ] Next morning: briefing arrives and a `state: run for …` commit appears
@@ -334,10 +330,10 @@ GitHub doesn't guarantee when scheduled runs start; here they start hours late. 
 
 ## Subscribers: you and your friends
 
-The bot sends the same edition to every subscriber. There's no fixed chat id and no always-on server.
+The bot is public and sends the same edition to every subscriber. There's no fixed chat id and no always-on server.
 
 **How someone joins**
-1. You share the invite link `https://t.me/<your_bot>?start=<BOT_INVITE_CODE>` privately (e.g. in your friends' group chat).
+1. Share the bot link `https://t.me/<your_bot>` anywhere (anyone can join; old invite links keep working too).
 2. They open it in Telegram and press **Start**.
 3. The bot reads new messages at its **next run** (the 08:00 run, or right away if you run the `subscribers` mode), adds them, and replies "✅ … যুক্ত করা হয়েছে".
 4. From the next edition on, they receive the daily briefing. Someone who joins after today's edition went out gets tomorrow's.
@@ -346,13 +342,14 @@ The bot sends the same edition to every subscriber. There's no fixed chat id and
 
 **Timing caveat:** the bot only reads messages when the workflow runs, and Telegram keeps unread messages for **24 hours**. So a reply can take until the next run, and a Start pressed more than 24 hours before any run is lost. If a friend didn't get a welcome message, have them press Start again and run `subscribers` from the Actions tab.
 
-**Groups:** you can also add the bot to a Telegram group and send `/start <code>` (or `/start@your_bot <code>`) there. The whole group then counts as one subscriber.
+**Groups:** you can also add the bot to a Telegram group and send `/start` (or `/start@your_bot`) there. The whole group then counts as one subscriber.
 
-**Limits and privacy**
-- At most `telegram.max_subscribers` (default **10**) active subscribers. Change it in `config/settings.toml`.
-- Messages to each chat are spaced about 1 second apart (Telegram's per-chat limit). 5 friends × ~4 messages takes roughly 20 seconds.
-- The state file stores each subscriber's chat id, first name (to show you who joined), join/leave time and per-edition delivery record. Nothing else. This is why the repository must be private.
-- **To see who's subscribed:** run the `subscribers` or `status` mode. **To remove someone:** ask them to send `/stop`, or set their entry's `"status"` to `"inactive"` in `state/state.json` and commit. **To lock the list:** change `BOT_INVITE_CODE` (existing subscribers stay; old links stop working).
+**Limits, speed and privacy**
+- **No subscriber limit** (`telegram.max_subscribers = 0`). Set a number there to cap it; `require_invite_code = true` admits only the invite link.
+- **Delivery to many people:** each part of the edition goes to everyone in turn (part 1 to all, then part 2, …), in parallel (`send_workers`, 8) and capped at `max_messages_per_second` (25), under Telegram's free broadcast limit of about 30 messages a second. The PDF is uploaded once and then re-sent by Telegram's file id. An edition is about 8–10 messages, so expect roughly **1,000 subscribers in 6–7 minutes** after 08:00; the last people get it a little later than the first. Several thousand subscribers still fit in the job's 90-minute limit but use more Actions minutes. Far beyond that, Telegram's paid broadcast option would be needed.
+- **Welcome replies are not instant:** the bot reads messages only when the workflow runs (each morning, or when you run the `subscribers` mode), so a new person's welcome can take until the next morning. Telegram keeps unread messages for 24 hours.
+- The state file stores each subscriber's chat id, first name (to show you who joined), join/leave time and per-edition delivery status. Nothing else. This is why the repository must stay private. Per-message delivery details are dropped once an edition is fully delivered, to keep the file small.
+- **To see who's subscribed:** run the `subscribers` (count and the newest 30) or `status` mode. **To remove someone:** ask them to send `/stop`, or set their entry's `"status"` to `"inactive"` in `state/state.json` and commit. **To close the bot again:** set `require_invite_code = true` and a `BOT_INVITE_CODE` secret (existing subscribers stay).
 
 **Delivery tracking is per subscriber.** If sending fails for one person (e.g. a Telegram outage mid-run), the others are unaffected. The next run sends that person only the messages they're missing, and the edition is marked delivered once every active subscriber has it.
 
@@ -372,7 +369,7 @@ cp .env.example .env                   # then fill in real values
 set -a; source .env; set +a            # load into the shell (bash/zsh)
 python -m app verify-sources
 python -m app check-model
-python -m app subscribers              # after pressing Start via the invite link
+python -m app subscribers              # after pressing Start in the bot
 python -m app test-telegram
 python -m app run --dry-run            # real feeds + OpenAI (Gemini fallback), never sends; scratch state
 python -m app status                   # summary of state/state.json
@@ -528,11 +525,11 @@ To **reset** everything: delete `state/state.json` and commit. The next run star
 |---|---|
 | `Telegram rejected request (401)` | Wrong `TELE_BOT_TOKEN` |
 | Briefing arrives but no PDF | Check the run log for `PDF could not be created` / `pdf_error`. Usually no Chrome or the font step failed; the text edition is unaffected |
-| Run says `no_subscribers` / "No subscribers yet" | Nobody has pressed Start yet, or their Start is older than 24 h → open the invite link, press Start, run `subscribers` |
-| Friend pressed Start but got no welcome | Replies only happen at the next run → run `subscribers`. Got "❌ আমন্ত্রণ লিংক… সঠিক নয়" → they used the plain bot link, not the invite link |
-| "সদস্যসংখ্যা পূর্ণ" reply | `max_subscribers` reached → raise it in `config/settings.toml` |
+| Run says `no_subscribers` / "No subscribers yet" | Nobody has pressed Start yet, or their Start is older than 24 h → open the bot, press Start, run `subscribers` |
+| Someone pressed Start but got no welcome | Replies only happen at the next run → run `subscribers`. Got "❌ আমন্ত্রণ লিংক… সঠিক নয়" → `require_invite_code` is on and they used the plain bot link |
+| "সদস্যসংখ্যা পূর্ণ" reply | You set a `max_subscribers` cap and it was reached → raise it, or set `0` for no limit |
 | `A webhook is set for this bot` | Another tool set a webhook → open `https://api.telegram.org/bot<TOKEN>/deleteWebhook` once |
-| A subscriber marked inactive unexpectedly | They blocked the bot or left the group → they can open the invite link and press Start again |
+| A subscriber marked inactive unexpectedly | They blocked the bot or left the group → they can open the bot and press Start again |
 | `Provider openai disabled for this run: … credit exhausted` | Prepaid OpenAI credit used up → today ran on Gemini; add credit when you want OpenAI back |
 | `OpenAI rejected credentials` / `OpenAI model unavailable` | Bad `OPENAI_API_KEY`, or model id wrong/retired → fix the secret or set `OPENAI_MODEL`. Gemini covered the run meanwhile |
 | `OpenAI request failed (400): … reasoning_effort` | Your model doesn't accept that parameter → set `openai_reasoning_effort = ""` |
@@ -641,7 +638,7 @@ Small local models are weaker at following the strict JSON and Bengali instructi
 python -m pytest                 # ~100 unit tests, fully mocked, < 2 s
 ```
 
-A test fixture blocks real HTTP, so unit tests can never spend OpenAI credit or Gemini quota, or message Telegram. Coverage includes feed parsing with malformed items, missing/invalid/future dates, invalid URLs, duplicate detection, extraction failure and excerpt-only rules, the scoring rubric, malformed model output, unsupported facts and numbers, MCQ schema/answer-index validation, HTML escaping and chunking, Telegram retries and plain-text fallback, Gemini and OpenAI 429/404/5xx classification (including OpenAI `insufficient_quota`), the OpenAI → Gemini fallback chain (credit exhausted, bad key/model, outage, invalid output, both exhausted, mid-run switch completing a full edition, cost estimate), retry limits and call budget, state corruption/backup recovery/migration/newer-schema refusal, quota exhaustion mid-run with resumption, interrupted delivery resuming without duplicates, failure-notice de-duplication, low-relevance days without padding, dry-run behaviour, secret redaction in logs, and subscribers: invite-code checks, `/stop`, the cap, blocked users, group commands, malformed updates, per-subscriber delivery and resumption, and "no subscribers spends no quota".
+A test fixture blocks real HTTP, so unit tests can never spend OpenAI credit or Gemini quota, or message Telegram. Coverage includes feed parsing with malformed items, missing/invalid/future dates, invalid URLs, duplicate detection, extraction failure and excerpt-only rules, the scoring rubric, malformed model output, unsupported facts and numbers, MCQ schema/answer-index validation, HTML escaping and chunking, Telegram retries and plain-text fallback, Gemini and OpenAI 429/404/5xx classification (including OpenAI `insufficient_quota`), the OpenAI → Gemini fallback chain (credit exhausted, bad key/model, outage, invalid output, both exhausted, mid-run switch completing a full edition, cost estimate), retry limits and call budget, state corruption/backup recovery/migration/newer-schema refusal, quota exhaustion mid-run with resumption, interrupted delivery resuming without duplicates, failure-notice de-duplication, low-relevance days without padding, dry-run behaviour, secret redaction in logs, and subscribers: public joining, invite-code checks, `/stop`, the optional cap, parallel delivery to 40 subscribers with one PDF upload, blocked users, group commands, malformed updates, per-subscriber delivery and resumption, and "no subscribers spends no quota".
 
 **Live integration tests** (opt-in, real network; 1 model lookup and 1 Telegram `getMe`; no message is sent):
 
@@ -656,7 +653,7 @@ The scheduled workflow runs the unit tests before each live run; if they fail, n
 ## Security and privacy
 
 - **No secrets in the repository.** Credentials come only from environment variables / GitHub Secrets. `.env` is git-ignored; `.env.example` holds placeholders.
-- **Subscriber data** (chat ids, first names) lives only in the private repository's state file. The invite code is compared in constant time and redacted from logs like the other secrets.
+- **Subscriber data** (chat ids, first names) lives only in the private repository's state file. The bot is public, so anyone can subscribe; their data is never shown to other subscribers. When an invite code is used, it is compared in constant time and redacted from logs like the other secrets.
 - **No secrets in logs.** The OpenAI and Gemini keys travel in headers, never URLs. A logging filter redacts the credentials from every log line, and urllib3 debug logging (which would print Telegram's token-bearing URL) is suppressed.
 - **Web content is untrusted.** Article text is wrapped in delimiters the article can't forge, the model is told to treat it as data, and the model has no tools. Its output is parsed as JSON and validated. URLs are stripped from model text, all text is HTML-escaped, and links only ever come from our own feed records. A hostile article can at worst get itself rejected.
 - **Network hygiene.** Timeouts on every request, size caps (3 MB) on feeds and pages, robots.txt respected, honest user agent, no paywall or anti-bot bypassing.
@@ -694,8 +691,11 @@ The scheduled workflow runs the unit tests before each live run; if they fail, n
 | `llm.max_calls_per_run` | 20 | Hard cap per provider, including retries |
 | `llm.min_seconds_between_calls` | 6 | Request spacing |
 | `telegram.max_message_chars` | 3800 | Chunk size (Telegram's limit is 4096) |
-| `telegram.max_subscribers` | 10 | Cap on active subscribers |
+| `telegram.max_subscribers` | 0 | Cap on active subscribers (0 = no limit) |
+| `telegram.require_invite_code` | false | Only admit `/start <BOT_INVITE_CODE>` (the invite link) |
 | `telegram.min_seconds_between_messages` | 1.1 | Pause between messages to the same chat |
+| `telegram.send_workers` | 8 | Parallel sends when there are many subscribers |
+| `telegram.max_messages_per_second` | 25 | Overall sending rate (Telegram allows about 30) |
 | `state.retention_days` | 14 | Pruning window |
 
 Environment variables: `OPENAI_API_KEY`, `GEMINI_API_KEY`, `TELE_BOT_TOKEN`, `BOT_INVITE_CODE` (secrets); `OPENAI_MODEL`, `GEMINI_MODEL`, `LLM_PROVIDER`, `LLM_FALLBACK`, `OLLAMA_MODEL`, `OLLAMA_BASE_URL`, `BCS_STATE_PATH`, `BCS_OUTPUT_DIR`, `BCS_CONFIG_DIR` (optional overrides).

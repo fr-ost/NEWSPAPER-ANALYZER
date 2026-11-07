@@ -11,6 +11,7 @@ from __future__ import annotations
 import html
 import logging
 import re
+import threading
 import time
 from dataclasses import dataclass
 
@@ -110,6 +111,9 @@ def chunk_sections(sections: list[str], limit: int) -> list[str]:
 class SendResult:
     message_id: int
     fallback_plain: bool = False
+    # For a sent document: Telegram's id for the uploaded file, which later
+    # sends can reuse instead of uploading the file again.
+    file_id: str | None = None
 
 
 class TelegramClient:
@@ -139,6 +143,7 @@ class TelegramClient:
         self._sleep = sleep
         self._clock = clock
         self._last_send: dict[str, float] = {}
+        self._lock = threading.Lock()  # sends may run in parallel threads
 
     def _redact(self, text: str) -> str:
         return text.replace(self._token, "***") if self._token else text
@@ -188,12 +193,13 @@ class TelegramClient:
 
     def _space(self, chat_id: str) -> None:
         """Telegram allows roughly one message per second per chat."""
-        last = self._last_send.get(chat_id)
-        if last is not None:
-            wait = self.min_interval_per_chat - (self._clock() - last)
-            if wait > 0:
-                self._sleep(wait)
-        self._last_send[chat_id] = self._clock()
+        with self._lock:
+            last = self._last_send.get(chat_id)
+            now = self._clock()
+            wait = self.min_interval_per_chat - (now - last) if last is not None else 0
+            self._last_send[chat_id] = now + max(wait, 0)
+        if wait > 0:
+            self._sleep(wait)
 
     def send_message(self, chat_id: str | int, text: str) -> SendResult:
         chat_id = str(chat_id)
@@ -220,15 +226,21 @@ class TelegramClient:
         except (KeyError, TypeError, ValueError) as exc:
             raise TelegramError("Telegram response missing message_id") from exc
 
-    def send_document(self, chat_id: str | int, content: bytes, filename: str, caption: str = "") -> SendResult:
-        """Send a file (e.g. the edition PDF) to one chat."""
+    def send_document(self, chat_id: str | int, content: bytes, filename: str, caption: str = "", file_id: str | None = None) -> SendResult:
+        """Send a file (e.g. the edition PDF) to one chat. With ``file_id``
+        (from an earlier send of the same file) nothing is uploaded again."""
         chat_id = str(chat_id)
         self._space(chat_id)
         payload = {"chat_id": chat_id, "caption": caption[:1000]}
-        data = self._post("sendDocument", payload, files={"document": (filename, content, "application/pdf")})
+        if file_id:
+            data = self._post("sendDocument", {**payload, "document": file_id})
+        else:
+            data = self._post("sendDocument", payload, files={"document": (filename, content, "application/pdf")})
         try:
-            return SendResult(message_id=int(data["result"]["message_id"]))
-        except (KeyError, TypeError, ValueError) as exc:
+            result = data["result"]
+            doc = result.get("document") if isinstance(result.get("document"), dict) else {}
+            return SendResult(message_id=int(result["message_id"]), file_id=doc.get("file_id") or file_id)
+        except (KeyError, TypeError, ValueError, AttributeError) as exc:
             raise TelegramError("Telegram response missing message_id") from exc
 
     def get_updates(self, offset: int | None) -> list[dict]:

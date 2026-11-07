@@ -143,9 +143,15 @@ class TelegramConfig:
     request_timeout_seconds: float = 30
     max_retries: int = 3
     disable_web_page_preview: bool = True
-    # Subscribers (you and your friends). Nobody is added without pressing Start.
-    max_subscribers: int = 10
+    # Nobody is added without pressing Start. 0 = no limit (a public bot).
+    max_subscribers: int = 0
+    # False: anyone may join with a plain /start (BOT_INVITE_CODE is ignored).
+    require_invite_code: bool = False
     min_seconds_between_messages: float = 1.1
+    # Delivery to many subscribers: parallel sends, capped overall below
+    # Telegram's broadcast limit of about 30 messages per second.
+    send_workers: int = 8
+    max_messages_per_second: float = 25
 
 
 @dataclass(frozen=True)
@@ -190,6 +196,11 @@ class Settings:
     output_dir: Path
     config_dir: Path
     secrets: Secrets = field(default_factory=Secrets, repr=False)
+
+    @property
+    def invite_code(self) -> str:
+        """The code /start must carry, or "" when the bot is open to everyone."""
+        return self.secrets.bot_invite_code if self.telegram.require_invite_code else ""
 
     @property
     def state_path(self) -> Path:
@@ -295,6 +306,10 @@ def load_settings(config_dir: Path | None = None, env: dict[str, str] | None = N
     if invite and not re.fullmatch(r"[A-Za-z0-9_-]{8,64}", invite):
         raise ConfigError("BOT_INVITE_CODE must be 8-64 characters of A-Z, a-z, 0-9, _ or - (Telegram start-link rules)")
 
+    telegram = _section(TelegramConfig, data, "telegram")
+    if telegram.max_subscribers < 0 or telegram.send_workers < 1 or not (0 < telegram.max_messages_per_second <= 30):
+        raise ConfigError("telegram: max_subscribers >= 0, send_workers >= 1 and 0 < max_messages_per_second <= 30")
+
     output_dir = Path(env.get("BCS_OUTPUT_DIR") or data.get("output", {}).get("dir", "output"))
     if not output_dir.is_absolute():
         output_dir = PROJECT_ROOT / output_dir
@@ -310,7 +325,7 @@ def load_settings(config_dir: Path | None = None, env: dict[str, str] | None = N
         analysis=_section(AnalysisConfig, data, "analysis"),
         weights=validate_weights(data.get("scoring", {}).get("weights", {})),
         llm=_section(LLMConfig, data, "llm"),
-        telegram=_section(TelegramConfig, data, "telegram"),
+        telegram=telegram,
         state=_section(StateConfig, data, "state"),
         output_dir=output_dir,
         config_dir=config_dir,

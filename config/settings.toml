@@ -147,11 +147,18 @@ max_message_chars = 3800
 request_timeout_seconds = 30
 max_retries = 3
 disable_web_page_preview = true
-# Recipients are people who pressed Start in the bot (optionally via an
-# invite link). This cap protects against strangers filling the list.
-max_subscribers = 10
+# Recipients are people who pressed Start in the bot. The bot is public:
+# anyone can join with /start, and there is no limit (0). Set a number to cap
+# active subscribers, and require_invite_code = true to admit only people who
+# use the invite link t.me/<bot>?start=<BOT_INVITE_CODE>.
+max_subscribers = 0
+require_invite_code = false
 # Telegram allows about one message per second to the same chat.
 min_seconds_between_messages = 1.1
+# With many subscribers, messages go out in parallel, capped overall under
+# Telegram's free broadcast limit (about 30 per second).
+send_workers = 8
+max_messages_per_second = 25
 
 [state]
 path = "state/state.json"
