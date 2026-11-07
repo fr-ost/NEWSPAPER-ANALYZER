@@ -99,7 +99,7 @@ def production_store(settings: Settings) -> StateStore:
 
 
 def sync_now(settings: Settings, client: TelegramClient, state: dict):
-    return sync_subscribers(client, state, settings.secrets.bot_invite_code, settings.telegram.max_subscribers, utcnow())
+    return sync_subscribers(client, state, settings.invite_code, settings.telegram.max_subscribers, utcnow())
 
 
 def offline_article_fetcher(settings: Settings, articles_dir: Path):
@@ -242,11 +242,13 @@ def cmd_run(settings: Settings, args) -> int:
     return EXIT_OK if result.ok else EXIT_FAILED
 
 
-def _print_subscribers(state: dict) -> None:
+def _print_subscribers(state: dict, show: int = 30) -> None:
     subs = active_subscribers(state)
     print(f"Active subscribers: {len(subs)}")
-    for sub in subs:
+    for sub in subs[-show:]:  # the newest
         print(f"  - {sub['name']} ({sub['type']}), joined {sub['joined_at']}")
+    if len(subs) > show:
+        print(f"  … and {len(subs) - show} more")
 
 
 def cmd_subscribers(settings: Settings, args) -> int:
@@ -261,12 +263,13 @@ def cmd_subscribers(settings: Settings, args) -> int:
     summary = sync_now(settings, client, state)
     store.save(state)
     print(f"Bot: @{me.get('username', '?')}")
-    code = "<BOT_INVITE_CODE>" if settings.secrets.bot_invite_code else ""
-    if code:
-        print(f"Invite link: https://t.me/{me.get('username', '<bot>')}?start={code}  (replace with your code; it is secret)")
+    cap = settings.telegram.max_subscribers
+    limit = f"up to {cap} subscribers" if cap else "no subscriber limit"
+    if settings.invite_code:
+        print(f"Invite link: https://t.me/{me.get('username', '<bot>')}?start=<BOT_INVITE_CODE>  (only this link works; {limit})")
     else:
-        print(f"Invite link: https://t.me/{me.get('username', '<bot>')}  (no BOT_INVITE_CODE set: anyone can join, up to {settings.telegram.max_subscribers})")
-    print(f"New: {summary.added or 'none'} · Left: {summary.removed or 'none'} · Rejected: {summary.rejected}")
+        print(f"Bot link: https://t.me/{me.get('username', '<bot>')}  (public: anyone can join with Start; {limit})")
+    print(f"New: {len(summary.added)} · Left: {len(summary.removed)} · Rejected: {summary.rejected}")
     _print_subscribers(state)
     return EXIT_OK
 
@@ -365,7 +368,7 @@ def cmd_status(settings: Settings, args) -> int:
         "source_health": state["source_health"],
         # Scheduled runs per day and how late GitHub started them (minutes).
         "schedule_days": dict(sorted(((state.get("schedule") or {}).get("days") or {}).items())[-5:]),
-        "active_subscribers": [s["name"] for s in active_subscribers(state)],
+        "active_subscribers": len(active_subscribers(state)),
         "last_run": state["runs"][-1] if state["runs"] else None,
     }
     print(json.dumps(summary, ensure_ascii=False, indent=1))

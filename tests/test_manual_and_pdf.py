@@ -85,7 +85,8 @@ def test_pdf_sent_to_each_subscriber_after_all_messages(make_pipeline, settings)
     assert "PDF" in tg.documents[0][3]
     edition = load_state(settings)["editions"]["2026-10-23"]
     assert edition["pdf"]["bytes"] == len(FAKE_PDF)
-    assert all(rec["pdf_message_id"] for rec in edition["deliveries"].values())
+    assert edition["deliveries"] == {"101": {"status": "done"}, "102": {"status": "done"}}
+    assert tg.reused == ["102"] and edition["pdf"]["file_id"] == "fake-file-id"  # uploaded once, then reused
     assert (settings.output_dir / "edition-2026-10-23.pdf").read_bytes() == FAKE_PDF
 
 

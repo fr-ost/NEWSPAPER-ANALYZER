@@ -1,7 +1,8 @@
 """Subscriber management without a server.
 
-People subscribe by pressing Start in the bot (ideally through an invite
-link ``https://t.me/<bot>?start=<code>``). There is no always-on process:
+People subscribe by pressing Start in the bot. The bot is public by default;
+with ``telegram.require_invite_code`` only the invite link
+``https://t.me/<bot>?start=<code>`` works. There is no always-on process:
 each run reads pending messages with ``getUpdates`` (Telegram keeps them for
 24 hours), updates the subscriber list in state, and replies.
 
@@ -21,7 +22,7 @@ from .util import iso
 
 log = logging.getLogger(__name__)
 
-MAX_UPDATE_PAGES = 5
+MAX_UPDATE_PAGES = 50  # 100 updates each; a public bot can get many /start a day
 NAME_LIMIT = 40
 
 MSG_WELCOME = (
@@ -32,10 +33,10 @@ MSG_WELCOME = (
 MSG_ALREADY = "আপনি আগে থেকেই যুক্ত আছেন। বন্ধ করতে /stop লিখুন।"
 MSG_BAD_CODE = "❌ আমন্ত্রণ লিংক/কোডটি সঠিক নয়। যিনি আপনাকে আমন্ত্রণ জানিয়েছেন, তার কাছ থেকে সঠিক লিংক নিন।"
 MSG_FULL = "দুঃখিত, সদস্যসংখ্যা পূর্ণ হয়ে গেছে। বটের মালিকের সঙ্গে যোগাযোগ করুন।"
-MSG_STOPPED = "আপনাকে তালিকা থেকে বাদ দেওয়া হয়েছে। আবার যুক্ত হতে আমন্ত্রণ লিংকে ক্লিক করুন বা /start লিখুন।"
+MSG_STOPPED = "আপনাকে তালিকা থেকে বাদ দেওয়া হয়েছে। আবার যুক্ত হতে /start লিখুন।"
 MSG_HELP = (
     "এই বট প্রতিদিন সকালে বিসিএস কারেন্ট অ্যাফেয়ার্স ব্রিফিং পাঠায়।\n"
-    "/start — যুক্ত হোন (আমন্ত্রণ লিংক ব্যবহার করুন)\n"
+    "/start — যুক্ত হোন\n"
     "/stop — বন্ধ করুন\n"
     "নোট: বট দিনে একবার বার্তা দেখে, তাই উত্তর আসতে কয়েক ঘণ্টা লাগতে পারে।"
 )
@@ -84,12 +85,13 @@ def _parse_command(text: str) -> tuple[str, str]:
 
 def _code_ok(given: str, expected: str) -> bool:
     if not expected:
-        return True  # open subscription (capped by max_subscribers)
+        return True  # public bot: anyone may join
     return hmac.compare_digest(given.encode(), expected.encode())
 
 
 def process_updates(state: dict, updates: list[dict], invite_code: str, max_subscribers: int, now: datetime) -> tuple[SyncSummary, dict[str, str]]:
-    """Apply updates to state. Returns the summary and one reply per chat."""
+    """Apply updates to state. Returns the summary and one reply per chat.
+    ``invite_code`` "" = anyone may join; ``max_subscribers`` 0 = no limit."""
     ensure_structures(state)
     subs = state["subscribers"]
     summary = SyncSummary()
@@ -129,7 +131,7 @@ def process_updates(state: dict, updates: list[dict], invite_code: str, max_subs
             elif not _code_ok(arg, invite_code):
                 summary.rejected += 1
                 replies[chat_id] = MSG_BAD_CODE
-            elif len(active_subscribers(state)) >= max_subscribers:
+            elif max_subscribers > 0 and len(active_subscribers(state)) >= max_subscribers:
                 summary.rejected += 1
                 replies[chat_id] = MSG_FULL
             else:

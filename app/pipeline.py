@@ -19,9 +19,11 @@ import hashlib
 import json
 import logging
 import re
+import threading
 import time
 import uuid
 from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -58,6 +60,11 @@ log = logging.getLogger(__name__)
 DECISION_RANK = {"select": 2, "maybe": 1, "reject": 0}
 MAX_SCREENING_ATTEMPTS = 3
 MAX_LINKS_PER_STORY = 4
+# Delivery: one by one up to this many recipients per message, then parallel.
+PARALLEL_FROM = 10
+# Save delivery progress after this many confirmed messages (a crash resends
+# at most these).
+CHECKPOINT_EVERY = 25
 SOURCE_FAILURE_ALERT = 3
 # Stories delivered within this many days are shown to screening so repeats
 # of them are rejected (genuine follow-ups with a new development are kept).
@@ -224,7 +231,7 @@ class Pipeline:
         if self.dry_run or self.telegram is None:
             return
         try:
-            sync_subscribers(self.telegram, self.state, self.s.secrets.bot_invite_code, self.s.telegram.max_subscribers, now)
+            sync_subscribers(self.telegram, self.state, self.s.invite_code, self.s.telegram.max_subscribers, now)
         except TelegramError as exc:
             self._error(f"Could not read new subscribers this run: {exc}")
         self._save()
@@ -817,33 +824,65 @@ class Pipeline:
         ed_date = date.fromisoformat(edition.get("edition_date", key[:10]))
         return self._build_pdf(edition, ed_date, stories, edition.get("mcqs", []), edition.get("partial_reasons", []), bool(edition.get("manual")))
 
-    def _send_pdf(self, sub: dict, record: dict, edition: dict, pdf: bytes, now: datetime) -> bool:
-        """Send the PDF to one subscriber. Returns False if delivery must stop."""
+    def _broadcast(self, batch: list, send: Callable, on_result: Callable) -> None:
+        """Call ``send(item)`` for every item: one by one for a few
+        recipients, otherwise in parallel (``telegram.send_workers``) under an
+        overall rate limit. ``on_result(item, result_or_TelegramError)`` runs
+        in this thread, in completion order; state is checkpointed every
+        CHECKPOINT_EVERY messages."""
+        t = self.s.telegram
+        done = 0
+
+        def handle(item, outcome) -> None:
+            nonlocal done
+            on_result(item, outcome)
+            done += 1
+            if done % CHECKPOINT_EVERY == 0:
+                self._save()
+
+        if len(batch) <= PARALLEL_FROM or t.send_workers <= 1:
+            for item in batch:
+                try:
+                    outcome = send(item)
+                except TelegramError as exc:
+                    outcome = exc
+                handle(item, outcome)
+            return
+        gap = 1.0 / t.max_messages_per_second
+        lock = threading.Lock()
+        next_slot = [time.monotonic()]
+
+        def paced(item):
+            with lock:  # reserve the next free slot
+                slot = max(next_slot[0], time.monotonic())
+                next_slot[0] = slot + gap
+            delay = slot - time.monotonic()
+            if delay > 0:
+                time.sleep(delay)
+            try:
+                return send(item)
+            except TelegramError as exc:
+                return exc
+
+        with ThreadPoolExecutor(max_workers=t.send_workers) as pool:
+            futures = {pool.submit(paced, item): item for item in batch}
+            for future in as_completed(futures):
+                handle(futures[future], future.result())
+
+    def _pdf_filename(self, edition: dict) -> str:
         ed_date = date.fromisoformat(edition.get("edition_date", edition["date"][:10]))
         suffix = f"-extra{edition['date'].rsplit('-m', 1)[-1]}" if edition.get("manual") else ""
-        filename = f"BCS-Briefing-{ed_date.isoformat()}{suffix}.pdf"
-        caption = f"📄 আজকের ব্রিফিং (PDF) — {bn_date(ed_date)}"
-        try:
-            sent = self.telegram.send_document(sub["chat_id"], pdf, filename, caption)
-        except TelegramError as exc:
-            record["last_error"] = self.s.secrets.redact(str(exc))[:300]
-            if exc.recipient_gone:
-                deactivate(self.state, sub["chat_id"], "unreachable (blocked bot or left)", now)
-                record["status"] = "recipient_gone"
-            else:
-                self._error(f"PDF delivery to subscriber {sub.get('name', '?')} failed: {exc}")
-            self._save()
-            return False
-        record["pdf_message_id"] = sent.message_id
-        self._save()
-        return True
+        return f"BCS-Briefing-{ed_date.isoformat()}{suffix}.pdf"
 
     def _deliver(self, edition: dict) -> RunResult:
-        """Send the stored chunks to every active subscriber.
+        """Send the stored chunks, then the PDF, to every active subscriber.
 
-        Each subscriber's progress is saved after every confirmed message, so
-        an interrupted run resumes exactly where it stopped. One subscriber's
-        failure never blocks the others.
+        Round by round (message 1 to everyone, then message 2, ...), so each
+        subscriber still gets the parts in order while sends to different
+        people overlap. Progress is checkpointed in batches, so an interrupted
+        run resumes where it stopped and resends at most the last few
+        messages. One subscriber's failure never blocks the others; a
+        subscriber whose send failed gets nothing more this run (no gaps).
         """
         key = edition["date"]
         result = RunResult(
@@ -858,7 +897,7 @@ class Pipeline:
             return result
         recipients = active_subscribers(self.state)
         if not recipients:
-            self._error("No subscribers yet: share the bot's invite link and have people press Start. Edition kept for later today.")
+            self._error("No subscribers yet: share the bot's link and have people press Start. Edition kept for later today.")
             result.outcome = "no_subscribers"
             return result
 
@@ -867,36 +906,76 @@ class Pipeline:
         deliveries = edition.setdefault("deliveries", {})
         chunks = sorted(edition["chunks"], key=lambda c: c["index"])
         pdf = self._pdf_for(edition)
+        todo: list[tuple[dict, dict]] = []
         for sub in recipients:
-            cid = sub["chat_id"]
-            record = deliveries.setdefault(cid, {"sent": {}, "status": "pending", "attempts": 0})
-            if record["status"] == "done":
-                continue
-            record["attempts"] += 1
-            for chunk in chunks:
-                idx = str(chunk["index"])
-                if idx in record["sent"]:
-                    continue
-                try:
-                    sent = self.telegram.send_message(cid, chunk["text"])
-                except TelegramError as exc:
-                    record["last_error"] = self.s.secrets.redact(str(exc))[:300]
-                    if exc.recipient_gone:
-                        deactivate(self.state, cid, "unreachable (blocked bot or left)", now)
-                        record["status"] = "recipient_gone"
-                    else:
-                        self._error(f"Delivery to subscriber {sub.get('name', '?')} stopped at message {chunk['index'] + 1}: {exc}")
-                    self._save()
-                    break
-                record["sent"][idx] = sent.message_id
-                self._save()  # checkpoint after each confirmed message
+            record = deliveries.setdefault(sub["chat_id"], {"sent": {}, "status": "pending", "attempts": 0})
+            if record["status"] != "done":
+                record["attempts"] += 1
+                todo.append((sub, record))
+        stopped: set[str] = set()
+        errors: list[str] = []
+
+        def failed(sub: dict, record: dict, exc: TelegramError, what: str) -> None:
+            record["last_error"] = self.s.secrets.redact(str(exc))[:300]
+            stopped.add(sub["chat_id"])
+            if exc.recipient_gone:
+                deactivate(self.state, sub["chat_id"], "unreachable (blocked bot or left)", now)
+                record["status"] = "recipient_gone"
             else:
-                # All text messages arrived; the PDF comes last.
-                if pdf and not record.get("pdf_message_id") and not self._send_pdf(sub, record, edition, pdf, now):
-                    continue
+                errors.append(f"{sub.get('name', '?')}: {what}: {exc}")
+
+        for chunk in chunks:
+            idx = str(chunk["index"])
+            batch = [(sub, rec) for sub, rec in todo if sub["chat_id"] not in stopped and idx not in rec["sent"]]
+
+            def on_message(item, outcome, idx=idx, n=chunk["index"] + 1) -> None:
+                sub, record = item
+                if isinstance(outcome, TelegramError):
+                    failed(sub, record, outcome, f"message {n}")
+                else:
+                    record["sent"][idx] = outcome.message_id
+
+            self._broadcast(batch, lambda item, text=chunk["text"]: self.telegram.send_message(item[0]["chat_id"], text), on_message)
+            self._save()
+
+        # All text messages first; the PDF comes last. The first send uploads
+        # it; everyone else gets the same file by Telegram's file id.
+        if pdf:
+            batch = [(sub, rec) for sub, rec in todo if sub["chat_id"] not in stopped and not rec.get("pdf_message_id")]
+            filename = self._pdf_filename(edition)
+            caption = f"📄 আজকের ব্রিফিং (PDF) — {bn_date(date.fromisoformat(edition.get('edition_date', key[:10])))}"
+            info = edition.setdefault("pdf", {})
+
+            def send_pdf(item):
+                try:
+                    return self.telegram.send_document(item[0]["chat_id"], pdf, filename, caption, file_id=info.get("file_id"))
+                except TelegramError as exc:
+                    if not info.get("file_id") or exc.recipient_gone:
+                        raise
+                    return self.telegram.send_document(item[0]["chat_id"], pdf, filename, caption)  # stale file id: upload
+
+            def on_pdf(item, outcome) -> None:
+                sub, record = item
+                if isinstance(outcome, TelegramError):
+                    failed(sub, record, outcome, "PDF")
+                else:
+                    record["pdf_message_id"] = outcome.message_id
+                    if outcome.file_id and not info.get("file_id"):
+                        info["file_id"] = outcome.file_id
+
+            if batch and not info.get("file_id"):
+                self._broadcast(batch[:1], send_pdf, on_pdf)
+                batch = batch[1:]
+            self._broadcast(batch, send_pdf, on_pdf)
+
+        for sub, record in todo:
+            if sub["chat_id"] not in stopped and record["status"] != "recipient_gone":
                 record["status"] = "done"
-                record["delivered_at"] = iso(utcnow())
-                self._save()
+        for err in errors[:20]:
+            self._error(f"Delivery to subscriber {err}")
+        if len(errors) > 20:
+            self._error(f"… and {len(errors) - 20} more delivery errors")
+        self._save()
 
         still_active = {s["chat_id"] for s in active_subscribers(self.state)}
         pending = [cid for cid in still_active if deliveries.get(cid, {}).get("status") != "done"]
@@ -917,6 +996,8 @@ class Pipeline:
         edition["recipients"] = len(delivered_to)
         for chunk in edition["chunks"]:
             chunk.pop("text", None)  # rendered copy lives in the output artifact
+        # Per-message ids are only needed to resume; keep the state file small.
+        edition["deliveries"] = {cid: {"status": r.get("status")} for cid, r in deliveries.items()}
         for eid in edition.get("story_event_ids", []):
             if eid in self.state["events"]:
                 self.state["events"][eid]["status"] = "included"

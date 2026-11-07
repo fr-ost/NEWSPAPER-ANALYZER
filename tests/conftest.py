@@ -69,6 +69,7 @@ class FakeTelegram:
         self.sent_to: list[tuple[str, str]] = []
         self.replies: list[tuple[str, str]] = []
         self.documents: list[tuple[str, str, bytes, str]] = []
+        self.reused: list[str] = []  # chats that got the PDF by file id (no upload)
         self.calls = 0
         self.fail_on = fail_on or set()
         self.permanent = permanent
@@ -94,8 +95,9 @@ class FakeTelegram:
         self.sent_to.append((chat_id, text))
         return SendResult(message_id=1000 + len(self.sent))
 
-    def send_document(self, chat_id, content: bytes, filename: str, caption: str = "") -> SendResult:
-        """Counted as an edition message (call number) like send_message."""
+    def send_document(self, chat_id, content: bytes, filename: str, caption: str = "", file_id: str | None = None) -> SendResult:
+        """Counted as an edition message (call number) like send_message.
+        Records ``file_id`` reuse in ``uploads``/``reused``."""
         chat_id = str(chat_id)
         self.calls += 1
         if chat_id in self.gone:
@@ -103,7 +105,9 @@ class FakeTelegram:
         if self.calls in self.fail_on:
             raise TelegramError("simulated failure", permanent=self.permanent)
         self.documents.append((chat_id, filename, content, caption))
-        return SendResult(message_id=5000 + len(self.documents))
+        if file_id:
+            self.reused.append(chat_id)
+        return SendResult(message_id=5000 + len(self.documents), file_id=file_id or "fake-file-id")
 
 
 def no_sleep(_seconds):

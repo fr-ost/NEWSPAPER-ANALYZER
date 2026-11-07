@@ -47,7 +47,7 @@ def test_full_run_delivers_once_and_never_duplicates(make_pipeline, settings):
     edition = load_state(settings)["editions"]["2026-10-23"]
     assert edition["status"] == "delivered" and edition["recipients"] == 1
     record = edition["deliveries"]["101"]
-    assert record["status"] == "done" and len(record["sent"]) == len(edition["chunks"]) == sent_count
+    assert record == {"status": "done"} and len(edition["chunks"]) == sent_count  # per-message ids dropped once delivered
     assert load_state(settings)["last_successful_edition"] == "2026-10-23"
     text = "\n".join(tg.sent)
     assert "Cabinet approves" in text and "উত্তর ও ব্যাখ্যা" in text and "tg-spoiler" in text
@@ -224,8 +224,9 @@ def test_blocked_subscriber_is_removed_without_blocking_others(make_pipeline, se
 
 
 def test_one_subscribers_failure_resends_only_their_missing_messages(make_pipeline, settings):
-    # Two subscribers; the 2nd edition message overall fails (subscriber 101, chunk 2).
-    tg1 = FakeTelegram(subscribers=2, fail_on={2})
+    # Two subscribers; messages go round by round (101 #1, 102 #1, 101 #2, ...),
+    # so the 3rd call fails: subscriber 101's second message.
+    tg1 = FakeTelegram(subscribers=2, fail_on={3})
     r1 = make_pipeline(telegram=tg1).run(now=NOW)
     assert r1.outcome == "failed"
     edition = load_state(settings)["editions"]["2026-10-23"]

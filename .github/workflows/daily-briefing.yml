@@ -84,8 +84,9 @@ jobs:
     if: ${{ !cancelled() && (github.event_name != 'schedule' || needs.gate.outputs.run == 'true') }}
     runs-on: ubuntu-latest
     # Building takes ~3-5 min; a run that lands just before 08:00 may wait up to
-    # schedule.max_wait_minutes (30) before sending.
-    timeout-minutes: 45
+    # schedule.max_wait_minutes (30) before sending; sending to a large public
+    # audience takes about 6-7 min per 1,000 subscribers.
+    timeout-minutes: 90
     # Never let two runs touch state at the same time. Queued runs wait.
     concurrency:
       group: bcs-briefing-state
