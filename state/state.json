@@ -42726,37 +42726,6 @@
    "edition_date": "2026-10-30",
    "errors": [],
    "estimated_cost_usd": 0.0,
-   "finished_at": "2026-10-30T08:41:11+00:00",
-   "llm_calls": 0,
-   "llm_usage": {
-    "gemini": {
-     "calls_incl_retries": 0,
-     "input_tokens": 0,
-     "output_tokens": 0,
-     "requests": 0
-    },
-    "openai": {
-     "calls_incl_retries": 0,
-     "input_tokens": 0,
-     "output_tokens": 0,
-     "requests": 0
-    }
-   },
-   "manual": false,
-   "mcqs": 0,
-   "outcome": "already_delivered",
-   "partial": false,
-   "prefiltered": 0,
-   "providers_disabled": {},
-   "run_id": "9418669991",
-   "started_at": "2026-10-30T08:41:10+00:00",
-   "stories": 7
-  },
-  {
-   "dry_run": false,
-   "edition_date": "2026-10-30",
-   "errors": [],
-   "estimated_cost_usd": 0.0,
    "finished_at": "2026-10-30T09:03:43+00:00",
    "llm_calls": 0,
    "llm_usage": {
@@ -43650,6 +43619,37 @@
    "run_id": "bbe1465054",
    "started_at": "2026-11-09T02:00:01+00:00",
    "stories": 8
+  },
+  {
+   "dry_run": false,
+   "edition_date": "2026-11-09",
+   "errors": [],
+   "estimated_cost_usd": 0.0,
+   "finished_at": "2026-11-09T02:01:00+00:00",
+   "llm_calls": 0,
+   "llm_usage": {
+    "gemini": {
+     "calls_incl_retries": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "requests": 0
+    },
+    "openai": {
+     "calls_incl_retries": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "requests": 0
+    }
+   },
+   "manual": false,
+   "mcqs": 0,
+   "outcome": "already_delivered",
+   "partial": false,
+   "prefiltered": 0,
+   "providers_disabled": {},
+   "run_id": "b4ddea0b12",
+   "started_at": "2026-11-09T02:01:00+00:00",
+   "stories": 8
   }
  ],
  "schedule": {
@@ -43738,11 +43738,12 @@
    "2026-11-09": {
     "lag_minutes": [
      208,
-     210
+     210,
+     197
     ],
     "last_job_status": "success",
-    "last_run_at": "2026-11-09T02:00:24+00:00",
-    "runs": 2
+    "last_run_at": "2026-11-09T02:01:00+00:00",
+    "runs": 3
    }
   }
  },
@@ -43867,5 +43868,5 @@
  "telegram": {
   "last_update_id": 894171906
  },
- "updated_at": "2026-11-09T02:00:24+00:00"
+ "updated_at": "2026-11-09T02:01:00+00:00"
 }
