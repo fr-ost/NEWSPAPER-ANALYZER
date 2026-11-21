@@ -236,3 +236,79 @@ fetch_articles = true
 timeout_seconds = 20
 max_retries = 2
 verification = "Verified live from GitHub Actions 2026-10-25: HTTP 200, 30 items, newest 2026-10-24."
+
+# --- Candidates added 2026-11-21 for science & technology coverage (General
+# Science and Computer/ICT are full BCS prelims subjects; only 4 of 103 recent
+# stories were science). Enabled only after `verify-sources` passes on GitHub.
+
+[[source]]
+id = "bbc_science"
+name = "BBC News — Science & Environment"
+homepage = "https://www.bbc.com/news/science_and_environment"
+feed_url = "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+type = "newspaper"
+language = "en"
+subjects = ["science_technology", "environment_climate"]
+enabled = true
+fetch_articles = true
+timeout_seconds = 20
+max_retries = 2
+verification = "Verified live from GitHub Actions 2026-11-21: HTTP 200, 34 items, newest 2026-11-20."
+
+[[source]]
+id = "bbc_technology"
+name = "BBC News — Technology"
+homepage = "https://www.bbc.com/news/technology"
+feed_url = "https://feeds.bbci.co.uk/news/technology/rss.xml"
+type = "newspaper"
+language = "en"
+subjects = ["science_technology"]
+enabled = true
+fetch_articles = true
+timeout_seconds = 20
+max_retries = 2
+verification = "Verified live from GitHub Actions 2026-11-21: HTTP 200, 21 items, newest 2026-11-21."
+
+[[source]]
+id = "who_news"
+aliases = ["WHO", "World Health Organization", "বিশ্ব স্বাস্থ্য সংস্থা"]
+name = "World Health Organization — News"
+homepage = "https://www.who.int/news"
+feed_url = "https://www.who.int/rss-feeds/news-english.xml"
+type = "international_org"
+language = "en"
+subjects = ["science_technology", "international_affairs"]
+enabled = false
+fetch_articles = true
+timeout_seconds = 20
+max_retries = 2
+verification = "Checked 2026-11-21: HTTP 200 but stale (newest item 2026-10-10). Kept off."
+
+[[source]]
+id = "nasa_news"
+aliases = ["NASA"]
+name = "NASA — News Releases"
+homepage = "https://www.nasa.gov/news/"
+feed_url = "https://www.nasa.gov/news-release/feed/"
+type = "official"
+language = "en"
+subjects = ["science_technology"]
+enabled = true
+fetch_articles = true
+timeout_seconds = 20
+max_retries = 2
+verification = "Verified live from GitHub Actions 2026-11-21: HTTP 200, 10 items, newest 2026-11-20 (one HTTP 429 retried)."
+
+[[source]]
+id = "sciencedaily"
+name = "ScienceDaily — Top Science"
+homepage = "https://www.sciencedaily.com/"
+feed_url = "https://www.sciencedaily.com/rss/top/science.xml"
+type = "newspaper"
+language = "en"
+subjects = ["science_technology"]
+enabled = true
+fetch_articles = true
+timeout_seconds = 20
+max_retries = 2
+verification = "Verified live from GitHub Actions 2026-11-21: HTTP 200, 60 items, newest 2026-11-21."

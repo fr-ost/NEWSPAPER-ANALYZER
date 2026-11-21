@@ -3,6 +3,7 @@ Gemini quota or a real Telegram chat (except tests marked ``integration``)."""
 
 from __future__ import annotations
 
+from dataclasses import replace
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -34,15 +35,36 @@ def _no_network(monkeypatch):
     monkeypatch.setattr(requests.Session, "request", blocked)
 
 
+def plain(settings):
+    """Settings without quiz/feedback polls, the weekly revision and the owner
+    report, so delivery-mechanics tests count only the edition's messages.
+    tests/test_engagement.py covers those features."""
+    return replace(
+        settings,
+        telegram=replace(settings.telegram, mcq_as_quiz=False, feedback_poll=False, owner_chat_id="", channel_id=""),
+        revision=replace(settings.revision, weekly_day="", monthly_pdf=False),
+    )
+
+
 @pytest.fixture
-def settings(tmp_path):
-    env = {
+def env_vars(tmp_path):
+    return {
         "BCS_STATE_PATH": str(tmp_path / "state" / "state.json"),
         "BCS_OUTPUT_DIR": str(tmp_path / "output"),
         "GEMINI_API_KEY": "test-gemini-key-123456",
         "TELE_BOT_TOKEN": "123456:test-telegram-token",
     }
-    return load_settings(env=env)
+
+
+@pytest.fixture
+def settings(env_vars):
+    return plain(load_settings(env=env_vars))
+
+
+@pytest.fixture
+def full_settings(env_vars):
+    """The real configuration, every feature on."""
+    return load_settings(env=env_vars)
 
 
 @pytest.fixture
@@ -70,6 +92,7 @@ class FakeTelegram:
         self.replies: list[tuple[str, str]] = []
         self.documents: list[tuple[str, str, bytes, str]] = []
         self.reused: list[str] = []  # chats that got the PDF by file id (no upload)
+        self.polls: list[tuple[str, dict]] = []
         self.calls = 0
         self.fail_on = fail_on or set()
         self.permanent = permanent
@@ -94,6 +117,17 @@ class FakeTelegram:
         self.sent.append(text)
         self.sent_to.append((chat_id, text))
         return SendResult(message_id=1000 + len(self.sent))
+
+    def send_poll(self, chat_id, poll: dict) -> SendResult:
+        """Counted as an edition message (call number) like send_message."""
+        chat_id = str(chat_id)
+        self.calls += 1
+        if chat_id in self.gone:
+            raise TelegramError("Forbidden: bot was blocked by the user", permanent=True, recipient_gone=True)
+        if self.calls in self.fail_on:
+            raise TelegramError("simulated failure", permanent=self.permanent)
+        self.polls.append((chat_id, poll))
+        return SendResult(message_id=7000 + len(self.polls), poll_id=f"poll-{len(self.polls)}")
 
     def send_document(self, chat_id, content: bytes, filename: str, caption: str = "", file_id: str | None = None) -> SendResult:
         """Counted as an edition message (call number) like send_message.

@@ -14,6 +14,8 @@ Commands:
   subscribers      Read new /start and /stop messages now and list subscribers.
   test-telegram    Register new subscribers, then send each one a test message.
   verify-sources   Check every configured feed live (robots.txt, HTTP, parse).
+  collect          Read the feeds into state and answer /start (no AI calls);
+                   run by scheduled ticks between briefings.
   check-model      Check the configured Gemini model id is available to the key.
   status           Print a summary of the persisted state.
   notify-failure   Send a failure notice unless the run already reported one
@@ -336,6 +338,20 @@ def cmd_verify_sources(settings: Settings, args) -> int:
     return EXIT_FAILED if failed_enabled else EXIT_OK
 
 
+def cmd_collect(settings: Settings, args) -> int:
+    """Read the feeds into state and answer /start messages (no AI calls)."""
+    sources = load_sources(settings.config_dir)
+    try:
+        telegram = make_telegram(settings)
+    except TelegramError:
+        telegram = None  # collecting needs no Telegram; /start is read on the next run
+    fetcher = make_fetcher(settings)
+    pipeline = Pipeline(settings, sources, production_store(settings), None, None, feed_fetcher=fetcher, telegram=telegram)
+    stats = pipeline.collect_only()
+    print(json.dumps(stats, ensure_ascii=False, indent=1))
+    return EXIT_OK
+
+
 def cmd_check_model(settings: Settings, args) -> int:
     names = [args.provider] if args.provider else list(dict.fromkeys([settings.llm.provider, *settings.llm.fallback_providers]))
     failed = 0
@@ -386,8 +402,27 @@ def cmd_notify_failure(settings: Settings, args) -> int:
         return EXIT_OK
     try:
         client = make_telegram(settings)
+    except TelegramError as exc:
+        print(f"Could not send failure notice: {exc}")
+        return EXIT_FAILED
+    owner = settings.telegram.owner_chat_id
+    if owner:
+        # A crash is a technical matter: only the owner hears about it.
+        try:
+            client.send_message(
+                owner,
+                "⚠️ <b>BCS briefing: a run crashed</b>\n"
+                "Nothing was sent to subscribers from this run. Details are in the GitHub Actions log "
+                "(Actions → Daily BCS briefing → the failed run).",
+            )
+        except TelegramError as exc:
+            print(f"Could not notify the owner: {exc}")
+            return EXIT_FAILED
+        print("Failure notice sent to the owner. Details are in the GitHub Actions log.")
+        return EXIT_OK
+    try:
         subs = active_subscribers(production_store(settings).load())
-    except (TelegramError, StateError) as exc:
+    except StateError as exc:
         print(f"Could not send failure notice: {exc}")
         return EXIT_FAILED
     sent = 0
@@ -420,6 +455,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("test-telegram", help="register new subscribers and send each a test message")
     sub.add_parser("subscribers", help="read /start and /stop now and list subscribers")
     sub.add_parser("verify-sources", help="check configured feeds live")
+    sub.add_parser("collect", help="read the feeds into state and answer /start (no AI calls)")
     cm = sub.add_parser("check-model", help="check the configured model is available")
     cm.add_argument("--provider", choices=["openai", "gemini", "ollama"])
     sub.add_parser("status", help="summarise persisted state")
@@ -439,6 +475,7 @@ def main(argv: list[str] | None = None) -> int:
         "test-telegram": cmd_test_telegram,
         "subscribers": cmd_subscribers,
         "verify-sources": cmd_verify_sources,
+        "collect": cmd_collect,
         "check-model": cmd_check_model,
         "status": cmd_status,
         "notify-failure": cmd_notify_failure,

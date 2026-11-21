@@ -62,6 +62,12 @@ def bn_date(d: date) -> str:
     return f"{bn_num(d.day)} {BN_MONTHS[d.month - 1]} {bn_num(d.year)}"
 
 
+def bn_month(month: str) -> str:
+    """'2026-11' -> 'নভেম্বর ২০২৬'."""
+    year, mon = (int(x) for x in month.split("-"))
+    return f"{BN_MONTHS[mon - 1]} {bn_num(year)}"
+
+
 def _story_section(n: int, story: dict, official_refs: list[tuple[str, str]]) -> list[str]:
     note = story["analysis"]
     lines = [f"<b>{bn_num(n)}. {esc(note['headline_bn'])}</b>"]
@@ -147,9 +153,14 @@ def render_edition(
     notices: list[str] | None = None,
     extra: bool = False,
     since_last: bool = False,
+    quiz_count: int = 0,
+    extra_sections: list[str] | None = None,
 ) -> list[str]:
     """Return logical sections (each a string of newline-joined lines).
 
+    ``mcqs`` are rendered as text; ``quiz_count`` more go out as Telegram
+    quiz polls right after the text, introduced by the last section.
+    ``extra_sections`` (e.g. the weekly revision) go before the footer.
     ``extra`` marks an additional (manually triggered) edition, which only
     carries stories not sent in an earlier edition. ``since_last`` words an
     empty edition as "nothing new since the last briefing" (an earlier
@@ -195,16 +206,33 @@ def render_edition(
             header.append("সর্বশেষ ব্রিফিংয়ের পর বিসিএস-এর জন্য নতুন কোনো প্রাসঙ্গিক ও যাচাইযোগ্য খবর পাওয়া যায়নি। আগে পাঠানো খবর আবার পাঠানো হয়নি।")
         else:
             header.append("আজ বিসিএস-এর জন্য যথেষ্ট প্রাসঙ্গিক ও যাচাইযোগ্য কোনো খবর পাওয়া যায়নি। অপ্রাসঙ্গিক খবর দিয়ে ব্রিফিং পূরণ করা হয়নি।")
-    elif len(mcqs) < mcq_target:
-        header.append(f"ℹ️ যাচাইকৃত তথ্য থেকে {bn_num(len(mcqs))}টি নির্ভরযোগ্য MCQ তৈরি করা গেছে (লক্ষ্য {bn_num(mcq_target)}টি)।")
+    elif len(mcqs) + quiz_count < mcq_target:
+        header.append(f"ℹ️ যাচাইকৃত তথ্য থেকে {bn_num(len(mcqs) + quiz_count)}টি নির্ভরযোগ্য MCQ তৈরি করা গেছে (লক্ষ্য {bn_num(mcq_target)}টি)।")
 
     footer = f"<i>{esc(FOOTER)}</i>"
-    sections = ["\n".join(header)] + story_sections + mcq_sections
+    sections = ["\n".join(header)] + story_sections + mcq_sections + list(extra_sections or [])
     tail = [footer] if stories else []
     tail.extend(f"⚙️ <i>{esc(n)}</i>" for n in notices or [])
     if tail:
         sections.append("\n".join(tail))
+    if quiz_count:
+        sections.append(
+            f"<b>🧠 আজকের অনুশীলনী: নিচে {bn_num(quiz_count)}টি কুইজ</b>\n"
+            "<i>একটি উত্তরে ট্যাপ করুন — সঙ্গে সঙ্গে সঠিক উত্তর আর ব্যাখ্যা (💡) দেখতে পাবেন।</i>"
+        )
     return sections
+
+
+def feedback_poll(stories: list[dict]) -> dict | None:
+    """A multiple-answer poll: which of today's stories were useful?"""
+    if not stories:
+        return None
+    options = [f"{bn_num(i)}. {s['analysis']['headline_bn']}"[:100] for i, s in enumerate(stories[:9], start=1)]
+    return {
+        "question": "📊 আজকের কোন খবরগুলো আপনার প্রস্তুতিতে কাজে লাগবে? (একাধিক বেছে নেওয়া যায়, উত্তর গোপন থাকে)",
+        "options": options + ["কোনোটিই নয়"],
+        "allows_multiple_answers": True,
+    }
 
 
 def render_failure_notice(edition_date: date, reason: str, unprocessed: int) -> str:
@@ -324,6 +352,21 @@ def _pdf_story(n: int, story: dict, sources: list[Source]) -> str:
     return "\n".join(parts)
 
 
+def _pdf_weekly(weekly: dict) -> str:
+    first, last = date.fromisoformat(weekly["from"]), date.fromisoformat(weekly["to"])
+    parts = [f'<div class="revision"><h2 class="section-title">📅 সাপ্তাহিক রিভিশন — {bn_date(first)} থেকে {bn_date(last)}</h2>']
+    for i, (day, s) in enumerate(weekly["entries"], start=1):
+        items = "".join(f"<li>{esc(f)}</li>" for f in s.get("f", [])) + "".join(f"<li>📚 {esc(g)}</li>" for g in s.get("g", []))
+        parts.append(f"<h3>{bn_num(i)}. {esc(s['h'])} <small>({bn_date(date.fromisoformat(day))})</small></h3><ul>{items}</ul>")
+    for i, q in enumerate(weekly.get("mcqs") or [], start=1):
+        opts = "".join(f"<div>({OPTION_LABELS[j]}) {esc(o)}</div>" for j, o in enumerate(q["options"]))
+        ans = f"({OPTION_LABELS[q['answer_index']]}) {q['options'][q['answer_index']]}"
+        parts.append(f'<div class="mcq"><b>প্রশ্ন {bn_num(i)}.</b> {esc(q["question"])}<div class="opts">{opts}</div>'
+                     f'<div class="sources">✅ উত্তর: {esc(ans)}</div></div>')
+    parts.append("</div>")
+    return "".join(parts)
+
+
 def _pdf_revision(stories: list[dict]) -> str:
     """Last page: every must-remember fact and verified GK item in one place."""
     blocks = []
@@ -349,8 +392,10 @@ def render_pdf_html(
     partial_reasons: list[str],
     sources: list[Source],
     extra: bool = False,
+    weekly: dict | None = None,
 ) -> str:
     """A self-contained, printable HTML page for the PDF version.
+    ``weekly`` (from, to, entries, mcqs) adds the weekly revision pages.
 
     All article/model text is escaped and the page allows no scripts or
     external loads (Content-Security-Policy), so content can't run code.
@@ -381,6 +426,8 @@ def render_pdf_html(
                         f'<div class="sources">🏷 {esc(subject)} · {_mcq_source(q)}</div></div>')
         body.append("</div>")
     body.append(_pdf_revision(stories))
+    if weekly and weekly.get("entries"):
+        body.append(_pdf_weekly(weekly))
     body.append(f'<div class="footer">{esc(FOOTER)}</div>')
     csp = "default-src 'none'; style-src 'unsafe-inline'; img-src data:; font-src data:"
     return (

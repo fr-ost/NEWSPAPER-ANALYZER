@@ -32,6 +32,11 @@ on:
     - cron: "37 1 * * *"   # 07:37 Dhaka
     - cron: "7 2 * * *"   # 08:07 Dhaka
     - cron: "37 2 * * *"   # 08:37 Dhaka
+    # Daytime ticks: no briefing work then, so they collect the feeds (no AI
+    # calls) and answer /start messages, at most every 4 hours.
+    - cron: "7 7 * * *"   # 13:07 Dhaka
+    - cron: "7 11 * * *"   # 17:07 Dhaka
+    - cron: "7 15 * * *"   # 21:07 Dhaka
   workflow_dispatch:
     inputs:
       mode:
@@ -45,6 +50,7 @@ on:
           - deliver         # today's scheduled edition: sent at 08:00 (waits if <=30 min early), at once if later
           - subscribers     # register new /start and /stop now, list subscribers
           - test-telegram   # register new subscribers, send each a test message
+          - collect         # read the feeds into state and answer /start (no AI calls)
           - verify-sources  # check every configured feed live
           - check-model     # check the OpenAI and Gemini model ids work with your keys
           - status          # print a summary of the saved state
@@ -64,6 +70,7 @@ jobs:
       contents: read
     outputs:
       run: ${{ steps.gate.outputs.run }}
+      collect: ${{ steps.gate.outputs.collect }}
       notify: ${{ steps.gate.outputs.notify }}
       lag_minutes: ${{ steps.gate.outputs.lag_minutes }}
     steps:
@@ -81,7 +88,7 @@ jobs:
 
   briefing:
     needs: gate
-    if: ${{ !cancelled() && (github.event_name != 'schedule' || needs.gate.outputs.run == 'true') }}
+    if: ${{ !cancelled() && (github.event_name != 'schedule' || needs.gate.outputs.run == 'true' || needs.gate.outputs.collect == 'true') }}
     runs-on: ubuntu-latest
     # Building takes ~3-5 min; a run that lands just before 08:00 may wait up to
     # schedule.max_wait_minutes (30) before sending; sending to a large public
@@ -92,7 +99,7 @@ jobs:
       group: bcs-briefing-state
       cancel-in-progress: false
     env:
-      MODE: ${{ github.event_name == 'schedule' && 'scheduled' || inputs.mode }}
+      MODE: ${{ github.event_name == 'schedule' && (needs.gate.outputs.run == 'true' && 'scheduled' || 'collect') || inputs.mode }}
       # Crash notices to subscribers: scheduled runs only on the day's last chance
       # (decided by the gate); manual/external runs always.
       NOTIFY_ON_FAILURE: ${{ github.event_name != 'schedule' || needs.gate.outputs.notify == 'true' }}
@@ -152,6 +159,10 @@ jobs:
           # Optional repository variable (Settings → Variables) to change model without a code change.
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          # Optional repository variables: a public channel that also gets every
+          # edition, and the owner's chat for technical notices.
+          TELE_CHANNEL_ID: ${{ vars.TELE_CHANNEL_ID }}
+          TELE_OWNER_CHAT_ID: ${{ vars.TELE_OWNER_CHAT_ID }}
         run: |
           case "$MODE" in
             scheduled)      python -m app run --hold ;;   # tick: build + hold, or send at/after 08:00
@@ -159,6 +170,7 @@ jobs:
             live)           python -m app run --manual ;; # manual: extra edition with anything new
             dry-run)        python -m app run --dry-run ;;
             offline)        python -m app run --offline ;;
+            collect)        python -m app collect ;;      # tick between briefings: feeds + /start
             subscribers)    python -m app subscribers ;;
             test-telegram)  python -m app test-telegram ;;
             verify-sources) python -m app verify-sources ;;
@@ -177,6 +189,7 @@ jobs:
         if: failure() && env.NOTIFY_ON_FAILURE == 'true' && (env.MODE == 'scheduled' || env.MODE == 'deliver' || env.MODE == 'live')
         env:
           TELE_BOT_TOKEN: ${{ secrets.TELE_BOT_TOKEN }}
+          TELE_OWNER_CHAT_ID: ${{ vars.TELE_OWNER_CHAT_ID }}
         run: python -m app notify-failure
 
       - name: Count this run for the schedule gate
@@ -190,7 +203,7 @@ jobs:
           --lag-minutes "${{ needs.gate.outputs.lag_minutes }}"
 
       - name: Commit and push state
-        if: always() && (env.MODE == 'scheduled' || env.MODE == 'deliver' || env.MODE == 'live' || env.MODE == 'subscribers' || env.MODE == 'test-telegram')
+        if: always() && (env.MODE == 'scheduled' || env.MODE == 'deliver' || env.MODE == 'live' || env.MODE == 'collect' || env.MODE == 'subscribers' || env.MODE == 'test-telegram')
         run: |
           if [ ! -f state/state.json ]; then
             echo "No state file was produced; nothing to commit."

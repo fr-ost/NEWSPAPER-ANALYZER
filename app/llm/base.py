@@ -80,12 +80,13 @@ class LLMProvider(ABC):
     def usage(self) -> dict:
         """Token usage reported by the API during this run."""
         if not hasattr(self, "_usage"):
-            self._usage = {"requests": 0, "input_tokens": 0, "output_tokens": 0}
+            self._usage = {"requests": 0, "input_tokens": 0, "cached_input_tokens": 0, "output_tokens": 0}
         return self._usage
 
-    def record_usage(self, input_tokens: int, output_tokens: int) -> None:
+    def record_usage(self, input_tokens: int, output_tokens: int, cached_input_tokens: int = 0) -> None:
         self.usage["requests"] += 1
         self.usage["input_tokens"] += max(0, int(input_tokens or 0))
+        self.usage["cached_input_tokens"] += max(0, int(cached_input_tokens or 0))
         self.usage["output_tokens"] += max(0, int(output_tokens or 0))
 
 

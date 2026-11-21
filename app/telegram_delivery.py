@@ -114,6 +114,15 @@ class SendResult:
     # For a sent document: Telegram's id for the uploaded file, which later
     # sends can reuse instead of uploading the file again.
     file_id: str | None = None
+    # For a sent poll: its id, to match the vote counts Telegram reports later.
+    poll_id: str | None = None
+
+
+# Telegram's poll limits.
+POLL_QUESTION_MAX = 300
+POLL_OPTION_MAX = 100
+POLL_EXPLANATION_MAX = 200
+POLL_OPTIONS_MAX = 10
 
 
 class TelegramClient:
@@ -243,13 +252,38 @@ class TelegramClient:
         except (KeyError, TypeError, ValueError, AttributeError) as exc:
             raise TelegramError("Telegram response missing message_id") from exc
 
+    def send_poll(self, chat_id: str | int, poll: dict) -> SendResult:
+        """Send an anonymous poll; ``poll`` has question, options and either
+        correct_option_id (+ explanation) for a quiz or allows_multiple_answers."""
+        chat_id = str(chat_id)
+        self._space(chat_id)
+        payload = {
+            "chat_id": chat_id,
+            "question": poll["question"][:POLL_QUESTION_MAX],
+            "options": [{"text": o[:POLL_OPTION_MAX]} for o in poll["options"][:POLL_OPTIONS_MAX]],
+            "is_anonymous": True,
+        }
+        if "correct_option_id" in poll:
+            payload.update(type="quiz", correct_option_id=poll["correct_option_id"])
+            if poll.get("explanation"):
+                payload["explanation"] = poll["explanation"][:POLL_EXPLANATION_MAX]
+        else:
+            payload.update(type="regular", allows_multiple_answers=bool(poll.get("allows_multiple_answers")))
+        data = self._post("sendPoll", payload)
+        try:
+            result = data["result"]
+            return SendResult(message_id=int(result["message_id"]), poll_id=str((result.get("poll") or {}).get("id") or "") or None)
+        except (KeyError, TypeError, ValueError, AttributeError) as exc:
+            raise TelegramError("Telegram response missing message_id") from exc
+
     def get_updates(self, offset: int | None) -> list[dict]:
         """Fetch pending updates (kept by Telegram for 24 hours).
 
         Passing ``offset`` = last processed update_id + 1 confirms everything
         before it, so Telegram stops returning those updates.
         """
-        payload: dict = {"timeout": 0, "limit": 100, "allowed_updates": ["message", "my_chat_member"]}
+        # "poll": vote counts for the polls this bot sent (feedback and quizzes).
+        payload: dict = {"timeout": 0, "limit": 100, "allowed_updates": ["message", "my_chat_member", "poll"]}
         if offset is not None:
             payload["offset"] = offset
         try:

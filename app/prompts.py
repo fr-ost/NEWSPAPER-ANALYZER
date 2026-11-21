@@ -183,6 +183,10 @@ GROUNDING RULES:
 - If evidence is insufficient for a useful note, set evidence_sufficient=false and explain in rejection_reason.
 
 STYLE: Simple Bengali (বাংলা), with English technical terms in brackets where useful. Plain text only, short sentences.
+Write every fact, summary and point fully in Bengali even when the source is English: translate phrases such as
+"UN-backed food security monitor" (জাতিসংঘ-সমর্থিত খাদ্যনিরাপত্তা পর্যবেক্ষক); keep in English only proper names,
+report titles and abbreviations, in brackets after the Bengali where useful, e.g. "সমন্বিত খাদ্যনিরাপত্তা স্তর
+শ্রেণিবিন্যাস (IPC)". The evidence field stays a verbatim quote in the source's own language.
 The headline states the core fact (who did what), not a topic label.
 """
 
@@ -253,7 +257,8 @@ RULES:
   project or amendment, a headline national or global figure. Never ask about one-off amounts of minor interest,
   venues, who attended a meeting, or wording details.
 - Each question must stand alone: name its subject (e.g. "বিশ্ব আবহাওয়া সংস্থার (WMO) বুলেটিন অনুযায়ী ..."), never
-  "প্রতিবেদন অনুযায়ী" or "এই খবরে". Do not reveal the answer in the question.
+  "প্রতিবেদন অনুযায়ী" or "এই খবরে". Do not reveal the answer in the question, and never ask something its own
+  wording answers (e.g. "International Court of Justice is a ...?" → "a court").
 - Exactly four options of the same kind as the answer: all years, all percentages, all countries, all organisations,
   all with the same unit. Distractors must be plausible (nearby figures, related organisations or places) yet clearly
   wrong according to the fact. Keep options similar in length. No "সবগুলো" / "কোনোটিই নয়". Exactly one correct option.
@@ -313,9 +318,16 @@ RULES:
 """
 
 
-def gk_prompt(stories: list[dict], per_story: int) -> str:
+def gk_prompt(stories: list[dict], per_story: int, retry: bool = False) -> str:
+    focus = (
+        "\nSECOND TRY for stories that got nothing usable: give only the most basic, widely printed facts about the main"
+        " country, organisation, law, project or place in the story (capital, founding year, headquarters, full name,"
+        " founding members, the amendment or article number). Skip a story rather than guess.\n"
+        if retry
+        else ""
+    )
     return f"""List the related static general knowledge for these stories (at most {per_story} items per story).
-
+{focus}
 Return JSON exactly in this shape:
 {{"items": [{{"story": "s1", "statement": "Bengali sentence", "question": "Bengali question?", "answer": "Bengali answer",
   "answer_en": "English answer", "kind": "year"}}]}}

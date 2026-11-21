@@ -54,6 +54,27 @@ class SyncSummary:
 def ensure_structures(state: dict) -> None:
     state.setdefault("subscribers", {})
     state.setdefault("telegram", {"last_update_id": None})
+    state.setdefault("polls", {})
+
+
+def welcome_text(channel_id: str = "") -> str:
+    """The welcome reply; mentions the public channel when there is one."""
+    if channel_id.startswith("@"):
+        return MSG_WELCOME + f"\nসব ব্রিফিং একসঙ্গে দেখতে চ্যানেলেও যুক্ত হতে পারেন: https://t.me/{channel_id[1:]}"
+    return MSG_WELCOME
+
+
+def record_poll(state: dict, poll: dict) -> bool:
+    """Store the latest vote counts of a poll this bot sent (anonymous polls:
+    counts only, never who voted). Unknown polls are ignored."""
+    entry = state.setdefault("polls", {}).get(str(poll.get("id")))
+    options = poll.get("options")
+    if entry is None or not isinstance(options, list):
+        return False
+    counts = [o.get("voter_count") if isinstance(o, dict) and isinstance(o.get("voter_count"), int) else 0 for o in options]
+    entry["c"] = counts
+    entry["n"] = poll.get("total_voter_count") if isinstance(poll.get("total_voter_count"), int) else sum(counts)
+    return True
 
 
 def active_subscribers(state: dict) -> list[dict]:
@@ -89,7 +110,9 @@ def _code_ok(given: str, expected: str) -> bool:
     return hmac.compare_digest(given.encode(), expected.encode())
 
 
-def process_updates(state: dict, updates: list[dict], invite_code: str, max_subscribers: int, now: datetime) -> tuple[SyncSummary, dict[str, str]]:
+def process_updates(
+    state: dict, updates: list[dict], invite_code: str, max_subscribers: int, now: datetime, welcome: str = MSG_WELCOME
+) -> tuple[SyncSummary, dict[str, str]]:
     """Apply updates to state. Returns the summary and one reply per chat.
     ``invite_code`` "" = anyone may join; ``max_subscribers`` 0 = no limit."""
     ensure_structures(state)
@@ -105,6 +128,10 @@ def process_updates(state: dict, updates: list[dict], invite_code: str, max_subs
             continue
         last_id = uid
         summary.updates += 1
+
+        if isinstance(update.get("poll"), dict):
+            record_poll(state, update["poll"])
+            continue
 
         member = update.get("my_chat_member")
         if isinstance(member, dict):
@@ -145,7 +172,7 @@ def process_updates(state: dict, updates: list[dict], invite_code: str, max_subs
                     "left_reason": None,
                 }
                 summary.added.append(_chat_name(chat))
-                replies[chat_id] = MSG_WELCOME
+                replies[chat_id] = welcome
         elif command == "/stop":
             if deactivate(state, chat_id, "/stop", now):
                 summary.removed.append(_chat_name(chat))
@@ -158,7 +185,9 @@ def process_updates(state: dict, updates: list[dict], invite_code: str, max_subs
     return summary, replies
 
 
-def sync_subscribers(client: TelegramClient, state: dict, invite_code: str, max_subscribers: int, now: datetime) -> SyncSummary:
+def sync_subscribers(
+    client: TelegramClient, state: dict, invite_code: str, max_subscribers: int, now: datetime, welcome: str = MSG_WELCOME
+) -> SyncSummary:
     """Read pending updates, update subscribers, send replies (best effort)."""
     ensure_structures(state)
     total = SyncSummary()
@@ -166,7 +195,7 @@ def sync_subscribers(client: TelegramClient, state: dict, invite_code: str, max_
     for _ in range(MAX_UPDATE_PAGES):
         last = state["telegram"].get("last_update_id")
         updates = client.get_updates(None if last is None else last + 1)
-        summary, replies = process_updates(state, updates, invite_code, max_subscribers, now)
+        summary, replies = process_updates(state, updates, invite_code, max_subscribers, now, welcome)
         total.added += summary.added
         total.removed += summary.removed
         total.rejected += summary.rejected
