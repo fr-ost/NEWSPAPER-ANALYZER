@@ -12,7 +12,7 @@ from .config import SUBJECTS
 from .grounding import clean_model_text
 from .llm import InvalidResponseError, LLMClient, LLMRequest
 from .prompts import MCQ_SYSTEM, mcq_prompt
-from .util import extract_numbers, normalize_digits, normalize_text, one_of
+from .util import extract_numbers, normalize_digits, normalize_text, one_of, tokens
 
 log = logging.getLogger(__name__)
 
@@ -49,6 +49,9 @@ _BANNED_QUESTION = re.compile(
     r"|খবরে\s*উল্লিখিত|সংবাদ\s*অনুযায়ী|নিবন্ধ|according to the (?:report|article|news)|this (?:report|article)",
     re.I,
 )
+# Words that carry no answer ("it is a ..."), ignored when checking whether
+# the question already contains the answer.
+_FILLER = {"এটি", "একটি", "এক", "হলো", "হল", "ও", "এবং", "একটা", "it", "is", "a", "an", "the", "of", "and"}
 _BANNED_OPTION = re.compile(r"সবগুলো|সবকটি|কোনোটিই\s*নয়|কোনটিই\s*নয়|ওপরের সব|উপরের সব|all of the above|none of the above", re.I)
 
 
@@ -156,6 +159,10 @@ def _check_candidate(item: object, by_id: dict[str, dict]) -> tuple[dict | None,
     answer_key = normalize_text(options[idx])
     if len(answer_key) >= 3 and not _PURE_NUMBER.fullmatch(answer_key) and answer_key in key:
         return None, "question gives the answer away"
+    if not _has_digit(options[idx]):
+        words = {t for t in tokens(options[idx]) if t not in _FILLER and len(t) > 1}
+        if words and words <= set(tokens(question)):
+            return None, "answer is already in the question's wording"
     problem = option_problem(options, idx)
     if problem:
         return None, problem

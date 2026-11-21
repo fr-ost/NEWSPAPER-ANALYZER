@@ -358,3 +358,22 @@ def test_a_crashing_optional_step_never_costs_the_edition(make_pipeline, monkeyp
     r = make_pipeline(telegram=tg).run(now=NOW)
     assert r.outcome == "delivered" and r.stories == 3 and tg.sent
     assert any("Static GK skipped" in e for e in r.errors) and any("MCQ generation failed" in e for e in r.errors)
+
+
+def test_question_that_answers_itself_is_rejected():
+    facts = [{"fact_id": "f1", "story": "a", "fact": "ICJ জাতিসংঘের প্রধান বিচারিক অঙ্গ", "evidence": "ICJ জাতিসংঘের প্রধান বিচারিক অঙ্গ",
+              "basis": "gk", "subject": "international_affairs", "event_id": "e1", "url": "https://example.com/1", "source_name": "X"}]
+    trivial = mcq("f1", ("এটি একটি আদালত", "এটি একটি সামরিক জোট", "এটি একটি ব্যাংক", "এটি একটি উন্নয়ন সংস্থা"), 0,
+                  "আন্তর্জাতিক বিচার আদালত (ICJ) সম্পর্কে কোনটি সঠিক?")
+    out = validate_mcqs({"questions": [trivial]}, facts, 3)
+    assert out.questions == [] and out.reasons == ["answer is already in the question's wording"]
+    fair = mcq("f1", ("জাতিসংঘ", "ন্যাটো", "আসিয়ান", "ওআইসি"), 0, "আন্তর্জাতিক বিচার আদালত (ICJ) কোন সংস্থার প্রধান বিচারিক অঙ্গ?")
+    assert len(validate_mcqs({"questions": [fair]}, facts, 3).questions) == 1
+
+
+def test_gk_statement_may_inflect_the_answer():
+    from app.enrichment import _states
+
+    assert _states("বিশ্ব আবহাওয়া সংস্থার সদর দপ্তর জেনেভায় অবস্থিত।", "জেনেভা")
+    assert _states("বিশ্বব্যাংকের সদর দপ্তর ওয়াশিংটন ডি.সি.-তে।", "ওয়াশিংটন ডিসি")
+    assert not _states("বিশ্বব্যাংকের সদর দপ্তর ওয়াশিংটনে।", "নিউইয়র্ক")

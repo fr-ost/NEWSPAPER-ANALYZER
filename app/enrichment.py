@@ -26,7 +26,7 @@ from .deduplicator import distinctive_numbers
 from .grounding import clean_model_text
 from .llm import InvalidResponseError, LLMClient, LLMRequest
 from .prompts import GK_SYSTEM, GK_VERIFY_SYSTEM, gk_prompt, gk_verify_prompt
-from .util import extract_numbers, normalize_text, one_of
+from .util import extract_numbers, normalize_text, one_of, tokens
 
 log = logging.getLogger(__name__)
 
@@ -69,6 +69,17 @@ def _contains(haystack: str, needle: str) -> bool:
     return bool(needle) and normalize_text(needle) in normalize_text(haystack)
 
 
+def _states(statement: str, answer: str) -> bool:
+    """The statement contains the answer, allowing Bengali case endings and
+    punctuation ('জেনেভা' in 'জেনেভায়', 'ওয়াশিংটন ডিসি' in 'ওয়াশিংটন ডি.সি.-তে')."""
+    if _contains(statement, answer):
+        return True
+    words = tokens(statement)
+    joined = "".join(words)
+    wanted = tokens(answer)
+    return bool(wanted) and (all(any(w.startswith(t) for w in words) for t in wanted) or "".join(wanted) in joined)
+
+
 def validate_gk(raw: object, smap: dict[str, dict]) -> tuple[list[dict], list[str]]:
     """Shape and content rules for proposed items (before the blind check)."""
     if isinstance(raw, list):
@@ -95,7 +106,7 @@ def validate_gk(raw: object, smap: dict[str, dict]) -> tuple[list[dict], list[st
         if any(h in statement for h in HEDGES) or _HEDGES_EN.search(statement):
             reasons.append("hedged statement")
             continue
-        if not (_contains(statement, answer) or (extract_numbers(answer) and extract_numbers(answer) <= extract_numbers(statement))):
+        if not (_states(statement, answer) or (extract_numbers(answer) and extract_numbers(answer) <= extract_numbers(statement))):
             reasons.append("statement does not state the answer")
             continue
         if _contains(question, answer) and len(normalize_text(answer)) >= 3:

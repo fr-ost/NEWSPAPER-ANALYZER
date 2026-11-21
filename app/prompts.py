@@ -257,7 +257,8 @@ RULES:
   project or amendment, a headline national or global figure. Never ask about one-off amounts of minor interest,
   venues, who attended a meeting, or wording details.
 - Each question must stand alone: name its subject (e.g. "বিশ্ব আবহাওয়া সংস্থার (WMO) বুলেটিন অনুযায়ী ..."), never
-  "প্রতিবেদন অনুযায়ী" or "এই খবরে". Do not reveal the answer in the question.
+  "প্রতিবেদন অনুযায়ী" or "এই খবরে". Do not reveal the answer in the question, and never ask something its own
+  wording answers (e.g. "International Court of Justice is a ...?" → "a court").
 - Exactly four options of the same kind as the answer: all years, all percentages, all countries, all organisations,
   all with the same unit. Distractors must be plausible (nearby figures, related organisations or places) yet clearly
   wrong according to the fact. Keep options similar in length. No "সবগুলো" / "কোনোটিই নয়". Exactly one correct option.
