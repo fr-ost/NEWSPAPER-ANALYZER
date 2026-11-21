@@ -75,8 +75,11 @@ def extract_text(data: object) -> tuple[str, dict]:
     if not isinstance(text, str) or not text.strip():
         raise InvalidResponseError("OpenAI returned empty text")
     usage = data.get("usage") or {}
+    details = usage.get("prompt_tokens_details") if isinstance(usage.get("prompt_tokens_details"), dict) else {}
     return text, {
         "input_tokens": int(usage.get("prompt_tokens") or 0),
+        # Part of the input served from OpenAI's automatic prompt cache (cheaper).
+        "cached_input_tokens": int(details.get("cached_tokens") or 0),
         "output_tokens": int(usage.get("completion_tokens") or 0),  # includes reasoning tokens
     }
 
@@ -140,7 +143,7 @@ class OpenAIProvider(LLMProvider):
         if resp.status_code != 200:
             raise classify_error(resp.status_code, data, resp.headers)
         text, usage = extract_text(data)
-        self.record_usage(usage["input_tokens"], usage["output_tokens"])
+        self.record_usage(usage["input_tokens"], usage["output_tokens"], usage["cached_input_tokens"])
         return text
 
 

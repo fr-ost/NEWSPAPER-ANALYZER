@@ -249,11 +249,11 @@ feed_url = "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
 type = "newspaper"
 language = "en"
 subjects = ["science_technology", "environment_climate"]
-enabled = false
+enabled = true
 fetch_articles = true
 timeout_seconds = 20
 max_retries = 2
-verification = "Candidate: BBC's published RSS feed; not yet verified from CI."
+verification = "Verified live from GitHub Actions 2026-11-21: HTTP 200, 34 items, newest 2026-11-20."
 
 [[source]]
 id = "bbc_technology"
@@ -263,11 +263,11 @@ feed_url = "https://feeds.bbci.co.uk/news/technology/rss.xml"
 type = "newspaper"
 language = "en"
 subjects = ["science_technology"]
-enabled = false
+enabled = true
 fetch_articles = true
 timeout_seconds = 20
 max_retries = 2
-verification = "Candidate: BBC's published RSS feed; not yet verified from CI."
+verification = "Verified live from GitHub Actions 2026-11-21: HTTP 200, 21 items, newest 2026-11-21."
 
 [[source]]
 id = "who_news"
@@ -282,7 +282,7 @@ enabled = false
 fetch_articles = true
 timeout_seconds = 20
 max_retries = 2
-verification = "Candidate: WHO's published news RSS feed; not yet verified from CI."
+verification = "Checked 2026-11-21: HTTP 200 but stale (newest item 2026-10-10). Kept off."
 
 [[source]]
 id = "nasa_news"
@@ -293,11 +293,11 @@ feed_url = "https://www.nasa.gov/news-release/feed/"
 type = "official"
 language = "en"
 subjects = ["science_technology"]
-enabled = false
+enabled = true
 fetch_articles = true
 timeout_seconds = 20
 max_retries = 2
-verification = "Candidate: NASA's published news-release feed; not yet verified from CI."
+verification = "Verified live from GitHub Actions 2026-11-21: HTTP 200, 10 items, newest 2026-11-20 (one HTTP 429 retried)."
 
 [[source]]
 id = "sciencedaily"
@@ -307,8 +307,8 @@ feed_url = "https://www.sciencedaily.com/rss/top/science.xml"
 type = "newspaper"
 language = "en"
 subjects = ["science_technology"]
-enabled = false
+enabled = true
 fetch_articles = true
 timeout_seconds = 20
 max_retries = 2
-verification = "Candidate: ScienceDaily's published RSS feed; not yet verified from CI."
+verification = "Verified live from GitHub Actions 2026-11-21: HTTP 200, 60 items, newest 2026-11-21."

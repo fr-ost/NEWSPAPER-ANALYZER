@@ -60,6 +60,10 @@ class ScheduleConfig:
     # A tick that finds the edition built this close to delivery_time waits in
     # the job and sends it on time instead of relying on a later tick.
     max_wait_minutes: int = 30
+    # Outside the briefing, a tick collects feeds (and reads /start messages)
+    # when the last collection is at least this old. Feeds only show their
+    # newest ~10 items, so one read a day missed most of the news. 0 = off.
+    collect_every_hours: float = 4
     # A scheduled edition still unsent at this time is skipped for the day.
     deliver_until: str = "22:00"
     # Stop starting scheduled runs for the day after this many failed runs.
@@ -89,6 +93,23 @@ class SelectionConfig:
     min_syllabus_relevance: float = 7
     maybe_min_priority: float = 7
     max_stories_per_topic: int = 1
+    # Balance: at most this many stories per subject (0 = no cap), and one
+    # slot kept for each reserved subject when a good story exists.
+    max_stories_per_subject: int = 3
+    reserve_subjects: tuple[str, ...] = ("science_technology", "bangladesh_affairs")
+
+
+@dataclass(frozen=True)
+class RevisionConfig:
+    # On this weekday (local time) the edition adds a weekly revision of the
+    # past 7 days' must-remember facts and verified GK, plus extra MCQs.
+    weekly_day: str = "Friday"
+    weekly_stories: int = 15
+    weekly_mcqs: int = 10
+    # On the 1st of each month the edition adds a PDF of the previous month.
+    monthly_pdf: bool = True
+    # Compact per-edition records kept for these summaries.
+    keep_days: int = 40
 
 
 @dataclass(frozen=True)
@@ -120,6 +141,7 @@ class LLMConfig:
     openai_min_seconds_between_calls: float = 1.0
     # Used only to estimate spend in run logs. Check https://openai.com/api/pricing
     openai_usd_per_million_input: float = 0.75
+    openai_usd_per_million_cached_input: float = 0.075
     openai_usd_per_million_output: float = 4.50
     gemini_model: str = "gemini-3.8-flash"
     gemini_api_base: str = "https://generativelanguage.googleapis.com/v1beta"
@@ -152,6 +174,18 @@ class TelegramConfig:
     # Telegram's broadcast limit of about 30 messages per second.
     send_workers: int = 8
     max_messages_per_second: float = 25
+    # Optional public channel ("@name" or numeric id) that also gets every
+    # edition; the bot must be an admin there. Env TELE_CHANNEL_ID overrides.
+    channel_id: str = ""
+    # Also send editions to each subscriber's private chat.
+    dm_subscribers: bool = True
+    # The owner's chat id: technical failure notices and the weekly health
+    # report go only here. Env TELE_OWNER_CHAT_ID overrides.
+    owner_chat_id: str = ""
+    # MCQs as Telegram quiz polls (tap an answer, see right/wrong at once).
+    mcq_as_quiz: bool = True
+    # A short "which stories were useful?" poll after each edition.
+    feedback_poll: bool = True
 
 
 @dataclass(frozen=True)
@@ -187,6 +221,7 @@ class Settings:
     extraction: ExtractionConfig
     selection: SelectionConfig
     filters: FilterConfig
+    revision: RevisionConfig
     screening: ScreeningConfig
     analysis: AnalysisConfig
     weights: dict[str, float]
@@ -306,7 +341,28 @@ def load_settings(config_dir: Path | None = None, env: dict[str, str] | None = N
     if invite and not re.fullmatch(r"[A-Za-z0-9_-]{8,64}", invite):
         raise ConfigError("BOT_INVITE_CODE must be 8-64 characters of A-Z, a-z, 0-9, _ or - (Telegram start-link rules)")
 
+    tg_raw = dict(data.get("telegram", {}))
+    if env.get("TELE_CHANNEL_ID", "").strip():
+        tg_raw["channel_id"] = env["TELE_CHANNEL_ID"].strip()
+    if env.get("TELE_OWNER_CHAT_ID", "").strip():
+        tg_raw["owner_chat_id"] = env["TELE_OWNER_CHAT_ID"].strip()
+    data["telegram"] = tg_raw
     telegram = _section(TelegramConfig, data, "telegram")
+    for name in ("channel_id", "owner_chat_id"):
+        value = getattr(telegram, name)
+        if value and not re.fullmatch(r"@[A-Za-z][A-Za-z0-9_]{3,31}|-?\d{3,20}", value):
+            raise ConfigError(f"telegram.{name} must be @channelname or a numeric chat id")
+    sel_raw = dict(data.get("selection", {}))
+    if isinstance(sel_raw.get("reserve_subjects"), list):
+        sel_raw["reserve_subjects"] = tuple(sel_raw["reserve_subjects"])
+    data["selection"] = sel_raw
+    selection = _section(SelectionConfig, data, "selection")
+    unknown = [x for x in selection.reserve_subjects if x not in SUBJECTS]
+    if unknown or selection.max_stories_per_subject < 0:
+        raise ConfigError(f"selection.reserve_subjects must be subjects from {sorted(SUBJECTS)}; got {unknown}")
+    revision = _section(RevisionConfig, data, "revision")
+    if revision.weekly_day not in ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", ""):
+        raise ConfigError("revision.weekly_day must be a weekday name in English, or empty to turn it off")
     if telegram.max_subscribers < 0 or telegram.send_workers < 1 or not (0 < telegram.max_messages_per_second <= 30):
         raise ConfigError("telegram: max_subscribers >= 0, send_workers >= 1 and 0 < max_messages_per_second <= 30")
 
@@ -319,7 +375,8 @@ def load_settings(config_dir: Path | None = None, env: dict[str, str] | None = N
         schedule=schedule,
         collection=_section(CollectionConfig, data, "collection"),
         extraction=_section(ExtractionConfig, data, "extraction"),
-        selection=_section(SelectionConfig, data, "selection"),
+        selection=selection,
+        revision=revision,
         filters=_filters(data),
         screening=_section(ScreeningConfig, data, "screening"),
         analysis=_section(AnalysisConfig, data, "analysis"),

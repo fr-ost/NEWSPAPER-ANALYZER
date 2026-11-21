@@ -99,7 +99,7 @@ def test_check_writes_github_outputs(settings, monkeypatch, tmp_path, capsys):
     monkeypatch.setenv("TICK_CRON", "7 21 * * *")
     assert gate_main(["check", "--now", dhaka(8, 11).isoformat()]) == 0
     values = dict(line.split("=", 1) for line in out.read_text().splitlines())
-    assert values == {"run": "true", "notify": "false", "lag_minutes": "304"}
+    assert values == {"run": "true", "collect": "false", "notify": "false", "lag_minutes": "304"}
     assert "5 h 04 min after it was due" in capsys.readouterr().out
 
 

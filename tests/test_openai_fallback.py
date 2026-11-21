@@ -50,7 +50,7 @@ def test_openai_error_classification():
 
 def test_openai_response_extraction():
     ok = {"choices": [{"finish_reason": "stop", "message": {"content": '{"a": 1}'}}], "usage": {"prompt_tokens": 100, "completion_tokens": 40}}
-    assert extract_text(ok) == ('{"a": 1}', {"input_tokens": 100, "output_tokens": 40})
+    assert extract_text(ok) == ('{"a": 1}', {"input_tokens": 100, "cached_input_tokens": 0, "output_tokens": 40})
     for bad in ({"choices": []}, {"choices": [{"finish_reason": "length", "message": {"content": "{"}}]},
                 {"choices": [{"finish_reason": "stop", "message": {"refusal": "no", "content": None}}]},
                 {"choices": [{"finish_reason": "content_filter", "message": {"content": ""}}]}):
@@ -80,7 +80,7 @@ def test_openai_request_shape_and_secret_handling():
     assert seen["body"]["response_format"] == {"type": "json_object"}
     assert seen["body"]["max_completion_tokens"] == 4000 and seen["body"]["reasoning_effort"] == "low"
     assert "temperature" not in seen["body"]  # reasoning models reject custom temperature
-    assert p.usage == {"requests": 1, "input_tokens": 5, "output_tokens": 3}
+    assert p.usage == {"requests": 1, "input_tokens": 5, "cached_input_tokens": 0, "output_tokens": 3}
     with pytest.raises(PermanentLLMError):
         OpenAIProvider("", "m", "https://x", 1, 1)
 

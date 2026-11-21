@@ -14,6 +14,11 @@ runs ``check``, which reads the committed state and the local clock
   edition was delivered or the day's run limit is used up;
 - after that: no.
 
+When a tick has no briefing work, it collects the feeds instead (no AI
+calls; it also answers /start messages) if the last collection is at least
+``schedule.collect_every_hours`` old: feeds only show their newest items, so
+reading them once a day missed most of the day's news.
+
 The briefing job is idempotent (it re-reads the latest state and never sends
 an edition twice), so an unnecessary "yes" costs a minute, never a duplicate.
 If anything here goes wrong, the gate says yes and lets the app decide.
@@ -34,7 +39,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, time as dtime, timedelta, timezone
 
 from .config import ConfigError, Settings, load_settings
-from .util import get_tz, iso, utcnow
+from .util import get_tz, iso, parse_iso, utcnow
 
 KEEP_DAYS = 10
 MAX_LAGS_KEPT = 12
@@ -44,8 +49,10 @@ MAX_LAGS_KEPT = 12
 class Decision:
     run: bool
     reason: str
-    # A crash in this run should be reported to subscribers (last chance today).
+    # A crash in this run should be reported to the owner (last chance today).
     notify_on_failure: bool = False
+    # No briefing work, but the feeds are due to be collected (no AI calls).
+    collect: bool = False
 
 
 def _at(day: date, hhmm: str, tz) -> datetime:
@@ -64,7 +71,20 @@ def _int(value) -> int:
 
 
 def decide(state: dict | None, now: datetime, settings: Settings) -> Decision:
-    """What a scheduled tick at ``now`` should do, given the committed state."""
+    """What a scheduled tick at ``now`` should do, given the committed state:
+    briefing work if there is any, else a feed collection when one is due."""
+    decision = _briefing_decision(state, now, settings)
+    hours = settings.schedule.collect_every_hours
+    if decision.run or hours <= 0 or not isinstance(state, dict):
+        return decision
+    last = parse_iso(((state.get("collection") or {}) if isinstance(state.get("collection"), dict) else {}).get("last_at"))
+    if last is not None and now - last < timedelta(hours=hours):
+        return decision
+    since = f"last {(now - last).total_seconds() / 3600:.1f} h ago" if last else "never collected"
+    return Decision(False, f"{decision.reason}; collect the feeds ({since})", collect=True)
+
+
+def _briefing_decision(state: dict | None, now: datetime, settings: Settings) -> Decision:
     cfg = settings.schedule
     tz = get_tz(settings.edition.timezone)
     local = now.astimezone(tz)
@@ -189,12 +209,13 @@ def cmd_check(settings: Settings | None, now: datetime) -> int:
     local = now.astimezone(get_tz(settings.edition.timezone if settings else "Asia/Dhaka"))
     started = f"started {now.astimezone(timezone.utc):%H:%M} UTC ({local:%H:%M} local)"
     when = f"tick '{cron}' {started}, {_fmt(lag)} after it was due" if lag is not None else f"tick {started}"
-    verdict = "RUN" if decision.run else "skip"
+    verdict = "RUN" if decision.run else "COLLECT" if decision.collect else "skip"
     print(f"::notice title=Schedule gate::{verdict}: {decision.reason} [{when}]")
     _write_outputs(
         {
             "run": "true" if decision.run else "false",
-            "notify": "true" if decision.notify_on_failure else "false",
+            "collect": "true" if decision.collect and not decision.run else "false",
+            "notify": "true" if decision.notify_on_failure and decision.run else "false",
             "lag_minutes": str(int(lag.total_seconds() // 60)) if lag is not None else "",
         }
     )

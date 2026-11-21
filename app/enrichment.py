@@ -163,22 +163,17 @@ def verify_gk(raw: object, items: list[dict]) -> tuple[list[dict], list[str]]:
     return kept, reasons
 
 
-def enrich_static_gk(client: LLMClient, stories: list[dict]) -> GkOutcome:
-    """Propose and blind-check related static GK for ``stories``.
-    Raises LLMError subclasses like any model call; callers treat the
-    section as optional."""
-    out = GkOutcome()
-    if not stories:
-        return out
+def _gk_round(client: LLMClient, stories: list[dict], per_story: int, retry: bool, out: GkOutcome) -> None:
+    """One propose + blind-check round; verified items go into ``out``."""
     shown, smap = _story_payload(stories)
     raw = client.generate_json(
-        LLMRequest(task="static_gk", system=GK_SYSTEM, prompt=gk_prompt(shown, MAX_PER_STORY), payload={"stories": shown})
+        LLMRequest(task="static_gk", system=GK_SYSTEM, prompt=gk_prompt(shown, per_story, retry), payload={"stories": shown})
     )
     proposed, reasons = validate_gk(raw, smap)
-    out.proposed = len(proposed)
+    out.proposed += len(proposed)
     out.rejected.extend(reasons)
     if not proposed:
-        return out
+        return
     questions = [{"id": f"g{i}", "question": item["question"]} for i, item in enumerate(proposed, start=1)]
     checked = client.generate_json(
         LLMRequest(task="static_gk_check", system=GK_VERIFY_SYSTEM, prompt=gk_verify_prompt(questions), payload={"questions": questions})
@@ -188,6 +183,25 @@ def enrich_static_gk(client: LLMClient, stories: list[dict]) -> GkOutcome:
     for item in verified:
         story = smap[item["story"]]
         out.items.setdefault(story["event_id"], []).append({k: item[k] for k in ("statement", "question", "answer", "answer_en", "kind")})
+
+
+def enrich_static_gk(client: LLMClient, stories: list[dict], second_round: bool = True) -> GkOutcome:
+    """Propose and blind-check related static GK for ``stories``. Stories left
+    with nothing get one narrower second round (the most basic facts only:
+    founding year, headquarters, capital, a law's or body's name), checked the
+    same way. Raises LLMError subclasses like any model call; callers treat
+    the section as optional."""
+    out = GkOutcome()
+    if not stories:
+        return out
+    _gk_round(client, stories, MAX_PER_STORY, False, out)
+    missing = [st for st in stories if st["event_id"] not in out.items]
+    if second_round and missing and getattr(client, "remaining_calls", 3) >= 3:
+        try:
+            _gk_round(client, missing, 2, True, out)
+        except InvalidResponseError as exc:
+            out.rejected.append(f"second round: {exc}")
     if out.rejected:
-        log.info("Static GK: kept %d of %d proposed; dropped: %s", len(verified), out.proposed, "; ".join(out.rejected[:8]))
+        kept = sum(len(v) for v in out.items.values())
+        log.info("Static GK: kept %d of %d proposed; dropped: %s", kept, out.proposed, "; ".join(out.rejected[:8]))
     return out

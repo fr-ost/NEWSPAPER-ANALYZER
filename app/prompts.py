@@ -183,6 +183,10 @@ GROUNDING RULES:
 - If evidence is insufficient for a useful note, set evidence_sufficient=false and explain in rejection_reason.
 
 STYLE: Simple Bengali (বাংলা), with English technical terms in brackets where useful. Plain text only, short sentences.
+Write every fact, summary and point fully in Bengali even when the source is English: translate phrases such as
+"UN-backed food security monitor" (জাতিসংঘ-সমর্থিত খাদ্যনিরাপত্তা পর্যবেক্ষক); keep in English only proper names,
+report titles and abbreviations, in brackets after the Bengali where useful, e.g. "সমন্বিত খাদ্যনিরাপত্তা স্তর
+শ্রেণিবিন্যাস (IPC)". The evidence field stays a verbatim quote in the source's own language.
 The headline states the core fact (who did what), not a topic label.
 """
 
@@ -313,9 +317,16 @@ RULES:
 """
 
 
-def gk_prompt(stories: list[dict], per_story: int) -> str:
+def gk_prompt(stories: list[dict], per_story: int, retry: bool = False) -> str:
+    focus = (
+        "\nSECOND TRY for stories that got nothing usable: give only the most basic, widely printed facts about the main"
+        " country, organisation, law, project or place in the story (capital, founding year, headquarters, full name,"
+        " founding members, the amendment or article number). Skip a story rather than guess.\n"
+        if retry
+        else ""
+    )
     return f"""List the related static general knowledge for these stories (at most {per_story} items per story).
-
+{focus}
 Return JSON exactly in this shape:
 {{"items": [{{"story": "s1", "statement": "Bengali sentence", "question": "Bengali question?", "answer": "Bengali answer",
   "answer_en": "English answer", "kind": "year"}}]}}

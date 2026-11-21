@@ -180,7 +180,9 @@ def _check_candidate(item: object, by_id: dict[str, dict]) -> tuple[dict | None,
     }, None
 
 
-def validate_mcqs(raw: object, facts: list[dict], count: int) -> McqOutcome:
+def validate_mcqs(
+    raw: object, facts: list[dict], count: int, max_gk: int = MAX_GK_QUESTIONS, max_figures: int = MAX_NEWS_FIGURE_QUESTIONS
+) -> McqOutcome:
     """Check every candidate, then pick up to ``count`` in the model's order:
     one fact and one question each, at most one per story (unless there are
     fewer stories than questions), at most MAX_GK_QUESTIONS from static GK and,
@@ -216,9 +218,9 @@ def validate_mcqs(raw: object, facts: list[dict], count: int) -> McqOutcome:
                 skipped[i] = "duplicate question"
             elif sum(x["source_event_id"] == c["source_event_id"] for x in chosen) >= story_cap:
                 skipped[i] = "story already has a question"
-            elif c["basis"] == "gk" and sum(x["basis"] == "gk" for x in chosen) >= MAX_GK_QUESTIONS:
+            elif c["basis"] == "gk" and sum(x["basis"] == "gk" for x in chosen) >= max_gk:
                 skipped[i] = "enough background-knowledge questions"
-            elif limit_figures and c["_figure"] and sum(x["_figure"] for x in chosen) >= MAX_NEWS_FIGURE_QUESTIONS:
+            elif limit_figures and c["_figure"] and sum(x["_figure"] for x in chosen) >= max_figures:
                 skipped[i] = "enough 'how much' questions from the news"
             else:
                 chosen.append(c)
@@ -260,11 +262,16 @@ def arrange_options(q: dict) -> dict:
 
 
 def generate_mcqs(client: LLMClient, stories: list[dict], count: int) -> McqOutcome:
-    facts = build_fact_pool(stories)
+    return generate_mcqs_from_pool(client, build_fact_pool(stories), count)
+
+
+def generate_mcqs_from_pool(
+    client: LLMClient, facts: list[dict], count: int, max_gk: int = MAX_GK_QUESTIONS, max_figures: int = MAX_NEWS_FIGURE_QUESTIONS
+) -> McqOutcome:
     if not facts or count <= 0:
         return McqOutcome(reasons=["No verified facts available for questions"])
     model_facts = [{k: f[k] for k in ("fact_id", "story", "fact", "evidence", "basis", "subject")} for f in facts]
-    wanted = count * CANDIDATE_FACTOR
+    wanted = min(count * CANDIDATE_FACTOR, 24)
     request = LLMRequest(
         task="mcq",
         system=MCQ_SYSTEM,
@@ -272,7 +279,21 @@ def generate_mcqs(client: LLMClient, stories: list[dict], count: int) -> McqOutc
         payload={"facts": model_facts, "count": wanted},
     )
     raw = client.generate_json(request)
-    outcome = validate_mcqs(raw, facts, count)
+    outcome = validate_mcqs(raw, facts, count, max_gk, max_figures)
     if outcome.rejected:
         log.warning("Rejected %d MCQ candidates: %s", outcome.rejected, "; ".join(outcome.reasons[:6]))
     return outcome
+
+
+def as_quiz_poll(q: dict, number: int) -> dict | None:
+    """An MCQ as a Telegram quiz poll, or None if it doesn't fit Telegram's
+    limits (question 300, options 100, explanation 200 characters)."""
+    from .render import bn_num
+
+    question = f"প্রশ্ন {bn_num(number)}. {q['question']}"
+    if len(question) > 300 or any(len(o) > 100 for o in q["options"]):
+        return None
+    explanation = q.get("explanation") or ""
+    if len(explanation) > 200:
+        explanation = explanation[:199].rsplit(" ", 1)[0] + "…"
+    return {"question": question, "options": list(q["options"]), "correct_option_id": q["answer_index"], "explanation": explanation}

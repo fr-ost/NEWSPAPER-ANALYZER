@@ -29,6 +29,10 @@ max_wait_minutes = 30
 deliver_until = "22:00"
 # A persistent failure stops after this many failed runs in a day.
 max_runs_per_day = 5
+# Feeds show only their newest ~10 items, so the news is also collected
+# (no AI calls) on ticks outside the briefing, at most this often; those runs
+# also read new /start messages, so welcomes go out within a few hours.
+collect_every_hours = 4
 
 [collection]
 max_items_per_source = 40
@@ -57,6 +61,21 @@ min_syllabus_relevance = 7
 maybe_min_priority = 7
 # Diversity: at most this many stories per syllabus topic in one edition.
 max_stories_per_topic = 1
+# ...at most this many per subject, and one slot kept for each reserved
+# subject when a story of it scores above min_story_score (science and
+# Bangladesh affairs were under-represented: 4 and 8 of 103 stories).
+max_stories_per_subject = 3
+reserve_subjects = ["science_technology", "bangladesh_affairs"]
+
+[revision]
+# Weekly revision (local weekday, "" = off): the week's must-remember facts
+# and verified GK, plus extra MCQs, added to that day's edition.
+weekly_day = "Friday"
+weekly_stories = 15
+weekly_mcqs = 10
+# On the 1st of each month the edition also brings a PDF of last month.
+monthly_pdf = true
+keep_days = 40
 
 [filters]
 # Dropped before any AI call. Matched as substrings of the URL path
@@ -77,14 +96,15 @@ exclude_title_patterns = [
 ]
 
 [screening]
-# Max candidate events screened per run (a day brings ~70 new ones).
-max_candidates = 80
+# Max candidate events screened per run (collecting through the day brings
+# 100+ new ones; the newest are screened first).
+max_candidates = 160
 # Candidates per screening request (smaller batches are judged more carefully).
 batch_size = 40
 
 [analysis]
 # Maximum full-article analyses per run (each is one model call).
-max_analyses_per_run = 14
+max_analyses_per_run = 16
 # A story that fails analysis this many times is abandoned.
 max_attempts_per_story = 3
 
@@ -117,6 +137,9 @@ openai_reasoning_effort = ""
 openai_min_seconds_between_calls = 1.0
 # Only used to print an estimated cost per run (USD per 1M tokens).
 openai_usd_per_million_input = 0.75
+# Repeated prompt prefixes (instructions, syllabus list) are cached by OpenAI
+# automatically and billed at this lower rate.
+openai_usd_per_million_cached_input = 0.075
 openai_usd_per_million_output = 4.50
 
 # Gemini (fallback). Verify free-tier eligibility at
@@ -128,10 +151,11 @@ ollama_base_url = "http://localhost:11434"
 temperature = 0.2
 max_output_tokens = 8192
 request_timeout_seconds = 120
-# Budget per provider across the whole run, including retries: screening (2),
-# analyses (14), static GK + its check (2), MCQs (1) and some retries. Caps
-# OpenAI spend and keeps Gemini well inside free-tier daily request quotas.
-max_calls_per_run = 30
+# Budget per provider across the whole run, including retries: screening (4),
+# analyses (16), static GK + its check (2, a second round 2 more), MCQs (1,
+# weekly 1) and some retries. Caps OpenAI spend and keeps Gemini well inside
+# free-tier daily request quotas.
+max_calls_per_run = 36
 # Spacing between Gemini/Ollama calls (free-tier per-minute limits).
 min_seconds_between_calls = 6.0
 max_retries = 3
@@ -159,6 +183,18 @@ min_seconds_between_messages = 1.1
 # Telegram's free broadcast limit (about 30 per second).
 send_workers = 8
 max_messages_per_second = 25
+# Optional public channel ("@name") that also gets every edition: create the
+# channel, add the bot as an admin, then set this or the TELE_CHANNEL_ID
+# repository variable. Channels have no reader limit and keep an archive.
+channel_id = ""
+# Also send editions to each subscriber's private chat.
+dm_subscribers = true
+# Technical failure notices and the weekly health report go only to this
+# chat (the owner). Env TELE_OWNER_CHAT_ID overrides.
+owner_chat_id = "1679140572"
+# MCQs as Telegram quiz polls, and a "which stories were useful?" poll.
+mcq_as_quiz = true
+feedback_poll = true
 
 [state]
 path = "state/state.json"
