@@ -52396,37 +52396,6 @@
  "runs": [
   {
    "dry_run": false,
-   "edition_date": "2026-11-14",
-   "errors": [],
-   "estimated_cost_usd": 0.0,
-   "finished_at": "2026-11-14T02:00:20+00:00",
-   "llm_calls": 0,
-   "llm_usage": {
-    "gemini": {
-     "calls_incl_retries": 0,
-     "input_tokens": 0,
-     "output_tokens": 0,
-     "requests": 0
-    },
-    "openai": {
-     "calls_incl_retries": 0,
-     "input_tokens": 0,
-     "output_tokens": 0,
-     "requests": 0
-    }
-   },
-   "manual": false,
-   "mcqs": 3,
-   "outcome": "delivered",
-   "partial": false,
-   "prefiltered": 0,
-   "providers_disabled": {},
-   "run_id": "d750f17ab1",
-   "started_at": "2026-11-14T02:00:01+00:00",
-   "stories": 8
-  },
-  {
-   "dry_run": false,
    "edition_date": "2026-11-15",
    "errors": [],
    "estimated_cost_usd": 0.0937,
@@ -53335,6 +53304,39 @@
    "run_id": "e12d61666e",
    "started_at": "2026-11-23T02:00:01+00:00",
    "stories": 8
+  },
+  {
+   "dry_run": false,
+   "edition_date": "2026-11-23",
+   "errors": [],
+   "estimated_cost_usd": 0.0,
+   "finished_at": "2026-11-23T02:01:07+00:00",
+   "llm_calls": 0,
+   "llm_usage": {
+    "gemini": {
+     "cached_input_tokens": 0,
+     "calls_incl_retries": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "requests": 0
+    },
+    "openai": {
+     "cached_input_tokens": 0,
+     "calls_incl_retries": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "requests": 0
+    }
+   },
+   "manual": false,
+   "mcqs": 0,
+   "outcome": "already_delivered",
+   "partial": false,
+   "prefiltered": 0,
+   "providers_disabled": {},
+   "run_id": "77f34ed87f",
+   "started_at": "2026-11-23T02:01:06+00:00",
+   "stories": 8
   }
  ],
  "schedule": {
@@ -53434,11 +53436,12 @@
    "2026-11-23": {
     "lag_minutes": [
      326,
-     269
+     269,
+     259
     ],
     "last_job_status": "success",
-    "last_run_at": "2026-11-23T02:00:32+00:00",
-    "runs": 2
+    "last_run_at": "2026-11-23T02:01:07+00:00",
+    "runs": 3
    }
   }
  },
@@ -53572,5 +53575,5 @@
  "telegram": {
   "last_update_id": 894171907
  },
- "updated_at": "2026-11-23T02:00:33+00:00"
+ "updated_at": "2026-11-23T02:01:07+00:00"
 }
