@@ -520,6 +520,22 @@
    "title": "Hundreds of tourists stranded on St Martin’s Island as Cyclone Akvan halts vessels",
    "url": "https://www.thedailystar.net/business/industries/tourism/news/hundreds-tourists-stranded-st-martins-island-cyclone-akvan-halts-vessels-4329526"
   },
+  "a_07ccdd07fbb237e5": {
+   "canonical_url": "https://bbc.co.uk/news/articles/c6894evgpel5o?at_campaign=rss&at_medium=RSS",
+   "content_hash": "f7900964c59c2f16",
+   "date_status": "ok",
+   "event_id": "ev_0138baba430e",
+   "excerpt": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
+   "extraction": null,
+   "id": "a_07ccdd07fbb237e5",
+   "language": "en",
+   "published_at": "2026-11-24T18:21:43+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "bbc_technology",
+   "source_name": "BBC News — Technology",
+   "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+   "url": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss"
+  },
   "a_083fa975b92e725e": {
    "canonical_url": "https://bbc.co.uk/news/articles/cky970n83rvjo?at_campaign=rss&at_medium=RSS",
    "content_hash": "322baef3f648e4ea",
@@ -1232,6 +1248,22 @@
    "title": "GDP growth overstated by up to 1.3 points since FY15",
    "url": "https://www.thedailystar.net/news/bangladesh/news/gdp-growth-overstated-13-points-fy15-4324026"
   },
+  "a_11e4f294c0d1c27b": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/hasinas-extradition-talks-will-be-india-not-convict-4332626",
+   "content_hash": "e96021e50c06cbd6",
+   "date_status": "ok",
+   "event_id": "ev_7c40083f6d0a",
+   "excerpt": "The government has reiterated that ousted prime minister Sheikh Hasina must be brought back from India under the extradition treaty, saying there are no legal obstacles to her handover.",
+   "extraction": null,
+   "id": "a_11e4f294c0d1c27b",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Hasina’s extradition: Talks will be with India, not a convict",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/hasinas-extradition-talks-will-be-india-not-convict-4332626"
+  },
   "a_122e03b5c71e0aef": {
    "canonical_url": "https://thedailystar.net/business/news/tax-revenue-gap-kept-tax-gdp-ratio-below-potential-135-4329436",
    "content_hash": "c36790ea8cbec918",
@@ -1516,6 +1548,54 @@
    "title": "More than 1,100 children killed, injured in Ukraine this year: UNICEF",
    "url": "https://www.thedailystar.net/news/world/news/more-1100-children-killed-injured-ukraine-year-unicef-4329221"
   },
+  "a_1596b13439fe8ac3": {
+   "canonical_url": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes",
+   "content_hash": "2bb1b5bc678a880c",
+   "date_status": "ok",
+   "event_id": "ev_61eb98fab534",
+   "excerpt": "Science instruments for NASA’s Dragonfly are starting to arrive at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, where the car-sized rotorcraft is coming together for its mission to explore Saturn’s largest moon, Titan. First to check in: DragonCam, which consists of seven cameras designed to characterize Titan’s surface at multiple scales during […]",
+   "extraction": null,
+   "id": "a_1596b13439fe8ac3",
+   "language": "en",
+   "published_at": "2026-11-24T15:44:38+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "nasa_news",
+   "source_name": "NASA — News Releases",
+   "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
+   "url": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/"
+  },
+  "a_15d98816eef94657": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/the-poor-getting-squeezed-out-public-healthcare-4332656",
+   "content_hash": "ecaac34fff89cfc1",
+   "date_status": "ok",
+   "event_id": "ev_91fe66b847a4",
+   "excerpt": "Poor people’s access to public healthcare is shrinking, with wealthier groups increasingly receiving a greater share of benefits from government facilities, a government study has found.",
+   "extraction": null,
+   "id": "a_15d98816eef94657",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "The poor getting squeezed out of public healthcare",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/the-poor-getting-squeezed-out-public-healthcare-4332656"
+  },
+  "a_16073bb5074aaa52": {
+   "canonical_url": "https://thedailystar.net/business/economy/news/bb-outlines-four-year-plan-stabilise-banking-sector-4332431",
+   "content_hash": "7ac989cd3fc6fbea",
+   "date_status": "ok",
+   "event_id": "ev_38309a7379a1",
+   "excerpt": "The Bangladesh Bank (BB) has set out a four-year reform plan to stabilise the banking sector, with recovery plans tailored to individual commercial lenders.",
+   "extraction": null,
+   "id": "a_16073bb5074aaa52",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "BB outlines four-year plan to stabilise banking sector",
+   "url": "https://www.thedailystar.net/business/economy/news/bb-outlines-four-year-plan-stabilise-banking-sector-4332431"
+  },
   "a_16460c458a84f4a4": {
    "canonical_url": "https://thedailystar.net/news/world/united-states/news/trump-admin-warns-air-travelers-another-messy-day-4324891",
    "content_hash": "858b6d143dfe3a20",
@@ -1799,6 +1879,22 @@
    "source_name": "UN News — All",
    "title": "‘Make or bake time’: Guterres urges climate justice pact as leaders gather at COP31",
    "url": "https://news.un.org/feed/view/en/story/2026/11/1168783"
+  },
+  "a_1ae189e2b2bdba6c": {
+   "canonical_url": "https://1971.prothomalo.com/war-crimes/crime/300-phutte-ddaakaati-aasle-kii-ghttechil",
+   "content_hash": "bc10fa84fc6ea2eb",
+   "date_status": "ok",
+   "event_id": "ev_5d68c2cf29c3",
+   "excerpt": "",
+   "extraction": null,
+   "id": "a_1ae189e2b2bdba6c",
+   "language": "bn",
+   "published_at": "2026-11-24T16:05:12+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "৩০০ ফুটে ‘ডাকাতি, আসলে কী ঘটেছিল",
+   "url": "https://1971.prothomalo.com/war-crimes/crime/300-phutte-ddaakaati-aasle-kii-ghttechil"
   },
   "a_1b95a6f989c06a5f": {
    "canonical_url": "https://thedailystar.net/business/economy/banks/news/ific-credit-cardholders-get-interest-free-emi-best-electronics-4323841",
@@ -2120,6 +2216,22 @@
    "title": "Malaysia, Maldives leaders expected in Dhaka next month",
    "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/malaysia-maldives-leaders-expected-dhaka-next-month-4329996"
   },
+  "a_21e9e47f413f61ae": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/religious-extremism-fuels-violence-against-women-4332521",
+   "content_hash": "868639ebd209143c",
+   "date_status": "ok",
+   "event_id": "ev_11783b5dd329",
+   "excerpt": "Growing religious extremism and distorted interpretations of religious teachings are being used to justify discrimination against women and restrict their participation in public life, speakers at a national dialogue in Dhaka said yesterday.",
+   "extraction": null,
+   "id": "a_21e9e47f413f61ae",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Religious extremism fuels violence against women",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/religious-extremism-fuels-violence-against-women-4332521"
+  },
   "a_22305cd4e2724fd5": {
    "canonical_url": "https://bbc.com/bengali/articles/crpdwqq6nxx3o?at_campaign=rss&at_medium=RSS",
    "content_hash": "4c3fb0aa2f2ab35c",
@@ -2324,6 +2436,22 @@
    "title": "প্রধানমন্ত্রীর সঙ্গে আজ সংলাপ, ঐক্যের জন্য দুটি শর্ত দেবে এনসিপি",
    "url": "https://www.prothomalo.com/politics/ss8r4c9a3b"
   },
+  "a_267110ea74cb9a93": {
+   "canonical_url": "https://bbc.co.uk/news/articles/cm930yjy97xyo?at_campaign=rss&at_medium=RSS",
+   "content_hash": "2647c0819686b52a",
+   "date_status": "ok",
+   "event_id": "ev_ceabb5fef076",
+   "excerpt": "Plaid Cymru ministers rule out mass badger cull as part of new plans to tackle bovine tuberculosis.",
+   "extraction": null,
+   "id": "a_267110ea74cb9a93",
+   "language": "en",
+   "published_at": "2026-11-24T16:47:05+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "bbc_science",
+   "source_name": "BBC News — Science & Environment",
+   "title": "Badger cull ruled out by Welsh government after speculation",
+   "url": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss"
+  },
   "a_26a20b1a830c69aa": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/diplomacy/news/bangladesh-set-host-malaysian-pm-maldivian-president-next-month-4329441",
    "content_hash": "af381a79d1218003",
@@ -2443,6 +2571,22 @@
    "source_name": "The Daily Star — World",
    "title": "Putin vows ‘more painful’ response to Ukraine",
    "url": "https://www.thedailystar.net/news/world/news/putin-vows-more-painful-response-ukraine-4328581"
+  },
+  "a_2a76515b850ba0aa": {
+   "canonical_url": "https://thedailystar.net/business/global-economy/news/indonesia-eyes-285b-export-boost-eu-trade-deal-4332411",
+   "content_hash": "5f6caa2cfd6fdbef",
+   "date_status": "ok",
+   "event_id": "ev_913b191e54d4",
+   "excerpt": "The government expects the Indonesia-European Union Comprehensive Economic Partnership Agreement (IEU-CEPA), which was signed on Saturday, to boost the country’s exports to the EU by 14.4 percent, or around 2.6 billion euros (US$2.85 billion). However, analysts noted that the benefits will depend on the timely implementation of the deal.",
+   "extraction": null,
+   "id": "a_2a76515b850ba0aa",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "Indonesia eyes $2.85b export boost from EU trade deal",
+   "url": "https://www.thedailystar.net/business/global-economy/news/indonesia-eyes-285b-export-boost-eu-trade-deal-4332411"
   },
   "a_2abdb357e12983a9": {
    "canonical_url": "https://thedailystar.net/business/economy/news/adb-help-prepare-six-solar-projects-attract-1b-4326546",
@@ -3088,6 +3232,22 @@
    "title": "পান্নুন হত্যার ষড়যন্ত্র মামলায় ভারতীয় নাগরিক নিখিলের ১৯ বছর কারাদণ্ড",
    "url": "https://www.prothomalo.com/world/india/8r4rxc5ajg"
   },
+  "a_3370ad4675063fe3": {
+   "canonical_url": "https://thedailystar.net/business/economy/news/padma-banks-fate-rests-undefined-resolution-measure-4332446",
+   "content_hash": "62afb87210761b46",
+   "date_status": "ok",
+   "event_id": "ev_d8220df8b35a",
+   "excerpt": "Bangladesh Bank (BB) yesterday said it would adopt and implement an “effective and appropriate resolution measure” for Padma Bank PLC, but did not specify what the measure would involve or when it would take effect.",
+   "extraction": null,
+   "id": "a_3370ad4675063fe3",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "Padma Bank’s fate rests on undefined ‘resolution measure’",
+   "url": "https://www.thedailystar.net/business/economy/news/padma-banks-fate-rests-undefined-resolution-measure-4332446"
+  },
   "a_338e767e93c828f4": {
    "canonical_url": "https://prothomalo.com/world/asia/um32y7gxho",
    "content_hash": "aa78650c1975a50d",
@@ -3136,6 +3296,22 @@
    "title": "Eight dead after Brooklyn building collapses",
    "url": "https://www.thedailystar.net/news/world/news/eight-dead-after-brooklyn-building-collapses-4322576"
   },
+  "a_346ace1a777917f0": {
+   "canonical_url": "https://prothomalo.com/world/asia/ahnv2o8cma",
+   "content_hash": "c881bc5a5c7f3ac6",
+   "date_status": "ok",
+   "event_id": "ev_940b573e3f3d",
+   "excerpt": "",
+   "extraction": null,
+   "id": "a_346ace1a777917f0",
+   "language": "bn",
+   "published_at": "2026-11-24T17:58:04+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "চীনের মহাকাশ স্টেশনে প্রথম বিদেশি হিসেবে যাচ্ছেন পাকিস্তানি পাইলট",
+   "url": "https://www.prothomalo.com/world/asia/ahnv2o8cma"
+  },
   "a_34f09def81add761": {
    "canonical_url": "https://prothomalo.com/world/squhypnlnh",
    "content_hash": "fd1e2df77a9ebd4e",
@@ -3167,6 +3343,22 @@
    "source_name": "The Daily Star — World",
    "title": "Russian cargo ship on fire off Finland",
    "url": "https://www.thedailystar.net/news/world/news/russian-cargo-ship-fire-finland-4330781"
+  },
+  "a_357bdab2f94b9390": {
+   "canonical_url": "https://sciencedaily.com/releases/2026/11/261121221136.htm",
+   "content_hash": "e60678941876859c",
+   "date_status": "ok",
+   "event_id": "ev_4a3287cc262c",
+   "excerpt": "Scientists studying ancient rocks from the Moon’s far side have uncovered surprising evidence that challenges decades of thinking about the Solar System’s violent past. Instead of a single catastrophic bombardment, asteroid impacts appear to have declined gradually over billions of years, revealing new clues about Earth's early evolution and the origins of life.",
+   "extraction": null,
+   "id": "a_357bdab2f94b9390",
+   "language": "en",
+   "published_at": "2026-11-24T10:24:43+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "sciencedaily",
+   "source_name": "ScienceDaily — Top Science",
+   "title": "Ancient rocks from the Moon’s far side rewrite the Solar System’s violent past",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm"
   },
   "a_35aad50fdcdf47e2": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/diplomacy/news/dhaka-welcomes-icj-verdict-4328706",
@@ -3592,6 +3784,22 @@
    "title": "সন্ধ্যায় সারা দিনের খবর",
    "url": "https://www.prothomalo.com/bangladesh/4mwb34bfgs"
   },
+  "a_3bfdcf5891260ae1": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/over-half-rape-victims-2001-were-girls-4332531",
+   "content_hash": "1c636b90ddf2b264",
+   "date_status": "ok",
+   "event_id": "ev_080bb6fcc050",
+   "excerpt": "More than half of the 21,627 rape victims recorded in Bangladesh between 2001 and October 2026 were children, according to rights organisation Odhikar.",
+   "extraction": null,
+   "id": "a_3bfdcf5891260ae1",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Over half of rape victims since 2001 were girls",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/over-half-rape-victims-2001-were-girls-4332531"
+  },
   "a_3c4996cd64b0baa4": {
    "canonical_url": "https://thedailystar.net/news/world/news/gunmen-kill-eight-police-officers-nw-pakistan-4321541",
    "content_hash": "7b06462b9015f3ca",
@@ -3944,6 +4152,22 @@
    "title": "Guterres calls for a legally binding instrument for ‘killer robots'",
    "url": "https://news.un.org/feed/view/en/story/2026/11/1168810"
   },
+  "a_42aa243c001659d7": {
+   "canonical_url": "https://thedailystar.net/news/world/news/riyadhs-tallest-skyscraper-hit-second-time-less-week-4332546",
+   "content_hash": "191109758dc35126",
+   "date_status": "ok",
+   "event_id": "ev_729b3acd8f3f",
+   "excerpt": "The tallest skyscraper in the Saudi capital was hit yesterday by an unspecified projectile, three witnesses told AFP, the second time in less than a week the building in Riyadh’s business district has been struck.",
+   "extraction": null,
+   "id": "a_42aa243c001659d7",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "Riyadh’s tallest skyscraper hit for second time in less than a week",
+   "url": "https://www.thedailystar.net/news/world/news/riyadhs-tallest-skyscraper-hit-second-time-less-week-4332546"
+  },
   "a_430a0de7feb8299d": {
    "canonical_url": "https://bbc.co.uk/bengali/live/cm0e0e2prn23t?at_campaign=rss&at_medium=RSS",
    "content_hash": "505862dcc9bf78fb",
@@ -4099,6 +4323,22 @@
    "source_name": "The Daily Star — Business",
    "title": "Garment maker racks up Tk 169cr debt through LC fraud at Rupali",
    "url": "https://www.thedailystar.net/business/economy/news/garment-maker-racks-tk-169cr-debt-through-lc-fraud-rupali-4328531"
+  },
+  "a_454f3e4b140716a9": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/96-e-rickshaw-drivers-lack-licences-permits-4332551",
+   "content_hash": "4bb1a323978c4c3f",
+   "date_status": "ok",
+   "event_id": "ev_9dae01355858",
+   "excerpt": "Nearly 96 percent of battery-run rickshaw drivers surveyed in Dhaka and Barishal had no licence or permit, while 62.9 percent could not support their families for even a week without earning, according to a joint study by BRAC and the BRAC Institute of Governance and Development (BIGD).",
+   "extraction": null,
+   "id": "a_454f3e4b140716a9",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "96% e-rickshaw drivers lack licences, permits",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/96-e-rickshaw-drivers-lack-licences-permits-4332551"
   },
   "a_45675069eff38472": {
    "canonical_url": "https://thedailystar.net/news/politics/news/alienated-own-land-deprived-rights-4329261",
@@ -4808,6 +5048,22 @@
    "title": "Govt overhauls property valuation rules to reflect market prices",
    "url": "https://www.thedailystar.net/business/economy/news/govt-overhauls-property-valuation-rules-reflect-market-prices-4322481"
   },
+  "a_50596ea604123c8b": {
+   "canonical_url": "https://prothomalo.com/bangladesh/zm2ni1dg0f",
+   "content_hash": "117019da58ec05cc",
+   "date_status": "ok",
+   "event_id": "ev_6f6046bb5b63",
+   "excerpt": "একটি ইনজেকশনের দাম ৫৫০ টাকা। এটি ৯০ দিন কার্যকর থাকে। তারা এই ইনজেকশন আফ্রিকার দেশ জাম্বিয়াতে রপ্তানি করার সব আয়োজন সম্পন্ন করেছেন।",
+   "extraction": null,
+   "id": "a_50596ea604123c8b",
+   "language": "bn",
+   "published_at": "2026-11-24T16:20:35+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "বাজারে নতুন গর্ভনিরোধক এনেছে ইনসেপ্‌টা",
+   "url": "https://www.prothomalo.com/bangladesh/zm2ni1dg0f"
+  },
   "a_5098564619de2547": {
    "canonical_url": "https://thedailystar.net/news/world/news/taliban-bans-cricket-kandahar-radios-4324951",
    "content_hash": "f9a8a14570a06b98",
@@ -4919,6 +5175,22 @@
    "source_name": "Prothom Alo (প্রথম আলো)",
    "title": "হঠাৎ ঢাকা রেঞ্জে আনা হচ্ছে বেনজীর-ঘনিষ্ঠ তৈমুরসহ বিতর্কিত তিন কর্মকর্তাকে",
    "url": "https://www.prothomalo.com/bangladesh/ovm393dc00"
+  },
+  "a_528218300c33fe79": {
+   "canonical_url": "https://thedailystar.net/news/world/south-asia/news/bgb-steps-vigilance-along-satkhira-border-prevent-illegal-entry-4332196",
+   "content_hash": "99272c0145197ded",
+   "date_status": "ok",
+   "event_id": "ev_f5c4bf19e15d",
+   "excerpt": "Patrols, intelligence surveillance and security checks intensified along 54km border stretch",
+   "extraction": null,
+   "id": "a_528218300c33fe79",
+   "language": "en",
+   "published_at": "2026-11-24T13:11:05+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "BGB steps up vigilance along Satkhira border to prevent illegal entry",
+   "url": "https://www.thedailystar.net/news/world/south-asia/news/bgb-steps-vigilance-along-satkhira-border-prevent-illegal-entry-4332196"
   },
   "a_52aab35c6f4277f3": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/rights/news/legal-gaps-hinder-justice-custodial-torture-victims-4324001",
@@ -5164,6 +5436,22 @@
    "title": "Oil holds in tight range as Gulf attacks sustain risk premium",
    "url": "https://www.thedailystar.net/business/news/oil-holds-tight-range-gulf-attacks-sustain-risk-premium-4330991"
   },
+  "a_55b9dfa084994075": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/drop-repressive-clauses-csa-4332526",
+   "content_hash": "733cdf1cb4b3596d",
+   "date_status": "ok",
+   "event_id": "ev_31fa48d9fb86",
+   "excerpt": "Repressive provisions of previous cyber laws are being reintroduced through proposed amendments to the Cyber Security Act, lawyers, rights activists and technology experts warned yesterday.",
+   "extraction": null,
+   "id": "a_55b9dfa084994075",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Drop repressive clauses from CSA",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/drop-repressive-clauses-csa-4332526"
+  },
   "a_563e87568a59de3a": {
    "canonical_url": "https://prothomalo.com/bangladesh/eq2hil8tr1",
    "content_hash": "9a9ce4ed1e5d78f4",
@@ -5407,6 +5695,22 @@
    "source_name": "BBC News বাংলা",
    "title": "শেখ হাসিনা দেশে ফিরলে মৃত্যুদণ্ডের রায় চ্যালেঞ্জের সুযোগ পাবেন?",
    "url": "https://www.bbc.com/bengali/articles/cqx2v2dm12j4o?at_medium=RSS&at_campaign=rss"
+  },
+  "a_5bae610b490ec8d4": {
+   "canonical_url": "https://sciencedaily.com/releases/2026/11/261123005350.htm",
+   "content_hash": "a9e793cda739b121",
+   "date_status": "ok",
+   "event_id": "ev_97399487584b",
+   "excerpt": "Scientists have uncovered surprising evidence that Earth’s next ice age may have already begun, only to be stopped by global warming. By studying ancient plants preserved beneath the Barnes Ice Cap in the Canadian Arctic, researchers discovered that the remnants of a massive ice sheet began expanding again about 2,000 years ago, signaling the possible start of a new glacial period. But by the 1960s, rising temperatures had reversed that growth, causing the ice to shrink instead.",
+   "extraction": null,
+   "id": "a_5bae610b490ec8d4",
+   "language": "en",
+   "published_at": "2026-11-24T09:29:15+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "sciencedaily",
+   "source_name": "ScienceDaily — Top Science",
+   "title": "Earth's next ice age may have already begun. Global warming stopped it",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
   },
   "a_5bcfc25b59d6baf7": {
    "canonical_url": "https://thedailystar.net/news/world/news/climate-talks-collapse-chaotic-end-cop31-4330931",
@@ -5880,6 +6184,22 @@
    "title": "Oil dependence bad for climate, economy",
    "url": "https://www.thedailystar.net/news/world/news/oil-dependence-bad-climate-economy-4320751"
   },
+  "a_653826c024f826da": {
+   "canonical_url": "https://prothomalo.com/bangladesh/6zu0a2x1vk",
+   "content_hash": "3cf73d1129416340",
+   "date_status": "ok",
+   "event_id": "ev_b593b7fb23b7",
+   "excerpt": "শেখ হাসিনা দেশে ফিরতে চান বলে তাঁকে প্রত্যর্পণে কোনো আইনি বাধা নেই বলে উল্লেখ করেছেন প্রধানমন্ত্রীর তথ্য ও সম্প্রচার উপদেষ্টা জাহেদ উর রহমান।",
+   "extraction": null,
+   "id": "a_653826c024f826da",
+   "language": "bn",
+   "published_at": "2026-11-24T17:40:44+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "তাঁর সঙ্গে কোনো আলোচনা হবে না, আলোচনা হবে ভারতের সঙ্গে",
+   "url": "https://www.prothomalo.com/bangladesh/6zu0a2x1vk"
+  },
   "a_6555b29d2e8f383a": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/tagore-mural-khulna-defaced-second-time-4330751",
    "content_hash": "1b7700e94ccfa62b",
@@ -6076,6 +6396,22 @@
    "title": "Mysterious new viruses reveal a missing link in evolution",
    "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm"
   },
+  "a_67a38418993d24fc": {
+   "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168864",
+   "content_hash": "dcb339dd952e9473",
+   "date_status": "ok",
+   "event_id": "ev_57bdd50011f5",
+   "excerpt": "UN Secretary-General António Guterres has commended Colombia for progress achieved in the decade since a landmark accord known as the Final Peace Agreement ended more than 50 years of insurgency but stressed the need to fully implement its provisions.",
+   "extraction": null,
+   "id": "a_67a38418993d24fc",
+   "language": "en",
+   "published_at": "2026-11-24T12:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "un_news_all",
+   "source_name": "UN News — All",
+   "title": "Colombia: Guterres urges renewed commitment to landmark peace deal",
+   "url": "https://news.un.org/feed/view/en/story/2026/11/1168864"
+  },
   "a_67abc94428e73bc5": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/upazila-health-complexes-tk-45000cr-expansion-hasty-assessment-4320741",
    "content_hash": "def0a0775fa68a3e",
@@ -6111,6 +6447,22 @@
    "source_name": "Prothom Alo (প্রথম আলো)",
    "title": "ব্যয় বাড়াচ্ছে সরকার, আয় কম",
    "url": "https://www.prothomalo.com/business/q1qp3vllf9"
+  },
+  "a_683b65a6d5a77072": {
+   "canonical_url": "https://thedailystar.net/business/economy/news/bsec-revises-rules-holding-agms-online-4332441",
+   "content_hash": "8a22e0b952747480",
+   "date_status": "ok",
+   "event_id": "ev_5135c545a05a",
+   "excerpt": "The Bangladesh Securities and Exchange Commission (BSEC) has decided to allow listed companies to hold their annual general meetings (AGMs) on digital platforms, provided they are in the “A” category or declare a cash dividend of at least 5 percent.",
+   "extraction": null,
+   "id": "a_683b65a6d5a77072",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "BSEC revises rules for holding AGMs online",
+   "url": "https://www.thedailystar.net/business/economy/news/bsec-revises-rules-holding-agms-online-4332441"
   },
   "a_688cf40c9ccc4829": {
    "canonical_url": "https://thedailystar.net/business/global-economy/south-asia/news/truck-and-bus-collision-indias-assam-kills-least-23-people-4322961",
@@ -6648,6 +7000,22 @@
    "title": "অভ্যুত্থানের মুখে পালিয়ে ক্ষমতায় ফেরার আশা দুঃস্বপ্নে পরিণত হবে: আবুল হাসান রুবেল",
    "url": "https://www.prothomalo.com/politics/sja7pneie4"
   },
+  "a_70693570ecb4c835": {
+   "canonical_url": "https://prothomalo.com/bangladesh/881u2mde7k",
+   "content_hash": "701f4018aa36d622",
+   "date_status": "ok",
+   "event_id": "ev_d9146eb0654d",
+   "excerpt": "",
+   "extraction": null,
+   "id": "a_70693570ecb4c835",
+   "language": "bn",
+   "published_at": "2026-11-24T16:10:01+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "দিনভর স্বর্ণদ্বীপে ব্যস্ততার পর সন্ধ্যায় আবার সচিবালয়ে প্রধানমন্ত্রী",
+   "url": "https://www.prothomalo.com/bangladesh/881u2mde7k"
+  },
   "a_706d691fb4aacae6": {
    "canonical_url": "https://bbc.co.uk/news/articles/c6jrey28gvqxo?at_campaign=rss&at_medium=RSS",
    "content_hash": "bb5c21a6500bf051",
@@ -6795,6 +7163,22 @@
    "source_name": "The Daily Star — Bangladesh",
    "title": "Student union polls in limbo",
    "url": "https://www.thedailystar.net/news/bangladesh/news/student-union-polls-limbo-4326776"
+  },
+  "a_7291beee23cd71fc": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/music-dance-mark-ras-festival-kamalganj-4332541",
+   "content_hash": "067510f16d1093c4",
+   "date_status": "ok",
+   "event_id": "ev_c67e28dca002",
+   "excerpt": "Members of the Manipuri community celebrated the Ras festival with traditional fervour in Moulvibazar’s Kamalganj upazila yesterday.",
+   "extraction": null,
+   "id": "a_7291beee23cd71fc",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Music, dance mark Ras festival in Kamalganj",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/music-dance-mark-ras-festival-kamalganj-4332541"
   },
   "a_72928fed140e8c54": {
    "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168821",
@@ -7452,6 +7836,22 @@
    "title": "CPD rejects BGMEA claim of double-counting housing costs",
    "url": "https://www.thedailystar.net/business/news/cpd-rejects-bgmea-claim-double-counting-housing-costs-4330341"
   },
+  "a_7ce255920d5f8d1e": {
+   "canonical_url": "https://nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant",
+   "content_hash": "5dfbb43af18b63b6",
+   "date_status": "ok",
+   "event_id": "ev_fff206b744f8",
+   "excerpt": "NASA’s James Webb Space Telescope reveals the hot dust that makes up Cassiopeia A (Cas A) in this high-resolution, mid-infrared image released on Nov. 23, 2026. Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and […]",
+   "extraction": null,
+   "id": "a_7ce255920d5f8d1e",
+   "language": "en",
+   "published_at": "2026-11-24T16:51:27+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "nasa_news",
+   "source_name": "NASA — News Releases",
+   "title": "Webb Reveals New Details in Supernova Remnant",
+   "url": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/"
+  },
   "a_7d30ab5b0e31ed66": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/joint-forces-begin-patrols-khulna-4325911",
    "content_hash": "4dadccc07e49b038",
@@ -7483,6 +7883,22 @@
    "source_name": "The Daily Star — Business",
    "title": "DBL Group, Bright Ceramics hold business conference in Gazipur",
    "url": "https://www.thedailystar.net/business/news/dbl-group-bright-ceramics-hold-business-conference-gazipur-4330201"
+  },
+  "a_7d8cc547f7c9a021": {
+   "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168866",
+   "content_hash": "ea5101033453dba3",
+   "date_status": "ok",
+   "event_id": "ev_5387cde52c35",
+   "excerpt": "When the UN was founded in 1945, computers, the internet and satellites were the stuff of science fiction. Today, artificial intelligence (AI) is already assisting in targeting, drones are reshaping warfare and disinformation is spreading in unprecedented ways, fuelling record levels of conflict. The Security Council on Tuesday is weighing these changes, with UN chief António Guterres telling ambassadors, “killer robots must have no place in our future.”",
+   "extraction": null,
+   "id": "a_7d8cc547f7c9a021",
+   "language": "en",
+   "published_at": "2026-11-24T12:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "un_news_all",
+   "source_name": "UN News — All",
+   "title": "Security Council LIVE: Can conflict resolution keep pace as AI and drones reshape war?",
+   "url": "https://news.un.org/feed/view/en/story/2026/11/1168866"
   },
   "a_7da2f7363c2cf9b6": {
    "canonical_url": "https://thedailystar.net/business/economy/news/bb-expands-farm-credit-climate-smart-agriculture-4328486",
@@ -8036,6 +8452,22 @@
    "title": "25,000 bodycams gather dust as police resist scrutiny",
    "url": "https://www.thedailystar.net/news/bangladesh/news/25000-bodycams-gather-dust-police-resist-scrutiny-4324966"
   },
+  "a_85a88fce93d56ba5": {
+   "canonical_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar",
+   "content_hash": "a43bd02685ddf811",
+   "date_status": "ok",
+   "event_id": "ev_e33c6d211bea",
+   "excerpt": "The brilliant galaxy NGC 4394 with its distinct galactic bar takes center stage in this Hubble Space Telescope image",
+   "extraction": null,
+   "id": "a_85a88fce93d56ba5",
+   "language": "en",
+   "published_at": "2026-11-24T13:58:28+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "nasa_news",
+   "source_name": "NASA — News Releases",
+   "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
+   "url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/"
+  },
   "a_86898aaab07d5937": {
    "canonical_url": "https://sciencedaily.com/releases/2026/11/261119194553.htm",
    "content_hash": "402cedbb323dddae",
@@ -8120,6 +8552,22 @@
    "title": "লালবাগে প্লাস্টিকের গুদামে আগুন নেভাতে গিয়ে দুই ফায়ারকর্মী আহত",
    "url": "https://www.prothomalo.com/bangladesh/a9jw8cgm0n"
   },
+  "a_87f032c6bf80b5bf": {
+   "canonical_url": "https://thedailystar.net/business/economy/news/state-banks-sit-pile-unlent-deposits-4332466",
+   "content_hash": "0654c2f98aa25d30",
+   "date_status": "ok",
+   "event_id": "ev_3e1e66c1f5ea",
+   "excerpt": "Six state-owned banks are collecting far more deposits than a year ago but are barely lending out the additional funds, a finance ministry report shows.",
+   "extraction": null,
+   "id": "a_87f032c6bf80b5bf",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "State banks sit on a pile of unlent deposits",
+   "url": "https://www.thedailystar.net/business/economy/news/state-banks-sit-pile-unlent-deposits-4332466"
+  },
   "a_882f4bd88519b53c": {
    "canonical_url": "https://thedailystar.net/news/politics/news/help-al-face-expulsion-4325871",
    "content_hash": "a3298d9b692b0ca3",
@@ -8199,6 +8647,22 @@
    "source_name": "The Daily Star — Bangladesh",
    "title": "Bangladesh joins global rooftop solar pact",
    "url": "https://www.thedailystar.net/news/bangladesh/news/bangladesh-joins-global-rooftop-solar-pact-4321621"
+  },
+  "a_88829383b6535ccc": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/countrys-first-self-injectable-contraceptive-4332671",
+   "content_hash": "a1e379cd1011327a",
+   "date_status": "ok",
+   "event_id": "ev_282958c44b55",
+   "excerpt": "Incepta Pharmaceuticals Ltd has launched Medogen SubQ, a generic version of a self-injectable contraceptive, seeking to tap into the global reproductive healthcare market with a product developed through more than a decade of research and investment.",
+   "extraction": null,
+   "id": "a_88829383b6535ccc",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Country’s first self-injectable contraceptive",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/countrys-first-self-injectable-contraceptive-4332671"
   },
   "a_88968ef49d095210": {
    "canonical_url": "https://thedailystar.net/business/economy/news/645-adults-now-financially-included-survey-4320491",
@@ -8820,6 +9284,22 @@
    "title": "Pakistan minister to make rare India visit for regional talks",
    "url": "https://www.thedailystar.net/news/world/news/pakistan-minister-make-rare-india-visit-regional-talks-4323756"
   },
+  "a_90c8c70a2f9a3c79": {
+   "canonical_url": "https://thedailystar.net/news/world/news/wars-threaten-food-aid-73m-more-people-4332566",
+   "content_hash": "3fdddfc58fc90de9",
+   "date_status": "ok",
+   "event_id": "ev_75bb6e129b8d",
+   "excerpt": "World Food Programme (WFP) Executive Director Luke Lindberg warned on Monday that shipping chokepoints linked to wars in the Middle East and Ukraine could raise the agency’s costs by $727 million by mid-2027, threatening food aid for 7.3 million more people.",
+   "extraction": null,
+   "id": "a_90c8c70a2f9a3c79",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "Wars threaten food aid for 7.3m more people",
+   "url": "https://www.thedailystar.net/news/world/news/wars-threaten-food-aid-73m-more-people-4332566"
+  },
   "a_90cc79676246b68b": {
    "canonical_url": "https://thedailystar.net/news/world/news/malaysia-set-repatriate-thousands-more-myanmar-migrants-pm-4331846",
    "content_hash": "5ec0378d7ff81853",
@@ -9063,6 +9543,22 @@
    "source_name": "The Daily Star — World",
    "title": "Greek PM under fire over Grand Theft Auto post",
    "url": "https://www.thedailystar.net/news/world/news/greek-pm-under-fire-over-grand-theft-auto-post-4329481"
+  },
+  "a_94556cc20e330f80": {
+   "canonical_url": "https://thedailystar.net/business/economy/news/nbr-cuts-import-tariffs-dates-apples-and-oranges-4332456",
+   "content_hash": "dbcf53354b1f67c3",
+   "date_status": "ok",
+   "event_id": "ev_fec8e0df42c8",
+   "excerpt": "The National Board of Revenue (NBR) has reduced import tariffs on dates, oranges and apples following a cabinet decision to lower duties on the fruits ahead of Ramadan, the fasting month when demand for them rises.",
+   "extraction": null,
+   "id": "a_94556cc20e330f80",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "NBR cuts import tariffs on dates, apples and oranges",
+   "url": "https://www.thedailystar.net/business/economy/news/nbr-cuts-import-tariffs-dates-apples-and-oranges-4332456"
   },
   "a_9459c7aa55592c59": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/bmu-hospital-seeks-overhaul-just-four-years-after-opening-4331606",
@@ -9864,6 +10360,22 @@
    "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
    "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/"
   },
+  "a_9e93772b7eaf6e40": {
+   "canonical_url": "https://thedailystar.net/business/global-economy/news/us-targets-chip-smuggling-china-after-huangs-return-nvidia-4332426",
+   "content_hash": "59fbb2f67cde464f",
+   "date_status": "ok",
+   "event_id": "ev_6f04841fd581",
+   "excerpt": "Singapore agreed Tuesday to cooperate with the United States after it added the company at the centre of the Nvidia scandal to a trade backlist, following CEO Jensen Huang’s stunning return to the helm of the US chip giant.",
+   "extraction": null,
+   "id": "a_9e93772b7eaf6e40",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "US targets chip smuggling to China after Huang’s return to Nvidia",
+   "url": "https://www.thedailystar.net/business/global-economy/news/us-targets-chip-smuggling-china-after-huangs-return-nvidia-4332426"
+  },
   "a_9eb9236fac2a514e": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/diplomacy/news/bangladesh-organises-cop31-sideline-event-calling-equitable-climate-finance-4320696",
    "content_hash": "e49519aea3244784",
@@ -9947,6 +10459,22 @@
    "source_name": "BBC News বাংলা",
    "title": "নভেম্বরের শেষে বৃষ্টি চলবে কতদিন, শীতই বা নামবে কবে?",
    "url": "https://www.bbc.com/bengali/articles/cw1mdn3gv8mdo?at_medium=RSS&at_campaign=rss"
+  },
+  "a_a0d8155f26207662": {
+   "canonical_url": "https://thedailystar.net/news/world/news/14-countries-acknowledge-icj-ruling-4332556",
+   "content_hash": "5566302fd3de574d",
+   "date_status": "ok",
+   "event_id": "ev_6c11fa028a51",
+   "excerpt": "The UK and 13 other countries on Monday “acknowledged” the top UN court’s ruling that Myanmar perpetrated genocide against its Rohingya minority as London announced new sanctions.",
+   "extraction": null,
+   "id": "a_a0d8155f26207662",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "14 countries ‘acknowledge’ ICJ ruling",
+   "url": "https://www.thedailystar.net/news/world/news/14-countries-acknowledge-icj-ruling-4332556"
   },
   "a_a0e2d9ed6bddf996": {
    "canonical_url": "https://thedailystar.net/news/world/news/un-cuts-food-aid-target-despite-looming-hunger-crisis-4329206",
@@ -10068,6 +10596,22 @@
    "title": "পত্রিকা: 'ডিসেম্বরেই শেখ হাসিনার ফেরার ব্যাপারে এখনো অনড় আওয়ামী লীগ'",
    "url": "https://www.bbc.com/bengali/articles/cw1m4m8k4y41o?at_medium=RSS&at_campaign=rss"
   },
+  "a_a44f2907ccd9b397": {
+   "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168865",
+   "content_hash": "cee7e2e41e596dc7",
+   "date_status": "ok",
+   "event_id": "ev_535fce7d30d6",
+   "excerpt": "Staff from the World Health Organization (WHO) and Ebola responders remain trapped in a hospital in Ituri province, Democratic Republic of the Congo (DRC), as heavy fighting continues in the vicinity, the UN agency said in an update on Tuesday.",
+   "extraction": null,
+   "id": "a_a44f2907ccd9b397",
+   "language": "en",
+   "published_at": "2026-11-24T12:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "un_news_all",
+   "source_name": "UN News — All",
+   "title": "DR Congo: Concern for trapped Ebola workers as violence against women and girls deepens",
+   "url": "https://news.un.org/feed/view/en/story/2026/11/1168865"
+  },
   "a_a45955f1ae52f1b0": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/diplomacy/news/foreign-ministry-brief-diplomats-tuesday-4331436",
    "content_hash": "4bf9f2ead27261c0",
@@ -10131,6 +10675,22 @@
    "source_name": "The Daily Star — Bangladesh",
    "title": "‘Enough is enough’",
    "url": "https://www.thedailystar.net/news/bangladesh/news/enough-enough-4328696"
+  },
+  "a_a532e1a905d8ef06": {
+   "canonical_url": "https://sciencedaily.com/releases/2026/11/261123232342.htm",
+   "content_hash": "ee2ae15d2cc1e150",
+   "date_status": "ok",
+   "event_id": "ev_1024b2ed934a",
+   "excerpt": "A 2,200-year-old Roman shipwreck has revealed sophisticated waterproofing techniques involving pine tar and beeswax. Microscopic pollen grains trapped in the ancient coatings are now helping scientists reconstruct where the vessel may have traveled and undergone repairs more than two millennia ago.",
+   "extraction": null,
+   "id": "a_a532e1a905d8ef06",
+   "language": "en",
+   "published_at": "2026-11-24T11:09:06+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "sciencedaily",
+   "source_name": "ScienceDaily — Top Science",
+   "title": "2,200-year-old Roman shipwreck reveals an ingenious waterproofing trick",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm"
   },
   "a_a57dcfa54b26e898": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/world-childrens-day-the-forgotten-children-4328596",
@@ -10363,6 +10923,22 @@
    "source_name": "The Daily Star — World",
    "title": "Alaska Democrat flips US Senate seat in tight race",
    "url": "https://www.thedailystar.net/news/world/news/alaska-democrat-flips-us-senate-seat-tight-race-4327686"
+  },
+  "a_a937d3217be87a3b": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/reform-child-marriage-law-urgently-4332511",
+   "content_hash": "d4a916e67256bbe5",
+   "date_status": "ok",
+   "event_id": "ev_d146179f6ab3",
+   "excerpt": "The Child Marriage Restraint Act 2017 needs urgent reforms amid a rise in marriages among adolescent girls in Bangladesh, the United Nations Population Fund (UNFPA) and journalists said yesterday.",
+   "extraction": null,
+   "id": "a_a937d3217be87a3b",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Reform child marriage law urgently",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/reform-child-marriage-law-urgently-4332511"
   },
   "a_a938d48633b77a75": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/obituary/news/8th-death-anniversary-akhtaruzzaman-chowdhury-today-4323136",
@@ -11464,6 +12040,22 @@
    "title": "Gold smugglers flying under the radar",
    "url": "https://www.thedailystar.net/news/bangladesh/news/gold-smugglers-flying-under-the-radar-4331721"
   },
+  "a_bba05557f7ea5b00": {
+   "canonical_url": "https://bbc.co.uk/news/articles/crpdw1qx7jgxo?at_campaign=rss&at_medium=RSS",
+   "content_hash": "3081740a0d01be93",
+   "date_status": "ok",
+   "event_id": "ev_9ce1ba9610ac",
+   "excerpt": "Nvidia's stock market value surged on the annoucement of Huang's reappointment, but some of the gains reversed in Tuesday trading.",
+   "extraction": null,
+   "id": "a_bba05557f7ea5b00",
+   "language": "en",
+   "published_at": "2026-11-24T17:04:20+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "bbc_technology",
+   "source_name": "BBC News — Technology",
+   "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
+   "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+  },
   "a_bbfb463aa72ded62": {
    "canonical_url": "https://bbc.com/bengali/articles/ck5y1exn93qqo?at_campaign=rss&at_medium=RSS",
    "content_hash": "dee0c16ea5e729bf",
@@ -11511,6 +12103,22 @@
    "source_name": "The Daily Star — World",
    "title": "Three dead, 36 missing after Indonesia factory fire",
    "url": "https://www.thedailystar.net/news/world/news/three-dead-36-missing-after-indonesia-factory-fire-4330836"
+  },
+  "a_bc9ca35697e91833": {
+   "canonical_url": "https://thedailystar.net/news/world/news/india-blocks-london-trip-cjp-leader-4332561",
+   "content_hash": "4908ae188e36f6de",
+   "date_status": "ok",
+   "event_id": "ev_3e40d4f3bf75",
+   "excerpt": "A leader of India’s youth-led “Cockroach” movement has said he was prevented from leaving New Delhi to fly to Britain to deliver talks on the viral group’s protests.",
+   "extraction": null,
+   "id": "a_bc9ca35697e91833",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "India blocks London trip of CJP leader",
+   "url": "https://www.thedailystar.net/news/world/news/india-blocks-london-trip-cjp-leader-4332561"
   },
   "a_bd03e57029413bc4": {
    "canonical_url": "https://thedailystar.net/news/world/news/nations-grapple-loss-15c-target-cop31-4324916",
@@ -12660,6 +13268,22 @@
    "title": "BB autonomy needs legal shield: Ahsan H Mansur",
    "url": "https://www.thedailystar.net/business/banking/news/bb-autonomy-needs-legal-shield-ahsan-h-mansur-4329496"
   },
+  "a_cf389bc05bfa96f5": {
+   "canonical_url": "https://bbc.co.uk/weather/articles/c5742nplemnno?at_campaign=rss&at_medium=RSS",
+   "content_hash": "2cb45c8de47b5b20",
+   "date_status": "ok",
+   "event_id": "ev_2265abb3ae89",
+   "excerpt": "Two storms, including a major Nor'easter on the east coast, are expected to impact millions of people celebrating the holiday with family and friends.",
+   "extraction": null,
+   "id": "a_cf389bc05bfa96f5",
+   "language": "en",
+   "published_at": "2026-11-24T11:40:46+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "bbc_science",
+   "source_name": "BBC News — Science & Environment",
+   "title": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
+   "url": "https://www.bbc.co.uk/weather/articles/c5742nplemnno?at_medium=RSS&at_campaign=rss"
+  },
   "a_cf3e689800f670a6": {
    "canonical_url": "https://thedailystar.net/news/world/news/indonesian-vp-resigns-amid-scandal-4322551",
    "content_hash": "1ad02650cc1199dc",
@@ -13147,6 +13771,22 @@
    "source_name": "BBC News বাংলা",
    "title": "চুক্তিতে পৌঁছাতে ব্যর্থ হলো জাতিসংঘ জলবায়ু সম্মেলন",
    "url": "https://www.bbc.com/bengali/articles/c5n4egxkrjjwo?at_medium=RSS&at_campaign=rss"
+  },
+  "a_d6e2226e9c61a2c4": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/wronged-abroad-justice-uphill-battle-home-4332681",
+   "content_hash": "cf86c260fffb4121",
+   "date_status": "ok",
+   "event_id": "ev_92262e9298fe",
+   "excerpt": "After working as a domestic worker in Saudi Arabia for more than two years, often for up to 21 hours a day, Majeda returned to Bangladesh in 2025 without five months’ wages.",
+   "extraction": null,
+   "id": "a_d6e2226e9c61a2c4",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Wronged abroad, justice an uphill battle at home",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/wronged-abroad-justice-uphill-battle-home-4332681"
   },
   "a_d736d806028c1262": {
    "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168778",
@@ -14000,6 +14640,22 @@
    "title": "জুলাই গণ-অভ্যুত্থানে নেতৃত্ব দেওয়া তরুণেরাই কি এখন হামলার লক্ষ্যবস্তু",
    "url": "https://www.prothomalo.com/politics/kwbia0fmqn"
   },
+  "a_e4b468d260df7c8a": {
+   "canonical_url": "https://thedailystar.net/business/economy/news/manufacturing-growth-stalls-q2-amid-rising-power-cuts-survey-4332451",
+   "content_hash": "5473a8c4772cdf88",
+   "date_status": "ok",
+   "event_id": "ev_03f2d816362f",
+   "excerpt": "Bangladesh’s medium and large manufacturing industries recorded virtually no real output growth in the second quarter of 2026, as worsening electricity and gas disruptions hampered factory operations, according to a new survey.",
+   "extraction": null,
+   "id": "a_e4b468d260df7c8a",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "Manufacturing growth stalls in Q2 amid rising power cuts: survey",
+   "url": "https://www.thedailystar.net/business/economy/news/manufacturing-growth-stalls-q2-amid-rising-power-cuts-survey-4332451"
+  },
   "a_e4d4ca491eb485ba": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/he-said-he-would-return-tomorrow-4324036",
    "content_hash": "8ca3d6c332328dcd",
@@ -14104,6 +14760,22 @@
    "title": "বাহরাইনে মার্কিন সামরিক ঘাঁটিতে ড্রোন হামলা ইরানের",
    "url": "https://www.bbc.co.uk/bengali/live/cq5y1m621n1kt?at_medium=RSS&at_campaign=rss"
   },
+  "a_e7f787008149a412": {
+   "canonical_url": "https://bbc.co.uk/news/articles/cq2e83egrez3o?at_campaign=rss&at_medium=RSS",
+   "content_hash": "e15733f782ebfa0f",
+   "date_status": "ok",
+   "event_id": "ev_cac188376649",
+   "excerpt": "The UK Health Security Agency says this year's number of deaths is twice that of the previous record year.",
+   "extraction": null,
+   "id": "a_e7f787008149a412",
+   "language": "en",
+   "published_at": "2026-11-24T16:22:16+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "bbc_science",
+   "source_name": "BBC News — Science & Environment",
+   "title": "Record 5,200 heat-linked deaths estimated in England this year",
+   "url": "https://www.bbc.co.uk/news/articles/cq2e83egrez3o?at_medium=RSS&at_campaign=rss"
+  },
   "a_e7fd06cca8c61557": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/veggie-prices-rise-after-weeks-relief-4323216",
    "content_hash": "177ba2903d83ffbb",
@@ -14119,6 +14791,22 @@
    "source_name": "The Daily Star — Bangladesh",
    "title": "Veggie prices rise after weeks of relief",
    "url": "https://www.thedailystar.net/news/bangladesh/news/veggie-prices-rise-after-weeks-relief-4323216"
+  },
+  "a_e8e564c019ddb2d3": {
+   "canonical_url": "https://prothomalo.com/bangladesh/4juujocaqq",
+   "content_hash": "390d671381259afe",
+   "date_status": "ok",
+   "event_id": "ev_52bb78a16934",
+   "excerpt": "নতুন কমিশনকে স্বাগত জানিয়ে কমিশনের স্বাধীন ও কার্যকর কার্যক্রম পরিচালনায় প্রয়োজনীয় কারিগরি সহযোগিতা দেওয়ার প্রত্যয় জানায় ফোরাম।",
+   "extraction": null,
+   "id": "a_e8e564c019ddb2d3",
+   "language": "bn",
+   "published_at": "2026-11-24T17:00:38+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "তথ্য কমিশনকে গতিশীল ও কার্যকর করার আহ্বান তথ্য অধিকার ফোরামের",
+   "url": "https://www.prothomalo.com/bangladesh/4juujocaqq"
   },
   "a_e96e05cad2e3e1e0": {
    "canonical_url": "https://prothomalo.com/business/bank/sjbn1cc5u0",
@@ -14295,6 +14983,22 @@
    "source_name": "The Daily Star — World",
    "title": "US air travel resumption will 'take time' after hours-long stop",
    "url": "https://www.thedailystar.net/news/world/united-states/news/us-air-travel-resumption-will-take-time-after-hours-long-stop-4323461"
+  },
+  "a_ec89a836f430ee9b": {
+   "canonical_url": "https://sciencedaily.com/releases/2026/11/261122060340.htm",
+   "content_hash": "2e05c18b7f4fa607",
+   "date_status": "ok",
+   "event_id": "ev_2413bad7eafe",
+   "excerpt": "Earth’s journey from an oxygen-starved world to a planet capable of supporting complex life may have unfolded very differently than scientists once believed. A new analysis suggests that oxygen accumulated in the atmosphere in three major stages, with the oceans taking millions or even hundreds of millions of years to catch up.",
+   "extraction": null,
+   "id": "a_ec89a836f430ee9b",
+   "language": "en",
+   "published_at": "2026-11-24T01:36:51+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "sciencedaily",
+   "source_name": "ScienceDaily — Top Science",
+   "title": "Earth’s ancient oceans may have fooled scientists about its oxygen history",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261122060340.htm"
   },
   "a_ecb2d16ab9cd12a0": {
    "canonical_url": "https://thedailystar.net/news/politics/news/close-ranks-defeat-fascist-forces-4327746",
@@ -14624,6 +15328,22 @@
    "title": "Two fishing cat cubs rescued from Moulvibazar",
    "url": "https://www.thedailystar.net/news/environment/wildlife/news/two-fishing-cat-cubs-rescued-moulvibazar-4324321"
   },
+  "a_f12aebcb27fa9ccc": {
+   "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168863",
+   "content_hash": "bf68e0f9b8385bcd",
+   "date_status": "ok",
+   "event_id": "ev_a8894c677d0c",
+   "excerpt": "Some 47,000 women and girls were killed by intimate partners or family members in 2025 – five every hour – according to new UN figures published on Tuesday.",
+   "extraction": null,
+   "id": "a_f12aebcb27fa9ccc",
+   "language": "en",
+   "published_at": "2026-11-24T12:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "un_news_all",
+   "source_name": "UN News — All",
+   "title": "Five women killed every hour by partners or family members",
+   "url": "https://news.un.org/feed/view/en/story/2026/11/1168863"
+  },
   "a_f1c5bd1099ebdc11": {
    "canonical_url": "https://prothomalo.com/bangladesh/rmz1b8fa1t",
    "content_hash": "7423bd09b96e30c4",
@@ -14720,6 +15440,22 @@
    "title": "Gulf nations on alert",
    "url": "https://www.thedailystar.net/news/world/middle-east/news/gulf-nations-alert-4327741"
   },
+  "a_f310f5255a13b095": {
+   "canonical_url": "https://prothomalo.com/business/market/1zydb3r6vd",
+   "content_hash": "c13e1fd4a4eb046b",
+   "date_status": "ok",
+   "event_id": "ev_b4615f0a5c32",
+   "excerpt": "",
+   "extraction": null,
+   "id": "a_f310f5255a13b095",
+   "language": "bn",
+   "published_at": "2026-11-24T16:32:07+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "ছয় মিউচুয়াল ফান্ডের নিয়ন্ত্রণ হারাল এলআর গ্লোবাল",
+   "url": "https://www.prothomalo.com/business/market/1zydb3r6vd"
+  },
   "a_f311cb33855b9c29": {
    "canonical_url": "https://thedailystar.net/news/world/news/three-dead-36-missing-after-indonesia-factory-fire-4330091",
    "content_hash": "6d6845747bc5785f",
@@ -14735,6 +15471,22 @@
    "source_name": "The Daily Star — World",
    "title": "Three dead, 36 missing after Indonesia factory fire",
    "url": "https://www.thedailystar.net/news/world/news/three-dead-36-missing-after-indonesia-factory-fire-4330091"
+  },
+  "a_f314e4a88c879a53": {
+   "canonical_url": "https://thedailystar.net/business/economy/news/banks-need-leaders-not-just-managing-directors-4332421",
+   "content_hash": "fc66ca546a6b2393",
+   "date_status": "ok",
+   "event_id": "ev_60765d1fc81a",
+   "excerpt": "The question of leadership has once again come to the forefront of Bangladesh’s banking sector. A former governor of Bangladesh Bank recently drew attention to the shortage of suitably capable managing directors (MDs). The regulator has also introduced a Key Performance Indicator (KPIs) framework to assess their performance.",
+   "extraction": null,
+   "id": "a_f314e4a88c879a53",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "Banks need leaders, not just managing directors",
+   "url": "https://www.thedailystar.net/business/economy/news/banks-need-leaders-not-just-managing-directors-4332421"
   },
   "a_f3343036e1822876": {
    "canonical_url": "https://thedailystar.net/news/world/news/human-cambridge-dictionarys-word-the-year-4326861",
@@ -15096,6 +15848,22 @@
    "title": "ঢাকার শেয়ারবাজারে লেনদেন কমেছে সাড়ে ২৪ শতাংশ",
    "url": "https://www.prothomalo.com/business/market/s7q2cqtwuq"
   },
+  "a_f8e5321a2feee91b": {
+   "canonical_url": "https://prothomalo.com/business/industry/9td27y1wth",
+   "content_hash": "bb380a9b5759763d",
+   "date_status": "ok",
+   "event_id": "ev_e2c29ea41c6c",
+   "excerpt": "",
+   "extraction": null,
+   "id": "a_f8e5321a2feee91b",
+   "language": "bn",
+   "published_at": "2026-11-24T17:30:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "মাঝারি ও বড় শিল্প চলছে ৬৬% সক্ষমতায়",
+   "url": "https://www.prothomalo.com/business/industry/9td27y1wth"
+  },
   "a_f9f18403e9f270bd": {
    "canonical_url": "https://prothomalo.com/world/usa/0jcg4htzuo",
    "content_hash": "2c9d24b9f04d974a",
@@ -15159,6 +15927,22 @@
    "source_name": "Prothom Alo (প্রথম আলো)",
    "title": "মজুরি বোর্ডের পৌনে ৯ ঘণ্টার সভা শেষে মুলতবি, মঙ্গলবার আবার বৈঠক",
    "url": "https://www.prothomalo.com/business/industry/pf6u369e5t"
+  },
+  "a_fae6725846ae81b9": {
+   "canonical_url": "https://prothomalo.com/business/industry/3ijcb2m4e6",
+   "content_hash": "fc654176cd913788",
+   "date_status": "ok",
+   "event_id": "ev_44098906f4a3",
+   "excerpt": "",
+   "extraction": null,
+   "id": "a_fae6725846ae81b9",
+   "language": "bn",
+   "published_at": "2026-11-24T17:23:18+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "বাংলাদেশকে উৎপাদন কেন্দ্র করতে চায় হায়ার",
+   "url": "https://www.prothomalo.com/business/industry/3ijcb2m4e6"
   },
   "a_fae9f339d7ac3313": {
    "canonical_url": "https://prothomalo.com/bangladesh/wf4tzvdiwb",
@@ -15276,6 +16060,22 @@
    "title": "ট্রাম্প, পুতিন ও শি আগামী সপ্তাহে চীনে যৌথ বৈঠকের পরিকল্পনা করছেন",
    "url": "https://www.bbc.com/bengali/articles/cq98xdy1yx6po?at_medium=RSS&at_campaign=rss"
   },
+  "a_fd555229b59bb455": {
+   "canonical_url": "https://thedailystar.net/business/economy/news/bad-loans-bangladeshs-banking-crisis-the-cost-impunity-4332436",
+   "content_hash": "08e800be3ae482f0",
+   "date_status": "ok",
+   "event_id": "ev_c168e0e316e4",
+   "excerpt": "It is not that the reasons behind bad loans are coming to light for the first time in years. Experts and economists, regulators and watchdogs had warned of this too. Nor has there been a sudden change in the volume of loans within the banking system for its bad debt to surge.",
+   "extraction": null,
+   "id": "a_fd555229b59bb455",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "Bad loans: Bangladesh’s banking crisis is the cost of impunity",
+   "url": "https://www.thedailystar.net/business/economy/news/bad-loans-bangladeshs-banking-crisis-the-cost-impunity-4332436"
+  },
   "a_fe2ff57748e20ff8": {
    "canonical_url": "https://thedailystar.net/business/economy/news/garment-workers-get-rice-tk-30-kg-under-oms-4322451",
    "content_hash": "bcb1b3c079057a15",
@@ -15356,6 +16156,22 @@
    "title": "সোনার দামের পূর্বাভাস কমাল গোল্ডম্যান স্যাকস, ২০২৭ সালে হতে পারে ৪,৬৫০ ডলার",
    "url": "https://www.prothomalo.com/business/world-business/sjhzzcyqnj"
   },
+  "a_ff093175c54ee70e": {
+   "canonical_url": "https://thedailystar.net/news/world/europe/news/nato-vows-space-defence-after-russia-nuclear-satellite-report-4332666",
+   "content_hash": "628729ca4cb734a2",
+   "date_status": "ok",
+   "event_id": "ev_0889aab118ec",
+   "excerpt": "Nato chief Mark Rutte said Monday the alliance would defend against threats in space when asked about German media reports that Russia may be preparing to launch a nuclear-armed satellite.",
+   "extraction": null,
+   "id": "a_ff093175c54ee70e",
+   "language": "en",
+   "published_at": "2026-11-24T18:00:00+00:00",
+   "retrieved_at": "2026-11-24T18:48:53+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "Nato vows space defence after Russia nuclear satellite report",
+   "url": "https://www.thedailystar.net/news/world/europe/news/nato-vows-space-defence-after-russia-nuclear-satellite-report-4332666"
+  },
   "a_ff7ebcf90f38145b": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/excel-beyond-academics-4326641",
    "content_hash": "8541363d4705c266",
@@ -15411,13 +16227,13 @@
  },
  "collection": {
   "last": {
-   "at": "2026-11-24T10:23:22+00:00",
-   "new_articles": 20,
-   "prefiltered": 30,
+   "at": "2026-11-24T18:48:53+00:00",
+   "new_articles": 51,
+   "prefiltered": 31,
    "sources_failed": [],
    "sources_ok": 11
   },
-  "last_at": "2026-11-24T10:23:22+00:00"
+  "last_at": "2026-11-24T18:48:53+00:00"
  },
  "created_at": "2026-10-24T11:17:30+00:00",
  "digest": {
@@ -23701,6 +24517,21 @@
    "status": "rejected",
    "updated_at": "2026-11-19T00:15:38+00:00"
   },
+  "ev_0138baba430e": {
+   "analysis": null,
+   "article_ids": [
+    "a_07ccdd07fbb237e5"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_0138baba430e",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_017c4c933251": {
    "analysed_at": "2026-11-12T00:32:06+00:00",
    "analysis": {
@@ -23919,6 +24750,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-22T23:34:10+00:00"
+  },
+  "ev_03f2d816362f": {
+   "analysis": null,
+   "article_ids": [
+    "a_e4b468d260df7c8a"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_03f2d816362f",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_0462037ee18c": {
    "analysis": null,
@@ -24342,6 +25188,21 @@
    "status": "rejected",
    "updated_at": "2026-11-17T01:51:34+00:00"
   },
+  "ev_080bb6fcc050": {
+   "analysis": null,
+   "article_ids": [
+    "a_3bfdcf5891260ae1"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_080bb6fcc050",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_086bb715e950": {
    "analysis": null,
    "article_ids": [
@@ -24394,6 +25255,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-10T23:11:02+00:00"
+  },
+  "ev_0889aab118ec": {
+   "analysis": null,
+   "article_ids": [
+    "a_ff093175c54ee70e"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_0889aab118ec",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_089ca82cd7b9": {
    "analysis": null,
@@ -25554,6 +26430,21 @@
    "status": "new",
    "updated_at": "2026-11-24T06:19:18+00:00"
   },
+  "ev_1024b2ed934a": {
+   "analysis": null,
+   "article_ids": [
+    "a_a532e1a905d8ef06"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_1024b2ed934a",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_10515db93a89": {
    "analysis": null,
    "article_ids": [
@@ -25736,6 +26627,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-14T23:19:55+00:00"
+  },
+  "ev_11783b5dd329": {
+   "analysis": null,
+   "article_ids": [
+    "a_21e9e47f413f61ae"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_11783b5dd329",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_11c973f2a0c2": {
    "analysis": null,
@@ -28155,6 +29061,21 @@
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
   },
+  "ev_2265abb3ae89": {
+   "analysis": null,
+   "article_ids": [
+    "a_cf389bc05bfa96f5"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_2265abb3ae89",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_22ae74122d38": {
    "analysis": null,
    "article_ids": [
@@ -28473,6 +29394,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-15T23:07:46+00:00"
+  },
+  "ev_2413bad7eafe": {
+   "analysis": null,
+   "article_ids": [
+    "a_ec89a836f430ee9b"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_2413bad7eafe",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_243eb849c8a5": {
    "analysed_at": "2026-11-24T02:09:04+00:00",
@@ -29031,6 +29967,21 @@
    "screening_attempts": 0,
    "status": "new",
    "updated_at": "2026-11-24T10:23:22+00:00"
+  },
+  "ev_282958c44b55": {
+   "analysis": null,
+   "article_ids": [
+    "a_88829383b6535ccc"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_282958c44b55",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_2893133ba901": {
    "analysis": null,
@@ -30464,6 +31415,21 @@
    "status": "rejected",
    "updated_at": "2026-11-22T23:34:10+00:00"
   },
+  "ev_31fa48d9fb86": {
+   "analysis": null,
+   "article_ids": [
+    "a_55b9dfa084994075"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_31fa48d9fb86",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_32605bdc0a8e": {
    "analysis": null,
    "article_ids": [
@@ -31125,6 +32091,21 @@
    "status": "rejected",
    "updated_at": "2026-11-19T00:15:38+00:00"
   },
+  "ev_38309a7379a1": {
+   "analysis": null,
+   "article_ids": [
+    "a_16073bb5074aaa52"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_38309a7379a1",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_385cd09e484c": {
    "analysis": null,
    "article_ids": [
@@ -31775,6 +32756,36 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
+  },
+  "ev_3e1e66c1f5ea": {
+   "analysis": null,
+   "article_ids": [
+    "a_87f032c6bf80b5bf"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_3e1e66c1f5ea",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
+  "ev_3e40d4f3bf75": {
+   "analysis": null,
+   "article_ids": [
+    "a_bc9ca35697e91833"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_3e40d4f3bf75",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_3e59dcb04a75": {
    "analysis": null,
@@ -32489,6 +33500,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-24T02:09:04+00:00"
+  },
+  "ev_44098906f4a3": {
+   "analysis": null,
+   "article_ids": [
+    "a_fae6725846ae81b9"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_44098906f4a3",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_44907934b044": {
    "analysis": null,
@@ -33480,6 +34506,21 @@
    "status": "rejected",
    "updated_at": "2026-11-22T23:34:10+00:00"
   },
+  "ev_4a3287cc262c": {
+   "analysis": null,
+   "article_ids": [
+    "a_357bdab2f94b9390"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_4a3287cc262c",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_4a83cfab03eb": {
    "analysis": null,
    "article_ids": [
@@ -33944,6 +34985,21 @@
    "status": "new",
    "updated_at": "2026-11-24T10:23:22+00:00"
   },
+  "ev_5135c545a05a": {
+   "analysis": null,
+   "article_ids": [
+    "a_683b65a6d5a77072"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_5135c545a05a",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_520d75acaec1": {
    "analysis": null,
    "article_ids": [
@@ -34158,6 +35214,21 @@
    "screening_attempts": 0,
    "status": "included",
    "updated_at": "2026-11-17T01:51:34+00:00"
+  },
+  "ev_52bb78a16934": {
+   "analysis": null,
+   "article_ids": [
+    "a_e8e564c019ddb2d3"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_52bb78a16934",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_52bd796660e9": {
    "analysed_at": "2026-11-10T23:11:02+00:00",
@@ -34398,6 +35469,36 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-18T00:55:03+00:00"
+  },
+  "ev_535fce7d30d6": {
+   "analysis": null,
+   "article_ids": [
+    "a_a44f2907ccd9b397"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_535fce7d30d6",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
+  "ev_5387cde52c35": {
+   "analysis": null,
+   "article_ids": [
+    "a_7d8cc547f7c9a021"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_5387cde52c35",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_5412f2d6ede6": {
    "analysis": null,
@@ -34823,6 +35924,21 @@
    "screening_attempts": 0,
    "status": "analysed",
    "updated_at": "2026-11-20T23:57:05+00:00"
+  },
+  "ev_57bdd50011f5": {
+   "analysis": null,
+   "article_ids": [
+    "a_67a38418993d24fc"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_57bdd50011f5",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_5838a39f8039": {
    "analysed_at": "2026-11-14T23:19:55+00:00",
@@ -36059,6 +37175,21 @@
    "status": "rejected",
    "updated_at": "2026-11-10T23:11:02+00:00"
   },
+  "ev_5d68c2cf29c3": {
+   "analysis": null,
+   "article_ids": [
+    "a_1ae189e2b2bdba6c"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_5d68c2cf29c3",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_5d72d9039deb": {
    "analysis": null,
    "article_ids": [
@@ -36315,6 +37446,36 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-14T23:19:55+00:00"
+  },
+  "ev_60765d1fc81a": {
+   "analysis": null,
+   "article_ids": [
+    "a_f314e4a88c879a53"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_60765d1fc81a",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
+  "ev_61eb98fab534": {
+   "analysis": null,
+   "article_ids": [
+    "a_1596b13439fe8ac3"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_61eb98fab534",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_6245fbfd6d7b": {
    "analysis": null,
@@ -37319,7 +38480,8 @@
   "ev_6c11fa028a51": {
    "analysis": null,
    "article_ids": [
-    "a_24eda3da83738801"
+    "a_24eda3da83738801",
+    "a_a0d8155f26207662"
    ],
    "attempts": 0,
    "created_at": "2026-11-24T06:19:18+00:00",
@@ -37329,7 +38491,7 @@
    "screening": null,
    "screening_attempts": 0,
    "status": "new",
-   "updated_at": "2026-11-24T06:19:18+00:00"
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_6c81c9abb362": {
    "analysed_at": "2026-11-20T23:57:05+00:00",
@@ -37584,6 +38746,21 @@
    "status": "rejected",
    "updated_at": "2026-11-13T23:28:45+00:00"
   },
+  "ev_6f04841fd581": {
+   "analysis": null,
+   "article_ids": [
+    "a_9e93772b7eaf6e40"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_6f04841fd581",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_6f0a80989544": {
    "analysis": null,
    "article_ids": [
@@ -37609,6 +38786,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
+  },
+  "ev_6f6046bb5b63": {
+   "analysis": null,
+   "article_ids": [
+    "a_50596ea604123c8b"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_6f6046bb5b63",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_6f9bb3cd89c7": {
    "analysis": null,
@@ -38183,6 +39375,21 @@
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
   },
+  "ev_729b3acd8f3f": {
+   "analysis": null,
+   "article_ids": [
+    "a_42aa243c001659d7"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_729b3acd8f3f",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_7350bd333fc2": {
    "analysis": null,
    "article_ids": [
@@ -38286,6 +39493,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-20T00:34:27+00:00"
+  },
+  "ev_75bb6e129b8d": {
+   "analysis": null,
+   "article_ids": [
+    "a_90c8c70a2f9a3c79"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_75bb6e129b8d",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_75d821f63097": {
    "analysis": null,
@@ -39551,6 +40773,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-19T00:15:38+00:00"
+  },
+  "ev_7c40083f6d0a": {
+   "analysis": null,
+   "article_ids": [
+    "a_11e4f294c0d1c27b"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_7c40083f6d0a",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_7cdddc1dced0": {
    "analysis": null,
@@ -42046,6 +43283,21 @@
    "status": "included",
    "updated_at": "2026-11-10T23:11:02+00:00"
   },
+  "ev_913b191e54d4": {
+   "analysis": null,
+   "article_ids": [
+    "a_2a76515b850ba0aa"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_913b191e54d4",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_918fcb199a99": {
    "analysis": null,
    "article_ids": [
@@ -42098,6 +43350,36 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-20T00:34:27+00:00"
+  },
+  "ev_91fe66b847a4": {
+   "analysis": null,
+   "article_ids": [
+    "a_15d98816eef94657"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_91fe66b847a4",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
+  "ev_92262e9298fe": {
+   "analysis": null,
+   "article_ids": [
+    "a_d6e2226e9c61a2c4"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_92262e9298fe",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_9289e3c9c9de": {
    "analysis": null,
@@ -42191,6 +43473,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
+  },
+  "ev_940b573e3f3d": {
+   "analysis": null,
+   "article_ids": [
+    "a_346ace1a777917f0"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_940b573e3f3d",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_940bc48d6462": {
    "analysed_at": "2026-11-17T01:51:34+00:00",
@@ -42838,6 +44135,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-24T02:09:04+00:00"
+  },
+  "ev_97399487584b": {
+   "analysis": null,
+   "article_ids": [
+    "a_5bae610b490ec8d4"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_97399487584b",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_973a114edbb6": {
    "analysis": null,
@@ -43704,6 +45016,21 @@
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
   },
+  "ev_9ce1ba9610ac": {
+   "analysis": null,
+   "article_ids": [
+    "a_bba05557f7ea5b00"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_9ce1ba9610ac",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_9ce971013c27": {
    "analysis": null,
    "article_ids": [
@@ -43781,6 +45108,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
+  },
+  "ev_9dae01355858": {
+   "analysis": null,
+   "article_ids": [
+    "a_454f3e4b140716a9"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_9dae01355858",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_9dbb65def0c9": {
    "analysis": null,
@@ -44996,6 +46338,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-15T23:07:46+00:00"
+  },
+  "ev_a8894c677d0c": {
+   "analysis": null,
+   "article_ids": [
+    "a_f12aebcb27fa9ccc"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_a8894c677d0c",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_a88a1afa7dfe": {
    "analysed_at": "2026-11-20T23:57:05+00:00",
@@ -46970,6 +48327,21 @@
    "status": "rejected",
    "updated_at": "2026-11-12T23:31:21+00:00"
   },
+  "ev_b4615f0a5c32": {
+   "analysis": null,
+   "article_ids": [
+    "a_f310f5255a13b095"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_b4615f0a5c32",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_b4caddb2664e": {
    "analysis": null,
    "article_ids": [
@@ -47122,6 +48494,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-18T00:55:03+00:00"
+  },
+  "ev_b593b7fb23b7": {
+   "analysis": null,
+   "article_ids": [
+    "a_653826c024f826da"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_b593b7fb23b7",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_b5afff6091ad": {
    "analysis": null,
@@ -49366,6 +50753,21 @@
    "status": "rejected",
    "updated_at": "2026-11-10T23:11:02+00:00"
   },
+  "ev_c168e0e316e4": {
+   "analysis": null,
+   "article_ids": [
+    "a_fd555229b59bb455"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_c168e0e316e4",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_c23f18710ed6": {
    "analysis": null,
    "article_ids": [
@@ -49812,6 +51214,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-24T02:09:04+00:00"
+  },
+  "ev_c67e28dca002": {
+   "analysis": null,
+   "article_ids": [
+    "a_7291beee23cd71fc"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_c67e28dca002",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_c698b560d770": {
    "analysis": null,
@@ -50334,6 +51751,21 @@
    "status": "analysed",
    "updated_at": "2026-11-22T23:34:10+00:00"
   },
+  "ev_cac188376649": {
+   "analysis": null,
+   "article_ids": [
+    "a_e7f787008149a412"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_cac188376649",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_cacb13b8a8d4": {
    "analysis": null,
    "article_ids": [
@@ -50683,6 +52115,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-13T23:28:45+00:00"
+  },
+  "ev_ceabb5fef076": {
+   "analysis": null,
+   "article_ids": [
+    "a_267110ea74cb9a93"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_ceabb5fef076",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_cf261028d619": {
    "analysis": null,
@@ -51338,6 +52785,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-14T23:19:55+00:00"
+  },
+  "ev_d146179f6ab3": {
+   "analysis": null,
+   "article_ids": [
+    "a_a937d3217be87a3b"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_d146179f6ab3",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_d14ef7ea9e70": {
    "analysis": null,
@@ -52357,6 +53819,21 @@
    "status": "analysis_rejected",
    "updated_at": "2026-11-24T02:09:04+00:00"
   },
+  "ev_d8220df8b35a": {
+   "analysis": null,
+   "article_ids": [
+    "a_3370ad4675063fe3"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_d8220df8b35a",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_d82638c748df": {
    "analysis": null,
    "article_ids": [
@@ -52441,6 +53918,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-24T02:09:04+00:00"
+  },
+  "ev_d9146eb0654d": {
+   "analysis": null,
+   "article_ids": [
+    "a_70693570ecb4c835"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_d9146eb0654d",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_d91c4ddfa26e": {
    "analysis": null,
@@ -53174,6 +54666,21 @@
    "status": "rejected",
    "updated_at": "2026-11-24T02:09:04+00:00"
   },
+  "ev_e2c29ea41c6c": {
+   "analysis": null,
+   "article_ids": [
+    "a_f8e5321a2feee91b"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_e2c29ea41c6c",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_e31750a092be": {
    "analysis": null,
    "article_ids": [
@@ -53317,6 +54824,21 @@
    "screening_attempts": 0,
    "status": "included",
    "updated_at": "2026-11-22T23:34:10+00:00"
+  },
+  "ev_e33c6d211bea": {
+   "analysis": null,
+   "article_ids": [
+    "a_85a88fce93d56ba5"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_e33c6d211bea",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   },
   "ev_e3716c5cd579": {
    "analysis": null,
@@ -55692,6 +57214,21 @@
    "status": "rejected",
    "updated_at": "2026-11-20T23:57:05+00:00"
   },
+  "ev_f5c4bf19e15d": {
+   "analysis": null,
+   "article_ids": [
+    "a_528218300c33fe79"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_f5c4bf19e15d",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_f5c93ac97e3f": {
    "analysis": null,
    "article_ids": [
@@ -57027,6 +58564,21 @@
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
   },
+  "ev_fec8e0df42c8": {
+   "analysis": null,
+   "article_ids": [
+    "a_94556cc20e330f80"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_fec8e0df42c8",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
+  },
   "ev_fed7f7007f58": {
    "analysed_at": "2026-11-13T23:28:45+00:00",
    "analysis": {
@@ -57276,6 +58828,21 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-12T23:31:21+00:00"
+  },
+  "ev_fff206b744f8": {
+   "analysis": null,
+   "article_ids": [
+    "a_7ce255920d5f8d1e"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-24T18:48:53+00:00",
+   "event_id": "ev_fff206b744f8",
+   "included_in": null,
+   "last_error": null,
+   "screening": null,
+   "screening_attempts": 0,
+   "status": "new",
+   "updated_at": "2026-11-24T18:48:53+00:00"
   }
  },
  "last_successful_edition": "2026-11-24",
@@ -58787,79 +60354,79 @@
  "source_health": {
   "bbc_bangla": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 13,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "bbc_science": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 32,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "bbc_technology": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 21,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "dailystar_bangladesh": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "dailystar_business": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "dailystar_environment": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "dailystar_world": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "nasa_news": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "prothomalo": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 40,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "sciencedaily": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 40,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   },
   "un_news_all": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-24T10:23:22+00:00",
+   "last_attempt": "2026-11-24T18:48:53+00:00",
    "last_item_count": 30,
-   "last_success": "2026-11-24T10:23:22+00:00",
+   "last_success": "2026-11-24T18:48:53+00:00",
    "last_warnings": []
   }
  },
@@ -58922,5 +60489,5 @@
  "telegram": {
   "last_update_id": 894171909
  },
- "updated_at": "2026-11-24T10:23:30+00:00"
+ "updated_at": "2026-11-24T18:49:01+00:00"
 }
