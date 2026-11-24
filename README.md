@@ -1,57 +1,66 @@
-<div align="center">
+<p align="center">
+  <img width="100%" alt="Masthead of the BCS Newspaper Engine. A black and sepia rectangle. Daily grounded BCS briefing, 08:00 Asia/Dhaka." src="https://capsule-render.vercel.app/api?type=rect&color=0:1C1917,55:3E2723,100:6B4F3A&height=200&section=header&text=BCS%20Newspaper%20Engine&fontSize=42&fontColor=F4EFE6&fontFamily=Georgia&fontAlignY=36&desc=Daily%20grounded%20BCS%20briefing%20%C2%B7%2008%3A00%20Asia%2FDhaka&descAlignY=63&descSize=16&animation=fadeIn"/>
+</p>
 
-<img width="100%" alt="BCS Newspaper Engine — a daily grounded current-affairs briefing for BCS aspirants, delivered at 08:00 Asia/Dhaka" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C2BD9,50:FF2E93,100:FFB703&height=230&section=header&text=BCS%20Newspaper%20Engine&fontSize=46&fontColor=ffffff&fontAlignY=32&animation=fadeIn&desc=Daily%20grounded%20BCS%20briefing%20%C2%B7%2008%3A00%20Asia%2FDhaka&descAlignY=58&descAlign=50&descSize=18"/>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Georgia&weight=400&size=21&duration=3600&pause=700&color=F4EFE6&center=true&vCenter=true&width=820&height=46&lines=Daily+BCS+current-affairs+briefing;Bengali+notes+grounded+in+the+article;Telegram+quizzes%2C+polls%2C+and+a+PDF;OpenAI%2C+with+free+Gemini+fallback;08%3A00+Asia%2FDhaka+%C2%B7+Friday+revision" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Georgia&weight=400&size=21&duration=3600&pause=700&color=3E2723&center=true&vCenter=true&width=820&height=46&lines=Daily+BCS+current-affairs+briefing;Bengali+notes+grounded+in+the+article;Telegram+quizzes%2C+polls%2C+and+a+PDF;OpenAI%2C+with+free+Gemini+fallback;08%3A00+Asia%2FDhaka+%C2%B7+Friday+revision" />
+    <img width="820" alt="Daily BCS current-affairs briefing. Bengali notes grounded in the article. Telegram quizzes, polls, and a PDF. OpenAI, with free Gemini fallback. 08:00 Asia/Dhaka, with a Friday revision." src="https://readme-typing-svg.demolab.com?font=Georgia&weight=400&size=21&duration=3600&pause=700&color=3E2723&center=true&vCenter=true&width=820&height=46&lines=Daily+BCS+current-affairs+briefing;Bengali+notes+grounded+in+the+article;Telegram+quizzes%2C+polls%2C+and+a+PDF;OpenAI%2C+with+free+Gemini+fallback;08%3A00+Asia%2FDhaka+%C2%B7+Friday+revision" />
+  </picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3600&pause=700&color=FFB703&center=true&vCenter=true&width=820&height=48&lines=Daily+BCS+current-affairs+briefing;Bengali+notes+grounded+in+the+article;Telegram+quizzes%2C+polls%2C+and+a+PDF;OpenAI%2C+with+free+Gemini+fallback;08%3A00+Asia%2FDhaka+%C2%B7+Friday+revision" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3600&pause=700&color=6C2BD9&center=true&vCenter=true&width=820&height=48&lines=Daily+BCS+current-affairs+briefing;Bengali+notes+grounded+in+the+article;Telegram+quizzes%2C+polls%2C+and+a+PDF;OpenAI%2C+with+free+Gemini+fallback;08%3A00+Asia%2FDhaka+%C2%B7+Friday+revision" />
-  <img width="820" alt="Daily BCS current-affairs briefing. Bengali notes grounded in the article. Telegram quizzes, polls, and a PDF. OpenAI, with free Gemini fallback. 08:00 Asia/Dhaka, with a Friday revision." src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3600&pause=700&color=6C2BD9&center=true&vCenter=true&width=820&height=48&lines=Daily+BCS+current-affairs+briefing;Bengali+notes+grounded+in+the+article;Telegram+quizzes%2C+polls%2C+and+a+PDF;OpenAI%2C+with+free+Gemini+fallback;08%3A00+Asia%2FDhaka+%C2%B7+Friday+revision" />
-</picture>
+# BCS Newspaper Engine
 
 **A personal, cloud-run current-affairs briefing for Bangladesh Civil Service (BCS) preparation.**
 
-<br/>
+<p align="center">
+  <a href="https://www.python.org/"><img alt="Python 3.11 or newer" src="https://img.shields.io/badge/Python-3.11%2B-6B4F3A?style=flat&labelColor=1C1917"/></a>
+  <a href="https://core.telegram.org/bots/api"><img alt="Telegram bot" src="https://img.shields.io/badge/Telegram-bot-1C1917?style=flat&labelColor=6B4F3A"/></a>
+  <a href="https://github.com/fr-ost/NEWSPAPER-ANALYZER/actions/workflows/daily-briefing.yml"><img alt="Runs on GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-scheduled-6B4F3A?style=flat&labelColor=1C1917"/></a>
+  <a href="https://platform.openai.com/"><img alt="OpenAI is the primary model" src="https://img.shields.io/badge/OpenAI-primary-1C1917?style=flat&labelColor=3E2723"/></a>
+  <a href="https://ai.google.dev/gemini-api/docs"><img alt="Gemini is the free fallback" src="https://img.shields.io/badge/Gemini-fallback-6B4F3A?style=flat&labelColor=1C1917"/></a>
+  <a href="#sources"><img alt="Reads RSS and Atom feeds" src="https://img.shields.io/badge/RSS%2FAtom-feeds-1C1917?style=flat&labelColor=6B4F3A"/></a>
+  <a href="https://docs.pytest.org/"><img alt="Tested with pytest" src="https://img.shields.io/badge/pytest-tested-6B4F3A?style=flat&labelColor=3E2723"/></a>
+</p>
 
-<img alt="Python 3.11 or newer" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img alt="Telegram bot" src="https://img.shields.io/badge/Telegram-bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
-<img alt="Runs on GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-scheduled-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-<img alt="OpenAI is the primary model" src="https://img.shields.io/badge/OpenAI-primary-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img alt="Gemini is the free fallback" src="https://img.shields.io/badge/Gemini-fallback-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-<img alt="Reads RSS and Atom feeds" src="https://img.shields.io/badge/RSS%2FAtom-feeds-FFB703?style=for-the-badge&logo=rss&logoColor=1A1024"/>
-<img alt="Tested with pytest" src="https://img.shields.io/badge/pytest-tested-6C2BD9?style=for-the-badge&logo=pytest&logoColor=white"/>
+<p align="center">
+  <img alt="Target delivery time 08:00 Asia/Dhaka" src="https://img.shields.io/badge/08%3A00-Asia%2FDhaka-F4EFE6?style=flat&labelColor=1C1917"/>
+  <img alt="Study notes are written in Bengali" src="https://img.shields.io/badge/Notes-Bengali-F4EFE6?style=flat&labelColor=6B4F3A"/>
+  <img alt="Telegram quiz polls and a PDF edition" src="https://img.shields.io/badge/Quizzes_%2B_PDF-edition-1C1917?style=flat&labelColor=6B4F3A"/>
+</p>
 
-<br/>
+| Vol. 1.0 | Dhaka | 08:00 Asia/Dhaka |
+|---|---|---|
+| One organised edition | Bengali notes, three quizzes, a PDF | Friday revision, and a monthly PDF on the 1st |
 
-<img alt="Target delivery time 08:00 Asia/Dhaka" src="https://img.shields.io/badge/08%3A00-Asia%2FDhaka-FFB703?style=for-the-badge"/>
-<img alt="Study notes are written in Bengali" src="https://img.shields.io/badge/Notes-Bengali-6C2BD9?style=for-the-badge"/>
-<img alt="Telegram quiz polls and a PDF edition" src="https://img.shields.io/badge/Quizzes_%2B_PDF-FF2E93?style=for-the-badge"/>
-
-<br/>
-
-<a href="#overview">Overview</a> ·
-<a href="#briefing">A briefing</a> ·
-<a href="#features">Features</a> ·
-<a href="#stack">Stack</a> ·
-<a href="#setup">Setup</a> ·
-<a href="#subscribers">Subscribers</a> ·
-<a href="#configuration">Configuration</a> ·
-<a href="#usage">Usage</a> ·
-<a href="#sources">Sources</a> ·
-<a href="#selection">Selection</a> ·
-<a href="#grounding">Grounding</a> ·
-<a href="#cost">Cost</a> ·
-<a href="#credits">Credits</a>
-
-</div>
-
-> [!CAUTION]
 > **Make this repository private before the first live run.** The workflow commits `state/state.json`, which records what was read each day **and subscribers' Telegram chat ids and first names**. It contains no credentials, but it must not be public. Private repositories on GitHub Free include 2,000 Actions minutes a month. This schedule uses about **1,100–1,800** of them. See [Cost](#cost).
+
+**In this number**
+
+| No. | In this number | No. | In this number |
+|---|---|---|---|
+| 01 | [Overview](#overview) | 14 | [AI providers](#providers) |
+| 02 | [A briefing](#briefing) | 15 | [Getting started](#setup) |
+| 03 | [Key features](#features) | 16 | [Configuration](#configuration) |
+| 04 | [How stories are selected](#selection) | 17 | [Usage](#usage) |
+| 05 | [Factual grounding](#grounding) | 18 | [State and recovery](#state) |
+| 06 | [News sources](#sources) | 19 | [Logs and troubleshooting](#logs) |
+| 07 | [Partial editions](#partial) | 20 | [Disabling the schedule](#schedule-off) |
+| 08 | [Architecture](#architecture) | 21 | [A local model](#local-model) |
+| 09 | [Project structure](#structure) | 22 | [Testing](#testing) |
+| 10 | [Tech stack](#stack) | 23 | [Security and privacy](#security) |
+| 11 | [Scheduled runs and the PDF](#pdf) | 24 | [Configuration reference](#config-reference) |
+| 12 | [Subscribers](#subscribers) | 25 | [Credits](#credits) |
+| 13 | [Cost and free-tier limits](#cost) |  |  |
 
 ---
 
+**I · Front page**
+
 <a id="overview"></a>
 
-## 📰 Overview
+## The lead · Overview
 
 Every morning (target **08:00 Asia/Dhaka**) a GitHub Actions job builds one edition and sends it on Telegram.
 
@@ -67,14 +76,11 @@ Every **Friday** the edition adds a **weekly revision** of the week's must-remem
 
 Expected model cost: roughly **US$2–8 per month (≈ ৳250–1,000)** of prepaid OpenAI credit, depending on the model. If the credit runs out, the free Gemini fallback takes over, so the briefing keeps coming. GitHub Actions and Telegram are free. Details in [Cost](#cost).
 
-> [!TIP]
-> No keys yet? `python -m app run --offline` renders a full sample edition (text and, if Chrome or Chromium is installed, the PDF) from bundled fictional data.
-
----
+> **Off the wire.** No keys yet? `python -m app run --offline` renders a full sample edition (text and, if Chrome or Chromium is installed, the PDF) from bundled fictional data.
 
 <a id="briefing"></a>
 
-## ✨ What a briefing looks like
+## The front page · What a briefing looks like
 
 ```
 📰 বিসিএস দৈনিক ব্রিফিং — ২৩ অক্টোবর ২০২৬
@@ -113,86 +119,138 @@ A question too long for Telegram's quiz limits (300 characters, options 100) is 
 
 After the messages and polls, each subscriber also receives `BCS-Briefing-<date>.pdf`. On Fridays that PDF includes the weekly revision pages. On the 1st it is joined by `BCS-Monthly-<YYYY-MM>.pdf`, the previous month's facts and GK grouped by subject. The edition is laid out for A4 (good for printing or saving), with the must-remember facts and related GK highlighted, the MCQ answers on a separate page, and a one-page **revision sheet** (every 📌 fact and 📚 GK item of the day) at the end.
 
----
-
 <a id="features"></a>
 
-## ⚡ Key features
+## The slate · Key features
 
-| | Feature | What it does |
-|---|---|---|
-| 🗞️ | Verified feeds | RSS/Atom only, with `robots.txt`, timeouts, and size caps. Daytime collection uses no model calls. |
-| 🧹 | One event, one note | Same URL, title, or excerpt collapses into a single story. A story is never sent twice. |
-| 🎯 | Five syllabus gates | Section filters, a syllabus topic, story-type bans, a score floor, and diversity caps. Code enforces every gate. |
-| 📝 | Grounded Bengali notes | Every key fact needs a verbatim quote. Sentences with numbers that are not in the article are removed. |
-| 🧠 | Three quiz polls | MCQs must cite a verified fact. Telegram shows right/wrong and the explanation. Fewer than three valid questions means fewer are sent. |
-| 📊 | Feedback poll | Anonymous "which stories helped?" poll. Results land in the owner's Friday report. |
-| 📄 | PDF edition | Headless Chrome, Noto fonts for Bengali, sent after the text. Best effort: if it fails, the text edition still goes out. |
-| 📅 | Friday and the 1st | Weekly revision (15 stories, 10 MCQs) and a monthly PDF of the previous month. |
-| 🕗 | Held until 08:00 | Built once a tick lands after 05:00, released at 08:00 Asia/Dhaka, at most once a day. |
-| 🛟 | OpenAI, then Gemini | Prepaid OpenAI by default. Free-tier Gemini takes over when credit, the key, or the model fails. |
-| 👥 | Public bot, optional channel | `/start` subscribes. An invite code can close it. A channel post reaches any number of readers at once. |
-
----
-
-<a id="stack"></a>
-
-## 🧰 Tech stack
-
-<div align="center">
-
-<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-<img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
-<img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img alt="Gemini" src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-
-</div>
-
-| Piece | What this repo uses |
+| Desk | What it does |
 |---|---|
-| Language | Python **3.11+**. GitHub Actions installs **3.12**. |
-| HTTP and parsing | `requests`, `feedparser`, `beautifulsoup4` (pinned in `requirements.txt`). No provider SDKs: OpenAI and Gemini are plain REST. |
-| Tests | `pytest` (`requirements-dev.txt`). Unit tests mock every external call. |
-| Models | OpenAI `gpt-5.4-mini` (override with `OPENAI_MODEL`). Fallback `gemini-3.8-flash` (override with `GEMINI_MODEL`). Optional local [Ollama](#local-model). |
-| Delivery | Telegram Bot API. Optional public channel. |
-| PDF | Headless Chrome or Chromium, plus a Bengali font (Noto). `CHROME_PATH` picks the browser. |
-| Schedule | `.github/workflows/daily-briefing.yml`. Optional free trigger on [cron-job.org](https://cron-job.org). |
-| Config | TOML in `config/`. Secrets only from the environment. |
-
-Model ids and the prices in [Cost](#cost) came from third-party trackers and could not be confirmed on the vendors' own pages from the build environment. Check [OpenAI pricing](https://openai.com/api/pricing), the [OpenAI models docs](https://platform.openai.com/docs/models), [Gemini pricing](https://ai.google.dev/gemini-api/docs/pricing), and [Gemini rate limits](https://ai.google.dev/gemini-api/docs/rate-limits) before you rely on them.
+| Verified feeds | RSS/Atom only, with `robots.txt`, timeouts, and size caps. Daytime collection uses no model calls. |
+| One event, one note | Same URL, title, or excerpt collapses into a single story. A story is never sent twice. |
+| Five syllabus gates | Section filters, a syllabus topic, story-type bans, a score floor, and diversity caps. Code enforces every gate. |
+| Grounded Bengali notes | Every key fact needs a verbatim quote. Sentences with numbers that are not in the article are removed. |
+| Three quiz polls | MCQs must cite a verified fact. Telegram shows right/wrong and the explanation. Fewer than three valid questions means fewer are sent. |
+| Feedback poll | Anonymous "which stories helped?" poll. Results land in the owner's Friday report. |
+| PDF edition | Headless Chrome, Noto fonts for Bengali, sent after the text. Best effort: if it fails, the text edition still goes out. |
+| Friday and the 1st | Weekly revision (15 stories, 10 MCQs) and a monthly PDF of the previous month. |
+| Held until 08:00 | Built once a tick lands after 05:00, released at 08:00 Asia/Dhaka, at most once a day. |
+| OpenAI, then Gemini | Prepaid OpenAI by default. Free-tier Gemini takes over when credit, the key, or the model fails. |
+| Public bot, optional channel | `/start` subscribes. An invite code can close it. A channel post reaches any number of readers at once. |
 
 ---
 
-<a id="pdf"></a>
+**II · Editorial**
 
-## 📄 Scheduled runs, manual runs, and the PDF
+<a id="selection"></a>
 
-| Run | Limit | What it sends |
+## The assignment desk · How stories are selected
+
+Selection was recalibrated after real editions included opinion columns, local notices, party politics, crime, a single company's offers, and foreign domestic trivia. A story has to pass five gates. Every gate is enforced by code, not only by asking the model.
+
+1. **Section and title pre-filter, before any AI call** (`[filters]` in `config/settings.toml`). It drops URL sections such as `/sports/`, `/entertainment/`, `/lifestyle/`, `/opinion/`, `/religion/`, `/bangladesh/district/`, `/bangladesh/crime/`, and `/video/`, plus junk titles ("আজ টিভিতে", horoscopes). This removes about 30–40% of items at no cost.
+2. **Screening against the syllabus profile** (`config/syllabus.toml`). The model must give a **story type** and one of **42 syllabus topics**, built from the BPSC preliminary syllabus and written papers 005, 007, and 010 (constitution, budget, monetary policy, bilateral relations, Rohingya, climate diplomacy, UN system, conflicts, awards, indices, and the rest of that profile).
+   - Code rejects opinion, feature, crime/accident, local admin, party politics, individual court cases, corporate/commercial news, **daily market prices and rates**, **speculation** ("may rise", undecided demands), foreign domestic trivia, sports, entertainment, and lifestyle, whatever the model decided.
+   - An item with no valid syllabus topic is rejected.
+   - "Maybe" items are dropped unless their priority is at least 7.
+   - The prompt spells out what deserves priority 9–10 / 7–8 / 5–6 (a new head of government in a major country, or a UN decision about Bangladesh, is 9–10; official national statistics or a flagship UN report is 7–8). Analysis capacity (16 a run) goes to the highest priority first.
+   - **No repeats.** Screening sees the headlines sent in the last 7 days. A candidate about the same event, report, or data release is rejected unless it carries a genuine new development (a decision, an agreement, new official figures). A follow-up gets a **🆕 নতুন কী** line. A second, deterministic check (same syllabus topic and the same distinctive figures as a story already sent) catches what the model misses.
+3. **Full analysis with calibrated scoring.** The prompt defines what each score level means (most news is 3–6; 9–10 only for must-know items). A story needs **syllabus relevance ≥ 7** and a valid syllabus topic.
+4. **Ranking.** Total score **≥ 65**, at most **one story per syllabus topic** (two shipbreaking stories cannot both get in), at most **3 per subject**, and 8 at most. **Balance:** science & technology and Bangladesh affairs each keep a slot when a story of theirs scores ≥ 65 (they were 4 and 8 of 103 stories before). The lowest-scoring story of an over-represented subject makes way.
+5. **No padding.** If only 2 stories pass, the edition has 2.
+
+Each story shows its **🎯 syllabus topic**, at most three **📌 must-remember facts** for prelims (chosen for durable exam value, not every number), **✍️ written-answer points**, and a BPSC-style **📝 written question**. The exam-focus label (প্রিলি / লিখিত / প্রিলি + লিখিত) is derived in code from those, not guessed. Every run logs a *selection report* (pre-filtered count, screening outcomes by reason, analysis rejections, selected stories with topic and score). See it under the run's "Run (…)" step in the Actions tab.
+
+**Tuning**
+
+- Too strict or too loose? Adjust `selection.min_syllabus_relevance`, `edition.min_story_score`, and `selection.maybe_min_priority` in `config/settings.toml`.
+- Add or rename topics, or add good and bad examples, in `config/syllabus.toml`.
+- Drop a whole section with `filters.exclude_url_paths`.
+
+Subject mapping follows the BPSC BCS syllabus: preliminary subjects are Bangladesh affairs, international affairs, geography/environment/disaster management, general science, computer & ICT, and ethics/values/good governance. Written papers: 005 Bangladesh Affairs, 007 International Affairs, 010 General Science & Technology. Confirm the latest syllabus at <https://bpsc.gov.bd>.
+
+<a id="grounding"></a>
+
+## Corrections · Factual grounding
+
+> The model writes the notes. Deterministic code decides what you see.
+
+- **Every key fact needs a verbatim quote** from the retrieved text. Facts whose quote is not in the article are dropped.
+- **Numbers are checked.** Every number in a fact must appear in its quote. Any sentence in the summary, analysis, or background that contains a number not present in the article is removed. Bengali and English digits are normalised before comparison.
+- **Claims are separated from facts.** "X said …" goes under *উদ্ধৃত দাবি (যাচাইকৃত তথ্য নয়)*.
+- **Analysis is labelled** *(AI বিশ্লেষণ)*. Background is labelled *(প্রতিবেদনের বাইরের সাধারণ প্রেক্ষাপট)* and may not contain figures.
+- **Related static GK (📚 প্রাসঙ্গিক সাধারণ জ্ঞান) is checked twice.** These are textbook facts that are *not* in the article: which amendment introduced a system, when an organisation was founded, where it is headquartered. The model proposes at most three per story, each with a question and a short answer. A **second, blind call** answers the questions without seeing those answers. Code keeps an item only if both agree (numbers exactly, names by their words) and the checker is sure. Hedged statements, current office-holders, changing statistics, and anything restating the article's own figures are dropped. The section is labelled as outside the article. An empty section is preferred to a wrong fact.
+- **Excerpt-only stories are marked** ⚠️ and analysed only from the excerpt.
+- A story with **no verifiable fact is excluded**, not padded.
+- **MCQs** must cite a verified fact (an article fact, or a twice-checked GK item for at most two of the three). The correct option's numbers must appear in that fact. The model writes six candidates and code keeps the best three. Each needs exactly 4 distinct options **of the same kind and unit** (no "crore" option in a percentage question, no bare number among names, no "all of the above"), must stand alone (no "প্রতিবেদন অনুযায়ী"), must not give the answer away, and at most one question per story. Fewer than 3 valid MCQs means fewer are sent, with a note.
+- **Screening ids are validated.** The model can only reference candidate ids we supplied. Unknown ids are ignored.
+- **Neutrality.** Prompts require political neutrality and forbid inferring motives.
+
+The scoring weights (syllabus 30%, significance 25%, facts 20%, written potential 15%, novelty 10%) are **starting heuristics, not validated predictions of exam questions**. Change them in `config/settings.toml`. They must sum to 1.0.
+
+<a id="sources"></a>
+
+## The wire · News sources
+
+Sources live in `config/sources.toml`. Each entry has a name, homepage, `feed_url` (only if verified), type, subject relevance, `enabled`, `fetch_articles`, timeout, retry limit, and a `verification` note.
+
+**Feed status** (verified live from GitHub Actions with `verify-sources`, last on **2026-11-21**):
+
+| Source | Feed | Status |
 |---|---|---|
-| Scheduled (08:00) | Once per day. Re-runs never duplicate. | The daily edition |
-| Manual `live` (Run workflow) | **Unlimited** | An **extra edition** ("🔄 অতিরিক্ত আপডেট") with stories that are **new since the last edition** |
+| Prothom Alo | `https://www.prothomalo.com/feed` | enabled: fresh; noisy sections are pre-filtered |
+| BBC News বাংলা | `https://feeds.bbci.co.uk/bengali/rss.xml` | enabled: fresh; strong on international affairs |
+| The Daily Star: Bangladesh / Business / Environment / World | `https://www.thedailystar.net/{news/bangladesh,business,environment,news/world}/rss.xml` | enabled: fresh |
+| UN News (all) | `https://news.un.org/feed/subscribe/en/news/all/rss.xml` | enabled: fresh |
+| BBC Science & Environment, BBC Technology | `https://feeds.bbci.co.uk/news/{science_and_environment,technology}/rss.xml` | enabled (2026-11-21): fresh; added because science was 4 of 103 stories |
+| NASA news releases | `https://www.nasa.gov/news-release/feed/` | enabled (2026-11-21): fresh (rate-limited once, retried) |
+| ScienceDaily (top science) | `https://www.sciencedaily.com/rss/top/science.xml` | enabled (2026-11-21): fresh; many pop-science items, screening rejects most |
+| WHO news | `https://www.who.int/rss-feeds/news-english.xml` | **disabled**: stale (newest item 2026-10-10) |
+| The Daily Star front page | `https://www.thedailystar.net/frontpage/rss.xml` | **disabled**: stale (newest item 2022) |
+| Dhaka Tribune (main, business) | `https://www.dhakatribune.com/feed/…` | **disabled**: `robots.txt` disallows bots |
+| UN News Asia-Pacific | regional feed | off (covered by UN News all) |
+| BSS, Bangladesh Bank, BBS, MoFA | — | reference links only |
 
-- A story is never sent twice. If nothing new has turned up, a manual run sends a short "সর্বশেষ ব্রিফিংয়ের পর নতুন কোনো প্রাসঙ্গিক খবর পাওয়া যায়নি" note, so you can see it worked.
-- A manual run before 08:00 does not stop the scheduled edition. That one then carries only what is new.
-- If an earlier edition today was interrupted, a manual run finishes delivering it first.
-- **Cost.** A manual run only analyses *new* articles. Each one is still a few OpenAI calls (about **$0.01–0.10**, depending on how much is new).
-- Locally: `python -m app run --manual`.
+Tested and not added: Daily Star `/rss.xml` and TBS (stale); BSS, Kaler Kantho, and Samakal (`robots.txt` blocks bots); Financial Express and Jugantor (broken feeds).
 
-**The PDF**
+**Run `verify-sources` (Step 6) and disable anything that fails.** A failing source never stops the others. Health is tracked in state. After 3 consecutive failures the edition footer shows a maintenance notice.
 
-- Headless Chrome or Chromium renders the same notes. GitHub-hosted runners have Google Chrome. The workflow installs `fonts-noto-core` so Bengali renders.
-- It is sent **after** all text messages, per subscriber, and tracked like a message. A retry sends only what is missing. If the file is gone on a later run, it is rebuilt from saved state.
-- Best effort. If it cannot be made (no browser, font problem), the text edition is still sent and the run log and state record `pdf_error`.
-- No PDF is sent for an empty "nothing new" edition or a failure notice.
-- Turn it off with `python -m app run --no-pdf`. Point at a browser with `CHROME_PATH`.
-- The PDF HTML escapes all article and model text. A Content-Security-Policy blocks scripts and external loads.
+**Official sources.** Government sites without feeds are reference entries with `aliases`. When an article names an institution (for example "Bangladesh Bank" / "বাংলাদেশ ব্যাংক"), the story links that institution's homepage under "দাপ্তরিক সূত্রে যাচাই". The app does not scrape government sites.
+
+**Adding a source.** Find the feed link on the publisher's site (often in the page footer, or an HTML `link` tag with `rel="alternate"` and `type="application/rss+xml"`). Add a `[[source]]` block with `enabled = false`, run `verify-sources`, then enable it if it reports `OK`. Never guess feed URLs.
+
+**Access rules.** The fetcher uses an honest user agent (`BCSNewspaperBot/1.0`), obeys `robots.txt`, never retries 401/403/451, and never bypasses paywalls or anti-bot protection. If a page is blocked, the story uses a clearly labelled **excerpt-only** analysis (when the feed excerpt is substantial) or is skipped.
+
+<a id="partial"></a>
+
+## Stop-press · Partial editions and quota exhaustion
+
+The model can become unavailable mid-run (daily quota used up, per-minute limit, outage, retired model). Each error is handled differently:
+
+| Situation | Behaviour |
+|---|---|
+| HTTP 429, per-minute limit | Wait the server's suggested delay (max 90 s), retry up to 3 times |
+| HTTP 429, daily quota or `limit: 0` | Stop calling that model for this run, immediately |
+| 5xx / network error | Exponential backoff with jitter, max 3 retries |
+| Malformed JSON / blocked / truncated output | Retry once, then count a failed attempt for that story |
+| 401/403/invalid key, 404 unknown model | Permanent: no retries, the run stops using that model |
+| Own budget `max_calls_per_run` reached | Treated like quota exhaustion |
+
+When this happens mid-run:
+
+1. Every completed analysis is **already saved** (state is checkpointed after each story).
+2. Completed, useful stories are sent as an edition labelled **⚠️ আংশিক সংস্করণ**, with the reason and the number of candidate stories still waiting.
+3. Missing stories are never invented.
+4. If nothing usable was produced, every subscriber gets one short **failure notice** instead (only once per day).
+5. Unfinished stories stay queued. The next run (scheduled tomorrow, or a manual `live` run after a failure) continues where it stopped: no re-screening, no re-analysis of finished work. Quota failures do not count against a story. Other failures are retried at most `max_attempts_per_story` (3) times.
+6. Stories older than `freshness_hours` (36 h) expire rather than pile up.
 
 ---
+
+**III · The plant**
 
 <a id="architecture"></a>
 
-## 🏗️ Architecture
+## The newsroom · Architecture
 
 ```
         ┌──── GitHub Actions: 30-min ticks → gate → build ≥05:00, send at 08:00 ─┐
@@ -227,7 +285,7 @@ A normal day is about **19–26 model requests**: up to **4** screening calls (1
 
 <a id="structure"></a>
 
-### 📁 Project structure
+### The directory · Project structure
 
 | Path | Purpose |
 |---|---|
@@ -262,11 +320,170 @@ A normal day is about **19–26 model requests**: up to **4** screening calls (1
 | `tests/` | Pytest suite. External calls are mocked. |
 | `.github/workflows/daily-briefing.yml` | Schedule, manual modes, state commit |
 
+<a id="stack"></a>
+
+## The composing room · Tech stack
+
+| Piece | What this repo uses |
+|---|---|
+| Language | Python **3.11+**. GitHub Actions installs **3.12**. |
+| HTTP and parsing | `requests`, `feedparser`, `beautifulsoup4` (pinned in `requirements.txt`). No provider SDKs: OpenAI and Gemini are plain REST. |
+| Tests | `pytest` (`requirements-dev.txt`). Unit tests mock every external call. |
+| Models | OpenAI `gpt-5.4-mini` (override with `OPENAI_MODEL`). Fallback `gemini-3.8-flash` (override with `GEMINI_MODEL`). Optional local [Ollama](#local-model). |
+| Delivery | Telegram Bot API. Optional public channel. |
+| PDF | Headless Chrome or Chromium, plus a Bengali font (Noto). `CHROME_PATH` picks the browser. |
+| Schedule | `.github/workflows/daily-briefing.yml`. Optional free trigger on [cron-job.org](https://cron-job.org). |
+| Config | TOML in `config/`. Secrets only from the environment. |
+
+Model ids and the prices in [Cost](#cost) came from third-party trackers and could not be confirmed on the vendors' own pages from the build environment. Check [OpenAI pricing](https://openai.com/api/pricing), the [OpenAI models docs](https://platform.openai.com/docs/models), [Gemini pricing](https://ai.google.dev/gemini-api/docs/pricing), and [Gemini rate limits](https://ai.google.dev/gemini-api/docs/rate-limits) before you rely on them.
+
+<a id="pdf"></a>
+
+## The late edition · Scheduled runs, manual runs, and the PDF
+
+| Run | Limit | What it sends |
+|---|---|---|
+| Scheduled (08:00) | Once per day. Re-runs never duplicate. | The daily edition |
+| Manual `live` (Run workflow) | **Unlimited** | An **extra edition** ("🔄 অতিরিক্ত আপডেট") with stories that are **new since the last edition** |
+
+- A story is never sent twice. If nothing new has turned up, a manual run sends a short "সর্বশেষ ব্রিফিংয়ের পর নতুন কোনো প্রাসঙ্গিক খবর পাওয়া যায়নি" note, so you can see it worked.
+- A manual run before 08:00 does not stop the scheduled edition. That one then carries only what is new.
+- If an earlier edition today was interrupted, a manual run finishes delivering it first.
+- **Cost.** A manual run only analyses *new* articles. Each one is still a few OpenAI calls (about **$0.01–0.10**, depending on how much is new).
+- Locally: `python -m app run --manual`.
+
+**The PDF**
+
+- Headless Chrome or Chromium renders the same notes. GitHub-hosted runners have Google Chrome. The workflow installs `fonts-noto-core` so Bengali renders.
+- It is sent **after** all text messages, per subscriber, and tracked like a message. A retry sends only what is missing. If the file is gone on a later run, it is rebuilt from saved state.
+- Best effort. If it cannot be made (no browser, font problem), the text edition is still sent and the run log and state record `pdf_error`.
+- No PDF is sent for an empty "nothing new" edition or a failure notice.
+- Turn it off with `python -m app run --no-pdf`. Point at a browser with `CHROME_PATH`.
+- The PDF HTML escapes all article and model text. A Content-Security-Policy blocks scripts and external loads.
+
 ---
+
+**IV · Circulation**
+
+<a id="subscribers"></a>
+
+## Circulation · Subscribers
+
+The bot is public and sends the same edition to every subscriber. There is no fixed chat id and no always-on server.
+
+**How someone joins**
+
+1. Share `https://t.me/<your_bot>` anywhere. Anyone can join. Old invite links keep working too.
+2. They open it in Telegram and press **Start**.
+3. The bot reads new messages at its **next run** (a collection run every few hours, the morning run, or immediately if you run `subscribers`), adds them, and replies "✅ … যুক্ত করা হয়েছে".
+4. From the next edition on, they receive the daily briefing. Someone who joins after today's edition went out gets tomorrow's.
+
+**Commands:** `/start` join · `/stop` leave · `/help`. A person who **blocks** the bot or deletes the chat is removed automatically. That never stops delivery to the others.
+
+**Timing.** The bot only reads messages when the workflow runs (collection about every 4 hours, plus the morning run). Telegram keeps unread messages for **24 hours**, so a welcome can take a few hours. If someone did not get one, have them press Start again and run `subscribers` from the Actions tab.
+
+**Groups.** Add the bot to a Telegram group and send `/start` (or `/start@your_bot`) there. The whole group counts as one subscriber.
+
+**Limits, speed, and privacy**
+
+- **No subscriber limit** (`telegram.max_subscribers = 0`). Set a number to cap it. `require_invite_code = true` admits only the invite link.
+- **Delivery.** Each part of the edition goes to everyone in turn (part 1 to all, then part 2, …), in parallel (`send_workers`, 8), capped at `max_messages_per_second` (25), under Telegram's free broadcast limit of about 30 messages a second. The PDF is uploaded once and then re-sent by file id. An edition is about **8–10 messages**, so expect roughly **1,000 subscribers in 6–7 minutes** after 08:00. The last people get it a little later than the first. Several thousand subscribers still fit in the job's 90-minute limit but use more Actions minutes. Far beyond that, Telegram's paid broadcast option would be needed.
+- **Welcomes are not instant.** Messages are read only when the workflow runs. An always-on bot (a webhook on a free serverless host) would reply at once, but needs a separate server. A channel avoids the wait entirely.
+- State stores each subscriber's chat id, first name (so you can see who joined), join and leave time, and per-edition delivery status. Nothing else. This is why the repository must stay private. Per-message delivery details are dropped once an edition is fully delivered, to keep the file small.
+- **Who is subscribed:** run `subscribers` (count and the newest 30) or `status`. **To remove someone:** ask them to send `/stop`, or set their entry's `"status"` to `"inactive"` in `state/state.json` and commit. **To close the bot:** set `require_invite_code = true` and a `BOT_INVITE_CODE` secret. Existing subscribers stay.
+
+**A public Telegram channel (recommended for a large audience).** A channel post reaches any number of readers at once, with no rate limits. People join instantly, and the channel keeps a searchable archive.
+
+1. In Telegram: **New Channel** → name it (for example "বিসিএস দৈনিক ব্রিফিং") → **Public** → pick a link, for example `t.me/bcs_daily_brief`.
+2. Channel → **Administrators** → **Add Admin** → search your bot (`@BCSNWZ_bot`) → allow **Post Messages**.
+3. GitHub → Settings → Secrets and variables → Actions → **Variables** → `TELE_CHANNEL_ID` = `@bcs_daily_brief`.
+
+From the next edition, every message, quiz, and PDF also goes to the channel, and the welcome message links to it. Private-chat delivery continues (`telegram.dm_subscribers = true`). Set that to `false` to post only to the channel. If posting fails (the bot is not an admin), subscribers still get their editions. The error is in the run log and the owner's report.
+
+**The owner.** Technical failure notices ("a run crashed") and a **weekly health report** (Fridays) go only to `telegram.owner_chat_id` (your chat; override with the `TELE_OWNER_CHAT_ID` repository variable), never to subscribers. The report lists the week's delivery times, GitHub's start delays, failed runs, estimated OpenAI cost, subscriber changes, failing sources, the last collection, static-GK coverage, the stories readers voted most useful, and quiz accuracy. If a whole edition cannot be built (all sources down, both AI providers out), subscribers still get the short "couldn't make today's briefing" notice.
+
+**Delivery is tracked per subscriber.** If sending fails for one person, the others are unaffected. The next run sends that person only the messages they are missing. The edition is marked delivered once every active subscriber has it.
+
+<a id="cost"></a>
+
+## The rate card · Cost and free-tier limits
+
+Measured over 6–21 November 2026: about **$0.15 a day** (≈ $4.50 a month). With daytime collection the morning run screens more candidates (up to 160, 4 screening calls) and analyses up to 16. Static GK may take a second round, and Fridays add one weekly-MCQ call, so expect **about $0.18–0.25 a day**. Repeated prompt prefixes are billed at OpenAI's cached-input rate, which the cost estimate counts.
+
+Daily usage: about 19–26 model requests ≈ **75–120k input + 20–40k output tokens** (Bengali output, plus hidden "reasoning" tokens on newer models, billed as output). A real-model dry run on 2026-10-31 used 19 requests, 76k input and 20k output tokens: about **$0.15**. The edition is built once, so the number of subscribers does not change the AI cost.
+
+| Model (primary) | Price per 1M tokens (in / out)* | Per day | Per month |
+|---|---|---|---|
+| `gpt-5.4-nano` | $0.20 / $1.25 | ~$0.05–0.07 | **~$1.5–2 (≈ ৳180–260)** |
+| `gpt-5.4-mini` (default) | $0.75 / $4.50 | ~$0.17–0.26 | **~$5–8 (≈ ৳600–1,000)** |
+| Gemini fallback (free tier) | free | 0 | 0 |
+
+\*Third-party snapshots from mid-2026, at ≈ ৳120/US$. Verify on <https://openai.com/api/pricing>. Dry runs cost about one day's usage each. The overview range of **US$2–8 (≈ ৳250–1,000)** is the spread from the cheaper model to the default.
+
+**See the real numbers.** Every run logs `llm_usage` (requests and tokens per provider) and `estimated_openai_cost_usd` in its JSON summary, and saves them in `state/state.json` under `runs`. Compare with OpenAI's **Usage** page.
+
+**How spending is bounded**
+
+- OpenAI is prepaid. With auto-recharge off, spend cannot exceed the credit you added.
+- Each provider is capped at `llm.max_calls_per_run` (36) requests per run, retries included.
+- When OpenAI credit runs out, the run continues on Gemini's free tier. A Gemini project without billing refuses requests over quota (HTTP 429), and the app makes a partial edition. Nothing upgrades to a paid plan automatically.
+- To go back to **৳0**, remove the `OPENAI_API_KEY` secret (or set `provider = "gemini"`). The app then runs on Gemini only.
+
+| Service | What's used | Free allowance (verify yourself) |
+|---|---|---|
+| GitHub Actions (private repo, GitHub Free) | ~21 one-minute gate ticks + ~5 collections + ~10–35 min of briefing work a day → ~1,100–1,800 min/month | 2,000 min/month; 500 MB artifact storage |
+| Gemini Developer API (Free tier) | only on fallback days | Per-model RPM/RPD limits per project; resets at midnight Pacific time |
+| Telegram Bot API | about 8–10 messages per subscriber per edition, plus replies | Free (about 1 msg/s per chat, handled automatically; about 30 msg/s overall) |
+| News feeds | a few HTTP requests a day | Free, subject to each publisher's terms |
+
+<a id="providers"></a>
+
+## Wire services · AI providers
+
+`config/settings.toml`:
+
+```toml
+[llm]
+provider = "openai"              # primary
+fallback_providers = ["gemini"]  # tried in order; [] to disable
+openai_model = "gpt-5.4-mini"
+gemini_model = "gemini-3.8-flash"
+```
+
+**When the run switches to Gemini.** Each provider has its own call budget, spacing, and retries. OpenAI is switched off **for the rest of that run** (and Gemini takes over) when:
+
+- the prepaid credit is exhausted (`429 insufficient_quota`),
+- the key is rejected or the model id is unknown (401/403/404),
+- it keeps failing after its retries (outage, 5xx, timeouts),
+- it hits the per-run call budget.
+
+Short per-minute rate limits are waited out and retried on OpenAI first. If OpenAI returns unusable output for one request, that single request is retried on Gemini, and OpenAI stays in use. The next day's run tries OpenAI again.
+
+The same rules, drawn as a wire.
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#F4EFE6', 'primaryTextColor': '#1C1917', 'primaryBorderColor': '#6B4F3A', 'lineColor': '#6B4F3A', 'secondaryColor': '#E7D7C1', 'tertiaryColor': '#F7F3EB'}}}%%
+flowchart TD
+    oa["OpenAI, the primary"] -->|"credit exhausted"| gem["Gemini for the rest of this run"]
+    oa -->|"key rejected, or unknown model"| gem
+    oa -->|"outage past retries"| gem
+    oa -->|"per-run call cap"| gem
+    oa -->|"per-minute limit"| pause["Wait, then retry on OpenAI"]
+    oa -->|"one unusable answer"| once["Retry that one request on Gemini"]
+    gem -->|"Gemini also unavailable"| halt["Partial edition, or a failure notice"]
+```
+
+**What readers see.** If a fallback was used, the edition footer says so ("…বিকল্প মডেল দিয়ে করা হয়েছে"). The fact checks (verbatim quotes, numbers present in the article, MCQ validation) apply identically to every model's output. If both providers are unavailable, you get the usual partial edition or failure notice. Nothing is invented.
+
+**Other combinations.** Gemini only: `provider = "gemini"`, `fallback_providers = []`, or simply do not set `OPENAI_API_KEY`. OpenAI only: `LLM_FALLBACK=none`. A local model can be primary or fallback. See below.
+
+---
+
+**V · The back shop**
 
 <a id="setup"></a>
 
-## 🚀 Getting started
+## Setting the type · Getting started
 
 Allow about **20–30 minutes**. Do the steps in order. The cloud workflow does not need your computer. Local install is under [Usage](#usage).
 
@@ -385,6 +602,20 @@ Each tick first runs a tiny **gate** (`app/schedule_gate.py`). It takes a few se
 | 08:00–22:00 | built, or not yet built | **send** (building first if needed) |
 | any | already sent, or 5 failed runs already today | nothing |
 
+The rows above, drawn as the desk clock.
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#F4EFE6', 'primaryTextColor': '#1C1917', 'primaryBorderColor': '#6B4F3A', 'lineColor': '#6B4F3A', 'secondaryColor': '#E7D7C1', 'tertiaryColor': '#F7F3EB'}}}%%
+flowchart TD
+    tick["A tick starts"] --> gate{"Dhaka time, and today's edition"}
+    gate -->|"before 05:00"| early["Nothing"]
+    gate -->|"05:00 to 08:00, not built"| hold["Build and hold"]
+    gate -->|"built, and 08:00 is over 30 min away"| held["Nothing"]
+    gate -->|"07:30 to 08:00, built"| wait["Wait, then send at 08:00"]
+    gate -->|"08:00 to 22:00"| send["Send, building first if needed"]
+    gate -->|"already sent, or 5 failed runs"| done["Nothing"]
+```
+
 - Ticks with nothing to do stop after the gate: no Python setup, no state commit, one billed Actions minute.
 - **Collecting through the day.** Feeds only show their newest ~10–60 items, so reading them once a morning missed most of the day's news. A tick with no briefing work instead runs `collect` (feeds into state, no AI calls) when the last collection is at least `schedule.collect_every_hours` (4) old. Three extra daytime ticks (13:07, 17:07, 21:07 Dhaka nominal) make sure that happens. Those runs also read new `/start` messages, so welcomes go out within a few hours.
 - The edition is still sent **at most once per day**. The briefing job always reads the latest saved state (not the commit it was queued with), so a late or queued run cannot send it twice.
@@ -436,52 +667,9 @@ GitHub does not guarantee when scheduled runs start. Here they start hours late.
 - [ ] Manual runs: `offline` → `verify-sources` (and adjust `sources.toml`) → `check-model` → `subscribers` → `test-telegram` → `dry-run` → `live`
 - [ ] Next morning: the briefing arrives and a `state: run for …` commit appears
 
----
-
-<a id="subscribers"></a>
-
-## 👥 Subscribers
-
-The bot is public and sends the same edition to every subscriber. There is no fixed chat id and no always-on server.
-
-**How someone joins**
-
-1. Share `https://t.me/<your_bot>` anywhere. Anyone can join. Old invite links keep working too.
-2. They open it in Telegram and press **Start**.
-3. The bot reads new messages at its **next run** (a collection run every few hours, the morning run, or immediately if you run `subscribers`), adds them, and replies "✅ … যুক্ত করা হয়েছে".
-4. From the next edition on, they receive the daily briefing. Someone who joins after today's edition went out gets tomorrow's.
-
-**Commands:** `/start` join · `/stop` leave · `/help`. A person who **blocks** the bot or deletes the chat is removed automatically. That never stops delivery to the others.
-
-**Timing.** The bot only reads messages when the workflow runs (collection about every 4 hours, plus the morning run). Telegram keeps unread messages for **24 hours**, so a welcome can take a few hours. If someone did not get one, have them press Start again and run `subscribers` from the Actions tab.
-
-**Groups.** Add the bot to a Telegram group and send `/start` (or `/start@your_bot`) there. The whole group counts as one subscriber.
-
-**Limits, speed, and privacy**
-
-- **No subscriber limit** (`telegram.max_subscribers = 0`). Set a number to cap it. `require_invite_code = true` admits only the invite link.
-- **Delivery.** Each part of the edition goes to everyone in turn (part 1 to all, then part 2, …), in parallel (`send_workers`, 8), capped at `max_messages_per_second` (25), under Telegram's free broadcast limit of about 30 messages a second. The PDF is uploaded once and then re-sent by file id. An edition is about **8–10 messages**, so expect roughly **1,000 subscribers in 6–7 minutes** after 08:00. The last people get it a little later than the first. Several thousand subscribers still fit in the job's 90-minute limit but use more Actions minutes. Far beyond that, Telegram's paid broadcast option would be needed.
-- **Welcomes are not instant.** Messages are read only when the workflow runs. An always-on bot (a webhook on a free serverless host) would reply at once, but needs a separate server. A channel avoids the wait entirely.
-- State stores each subscriber's chat id, first name (so you can see who joined), join and leave time, and per-edition delivery status. Nothing else. This is why the repository must stay private. Per-message delivery details are dropped once an edition is fully delivered, to keep the file small.
-- **Who is subscribed:** run `subscribers` (count and the newest 30) or `status`. **To remove someone:** ask them to send `/stop`, or set their entry's `"status"` to `"inactive"` in `state/state.json` and commit. **To close the bot:** set `require_invite_code = true` and a `BOT_INVITE_CODE` secret. Existing subscribers stay.
-
-**A public Telegram channel (recommended for a large audience).** A channel post reaches any number of readers at once, with no rate limits. People join instantly, and the channel keeps a searchable archive.
-
-1. In Telegram: **New Channel** → name it (for example "বিসিএস দৈনিক ব্রিফিং") → **Public** → pick a link, for example `t.me/bcs_daily_brief`.
-2. Channel → **Administrators** → **Add Admin** → search your bot (`@BCSNWZ_bot`) → allow **Post Messages**.
-3. GitHub → Settings → Secrets and variables → Actions → **Variables** → `TELE_CHANNEL_ID` = `@bcs_daily_brief`.
-
-From the next edition, every message, quiz, and PDF also goes to the channel, and the welcome message links to it. Private-chat delivery continues (`telegram.dm_subscribers = true`). Set that to `false` to post only to the channel. If posting fails (the bot is not an admin), subscribers still get their editions. The error is in the run log and the owner's report.
-
-**The owner.** Technical failure notices ("a run crashed") and a **weekly health report** (Fridays) go only to `telegram.owner_chat_id` (your chat; override with the `TELE_OWNER_CHAT_ID` repository variable), never to subscribers. The report lists the week's delivery times, GitHub's start delays, failed runs, estimated OpenAI cost, subscriber changes, failing sources, the last collection, static-GK coverage, the stories readers voted most useful, and quiz accuracy. If a whole edition cannot be built (all sources down, both AI providers out), subscribers still get the short "couldn't make today's briefing" notice.
-
-**Delivery is tracked per subscriber.** If sending fails for one person, the others are unaffected. The next run sends that person only the messages they are missing. The edition is marked delivered once every active subscriber has it.
-
----
-
 <a id="configuration"></a>
 
-## 🔐 Configuration
+## Standing type · Configuration
 
 Secrets and overrides come from the environment. Nothing secret belongs in `config/` or in git. `.env` is git-ignored. Copy `.env.example` to `.env` for local runs and fill it in there.
 
@@ -507,11 +695,9 @@ Secrets and overrides come from the environment. Nothing secret belongs in `conf
 
 Non-secret behaviour (story counts, rubric, schedule, filters) lives in `config/settings.toml`. The full key table is in [Configuration reference](#config-reference).
 
----
-
 <a id="usage"></a>
 
-## 🖥️ Usage
+## The city desk · Usage
 
 ### Running locally
 
@@ -564,122 +750,9 @@ Exit codes: `0` success, dry run, or already delivered; `1` failed; `2` failed b
 
 Workflow modes (`workflow_dispatch` on **Daily BCS briefing**): `offline`, `dry-run`, `live`, `deliver`, `subscribers`, `test-telegram`, `collect`, `verify-sources`, `check-model`, `status`. `dry-run` never sends. `deliver` is the on-demand path used by the 07:45 trigger (`python -m app run --hold`).
 
----
-
-<a id="sources"></a>
-
-## 🗞️ News sources
-
-Sources live in `config/sources.toml`. Each entry has a name, homepage, `feed_url` (only if verified), type, subject relevance, `enabled`, `fetch_articles`, timeout, retry limit, and a `verification` note.
-
-**Feed status** (verified live from GitHub Actions with `verify-sources`, last on **2026-11-21**):
-
-| Source | Feed | Status |
-|---|---|---|
-| Prothom Alo | `https://www.prothomalo.com/feed` | enabled: fresh; noisy sections are pre-filtered |
-| BBC News বাংলা | `https://feeds.bbci.co.uk/bengali/rss.xml` | enabled: fresh; strong on international affairs |
-| The Daily Star: Bangladesh / Business / Environment / World | `https://www.thedailystar.net/{news/bangladesh,business,environment,news/world}/rss.xml` | enabled: fresh |
-| UN News (all) | `https://news.un.org/feed/subscribe/en/news/all/rss.xml` | enabled: fresh |
-| BBC Science & Environment, BBC Technology | `https://feeds.bbci.co.uk/news/{science_and_environment,technology}/rss.xml` | enabled (2026-11-21): fresh; added because science was 4 of 103 stories |
-| NASA news releases | `https://www.nasa.gov/news-release/feed/` | enabled (2026-11-21): fresh (rate-limited once, retried) |
-| ScienceDaily (top science) | `https://www.sciencedaily.com/rss/top/science.xml` | enabled (2026-11-21): fresh; many pop-science items, screening rejects most |
-| WHO news | `https://www.who.int/rss-feeds/news-english.xml` | **disabled**: stale (newest item 2026-10-10) |
-| The Daily Star front page | `https://www.thedailystar.net/frontpage/rss.xml` | **disabled**: stale (newest item 2022) |
-| Dhaka Tribune (main, business) | `https://www.dhakatribune.com/feed/…` | **disabled**: `robots.txt` disallows bots |
-| UN News Asia-Pacific | regional feed | off (covered by UN News all) |
-| BSS, Bangladesh Bank, BBS, MoFA | — | reference links only |
-
-Tested and not added: Daily Star `/rss.xml` and TBS (stale); BSS, Kaler Kantho, and Samakal (`robots.txt` blocks bots); Financial Express and Jugantor (broken feeds).
-
-**Run `verify-sources` (Step 6) and disable anything that fails.** A failing source never stops the others. Health is tracked in state. After 3 consecutive failures the edition footer shows a maintenance notice.
-
-**Official sources.** Government sites without feeds are reference entries with `aliases`. When an article names an institution (for example "Bangladesh Bank" / "বাংলাদেশ ব্যাংক"), the story links that institution's homepage under "দাপ্তরিক সূত্রে যাচাই". The app does not scrape government sites.
-
-**Adding a source.** Find the feed link on the publisher's site (often in the page footer, or an HTML `link` tag with `rel="alternate"` and `type="application/rss+xml"`). Add a `[[source]]` block with `enabled = false`, run `verify-sources`, then enable it if it reports `OK`. Never guess feed URLs.
-
-**Access rules.** The fetcher uses an honest user agent (`BCSNewspaperBot/1.0`), obeys `robots.txt`, never retries 401/403/451, and never bypasses paywalls or anti-bot protection. If a page is blocked, the story uses a clearly labelled **excerpt-only** analysis (when the feed excerpt is substantial) or is skipped.
-
----
-
-<a id="selection"></a>
-
-## 🎯 How stories are selected
-
-Selection was recalibrated after real editions included opinion columns, local notices, party politics, crime, a single company's offers, and foreign domestic trivia. A story has to pass five gates. Every gate is enforced by code, not only by asking the model.
-
-1. **Section and title pre-filter, before any AI call** (`[filters]` in `config/settings.toml`). It drops URL sections such as `/sports/`, `/entertainment/`, `/lifestyle/`, `/opinion/`, `/religion/`, `/bangladesh/district/`, `/bangladesh/crime/`, and `/video/`, plus junk titles ("আজ টিভিতে", horoscopes). This removes about 30–40% of items at no cost.
-2. **Screening against the syllabus profile** (`config/syllabus.toml`). The model must give a **story type** and one of **42 syllabus topics**, built from the BPSC preliminary syllabus and written papers 005, 007, and 010 (constitution, budget, monetary policy, bilateral relations, Rohingya, climate diplomacy, UN system, conflicts, awards, indices, and the rest of that profile).
-   - Code rejects opinion, feature, crime/accident, local admin, party politics, individual court cases, corporate/commercial news, **daily market prices and rates**, **speculation** ("may rise", undecided demands), foreign domestic trivia, sports, entertainment, and lifestyle, whatever the model decided.
-   - An item with no valid syllabus topic is rejected.
-   - "Maybe" items are dropped unless their priority is at least 7.
-   - The prompt spells out what deserves priority 9–10 / 7–8 / 5–6 (a new head of government in a major country, or a UN decision about Bangladesh, is 9–10; official national statistics or a flagship UN report is 7–8). Analysis capacity (16 a run) goes to the highest priority first.
-   - **No repeats.** Screening sees the headlines sent in the last 7 days. A candidate about the same event, report, or data release is rejected unless it carries a genuine new development (a decision, an agreement, new official figures). A follow-up gets a **🆕 নতুন কী** line. A second, deterministic check (same syllabus topic and the same distinctive figures as a story already sent) catches what the model misses.
-3. **Full analysis with calibrated scoring.** The prompt defines what each score level means (most news is 3–6; 9–10 only for must-know items). A story needs **syllabus relevance ≥ 7** and a valid syllabus topic.
-4. **Ranking.** Total score **≥ 65**, at most **one story per syllabus topic** (two shipbreaking stories cannot both get in), at most **3 per subject**, and 8 at most. **Balance:** science & technology and Bangladesh affairs each keep a slot when a story of theirs scores ≥ 65 (they were 4 and 8 of 103 stories before). The lowest-scoring story of an over-represented subject makes way.
-5. **No padding.** If only 2 stories pass, the edition has 2.
-
-Each story shows its **🎯 syllabus topic**, at most three **📌 must-remember facts** for prelims (chosen for durable exam value, not every number), **✍️ written-answer points**, and a BPSC-style **📝 written question**. The exam-focus label (প্রিলি / লিখিত / প্রিলি + লিখিত) is derived in code from those, not guessed. Every run logs a *selection report* (pre-filtered count, screening outcomes by reason, analysis rejections, selected stories with topic and score). See it under the run's "Run (…)" step in the Actions tab.
-
-**Tuning**
-
-- Too strict or too loose? Adjust `selection.min_syllabus_relevance`, `edition.min_story_score`, and `selection.maybe_min_priority` in `config/settings.toml`.
-- Add or rename topics, or add good and bad examples, in `config/syllabus.toml`.
-- Drop a whole section with `filters.exclude_url_paths`.
-
-Subject mapping follows the BPSC BCS syllabus: preliminary subjects are Bangladesh affairs, international affairs, geography/environment/disaster management, general science, computer & ICT, and ethics/values/good governance. Written papers: 005 Bangladesh Affairs, 007 International Affairs, 010 General Science & Technology. Confirm the latest syllabus at <https://bpsc.gov.bd>.
-
----
-
-<a id="grounding"></a>
-
-## 🛡️ Factual grounding
-
-The model writes the notes. Deterministic code decides what you see.
-
-- **Every key fact needs a verbatim quote** from the retrieved text. Facts whose quote is not in the article are dropped.
-- **Numbers are checked.** Every number in a fact must appear in its quote. Any sentence in the summary, analysis, or background that contains a number not present in the article is removed. Bengali and English digits are normalised before comparison.
-- **Claims are separated from facts.** "X said …" goes under *উদ্ধৃত দাবি (যাচাইকৃত তথ্য নয়)*.
-- **Analysis is labelled** *(AI বিশ্লেষণ)*. Background is labelled *(প্রতিবেদনের বাইরের সাধারণ প্রেক্ষাপট)* and may not contain figures.
-- **Related static GK (📚 প্রাসঙ্গিক সাধারণ জ্ঞান) is checked twice.** These are textbook facts that are *not* in the article: which amendment introduced a system, when an organisation was founded, where it is headquartered. The model proposes at most three per story, each with a question and a short answer. A **second, blind call** answers the questions without seeing those answers. Code keeps an item only if both agree (numbers exactly, names by their words) and the checker is sure. Hedged statements, current office-holders, changing statistics, and anything restating the article's own figures are dropped. The section is labelled as outside the article. An empty section is preferred to a wrong fact.
-- **Excerpt-only stories are marked** ⚠️ and analysed only from the excerpt.
-- A story with **no verifiable fact is excluded**, not padded.
-- **MCQs** must cite a verified fact (an article fact, or a twice-checked GK item for at most two of the three). The correct option's numbers must appear in that fact. The model writes six candidates and code keeps the best three. Each needs exactly 4 distinct options **of the same kind and unit** (no "crore" option in a percentage question, no bare number among names, no "all of the above"), must stand alone (no "প্রতিবেদন অনুযায়ী"), must not give the answer away, and at most one question per story. Fewer than 3 valid MCQs means fewer are sent, with a note.
-- **Screening ids are validated.** The model can only reference candidate ids we supplied. Unknown ids are ignored.
-- **Neutrality.** Prompts require political neutrality and forbid inferring motives.
-
-The scoring weights (syllabus 30%, significance 25%, facts 20%, written potential 15%, novelty 10%) are **starting heuristics, not validated predictions of exam questions**. Change them in `config/settings.toml`. They must sum to 1.0.
-
----
-
-<a id="partial"></a>
-
-## ⚠️ Partial editions and quota exhaustion
-
-The model can become unavailable mid-run (daily quota used up, per-minute limit, outage, retired model). Each error is handled differently:
-
-| Situation | Behaviour |
-|---|---|
-| HTTP 429, per-minute limit | Wait the server's suggested delay (max 90 s), retry up to 3 times |
-| HTTP 429, daily quota or `limit: 0` | Stop calling that model for this run, immediately |
-| 5xx / network error | Exponential backoff with jitter, max 3 retries |
-| Malformed JSON / blocked / truncated output | Retry once, then count a failed attempt for that story |
-| 401/403/invalid key, 404 unknown model | Permanent: no retries, the run stops using that model |
-| Own budget `max_calls_per_run` reached | Treated like quota exhaustion |
-
-When this happens mid-run:
-
-1. Every completed analysis is **already saved** (state is checkpointed after each story).
-2. Completed, useful stories are sent as an edition labelled **⚠️ আংশিক সংস্করণ**, with the reason and the number of candidate stories still waiting.
-3. Missing stories are never invented.
-4. If nothing usable was produced, every subscriber gets one short **failure notice** instead (only once per day).
-5. Unfinished stories stay queued. The next run (scheduled tomorrow, or a manual `live` run after a failure) continues where it stopped: no re-screening, no re-analysis of finished work. Quota failures do not count against a story. Other failures are retried at most `max_attempts_per_story` (3) times.
-6. Stories older than `freshness_hours` (36 h) expire rather than pile up.
-
----
-
 <a id="state"></a>
 
-## 💾 State, persistence, and recovery
+## The morgue · State, persistence, and recovery
 
 `state/state.json` (schema version 2) records processed articles (canonical URL, content hash, publication and retrieval times), event groups, per-stage status (`new → selected/maybe/rejected → analysed/analysis_rejected/failed → included`), stored analyses, attempt counts and last error, editions (status, partial flag, MCQs, every Telegram chunk with message id and sent time), the last successful edition, source health, and the last 30 runs.
 
@@ -695,11 +768,9 @@ When this happens mid-run:
 
 To **reset** everything: delete `state/state.json` and commit. The next run starts fresh, so it may re-send stories it had already shown you.
 
----
-
 <a id="logs"></a>
 
-## 🩺 Logs and troubleshooting
+## The copy desk · Logs and troubleshooting
 
 - **Actions → Daily BCS briefing → a run → `briefing` job:** step-by-step logs. The "Run" step prints a JSON summary (`outcome`, `stories`, `mcqs`, `partial`, `llm_calls`, `errors`).
 - **Artifacts** (bottom of the run page, kept 7 days): `output/edition-<date>.txt` (exactly what was sent), `edition-<date>.json`, `run-result.json`, and the state file.
@@ -729,72 +800,9 @@ To **reset** everything: delete `state/state.json` and commit. The next run star
 | `state/state.json changed on the remote too` | Someone edited state while a run was going. Resolve by hand. Never force-push. |
 | Exit code 3 / "Configuration error" | Typo in `config/*.toml`. The message names the key. |
 
----
-
-<a id="cost"></a>
-
-## 💸 Cost and free-tier limits
-
-Measured over 6–21 November 2026: about **$0.15 a day** (≈ $4.50 a month). With daytime collection the morning run screens more candidates (up to 160, 4 screening calls) and analyses up to 16. Static GK may take a second round, and Fridays add one weekly-MCQ call, so expect **about $0.18–0.25 a day**. Repeated prompt prefixes are billed at OpenAI's cached-input rate, which the cost estimate counts.
-
-Daily usage: about 19–26 model requests ≈ **75–120k input + 20–40k output tokens** (Bengali output, plus hidden "reasoning" tokens on newer models, billed as output). A real-model dry run on 2026-10-31 used 19 requests, 76k input and 20k output tokens: about **$0.15**. The edition is built once, so the number of subscribers does not change the AI cost.
-
-| Model (primary) | Price per 1M tokens (in / out)* | Per day | Per month |
-|---|---|---|---|
-| `gpt-5.4-nano` | $0.20 / $1.25 | ~$0.05–0.07 | **~$1.5–2 (≈ ৳180–260)** |
-| `gpt-5.4-mini` (default) | $0.75 / $4.50 | ~$0.17–0.26 | **~$5–8 (≈ ৳600–1,000)** |
-| Gemini fallback (free tier) | free | 0 | 0 |
-
-\*Third-party snapshots from mid-2026, at ≈ ৳120/US$. Verify on <https://openai.com/api/pricing>. Dry runs cost about one day's usage each. The overview range of **US$2–8 (≈ ৳250–1,000)** is the spread from the cheaper model to the default.
-
-**See the real numbers.** Every run logs `llm_usage` (requests and tokens per provider) and `estimated_openai_cost_usd` in its JSON summary, and saves them in `state/state.json` under `runs`. Compare with OpenAI's **Usage** page.
-
-**How spending is bounded**
-
-- OpenAI is prepaid. With auto-recharge off, spend cannot exceed the credit you added.
-- Each provider is capped at `llm.max_calls_per_run` (36) requests per run, retries included.
-- When OpenAI credit runs out, the run continues on Gemini's free tier. A Gemini project without billing refuses requests over quota (HTTP 429), and the app makes a partial edition. Nothing upgrades to a paid plan automatically.
-- To go back to **৳0**, remove the `OPENAI_API_KEY` secret (or set `provider = "gemini"`). The app then runs on Gemini only.
-
-| Service | What's used | Free allowance (verify yourself) |
-|---|---|---|
-| GitHub Actions (private repo, GitHub Free) | ~21 one-minute gate ticks + ~5 collections + ~10–35 min of briefing work a day → ~1,100–1,800 min/month | 2,000 min/month; 500 MB artifact storage |
-| Gemini Developer API (Free tier) | only on fallback days | Per-model RPM/RPD limits per project; resets at midnight Pacific time |
-| Telegram Bot API | about 8–10 messages per subscriber per edition, plus replies | Free (about 1 msg/s per chat, handled automatically; about 30 msg/s overall) |
-| News feeds | a few HTTP requests a day | Free, subject to each publisher's terms |
-
----
-
-<a id="providers"></a>
-
-## 🤖 AI providers
-
-`config/settings.toml`:
-
-```toml
-[llm]
-provider = "openai"              # primary
-fallback_providers = ["gemini"]  # tried in order; [] to disable
-openai_model = "gpt-5.4-mini"
-gemini_model = "gemini-3.8-flash"
-```
-
-**When the run switches to Gemini.** Each provider has its own call budget, spacing, and retries. OpenAI is switched off **for the rest of that run** (and Gemini takes over) when:
-
-- the prepaid credit is exhausted (`429 insufficient_quota`),
-- the key is rejected or the model id is unknown (401/403/404),
-- it keeps failing after its retries (outage, 5xx, timeouts),
-- it hits the per-run call budget.
-
-Short per-minute rate limits are waited out and retried on OpenAI first. If OpenAI returns unusable output for one request, that single request is retried on Gemini, and OpenAI stays in use. The next day's run tries OpenAI again.
-
-**What readers see.** If a fallback was used, the edition footer says so ("…বিকল্প মডেল দিয়ে করা হয়েছে"). The fact checks (verbatim quotes, numbers present in the article, MCQ validation) apply identically to every model's output. If both providers are unavailable, you get the usual partial edition or failure notice. Nothing is invented.
-
-**Other combinations.** Gemini only: `provider = "gemini"`, `fallback_providers = []`, or simply do not set `OPENAI_API_KEY`. OpenAI only: `LLM_FALLBACK=none`. A local model can be primary or fallback. See below.
-
 <a id="schedule-off"></a>
 
-## ⏸️ Disabling the schedule
+## Stopping the presses · Disabling the schedule
 
 - **Pause:** Actions → *Daily BCS briefing* → **⋯** (top right) → **Disable workflow**. Re-enable the same way.
 - **Remove the schedule but keep manual runs:** delete the `schedule:` block (the `schedule:` line and all its `- cron:` lines) in `.github/workflows/daily-briefing.yml`.
@@ -804,7 +812,7 @@ GitHub automatically disables schedules in **public** repositories after 60 days
 
 <a id="local-model"></a>
 
-## 🖥️ Switching to a local model
+## The local press · Switching to a local model
 
 All AI calls go through `app/llm/base.py`.
 
@@ -829,11 +837,9 @@ Small local models are weaker at the strict JSON and Bengali instructions. The g
 
 **Another provider:** add a module under `app/llm/` with a `generate_raw` implementation and one branch in `build_provider()` in `app/llm/__init__.py`. Nothing else changes.
 
----
-
 <a id="testing"></a>
 
-## 🧪 Testing
+## Proofs · Testing
 
 ```bash
 python -m pytest
@@ -841,7 +847,12 @@ python -m pytest
 
 The default pytest options skip tests marked `integration`. A fixture blocks real HTTP, so unit tests cannot spend OpenAI credit or Gemini quota, or message Telegram. The scheduled workflow runs this suite before each live run. If the tests fail, no briefing is sent and you are notified.
 
+<details>
+<summary>What the proofs cover</summary>
+
 Coverage includes feed parsing with malformed items, missing, invalid, and future dates, invalid URLs, duplicate detection, extraction failure and excerpt-only rules, the scoring rubric, malformed model output, unsupported facts and numbers, MCQ schema and answer-index validation, HTML escaping and chunking, Telegram retries and plain-text fallback, Gemini and OpenAI 429/404/5xx classification (including OpenAI `insufficient_quota`), the OpenAI → Gemini fallback chain (credit exhausted, bad key or model, outage, invalid output, both exhausted, a mid-run switch that still completes an edition, cost estimate), retry limits and the call budget, state corruption, backup recovery, migration, and newer-schema refusal, quota exhaustion mid-run with resumption, interrupted delivery resuming without duplicates, failure-notice de-duplication, low-relevance days without padding, dry-run behaviour, secret redaction in logs, and subscribers: public joining, invite-code checks, `/stop`, the optional cap, parallel delivery to 40 subscribers with one PDF upload, blocked users, group commands, malformed updates, per-subscriber delivery and resumption, and "no subscribers spends no quota".
+
+</details>
 
 **Live integration tests** (opt-in, real network; 1 model lookup and 1 Telegram `getMe`; no message is sent):
 
@@ -849,11 +860,9 @@ Coverage includes feed parsing with malformed items, missing, invalid, and futur
 RUN_INTEGRATION=1 GEMINI_API_KEY=… TELE_BOT_TOKEN=… python -m pytest -m integration
 ```
 
----
-
 <a id="security"></a>
 
-## 🔒 Security and privacy
+## The legal notice · Security and privacy
 
 - **No secrets in the repository.** Credentials come only from environment variables and GitHub Secrets. `.env` is git-ignored. `.env.example` holds placeholders.
 - **Subscriber data** (chat ids, first names) lives only in the private repository's state file. The bot is public, so anyone can subscribe. Their data is never shown to other subscribers. When an invite code is used, it is compared in constant time and redacted from logs like the other secrets.
@@ -864,14 +873,12 @@ RUN_INTEGRATION=1 GEMINI_API_KEY=… TELE_BOT_TOKEN=… python -m pytest -m inte
 - **Data use.** OpenAI states API data is not used for training by default. On Gemini's free tier, Google may use prompts and responses to improve its products. Only public news text is sent to either.
 - **PDF.** Article and model text is escaped. The document's Content-Security-Policy blocks scripts and external loads.
 
----
-
 <a id="config-reference"></a>
 
-## ⚙️ Configuration reference
+## The stylebook · Configuration reference
 
 <details open>
-<summary><b>config/settings.toml — every non-secret key</b></summary>
+<summary>The stylebook — config/settings.toml — every non-secret key</summary>
 
 Edit and commit. Defaults below are the values in this repository.
 
@@ -931,13 +938,9 @@ Edit and commit. Defaults below are the values in this repository.
 
 </details>
 
----
-
 <a id="credits"></a>
 
-<div align="center">
-
-## 💜 Credits
+## The imprint · Credits
 
 Built by **[Shahriar Ahmed](https://github.com/fr-ost)**, Co-Founder & COO of **[Unique Labs](https://www.uniquelabs.org)**.
 
@@ -945,8 +948,6 @@ Built by **[Shahriar Ahmed](https://github.com/fr-ost)**, Co-Founder & COO of **
 
 BCS syllabus topics follow the public BPSC syllabus. Confirm the current papers at [bpsc.gov.bd](https://bpsc.gov.bd). News stays with its publishers. This project reads public feeds and does not republish full articles.
 
-<br/>
-
-<img width="100%" alt="Footer wave in amber, pink, and violet" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB703,50:FF2E93,100:6C2BD9&height=120&section=footer"/>
-
-</div>
+<p align="center">
+  <img width="100%" alt="End of the edition. A sepia and black rectangle. Shahriar Ahmed, Unique Labs." src="https://capsule-render.vercel.app/api?type=rect&color=0:6B4F3A,50:3E2723,100:1C1917&height=140&section=footer&text=END%20OF%20EDITION&fontSize=28&fontColor=F4EFE6&fontFamily=Georgia&fontAlignY=36&desc=Shahriar%20Ahmed%20%C2%B7%20Unique%20Labs&descSize=16&descAlignY=66&animation=fadeIn"/>
+</p>
