@@ -532,6 +532,22 @@
    "title": "What failure of COP31 reveals about a divided world",
    "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss"
   },
+  "a_086180102ca36c3a": {
+   "canonical_url": "https://thedailystar.net/news/world/news/turkey-detains-two-ex-anchors-seized-opposition-tv-4334761",
+   "content_hash": "a4141faf664d545b",
+   "date_status": "ok",
+   "event_id": "ev_f3a2ed773adf",
+   "excerpt": "Two former anchors at a Turkish opposition broadcaster that was seized by authorities last month have been detained, and an arrest warrant issued for the channel’s news coordinator, Istanbul prosecutors said yesterday.",
+   "extraction": null,
+   "id": "a_086180102ca36c3a",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "Turkey detains two ex-anchors of seized opposition TV",
+   "url": "https://www.thedailystar.net/news/world/news/turkey-detains-two-ex-anchors-seized-opposition-tv-4334761"
+  },
   "a_08f70f83ffb879ea": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/atomic-power-flows-national-grid-4326846",
    "content_hash": "bca70a7797f9e902",
@@ -1968,6 +1984,22 @@
    "title": "UN chief urges talks on global AI safety framework, warns of historic shift in power",
    "url": "https://news.un.org/feed/view/en/story/2026/11/1168861"
   },
+  "a_170ee2e063c18a41": {
+   "canonical_url": "https://prothomalo.com/politics/tj53h1ycze",
+   "content_hash": "3609f253259d4b05",
+   "date_status": "ok",
+   "event_id": "ev_3ed9ed2cff98",
+   "excerpt": "প্রশ্নোত্তর পর্বে শফিকুর রহমান বলেন, ‘আমার ডিকশনারিতে কোনো সংখ্যালঘু নাই’।",
+   "extraction": null,
+   "id": "a_170ee2e063c18a41",
+   "language": "bn",
+   "published_at": "2026-11-27T18:40:14+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "দুর্নীতি, চাঁদাবাজি, সন্ত্রাস, মিথ্যা মামলা দিয়ে হয়রানি আগের চেয়ে বেশি গতিতে চলছে: জামায়াত আমির",
+   "url": "https://www.prothomalo.com/politics/tj53h1ycze"
+  },
   "a_174a3bb54a2784ad": {
    "canonical_url": "https://prothomalo.com/business/economics/y6totvgr0s",
    "content_hash": "7a43fc614e5e2df1",
@@ -2227,6 +2259,22 @@
    "source_name": "Prothom Alo (প্রথম আলো)",
    "title": "শিশুস্বাস্থ্য বিশেষজ্ঞ আবিদ হোসেন মোল্লা নাইট্যাগের সভাপতি",
    "url": "https://www.prothomalo.com/bangladesh/nah973uune"
+  },
+  "a_1c70967012d66845": {
+   "canonical_url": "https://prothomalo.com/world/asia/mz73e7zbwn",
+   "content_hash": "9328167d77fa49ec",
+   "date_status": "ok",
+   "event_id": "ev_c39dfa87a253",
+   "excerpt": "ইরান সরাসরি সৌদি আরবে হামলা চালালে পাকিস্তান কীভাবে প্রতিক্রিয়া জানাবে, সে বিষয়ে কিছু বলতে রাজি হননি প্রতিরক্ষামন্ত্রী খাজা আসিফ।",
+   "extraction": null,
+   "id": "a_1c70967012d66845",
+   "language": "bn",
+   "published_at": "2026-11-27T19:51:13+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "মক্কা চুক্তি নিয়ে পাকিস্তান কি বেকায়দায় পড়ছে",
+   "url": "https://www.prothomalo.com/world/asia/mz73e7zbwn"
   },
   "a_1c9351b994c5dad1": {
    "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168843",
@@ -2511,6 +2559,26 @@
    "source_name": "The Daily Star — World",
    "title": "Claude solved math's greatest riddle, says Anthropic researcher",
    "url": "https://www.thedailystar.net/news/world/news/claude-solved-maths-greatest-riddle-says-anthropic-researcher-4329281"
+  },
+  "a_203b516d8a8aad68": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/meta-plans-own-setup-bangladesh-4334866",
+   "content_hash": "73c01e168373603d",
+   "date_status": "ok",
+   "event_id": "ev_e3b7f7b82936",
+   "excerpt": "Meta, the parent company of Facebook, Instagram, and WhatsApp, intends to build its own network infrastructure in the country, a move that would require significant capital investment by the American tech giant and reduce Bangladesh’s bandwidth costs.",
+   "extraction": {
+    "chars": 5189,
+    "reason": "",
+    "status": "ok"
+   },
+   "id": "a_203b516d8a8aad68",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Meta plans own setup in Bangladesh",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/meta-plans-own-setup-bangladesh-4334866"
   },
   "a_2104ceb8a5778e87": {
    "canonical_url": "https://prothomalo.com/business/world-business/fzc0sjxmss",
@@ -2931,6 +2999,22 @@
    "source_name": "The Daily Star — Bangladesh",
    "title": "The poor getting squeezed out of public healthcare facilities",
    "url": "https://www.thedailystar.net/news/bangladesh/news/the-poor-getting-squeezed-out-public-healthcare-facilities-4332656"
+  },
+  "a_2821cb393c19d109": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/evening-immersed-nazruls-musical-legacy-4334781",
+   "content_hash": "9b9dff362cb98c22",
+   "date_status": "ok",
+   "event_id": "ev_693385eb3486",
+   "excerpt": "As autumn gave way to winter earlier than expected this year, Gulshan Lake Park offered a fitting setting for a gathering of music enthusiasts at the fifth edition of Nazrul Utsav yesterday.",
+   "extraction": null,
+   "id": "a_2821cb393c19d109",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "An evening immersed in Nazrul’s musical legacy",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/evening-immersed-nazruls-musical-legacy-4334781"
   },
   "a_28b9ae8cf9576386": {
    "canonical_url": "https://thedailystar.net/news/world/news/russia-accuses-ukraine-trying-widen-conflict-zone-4334256",
@@ -3572,6 +3656,22 @@
    "title": "বাল্টিক সাগরে ড্রোন হামলায় রুশ পণ্যবাহী জাহাজে আগুন",
    "url": "https://www.prothomalo.com/world/europe/z165rqc1hk"
   },
+  "a_319c313cd4997b2a": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/shyamasundari-gasps-survival-4334826",
+   "content_hash": "cbb3cf40497646e4",
+   "date_status": "ok",
+   "event_id": "ev_fa26b4b1dfcb",
+   "excerpt": "Rangpur’s historic Shyamasundari Canal continues to suffer from encroachment, pollution and neglect despite repeated restoration and beautification projects over the past two decades.",
+   "extraction": null,
+   "id": "a_319c313cd4997b2a",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Shyamasundari gasps for survival",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/shyamasundari-gasps-survival-4334826"
+  },
   "a_31d1548bb5ddc80e": {
    "canonical_url": "https://prothomalo.com/bangladesh/environment/5avg3jzj9v",
    "content_hash": "cd0214b3051a688a",
@@ -3952,7 +4052,7 @@
    "canonical_url": "https://prothomalo.com/bangladesh/gopaalgnyje-mobaail-byaankin-bndh-graahk-bipaake",
    "content_hash": "372ccd14ff70706e",
    "date_status": "ok",
-   "event_id": "ev_ca1ba32ccffe",
+   "event_id": "ev_263cc17ef612",
    "excerpt": "",
    "extraction": null,
    "id": "a_3651f7a5c78369b0",
@@ -4231,6 +4331,22 @@
    "source_name": "BBC News বাংলা",
    "title": "পত্রিকা: 'নজরদারিতে ৩ শতাধিক কর্মকর্তা'",
    "url": "https://www.bbc.com/bengali/articles/cq62pz7d7jkvo?at_medium=RSS&at_campaign=rss"
+  },
+  "a_3a9506e382fea694": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/cracks-widen-jamaat-ncp-alliance-4334881",
+   "content_hash": "c399924a3b876294",
+   "date_status": "ok",
+   "event_id": "ev_61db47072391",
+   "excerpt": "Fresh differences have surfaced between Jamaat-e-Islami and the National Citizen Party over the upcoming local government elections.",
+   "extraction": null,
+   "id": "a_3a9506e382fea694",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Cracks widen in Jamaat-NCP alliance",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/cracks-widen-jamaat-ncp-alliance-4334881"
   },
   "a_3aa8454f74eef66e": {
    "canonical_url": "https://sciencedaily.com/releases/2026/11/261120075556.htm",
@@ -4988,6 +5104,22 @@
    "title": "Rough seas leave hundreds stranded on St Martin’s",
    "url": "https://www.thedailystar.net/news/environment/weather/news/rough-seas-leave-hundreds-stranded-st-martins-4330051"
   },
+  "a_4621bd9c5ae6515e": {
+   "canonical_url": "https://thedailystar.net/news/world/middle-east/news/warning-shots-force-us-f-16-retreat-4334771",
+   "content_hash": "b0a7bda43d967fb4",
+   "date_status": "ok",
+   "event_id": "ev_affa5208556f",
+   "excerpt": "Iran’s IRGC has claimed that an advanced air defence system yesterday fired warning shots at a US military F-16 fighter jet near Hengam Island, forcing the aircraft to retreat, according to Iranian state media.",
+   "extraction": null,
+   "id": "a_4621bd9c5ae6515e",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "Warning shots force US F-16 to retreat",
+   "url": "https://www.thedailystar.net/news/world/middle-east/news/warning-shots-force-us-f-16-retreat-4334771"
+  },
   "a_464141bfd7dfdf2d": {
    "canonical_url": "https://thedailystar.net/news/work-and-migration/news/ageing-population-japan-turns-bangladesh-and-other-south-asian-countries-workers-4331151",
    "content_hash": "d4a4039f30507921",
@@ -5576,7 +5708,7 @@
    "canonical_url": "https://bbc.com/bengali/articles/cqlykrp718lyo?at_campaign=rss&at_medium=RSS",
    "content_hash": "4d662af1c856ac6b",
    "date_status": "ok",
-   "event_id": "ev_ae64240ef1de",
+   "event_id": "ev_263cc17ef612",
    "excerpt": "গোপালগঞ্জ জেলার বাসিন্দাদের অনেকেই বুধবার রাত থেকে বিকাশ এবং নগদের মতো মোবাইল ব্যাংকিং সার্ভিসগুলো ব্যবহার করতে পারছেন না। মোবাইল ব্যাংকিং সার্ভিস নিয়ে এই জটিলতা কেন তৈরি হলো? আর এর পেছনে রাজনৈতিক কোনো কারণ রয়েছে কিনা, এমন নানা প্রশ্ন উঠছে।",
    "extraction": null,
    "id": "a_4eb8bd6f01a8e8c3",
@@ -5715,6 +5847,22 @@
    "source_name": "The Daily Star — World",
    "title": "Taliban bans cricket on Kandahar radios",
    "url": "https://www.thedailystar.net/news/world/news/taliban-bans-cricket-kandahar-radios-4324951"
+  },
+  "a_509bbb21d4077a47": {
+   "canonical_url": "https://prothomalo.com/politics/90j3je32dw",
+   "content_hash": "8da8719bd10d6349",
+   "date_status": "ok",
+   "event_id": "ev_d4674190b639",
+   "excerpt": "২৩ নভেম্বর প্রধানমন্ত্রী তারেক রহমানের সঙ্গে এনসিপির নেতাদের মতবিনিময়ের বিষয়টিকে ভালোভাবে নেয়নি ১১–দলীয় ঐক্যের বড় দল জামায়াতে ইসলামী।",
+   "extraction": null,
+   "id": "a_509bbb21d4077a47",
+   "language": "bn",
+   "published_at": "2026-11-27T19:20:41+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "এবার ইসির সংলাপ নিয়েও জামায়াত-এনসিপির ভিন্ন অবস্থান",
+   "url": "https://www.prothomalo.com/politics/90j3je32dw"
   },
   "a_50e8594a6213f930": {
    "canonical_url": "https://thedailystar.net/news/world/united-states/news/microsoft-announces-service-restored-4323966",
@@ -6686,11 +6834,15 @@
   },
   "a_606ac8fb55254a3b": {
    "canonical_url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research",
-   "content_hash": "7964903303aad202",
+   "content_hash": "0576368ac8954d5d",
    "date_status": "ok",
    "event_id": "ev_8c874da04747",
    "excerpt": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency. Investigations from NASA’s Biological and Physical Sciences Division will advance research that benefits life on Earth and future exploration, expanding knowledge of space crops and human health. Groundbreaking […]",
-   "extraction": null,
+   "extraction": {
+    "chars": 3738,
+    "reason": "",
+    "status": "ok"
+   },
    "id": "a_606ac8fb55254a3b",
    "language": "en",
    "published_at": "2026-11-27T14:22:00+00:00",
@@ -8114,11 +8266,15 @@
   },
   "a_7360fc0df6ebe55f": {
    "canonical_url": "https://prothomalo.com/world/middle-east/qv4bto4xwc",
-   "content_hash": "99e622331af1e97b",
+   "content_hash": "5ded7bf04e570b87",
    "date_status": "ok",
    "event_id": "ev_a89a8b9250aa",
    "excerpt": "গতকাল বৃহস্পতিবারের ওই হামলার জন্য ইতালি ও কুয়েত তেহরানকে দায়ী করলেও ইরানের পররাষ্ট্রমন্ত্রী ঘটনায় জড়িত পক্ষগুলোকে চিহ্নিত করতে কুয়েতের সঙ্গে যৌথ তদন্তের প্রস্তাব দিয়েছেন।",
-   "extraction": null,
+   "extraction": {
+    "chars": 2364,
+    "reason": "",
+    "status": "ok"
+   },
    "id": "a_7360fc0df6ebe55f",
    "language": "bn",
    "published_at": "2026-11-27T03:23:28+00:00",
@@ -8615,6 +8771,22 @@
    "source_name": "BBC News — Science & Environment",
    "title": "'Can't control the weather': Sadness as Macy's Thanksgiving parade postponed",
    "url": "https://www.bbc.co.uk/news/videos/cmx29qd8ew4xo?at_medium=RSS&at_campaign=rss"
+  },
+  "a_7a11e617a18bb64c": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/security-stepped-over-possible-al-sabotage-4334831",
+   "content_hash": "2058d56dfe322936",
+   "date_status": "ok",
+   "event_id": "ev_4c43c5a18dcc",
+   "excerpt": "Law enforcement agencies have stepped up security across the country amid intelligence reports that leaders and activists of the Awami League, whose activities remain banned, may carry out acts of violence and sabotage in December.",
+   "extraction": null,
+   "id": "a_7a11e617a18bb64c",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Security stepped up over possible AL sabotage",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/security-stepped-over-possible-al-sabotage-4334831"
   },
   "a_7aa6380fe5399211": {
    "canonical_url": "https://thedailystar.net/news/world/news/ex-nvidia-ceo-misled-top-lawyer-affair-chinese-businesswoman-sources-say-4323386",
@@ -10048,6 +10220,22 @@
    "title": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
    "url": "https://www.sciencedaily.com/releases/2026/11/261120071305.htm"
   },
+  "a_8c391d821a8b5e14": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/last-weeks-rain-nearly-doubles-veggie-prices-4334791",
+   "content_hash": "2a05c7c97d8c8ab8",
+   "date_status": "ok",
+   "event_id": "ev_487f6977c1ea",
+   "excerpt": "Prices of most vegetables have nearly doubled in the capital’s kitchen markets over the past week, which is unusual at the start of winter when prices tend to drop thanks to seasonal supply.",
+   "extraction": null,
+   "id": "a_8c391d821a8b5e14",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Last week’s rain nearly doubles veggie prices",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/last-weeks-rain-nearly-doubles-veggie-prices-4334791"
+  },
   "a_8c3af6d912a8c141": {
    "canonical_url": "https://thedailystar.net/news/world/news/pakistani-jailed-27-years-trump-murder-plot-4326866",
    "content_hash": "9645862d1df00cd8",
@@ -10511,6 +10699,22 @@
    "source_name": "UN News — All",
    "title": "Nadia Murad: ‘Day by day, I took my story back’",
    "url": "https://news.un.org/feed/view/en/story/2026/11/1168801"
+  },
+  "a_9024b801d1277086": {
+   "canonical_url": "https://thedailystar.net/news/environment/wildlife/news/village-takes-birds-under-its-wing-4334861",
+   "content_hash": "5069c4171e61613a",
+   "date_status": "ok",
+   "event_id": "ev_85074410605a",
+   "excerpt": "As dusk settles over the Islampur neighbourhood in Moulvibazar Sadar upazila, thousands of Asian Openbills return daily to their nests on familiar trees and bamboo groves.",
+   "extraction": null,
+   "id": "a_9024b801d1277086",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_environment",
+   "source_name": "The Daily Star — Environment",
+   "title": "A village takes birds under its wing",
+   "url": "https://www.thedailystar.net/news/environment/wildlife/news/village-takes-birds-under-its-wing-4334861"
   },
   "a_9029e19e2171e882": {
    "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168819",
@@ -11164,6 +11368,22 @@
    "title": "আগামীকাল শুরু হচ্ছে এসএমই পণ্য মেলা, অংশ নেবে ৩৫০ প্রতিষ্ঠান",
    "url": "https://www.prothomalo.com/business/industry/a48oolu5wb"
   },
+  "a_9609b427bee2407b": {
+   "canonical_url": "https://thedailystar.net/news/world/middle-east/news/eisenkot-reaches-deal-left-wing-faction-4334756",
+   "content_hash": "c62497c69f03f078",
+   "date_status": "ok",
+   "event_id": "ev_bad0eef6232e",
+   "excerpt": "Gadi Eisenkot’s Yashar party and a left-wing faction agreed on a preliminary coalition deal on Thursday, after a brief dispute that had posed a challenge to his bid to unseat Israeli Prime Minister Benjamin Netanyahu following an inconclusive election last month.",
+   "extraction": null,
+   "id": "a_9609b427bee2407b",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "Eisenkot reaches deal with left-wing faction",
+   "url": "https://www.thedailystar.net/news/world/middle-east/news/eisenkot-reaches-deal-left-wing-faction-4334756"
+  },
   "a_96634751534473fb": {
    "canonical_url": "https://prothomalo.com/bangladesh/environment/7bqhkpo0uh",
    "content_hash": "8106ce5a005dedfe",
@@ -11546,11 +11766,15 @@
   },
   "a_9a3d58691a48715b": {
    "canonical_url": "https://prothomalo.com/world/middle-east/6belzt2x85",
-   "content_hash": "3109a71e7669231d",
+   "content_hash": "6f8d41bce3cd0920",
    "date_status": "ok",
    "event_id": "ev_e5fb829fc174",
    "excerpt": "ট্রাম্প দাবি করেন, মধ্যপ্রাচ্যে স্থিতিশীলতা না ফিরলে ইসরায়েল ও মধ্যপ্রাচ্যের অন্যান্য দেশে পারমাণবিক হামলা চালাতে পারে ইরান। আর এমন পরিস্থিতিতে একটি ‘পারমাণবিক ধ্বংসযজ্ঞ’ ঘটতে পারে।",
-   "extraction": null,
+   "extraction": {
+    "chars": 1430,
+    "reason": "",
+    "status": "ok"
+   },
    "id": "a_9a3d58691a48715b",
    "language": "bn",
    "published_at": "2026-11-27T07:32:31+00:00",
@@ -12568,6 +12792,22 @@
    "title": "White House fires cybersecurity chief after widespread outages",
    "url": "https://www.thedailystar.net/news/world/united-states/news/white-house-fires-cybersecurity-chief-after-widespread-outages-4328736"
   },
+  "a_a7cdfa7d08597802": {
+   "canonical_url": "https://thedailystar.net/news/politics/news/month-victory-bnp-jamaat-ncp-line-rallies-resist-al-4334856",
+   "content_hash": "f42500cda98c8ac4",
+   "date_status": "ok",
+   "event_id": "ev_06740009bfe6",
+   "excerpt": "Amid heightened political tensions and growing law-and-order concerns following recent violence by Awami League activists, major parties will take to the streets throughout December, marking the month of victory while resisting the ousted force.",
+   "extraction": null,
+   "id": "a_a7cdfa7d08597802",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Month of victory: BNP, Jamaat, NCP line up rallies to resist AL",
+   "url": "https://www.thedailystar.net/news/politics/news/month-victory-bnp-jamaat-ncp-line-rallies-resist-al-4334856"
+  },
   "a_a7d32fd36c5ca601": {
    "canonical_url": "https://prothomalo.com/world/usa/ofrr02ompv",
    "content_hash": "a26232373a9339d1",
@@ -13046,11 +13286,15 @@
   },
   "a_adb3a991a870feab": {
    "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168888",
-   "content_hash": "16a905c6a3199bff",
+   "content_hash": "11983cf80af01d7d",
    "date_status": "ok",
    "event_id": "ev_afd219759e4b",
    "excerpt": "Serious funding cuts are severely weakening protection for refugee and stateless women and girls and others at risk of gender-based violence (GBV), like Mariam, who survived a decade of captivity and rape at the hands of Boko Haram militia.",
-   "extraction": null,
+   "extraction": {
+    "chars": 3385,
+    "reason": "",
+    "status": "ok"
+   },
    "id": "a_adb3a991a870feab",
    "language": "en",
    "published_at": "2026-11-27T12:00:00+00:00",
@@ -13214,11 +13458,15 @@
   },
   "a_affa4f644413ee5b": {
    "canonical_url": "https://prothomalo.com/business/analysis/lchxpo7pge",
-   "content_hash": "886f2e1376514b98",
+   "content_hash": "ffa7cf1e7d39eeb0",
    "date_status": "ok",
    "event_id": "ev_9b72b18bd300",
    "excerpt": "",
-   "extraction": null,
+   "extraction": {
+    "chars": 6044,
+    "reason": "",
+    "status": "ok"
+   },
    "id": "a_affa4f644413ee5b",
    "language": "bn",
    "published_at": "2026-11-27T15:56:38+00:00",
@@ -13704,6 +13952,22 @@
    "title": "Egypt says 31 dead in Cairo fire after fuel truck overturns",
    "url": "https://www.thedailystar.net/news/world/news/egypt-says-31-dead-cairo-fire-after-fuel-truck-overturns-4333556"
   },
+  "a_b56df493d2fc5424": {
+   "canonical_url": "https://thedailystar.net/news/world/news/end-all-military-aggression-against-europe-4334886",
+   "content_hash": "5cef1a1f3cf54f5f",
+   "date_status": "ok",
+   "event_id": "ev_ffa53394b17c",
+   "excerpt": "US President Donald Trump said Thursday he had asked Vladimir Putin to “pull back all military aggression” against Europe, in a fresh shift in tone towards the Russian leader he called his friend just last week.",
+   "extraction": null,
+   "id": "a_b56df493d2fc5424",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "End ‘all military aggression’ against Europe",
+   "url": "https://www.thedailystar.net/news/world/news/end-all-military-aggression-against-europe-4334886"
+  },
   "a_b5dd11194b547c93": {
    "canonical_url": "https://prothomalo.com/bangladesh/0s9dl436b7",
    "content_hash": "1497c0ee4d909fe8",
@@ -13958,11 +14222,15 @@
   },
   "a_bb249913c67a38cd": {
    "canonical_url": "https://sciencedaily.com/releases/2026/11/261126033501.htm",
-   "content_hash": "3ee8e5f2c3a776ed",
+   "content_hash": "576880a9d12f261a",
    "date_status": "ok",
    "event_id": "ev_b8fa15b9805b",
    "excerpt": "Virginia Tech scientists have discovered how to transform one of the world's hardest-to-recycle plastics into a valuable ingredient for high-performance engine oil. Their innovative process converts discarded PVC into a useful lubricant material in just three hours. The breakthrough could turn a major source of plastic pollution into a valuable industrial resource while making lubricant production more sustainable.",
-   "extraction": null,
+   "extraction": {
+    "chars": 7599,
+    "reason": "",
+    "status": "ok"
+   },
    "id": "a_bb249913c67a38cd",
    "language": "en",
    "published_at": "2026-11-27T09:52:24+00:00",
@@ -14226,7 +14494,11 @@
    "date_status": "ok",
    "event_id": "ev_9389ddcd70d9",
    "excerpt": "পর্যায়ক্রমে ৪ কোটি ১০ লাখ পরিবারকে এ কর্মসূচির আওতায় আনার পরিকল্পনা সরকারের। এ লক্ষ্যে তথ্য সংগ্রহ চলছে।",
-   "extraction": null,
+   "extraction": {
+    "chars": 0,
+    "reason": "Response exceeded 3000000 bytes for https://www.prothomalo.com/bangladesh/5moxigkkqp",
+    "status": "failed"
+   },
    "id": "a_be491cdc88451cf5",
    "language": "bn",
    "published_at": "2026-11-27T01:33:07+00:00",
@@ -14431,6 +14703,46 @@
    "source_name": "ScienceDaily — Top Science",
    "title": "Scientists identify two ages when children may be most vulnerable to screen time",
    "url": "https://www.sciencedaily.com/releases/2026/11/261126033220.htm"
+  },
+  "a_c08c008b6aa3d31a": {
+   "canonical_url": "https://thedailystar.net/news/world/europe/news/un-agencies-warn-famine-risks-rising-4334891",
+   "content_hash": "a37849df1bb7b6af",
+   "date_status": "ok",
+   "event_id": "ev_c9c04c51444f",
+   "excerpt": "Hunger is set to worsen significantly in 16 global hotspots over the coming six months, with famine threatening parts of Africa, two United Nations agencies warned yesterday.",
+   "extraction": {
+    "chars": 3293,
+    "reason": "",
+    "status": "ok"
+   },
+   "id": "a_c08c008b6aa3d31a",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "UN agencies warn famine risks rising",
+   "url": "https://www.thedailystar.net/news/world/europe/news/un-agencies-warn-famine-risks-rising-4334891"
+  },
+  "a_c0b11ea347c96ad4": {
+   "canonical_url": "https://thedailystar.net/news/world/news/parliamentary-polls-new-zealand-pm-luxon-loses-majority-4334766",
+   "content_hash": "96c39da7e5668809",
+   "date_status": "ok",
+   "event_id": "ev_d32f50960b37",
+   "excerpt": "New Zealand’s ruling centre-right coalition has narrowly missed winning a parliamentary majority, final election results showed yesterday, leaving Prime Minister Christopher Luxon needing the support of the centrist Opportunity Party to remain in power.",
+   "extraction": {
+    "chars": 1794,
+    "reason": "",
+    "status": "ok"
+   },
+   "id": "a_c0b11ea347c96ad4",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "Parliamentary polls: New Zealand PM Luxon loses majority",
+   "url": "https://www.thedailystar.net/news/world/news/parliamentary-polls-new-zealand-pm-luxon-loses-majority-4334766"
   },
   "a_c0c772e0af118112": {
    "canonical_url": "https://thedailystar.net/business/global-economy/news/war-clouds-saudi-arabias-post-oil-future-4325701",
@@ -14876,6 +15188,22 @@
    "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
    "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss"
   },
+  "a_c5882b241e2c4401": {
+   "canonical_url": "https://thedailystar.net/news/world/united-states/news/trump-calls-probe-fake-gdp-figures-4334776",
+   "content_hash": "16e2bf4e2dbf7305",
+   "date_status": "ok",
+   "event_id": "ev_a09798e85208",
+   "excerpt": "President Donald Trump called Thursday for an investigation into a routine revision of economic growth figures as he pushed his groundless claims of interference in the US midterm elections.",
+   "extraction": null,
+   "id": "a_c5882b241e2c4401",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_world",
+   "source_name": "The Daily Star — World",
+   "title": "Trump calls for probe into ‘fake’ GDP figures",
+   "url": "https://www.thedailystar.net/news/world/united-states/news/trump-calls-probe-fake-gdp-figures-4334776"
+  },
   "a_c58ae425380ac462": {
    "canonical_url": "https://thedailystar.net/business/economy/news/beximco-pharma-plans-subsidiary-diversify-products-4324771",
    "content_hash": "80f9f0e78b3b41fb",
@@ -15151,6 +15479,22 @@
    "source_name": "UN News — All",
    "title": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond",
    "url": "https://news.un.org/feed/view/en/story/2026/11/1168854"
+  },
+  "a_c949cafca21f03ca": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/childrens-homes-short-care-4334846",
+   "content_hash": "e398a58ae4670602",
+   "date_status": "ok",
+   "event_id": "ev_9f6b6dee3abd",
+   "excerpt": "Jannatul Ferdous, who plays for the Bangladesh under-19 women’s cricket team, grew up in a government-run children’s home in Tejgaon.",
+   "extraction": null,
+   "id": "a_c949cafca21f03ca",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Children’s homes short on care",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/childrens-homes-short-care-4334846"
   },
   "a_c95b1c829b9aa428": {
    "canonical_url": "https://prothomalo.com/world/asia/psas012aox",
@@ -15656,6 +16000,26 @@
    "title": "When even public hospitals are beyond the poor’s reach",
    "url": "https://www.thedailystar.net/news/bangladesh/news/when-even-public-hospitals-are-beyond-the-poors-reach-4333526"
   },
+  "a_d08a958df9245c74": {
+   "canonical_url": "https://bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_campaign=rss&at_medium=RSS",
+   "content_hash": "58c82460df9fc1d3",
+   "date_status": "ok",
+   "event_id": "ev_9a0fdf6ab2d1",
+   "excerpt": "There are fears of a major oil spillage off Ibiza but the ship's fuel tanks are so far intact.",
+   "extraction": {
+    "chars": 2732,
+    "reason": "",
+    "status": "ok"
+   },
+   "id": "a_d08a958df9245c74",
+   "language": "en",
+   "published_at": "2026-11-27T20:34:45+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "bbc_science",
+   "source_name": "BBC News — Science & Environment",
+   "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+   "url": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss"
+  },
   "a_d09ff735dcbda0aa": {
    "canonical_url": "https://thedailystar.net/business/global-economy/news/canada-china-agree-further-tariff-cuts-4326526",
    "content_hash": "16626da72d0dd18d",
@@ -15875,6 +16239,22 @@
    "source_name": "The Daily Star — Business",
    "title": "Germany pledges €246m in fresh funds",
    "url": "https://www.thedailystar.net/business/global-economy/news/germany-pledges-eur246m-fresh-funds-4328496"
+  },
+  "a_d3c0d662d05a02df": {
+   "canonical_url": "https://bbc.co.uk/news/articles/cq074p95z4llo?at_campaign=rss&at_medium=RSS",
+   "content_hash": "ce7ecc9dfdefa22a",
+   "date_status": "ok",
+   "event_id": "ev_b447bd64b57d",
+   "excerpt": "Cities including Lagos and Alexandria are sinking faster than previously thought, a new study shows.",
+   "extraction": null,
+   "id": "a_d3c0d662d05a02df",
+   "language": "en",
+   "published_at": "2026-11-27T19:03:18+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "bbc_science",
+   "source_name": "BBC News — Science & Environment",
+   "title": "New satellite data shows how fast some African cities are sinking",
+   "url": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss"
   },
   "a_d3d99882676f043e": {
    "canonical_url": "https://thedailystar.net/business/economy/news/muktadir-seeks-swift-action-plan-post-ldc-exports-4326536",
@@ -16792,6 +17172,22 @@
    "title": "Ukraine sinks Russian naval corvette in Libya",
    "url": "https://www.thedailystar.net/news/world/news/ukraine-sinks-russian-naval-corvette-libya-4331776"
   },
+  "a_e0f1216a4721a0a3": {
+   "canonical_url": "https://prothomalo.com/world/eegpky4yql",
+   "content_hash": "d78ee237a4097f03",
+   "date_status": "ok",
+   "event_id": "ev_2148c43ed6b0",
+   "excerpt": "সম্প্রতি চীনে এক সম্মেলনে পুতিনকে আলিঙ্গন করেন ট্রাম্প। এ সময় তিনি রুশ প্রেসিডেন্টকে ‘বন্ধু’ বলে উল্লেখ করেন।",
+   "extraction": null,
+   "id": "a_e0f1216a4721a0a3",
+   "language": "bn",
+   "published_at": "2026-11-27T19:28:01+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "ট্রাম্পের পুতিনকে বন্ধু বলাটা হিটলারকে বন্ধু বলার মতো: জেলেনস্কি",
+   "url": "https://www.prothomalo.com/world/eegpky4yql"
+  },
   "a_e0f35720d0648d2a": {
    "canonical_url": "https://prothomalo.com/bangladesh/gtmvmjasxf",
    "content_hash": "d5f330d4fcc10c90",
@@ -17199,6 +17595,22 @@
    "source_name": "The Daily Star — Business",
    "title": "Sourcing expo opens today with more exhibitors, no export target",
    "url": "https://www.thedailystar.net/business/economy/news/sourcing-expo-opens-today-more-exhibitors-no-export-target-4323846"
+  },
+  "a_e698a243bd0611c4": {
+   "canonical_url": "https://thedailystar.net/business/economy/rmg/news/rmg-work-orders-shifted-bangladesh-other-countries-bgmea-4334751",
+   "content_hash": "4de04498e84faa00",
+   "date_status": "ok",
+   "event_id": "ev_68c45bcf26d3",
+   "excerpt": "Factories could not make on-time shipments to buyers due to the RMG workers' protests, says BGMEA President Mahmud Hasan Khan",
+   "extraction": null,
+   "id": "a_e698a243bd0611c4",
+   "language": "en",
+   "published_at": "2026-11-27T19:35:03+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_business",
+   "source_name": "The Daily Star — Business",
+   "title": "RMG work orders shifted from Bangladesh to other countries: BGMEA",
+   "url": "https://www.thedailystar.net/business/economy/rmg/news/rmg-work-orders-shifted-bangladesh-other-countries-bgmea-4334751"
   },
   "a_e6a4675cde23ca82": {
    "canonical_url": "https://thedailystar.net/news/bangladesh/news/geopolitics-may-dictate-ganges-treatys-future-4331596",
@@ -17632,6 +18044,22 @@
    "title": "Trump says he might meet with North Korea's Kim Jong Un in China",
    "url": "https://www.thedailystar.net/news/world/news/trump-says-he-might-meet-north-koreas-kim-jong-un-china-4325951"
   },
+  "a_edf2b2f1b7b3f2d6": {
+   "canonical_url": "https://thedailystar.net/news/bangladesh/news/changing-dengue-pattern-poses-new-challenges-4334851",
+   "content_hash": "257290c759aa7d3d",
+   "date_status": "ok",
+   "event_id": "ev_efb2f325e684",
+   "excerpt": "Even as November draws to a close, hospitals continue to receive dengue patients, with doctors reporting a growing number of cases involving severe and potentially life-threatening organ complications.",
+   "extraction": null,
+   "id": "a_edf2b2f1b7b3f2d6",
+   "language": "en",
+   "published_at": "2026-11-27T18:00:00+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "dailystar_bangladesh",
+   "source_name": "The Daily Star — Bangladesh",
+   "title": "Changing dengue pattern poses new challenges",
+   "url": "https://www.thedailystar.net/news/bangladesh/news/changing-dengue-pattern-poses-new-challenges-4334851"
+  },
   "a_ee037607a6b0c135": {
    "canonical_url": "https://thedailystar.net/news/world/news/states-must-allow-citizens-create-and-join-groups-4328591",
    "content_hash": "6a2edced71d865a4",
@@ -17815,6 +18243,22 @@
    "source_name": "Prothom Alo (প্রথম আলো)",
    "title": "কদম্বের সুবাস",
    "url": "https://www.bondhushava.com/writings/7vo68hi0u1"
+  },
+  "a_f0c1a0458cbf0fd4": {
+   "canonical_url": "https://prothomalo.com/bangladesh/n76q76yvx1",
+   "content_hash": "ac686eb25a9051e3",
+   "date_status": "ok",
+   "event_id": "ev_4f96008d433c",
+   "excerpt": "রাজারবাগে আয়োজিত এই ক্রীড়া প্রতিযোগিতার পুরস্কার বিতরণী অনুষ্ঠানে আইজিপি পুলিশ সদস্যদের দৃঢ় মনোবল ও পেশাদারত্বের সঙ্গে দায়িত্ব পালনের আহ্বান জানান।",
+   "extraction": null,
+   "id": "a_f0c1a0458cbf0fd4",
+   "language": "bn",
+   "published_at": "2026-11-27T19:24:36+00:00",
+   "retrieved_at": "2026-11-27T23:24:05+00:00",
+   "source_id": "prothomalo",
+   "source_name": "Prothom Alo (প্রথম আলো)",
+   "title": "গুজব ছড়ালে কঠোর ব্যবস্থা: আইজিপি",
+   "url": "https://www.prothomalo.com/bangladesh/n76q76yvx1"
   },
   "a_f0e5e9ff176e0945": {
    "canonical_url": "https://news.un.org/feed/view/en/story/2026/11/1168874",
@@ -18981,7 +19425,7 @@
    "sources_failed": [],
    "sources_ok": 11
   },
-  "last_at": "2026-11-27T17:24:26+00:00"
+  "last_at": "2026-11-27T23:24:05+00:00"
  },
  "created_at": "2026-10-24T11:17:30+00:00",
  "digest": {
@@ -27962,6 +28406,217 @@
     ],
     "to": "2026-11-27"
    }
+  },
+  "2026-11-28": {
+   "attempts": 1,
+   "chunks": [
+    {
+     "index": 0,
+     "kind": "text",
+     "sha": "6808f5ca9f56c06c",
+     "text": "📰 <b>বিসিএস দৈনিক ব্রিফিং</b> — ২৮ নভেম্বর ২০২৬\n📚 ৮টি খবর · ⏱ পড়তে প্রায় ২০ মিনিট\n\n<b>আজকের শিরোনাম</b>\n১. যুক্তরাষ্ট্রে বাংলাদেশি পণ্যে নতুন শুল্কের সর্বোচ্চ সীমা ১৮ শতাংশ প্রস্তাব\n২. জাতিসংঘ সংস্থাগুলো ১৬টি বিশ্ব খাদ্য-সংকট কেন্দ্র নিয়ে দুর্ভিক্ষঝুঁকি বাড়ার সতর্কতা দিল\n৩. যুক্তরাষ্ট্রের নতুন শুল্কে ভারত-যুক্তরাষ্ট্র বাণিজ্য চুক্তি ঘিরে উদ্বেগ\n৪. বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে চায় Meta\n৫. নিউজিল্যান্ডে লাক্সনের জোট সংখ্যাগরিষ্ঠতা পায়নি\n৬. নগদ ডলার বিক্রিতে সর্বোচ্চ হার বেঁধে দিল বাংলাদেশ ব্যাংক\n৭. ভ্যাট নজরদারির আওতায় ২৭,০০০ অনলাইন ব্যবসা চিহ্নিত\n৮. কুয়েতে সামরিক স্থাপনায় হামলায় সম্পৃক্ততা অস্বীকার করে যৌথ তদন্তের প্রস্তাব ইরানের\n⚠️ <b>আংশিক সংস্করণ</b>\n   • প্রাথমিক বাছাই (screening) সম্পূর্ণ হয়নি।\n\n<b>১. যুক্তরাষ্ট্রে বাংলাদেশি পণ্যে নতুন শুল্কের সর্বোচ্চ সীমা ১৮ শতাংশ প্রস্তাব</b>\n🏷 পররাষ্ট্রনীতি ও ভূ-রাজনীতি · অর্থনীতি | প্রিলি + লিখিত | স্কোর ৮০/১০০\n📰 Prothom Alo (প্রথম আলো) · ২৭ নভেম্বর ২০২৬\n\n🎯 সিলেবাস: বাংলাদেশের দ্বিপক্ষীয় সম্পর্ক, সফর ও চুক্তি\n<b>কী ঘটেছে:</b> যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তর (ইউএসটিআর) বাংলাদেশি পণ্যের ওপর সর্বোচ্চ ১৮ শতাংশ শুল্কের প্রস্তাব দিয়েছে, যা আলোচনা ও প্রতিশ্রুতি সন্তোষজনক না হলে ২০ শতাংশ পর্যন্ত যেতে পারে। আগামী ৫ জানুয়ারির মধ্যে মতামত দিতে হবে এবং ২৫ জানুয়ারির শুনানিতে অংশ নিতে হবে। প্রতিবেদনে বলা হয়েছে, দেড় বছরের প্রক্রিয়ায় একাধিক শুল্ক ও তদন্তের পর এই নতুন প্রস্তাব এসেছে।\n<b>📌 প্রিলির জন্য মনে রাখুন</b> <i>(প্রতিবেদন থেকে)</i>\n• যুক্তরাষ্ট্রে বাংলাদেশি পণ্যের শুল্ক সর্বোচ্চ ১৮ শতাংশে রাখার প্রস্তাব এসেছে; আলোচনা সন্তোষজনক না হলে তা ২০ শতাংশে যেতে পারে।\n• ৫ জানুয়ারির মধ্যে মতামত দিতে হবে এবং ২৫ জানুয়ারি শুনানি হবে।\n• ২০২৬ সালের ৯ ফেব্রুয়ারি বাংলাদেশ ১৯ শতাংশ হারে পারস্পরিক বাণিজ্যচুক্তিতে (এআরটি) সই করে।\n<b>আরও তথ্য</b> <i>(প্রতিবেদন থেকে)</i>\n• মার্চে ইউএসটিআর সেকশন ৩০১-এর আওতায় দুটি তদন্ত শুরু করে—একটি অতিরিক্ত সক্ষমতা নিয়ে, অন্যটি জোরপূর্বক শ্রম নিয়ে।\n• যুক্তরাষ্ট্রের পোশাক আমদানিতে পরিমাণের হিসাবে বাংলাদেশের অংশ ১০ দশমিক ৭ শতাংশ বলা হয়েছে।\n• ইউএসটিআরের প্রস্তাব কার্যকর হলে বাংলাদেশের মোট শুল্ক সর্বোচ্চ ৩৩ দশমিক ৬ শতাংশে দাঁড়াবে।\n<b>বিসিএস-এ কেন গুরুত্বপূর্ণ:</b> এটি বাংলাদেশ-যুক্তরাষ্ট্র বাণিজ্য সম্পর্ক ও রপ্তানি খাতের জন্য গুরুত্বপূর্ণ। বিসিএসের বাণিজ্যনীতি, আন্তর্জাতিক অর্থনীতি ও দ্বিপক্ষীয় সম্পর্ক অংশে শুল্ক, তদন্ত, আলোচনার সময়সূচি এবং রপ্তানি প্রতিযোগিতার প্রভাব থেকে প্রশ্ন আসতে পারে।\n<b>✍️ লিখিত উত্তরের পয়েন্ট</b> <i>(AI বিশ্লেষণ)</i>\n• যুক্তরাষ্ট্রের শুল্কনীতি বাংলাদেশের রপ্তানি, বিশেষ করে তৈরি পোশাক খাতের প্রতিযোগিতা সক্ষমতায় সরাসরি প্রভাব ফেলতে পারে।\n• আলোচনায় সময়মতো মতামত, শুনানিতে অংশগ্রহণ এবং শ্রম সংস্কার ও মার্কিন তুলা ব্যবহারের মতো প্রতিশ্রুতি দেখানো দরকার।\n• দ্বিপক্ষীয় বাণিজ্য আলোচনায় কূটনৈতিক প্রস্তুতি, প্রাতিষ্ঠানিক সমন্বয় এবং নথিভিত্তিক জবাব দেওয়ার গুরুত্ব রয়েছে।\n<b>📚 প্রাসঙ্গিক সাধারণ জ্ঞান</b> <i>(প্রতিবেদনের বাইরের তথ্য; AI দুইবার আলাদাভাবে মিলিয়ে দেখেছে, তবু মূল সূত্রে যাচাই করুন)</i>\n• যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তরকে সংক্ষেপে ইউএসটিআর বলা হয়।\n<b>📝 সম্ভাব্য লিখিত প্রশ্ন:</b> যুক্তরাষ্ট্রে বাংলাদেশি পণ্যের ওপর নতুন শুল্ক প্রস্তাব, আলোচনার ঝুঁকি ও সম্ভাব্য প্রভাব আলোচনা করুন।\n🔗 <a href=\"https://www.prothomalo.com/business/analysis/lchxpo7pge\">Prothom Alo (প্রথম আলো)</a>"
+    },
+    {
+     "index": 1,
+     "kind": "text",
+     "sha": "e4944cd2f6ed5e68",
+     "text": "<b>২. জাতিসংঘ সংস্থাগুলো ১৬টি বিশ্ব খাদ্য-সংকট কেন্দ্র নিয়ে দুর্ভিক্ষঝুঁকি বাড়ার সতর্কতা দিল</b>\n🏷 আন্তর্জাতিক বিষয়াবলি | প্রিলি + লিখিত | স্কোর ৭৬/১০০\n📰 The Daily Star — World · ২৭ নভেম্বর ২০২৬\n\n🎯 সিলেবাস: বৈশ্বিক সমস্যা: শরণার্থী, মানবাধিকার, মাদক ও ক্ষুধা\n<b>কী ঘটেছে:</b> জাতিসংঘের দুটি সংস্থা, FAO ও WFP, জানিয়েছে যে আগামী ছয় মাসে ১৬টি বৈশ্বিক হটস্পটে খাদ্যসংকট আরও খারাপ হবে এবং আফ্রিকার কিছু অংশে দুর্ভিক্ষের ঝুঁকি তৈরি হয়েছে। তারা বলেছে, সংঘাত, বাস্তুচ্যুতি, অর্থনৈতিক দুরবস্থা, চরম আবহাওয়া এবং কমতে থাকা মানবিক সহায়তা এই সংকটকে তীব্র করছে।\n<b>📌 প্রিলির জন্য মনে রাখুন</b> <i>(প্রতিবেদন থেকে)</i>\n• আগামী ছয় মাসে ১৬টি বৈশ্বিক হটস্পটে ক্ষুধা উল্লেখযোগ্যভাবে বাড়তে পারে বলে সতর্ক করেছে দুটি জাতিসংঘ সংস্থা।\n• দুর্ভিক্ষের সবচেয়ে বড় ঝুঁকিতে আছে সুদান, দক্ষিণ সুদান, সোমালিয়া, উত্তর নাইজেরিয়া ও ইয়েমেন।\n• সর্বশেষ যৌথ প্রতিবেদনটি ডিসেম্বর ২০২৬ থেকে মে ২০২৭ সময়কালকে কভার করেছে।\n<b>আরও তথ্য</b> <i>(প্রতিবেদন থেকে)</i>\n• FAO ও WFP বলেছে, ১২টি হটস্পটে সশস্ত্র সংঘাত ও সহিংসতা ক্ষুধার মূল চালক।\n<b>উদ্ধৃত দাবি</b> <i>(যাচাইকৃত তথ্য নয়)</i>\n• জাতিসংঘের খাদ্য ও কৃষি সংস্থা (FAO) এবং বিশ্ব খাদ্য কর্মসূচি (WFP): দাতব্য বা মানবিক সহায়তার তহবিল কমে যাওয়া বিপর্যয় ঠেকানোর প্রচেষ্টাকে দুর্বল করছে।\n• FAO ও WFP: এল নিনো পরিস্থিতি খরা, চরম তাপমাত্রা এবং কোথাও কোথাও বিধ্বংসী বন্যা বাড়িয়ে সংকটকে আরও তীব্র করতে পারে।\n<b>বিসিএস-এ কেন গুরুত্বপূর্ণ:</b> এটি আন্তর্জাতিক সমস্যা, খাদ্যনিরাপত্তা ও মানবিক সংকট বিষয়ে BCS-এর জন্য প্রাসঙ্গিক। প্রশ্নে FAO-WFP-এর সতর্কতা, কোন অঞ্চলগুলো সবচেয়ে ঝুঁকিতে আছে, এবং সংকটের কারণগুলো জিজ্ঞেস করা হতে পারে।\n<b>✍️ লিখিত উত্তরের পয়েন্ট</b> <i>(AI বিশ্লেষণ)</i>\n• খাদ্যনিরাপত্তা এখন শুধু কৃষি নয়, সংঘাত, বাস্তুচ্যুতি, জলবায়ু ও অর্থনৈতিক পরিস্থিতির সঙ্গে গভীরভাবে যুক্ত।\n• মানবিক সহায়তা কমে গেলে আগাম সতর্কতা, তথ্যসংগ্রহ ও জরুরি সহায়তা—সবকিছুই দুর্বল হয়ে পড়ে।\n• আঞ্চলিকভাবে ভিন্ন ঝুঁকি থাকলেও সুদান, দক্ষিণ সুদান, সোমালিয়া, উত্তর নাইজেরিয়া ও ইয়েমেন এই প্রতিবেদনে সবচেয়ে ঝুঁকিপূর্ণ হিসেবে উঠে এসেছে.\n<b>📚 প্রাসঙ্গিক সাধারণ জ্ঞান</b> <i>(প্রতিবেদনের বাইরের তথ্য; AI দুইবার আলাদাভাবে মিলিয়ে দেখেছে, তবু মূল সূত্রে যাচাই করুন)</i>\n• জাতিসংঘের খাদ্য ও কৃষি সংস্থার সদর দপ্তর ইতালির রোমে অবস্থিত।\n• বিশ্ব খাদ্য কর্মসূচি ১৯৬১ সালে প্রতিষ্ঠিত হয়।\n<b>📝 সম্ভাব্য লিখিত প্রশ্ন:</b> বিশ্বের খাদ্যসংকট ও দুর্ভিক্ষঝুঁকি বিষয়ে FAO ও WFP-এর সাম্প্রতিক সতর্কতা আলোচনা করুন।\n🔗 <a href=\"https://www.thedailystar.net/news/world/europe/news/un-agencies-warn-famine-risks-rising-4334891\">The Daily Star — World</a>\n🏛 দাপ্তরিক সূত্রে যাচাই: <a href=\"https://news.un.org/en/\">UN News — Asia Pacific</a>"
+    },
+    {
+     "index": 2,
+     "kind": "text",
+     "sha": "bcfc239800c0b141",
+     "text": "<b>৩. যুক্তরাষ্ট্রের নতুন শুল্কে ভারত-যুক্তরাষ্ট্র বাণিজ্য চুক্তি ঘিরে উদ্বেগ</b>\n🏷 আন্তর্জাতিক বিষয়াবলি · অর্থনীতি | প্রিলি + লিখিত | স্কোর ৭৬/১০০\n📰 BBC News বাংলা · ২৬ নভেম্বর ২০২৬\n\n🎯 সিলেবাস: বৈশ্বিক অর্থনীতি ও আন্তর্জাতিক আর্থিক প্রতিষ্ঠান\n<b>কী ঘটেছে:</b> যুক্তরাষ্ট্র ভারতসহ কয়েকটি দেশের পণ্যের ওপর নতুন বাণিজ্য শুল্ক আরোপের প্রস্তাব দিয়েছে। ভারতীয় পণ্যের ওপর সর্বোচ্চ ২৫% শুল্ক হতে পারে, তবে দ্বিপাক্ষিক বাণিজ্য চুক্তি চূড়ান্ত হলে তা ১৭%-এ নামতে পারে বলে প্রস্তাব রয়েছে। ভারতীয় বাণিজ্য মন্ত্রণালয় অভিযোগ অস্বীকার করে আলোচনা চলমান থাকার কথা বলেছে।\n<b>📌 প্রিলির জন্য মনে রাখুন</b> <i>(প্রতিবেদন থেকে)</i>\n• ভারতীয় পণ্যের ওপর সর্বোচ্চ ২৫% বাণিজ্য শুল্ক আরোপ করা হতে পারে।\n• দ্বিপাক্ষিক বাণিজ্য চুক্তি চূড়ান্ত হলে শুল্ক ১৭%-এ নামিয়ে আনার প্রস্তাব রয়েছে।\n• যুক্তরাষ্ট্রের ট্রেড অ্যাক্ট অফ ১৯৭৪-এর ৩০১ ধারার আওতায় এই তদন্ত ও শুল্কপ্রস্তাব এসেছে।\n<b>আরও তথ্য</b> <i>(প্রতিবেদন থেকে)</i>\n• যুক্তরাষ্ট্র ভারতসহ কয়েকটি দেশের ওপর প্রস্তাবিত বাণিজ্য শুল্কের হার ঘোষণা করেছে।\n• অক্টোবর মাসের তথ্য অনুযায়ী ২০২৬ অর্থ বছরে ভারত ও যুক্তরাষ্ট্রের দ্বিপাক্ষিক বাণিজ্য ১৪০.৭৯ বিলিয়ন ডলার।\n• ২০২৫ সালে দ্বিপাক্ষিক পণ্য ও পরিষেবা বাণিজ্যের সম্মিলিত মোট পরিমাণ ছিল ২৪১.৬৬ বিলিয়ন ডলার।\n<b>উদ্ধৃত দাবি</b> <i>(যাচাইকৃত তথ্য নয়)</i>\n• যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধি (ইউএসটিআর): ভারতের উৎপাদন পরিকল্পনার ফলে শিল্প সক্ষমতা বৃদ্ধি পেয়েছে এবং তা মার্কিন অর্থনীতির জন্য ক্ষতিকর।\n• ভারতের বাণিজ্য ও শিল্প মন্ত্রণালয়: ভারত কোনো খাতে কাঠামোগত উদ্বৃত্ত উৎপাদনের ক্ষমতা নেই বলে বাণিজ্য বিভাগ জানিয়েছে।\n<b>বিসিএস-এ কেন গুরুত্বপূর্ণ:</b> এটি আন্তর্জাতিক অর্থনীতি ও বাণিজ্যনীতির একটি পরীক্ষাযোগ্য বিষয়। যুক্তরাষ্ট্রের ৩০১ ধারার প্রয়োগ, শুল্কনীতি এবং দ্বিপাক্ষিক বাণিজ্য চুক্তির মাধ্যমে বাজার প্রবেশের শর্ত—এসব থেকে লিখিত ও এমসিকিউ উভয় প্রশ্নই করা যেতে পারে।\n<b>✍️ লিখিত উত্তরের পয়েন্ট</b> <i>(AI বিশ্লেষণ)</i>\n• শুল্কনীতি আন্তর্জাতিক বাণিজ্যে দরকষাকষির হাতিয়ার হিসেবে ব্যবহৃত হতে পারে।\n• দ্বিপাক্ষিক বাণিজ্য চুক্তি হলে বাজারপ্রবেশের শর্ত কিছুটা শিথিল হতে পারে, কিন্তু তা সব সময় সমানভাবে লাভজনক নাও হতে পারে।\n• ৩০১ ধারার তদন্ত, অভিযোগ অস্বীকার এবং পাল্টা যুক্তি—এসব বাণিজ্য বিরোধের কূটনৈতিক ও অর্থনৈতিক দিক দেখায়।\n<b>📚 প্রাসঙ্গিক সাধারণ জ্ঞান</b> <i>(প্রতিবেদনের বাইরের তথ্য; AI দুইবার আলাদাভাবে মিলিয়ে দেখেছে, তবু মূল সূত্রে যাচাই করুন)</i>\n• যুক্তরাষ্ট্রের ফেডারেল রাজধানী ওয়াশিংটন ডিসি।\n<b>📝 সম্ভাব্য লিখিত প্রশ্ন:</b> যুক্তরাষ্ট্রের প্রস্তাবিত নতুন শুল্ক ভারত-যুক্তরাষ্ট্র বাণিজ্য সম্পর্ক ও দ্বিপাক্ষিক বাণিজ্য চুক্তির ওপর কী প্রভাব ফেলতে পারে? আলোচনা করুন।\n🔗 <a href=\"https://www.bbc.com/bengali/articles/c5x2wxye4pw3o?at_medium=RSS&amp;at_campaign=rss\">BBC News বাংলা</a>"
+    },
+    {
+     "index": 3,
+     "kind": "text",
+     "sha": "c66d31f5b5f3fe06",
+     "text": "<b>৪. বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে চায় Meta</b>\n🏷 বিজ্ঞান ও প্রযুক্তি · অর্থনীতি | প্রিলি + লিখিত | স্কোর ৭৬/১০০\n📰 The Daily Star — Bangladesh · ২৭ নভেম্বর ২০২৬\n\n🎯 সিলেবাস: আইসিটি, ডিজিটাল সেবা ও সাইবার নীতি\n<b>কী ঘটেছে:</b> Meta বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে আগ্রহ প্রকাশ করেছে এবং এ জন্য BTRC-এর কাছে অনুমতির আবেদন করেছে। প্রতিষ্ঠানটি PoP স্থাপন, আন্তর্জাতিক ব্যাকবোনের সঙ্গে সংযোগ, স্থানীয় ইন্টারনেট সেবাদাতা ও মোবাইল অপারেটরের সঙ্গে সরাসরি সংযোগ এবং settlement-free peering-এর অনুমতি চেয়েছে।\n<b>📌 প্রিলির জন্য মনে রাখুন</b> <i>(প্রতিবেদন থেকে)</i>\n• Meta ১৩ আগস্ট BTRC-এর সঙ্গে বৈঠকের পর বাংলাদেশে local infrastructure স্থাপনের বিষয়টি আলোচনা করে।\n• Meta-এর প্ল্যাটফর্মগুলো বাংলাদেশের আন্তর্জাতিক bandwidth consumption-এর প্রায় ২৫ শতাংশ।\n• অক্টোবর পর্যন্ত বাংলাদেশে ৭৭.১ মিলিয়ন Facebook user ছিল।\n<b>আরও তথ্য</b> <i>(প্রতিবেদন থেকে)</i>\n• Meta বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে চায় এবং এতে উল্লেখযোগ্য মূলধনী বিনিয়োগ প্রয়োজন হবে।\n• Meta তার আবেদনে Bangladesh Telecommunication Regulation Act 2001 এবং Telecommunications Network and Licensing Policy 2025-এর clause 7.2.10 উল্লেখ করেছে।\n<b>উদ্ধৃত দাবি</b> <i>(যাচাইকৃত তথ্য নয়)</i>\n• Rehan Asad, ICT adviser to the prime minister: বাংলাদেশে Meta-এর অবকাঠামো হলে কনটেন্ট দেশেই হোস্ট ও সরবরাহ করা যাবে, ফলে ভারত হয়ে ট্রাফিক রুট করার প্রয়োজন কমবে।\n• Rehan Asad, ICT adviser to the prime minister: এতে India বা অন্য দেশের জন্য যে bandwidth cost দিতে হয়, তা সাশ্রয় হবে এবং ব্যবহারকারীদের performance ভালো হবে।\n<b>বিসিএস-এ কেন গুরুত্বপূর্ণ:</b> এটি আইসিটি নীতি, টেলিযোগাযোগ নিয়ন্ত্রণ এবং ডিজিটাল অবকাঠামো উন্নয়নের সঙ্গে সরাসরি সম্পর্কিত। বিসিএস প্রার্থীর জন্য প্রশ্ন হতে পারে—PoP কী, bandwidth cost কীভাবে কমতে পারে, এবং লাইসেন্সিং ও interconnection নীতিতে কী ধরনের সমন্বয় দরকার।\n<b>✍️ লিখিত উত্তরের পয়েন্ট</b> <i>(AI বিশ্লেষণ)</i>\n• বাংলাদেশে নিজস্ব PoP ও স্থানীয় সংযোগ স্থাপিত হলে আন্তর্জাতিক ট্রাফিক রাউটিং কমে ডিজিটাল সেবা দ্রুত হতে পারে।\n• Bandwidth cost কমলে সেবার খরচ ও নেটওয়ার্ক দক্ষতার ওপর ইতিবাচক প্রভাব পড়তে পারে।\n• এ ধরনের বিনিয়োগের ক্ষেত্রে নিয়ন্ত্রক স্বচ্ছতা, লাইসেন্সিং এবং interconnection নীতির সমন্বয় গুরুত্বপূর্ণ হয়ে ওঠে।\n<b>📚 প্রাসঙ্গিক সাধারণ জ্ঞান</b> <i>(প্রতিবেদনের বাইরের তথ্য; AI দুইবার আলাদাভাবে মিলিয়ে দেখেছে, তবু মূল সূত্রে যাচাই করুন)</i>\n• বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ কমিশনের সংক্ষিপ্ত রূপ হলো বিটিআরসি।\n• বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ আইন ২০০১ সালে প্রণীত হয়।\n<b>📝 সম্ভাব্য লিখিত প্রশ্ন:</b> বাংলাদেশে Meta-এর নিজস্ব নেটওয়ার্ক অবকাঠামো স্থাপনের সম্ভাবনা, এর অর্থনৈতিক প্রভাব এবং নিয়ন্ত্রক চ্যালেঞ্জগুলো আলোচনা করুন।\n🔗 <a href=\"https://www.thedailystar.net/news/bangladesh/news/meta-plans-own-setup-bangladesh-4334866\">The Daily Star — Bangladesh</a>"
+    },
+    {
+     "index": 4,
+     "kind": "text",
+     "sha": "9209f8089227388c",
+     "text": "<b>৫. নিউজিল্যান্ডে লাক্সনের জোট সংখ্যাগরিষ্ঠতা পায়নি</b>\n🏷 আন্তর্জাতিক বিষয়াবলি · পররাষ্ট্রনীতি ও ভূ-রাজনীতি | প্রিলি + লিখিত | স্কোর ৭৪/১০০\n📰 The Daily Star — World · ২৭ নভেম্বর ২০২৬\n\n🎯 সিলেবাস: গুরুত্বপূর্ণ দেশের সরকার পরিবর্তন ও জাতীয় নির্বাচন\n<b>কী ঘটেছে:</b> নিউজিল্যান্ডের ক্ষমতাসীন মধ্য-ডান জোট সংসদীয় সংখ্যাগরিষ্ঠতা পেতে ব্যর্থ হয়েছে। ফলে প্রধানমন্ত্রী Christopher Luxon-এর সরকার টিকিয়ে রাখতে centrist Opportunity Party-এর সমর্থন প্রয়োজন হতে পারে, নতুবা নতুন নির্বাচন হতে পারে।\n<b>📌 প্রিলির জন্য মনে রাখুন</b> <i>(প্রতিবেদন থেকে)</i>\n• নিউজিল্যান্ডের ক্ষমতাসীন মধ্য-ডান জোট সংসদীয় সংখ্যাগরিষ্ঠতা পায়নি।\n• জোটটির আসন সংখ্যা 65, যা 130-আসনের সংসদে সংখ্যাগরিষ্ঠতার জন্য এক আসন কম।\n• প্রধানমন্ত্রী Christopher Luxon-এর জাতীয় দল November 7 election-এ 40টি আসন পেয়েছে।\n<b>আরও তথ্য</b> <i>(প্রতিবেদন থেকে)</i>\n• জোটের ছোট অংশীদার ACT ও New Zealand First যথাক্রমে 13 ও 12টি আসন পেয়েছে।\n<b>উদ্ধৃত দাবি</b> <i>(যাচাইকৃত তথ্য নয়)</i>\n• Christopher Luxon, Prime Minister: নিউজিল্যান্ডে স্থিতিশীল ও পূর্ণ মেয়াদে কাজ করতে পারে এমন সরকার দরকার।\n• Christopher Luxon, Prime Minister: তাড়াহুড়ো করে করা সমঝোতা ভেঙে গেলে বা আবার ভোট হলে জনগণ তা পছন্দ করবে না।\n<b>বিসিএস-এ কেন গুরুত্বপূর্ণ:</b> এটি আন্তর্জাতিক বিষয়ের অন্তর্ভুক্ত গুরুত্বপূর্ণ সরকার পরিবর্তন ও নির্বাচনী ফলাফল। BCS-এ এ ধরনের প্রশ্নে সংসদীয় সংখ্যাগরিষ্ঠতা, জোট রাজনীতি এবং সরকার গঠনের প্রক্রিয়া নিয়ে প্রশ্ন আসতে পারে।\n<b>✍️ লিখিত উত্তরের পয়েন্ট</b> <i>(AI বিশ্লেষণ)</i>\n• সংখ্যালঘু বা অল্প ব্যবধানের পার্লামেন্টে জোট সরকার গঠন কীভাবে নির্ভরশীল হয়, তা ব্যাখ্যা করা যায়।\n• সংখ্যাগরিষ্ঠতা না পেলে জোট, confidence-and-supply deal বা নতুন নির্বাচনের সম্ভাবনা তৈরি হয়।\n• সংসদীয় স্থিতিশীলতা, দলীয় সমঝোতা এবং সরকার পরিচালনার ধারাবাহিকতা নির্বাচনী ফলাফলের গুরুত্বপূর্ণ দিক।\n<b>📚 প্রাসঙ্গিক সাধারণ জ্ঞান</b> <i>(প্রতিবেদনের বাইরের তথ্য; AI দুইবার আলাদাভাবে মিলিয়ে দেখেছে, তবু মূল সূত্রে যাচাই করুন)</i>\n• নিউজিল্যান্ডের সংসদ এককক্ষবিশিষ্ট।\n<b>📝 সম্ভাব্য লিখিত প্রশ্ন:</b> নিউজিল্যান্ডের সাম্প্রতিক সংসদীয় নির্বাচনে সংখ্যাগরিষ্ঠতা না পাওয়া ও পরবর্তী সরকার গঠনের সম্ভাবনা আলোচনা করুন।\n🔗 <a href=\"https://www.thedailystar.net/news/world/news/parliamentary-polls-new-zealand-pm-luxon-loses-majority-4334766\">The Daily Star — World</a>"
+    },
+    {
+     "index": 5,
+     "kind": "text",
+     "sha": "2f320f9dff250597",
+     "text": "<b>৬. নগদ ডলার বিক্রিতে সর্বোচ্চ হার বেঁধে দিল বাংলাদেশ ব্যাংক</b>\n🏷 অর্থনীতি · সংবিধান ও সুশাসন | প্রিলি | স্কোর ৭০/১০০\n📰 Prothom Alo (প্রথম আলো) · ২৬ নভেম্বর ২০২৬\n\n🎯 সিলেবাস: বাংলাদেশ ব্যাংক, মুদ্রানীতি ও আর্থিক খাত\n<b>কী ঘটেছে:</b> বাংলাদেশ ব্যাংক ব্যাংকের মাধ্যমে নগদ ডলারসহ অন্যান্য বৈদেশিক মুদ্রা বিক্রির ক্ষেত্রে সর্বোচ্চ বিনিময় হার নির্ধারণ করে দিয়েছে। এখন থেকে নগদ বৈদেশিক মুদ্রা বিক্রিতে ব্যাংকগুলো বিলস ফর কালেকশন বা বিসি হারের বেশি দাম নিতে পারবে না।\n<b>📌 প্রিলির জন্য মনে রাখুন</b> <i>(প্রতিবেদন থেকে)</i>\n• বাংলাদেশ ব্যাংক নগদ ডলারসহ অন্যান্য বৈদেশিক মুদ্রা বিক্রির ক্ষেত্রে সর্বোচ্চ বিনিময় হার বেঁধে দিয়েছে।\n• নগদ বৈদেশিক মুদ্রা বিক্রির সর্বোচ্চ হার এখন বিলস ফর কালেকশন বা বিসি হারের বেশি হতে পারবে না।\n• সংশ্লিষ্ট সূত্রে বলা হয়েছে, বর্তমানে ব্যাংকগুলো প্রতি মার্কিন ডলারের বিপরীতে বিসি বিক্রয় হার হিসেবে ১২৫ টাকা ৫ পয়সা থেকে ১২৫ টাকা ৪০ পয়সা দর নির্ধারণ করছে।\n<b>আরও তথ্য</b> <i>(প্রতিবেদন থেকে)</i>\n• ব্যাংকে নগদ ডলারের বিক্রয়মূল্য দাঁড়াচ্ছে ১২৬ থেকে ১২৭ টাকা পর্যন্ত।\n• খোলাবাজারে মানি চেঞ্জারে প্রতি ডলার বিক্রি হচ্ছে ১২৭ টাকা ৫০ পয়সা থেকে ১২৮ টাকায়।\n<b>উদ্ধৃত দাবি</b> <i>(যাচাইকৃত তথ্য নয়)</i>\n• বাংলাদেশ ব্যাংক: এই পদক্ষেপ নগদ বৈদেশিক মুদ্রার বাজার স্থিতিশীল রাখা এবং গ্রাহকদের স্বার্থ সুরক্ষার জন্য নেওয়া হয়েছে।\n• ব্যাংক খাত সংশ্লিষ্ট ব্যক্তিরা: ডলারের মূল্যবৃদ্ধি ঠেকাতে এই ব্যবস্থা নেওয়া হয়েছে।\n<b>বিসিএস-এ কেন গুরুত্বপূর্ণ:</b> এটি বাংলাদেশ ব্যাংকের মুদ্রা ও বৈদেশিক মুদ্রা ব্যবস্থাপনার সঙ্গে সরাসরি সম্পর্কিত, যা ব্যাংকিং ও আর্থিক খাতের গুরুত্বপূর্ণ বিষয়। বিসিএস প্রশ্নে নীতিগত সিদ্ধান্ত, বাজার স্থিতিশীলতা এবং গ্রাহক স্বার্থের ওপর এর প্রভাব জিজ্ঞাসা করা যেতে পারে।\n<b>✍️ লিখিত উত্তরের পয়েন্ট</b> <i>(AI বিশ্লেষণ)</i>\n• বাংলাদেশ ব্যাংকের এ সিদ্ধান্তে নগদ বৈদেশিক মুদ্রার দামের ওপর নিয়ন্ত্রণ বাড়তে পারে এবং বাজারে অতিরিক্ত চাপ কিছুটা কমতে পারে।\n• ব্যাংক, মানি চেঞ্জার ও ভ্রমণকারী/শিক্ষার্থী/রোগীদের জন্য নগদ ডলার কেনার খরচ ও সরবরাহব্যবস্থায় প্রভাব পড়তে পারে।\n• নীতিটির কার্যকারিতা নির্ভর করবে ব্যাংকগুলোর নগদ বৈদেশিক মুদ্রা সংগ্রহের সক্ষমতা এবং খোলাবাজারের দরের ব্যবধান কতটা কমানো যায় তার ওপর।\n<b>📚 প্রাসঙ্গিক সাধারণ জ্ঞান</b> <i>(প্রতিবেদনের বাইরের তথ্য; AI দুইবার আলাদাভাবে মিলিয়ে দেখেছে, তবু মূল সূত্রে যাচাই করুন)</i>\n• বাংলাদেশ ব্যাংক দেশের কেন্দ্রীয় ব্যাংক।\n• বাংলাদেশ ব্যাংক ১৯৭২ সালে প্রতিষ্ঠিত হয়।\n<b>📝 সম্ভাব্য লিখিত প্রশ্ন:</b> নগদ বৈদেশিক মুদ্রা বিক্রির সর্বোচ্চ হার বেঁধে দেওয়ার সিদ্ধান্ত বাংলাদেশের বৈদেশিক মুদ্রাবাজারে কী প্রভাব ফেলতে পারে—আলোচনা করুন।\n🔗 <a href=\"https://www.prothomalo.com/business/bank/pchd0lp1dg\">Prothom Alo (প্রথম আলো)</a>\n🏛 দাপ্তরিক সূত্রে যাচাই: <a href=\"https://www.bb.org.bd/\">Bangladesh Bank</a>"
+    },
+    {
+     "index": 6,
+     "kind": "text",
+     "sha": "4cfaf2283cbc5b6c",
+     "text": "<b>৭. ভ্যাট নজরদারির আওতায় ২৭,০০০ অনলাইন ব্যবসা চিহ্নিত</b>\n🏷 অর্থনীতি · সংবিধান ও সুশাসন | প্রিলি | স্কোর ৬৬/১০০\n📰 The Daily Star — Business · ২৬ নভেম্বর ২০২৬\n\n🎯 সিলেবাস: বাজেট, রাজস্ব, এডিপি ও সরকারি ঋণ\n<b>কী ঘটেছে:</b> জাতীয় রাজস্ব বোর্ড (NBR) প্রায় ২৭,০০০ ই-কমার্স ব্যবসা চিহ্নিত করেছে, যেগুলোর বেশির ভাগের ব্যবসা শনাক্তকরণ নম্বর (BIN) নেই; এগুলোকে সম্ভাব্য ভ্যাট যাচাইয়ের জন্য সংশ্লিষ্ট কমিশনারেটগুলোতে পাঠানো হয়েছে। প্রতিবেদনটিতে আরও বলা হয়েছে, ২৯টি রেস্তোরাঁর বিক্রিতে ফুড ডেলিভারি প্ল্যাটফর্মের তথ্য ও তাদের ভ্যাট রিটার্নে ঘোষিত টার্নওভারের মধ্যে অমিল পাওয়া গেছে।\n<b>📌 প্রিলির জন্য মনে রাখুন</b> <i>(প্রতিবেদন থেকে)</i>\n• জাতীয় রাজস্ব বোর্ড প্রায় ২৭,০০০ ই-কমার্স ব্যবসা শনাক্ত করেছে ভ্যাট যাচাইয়ের জন্য।\n• চিহ্নিত ব্যবসাগুলোর বেশির ভাগের ব্যবসা শনাক্তকরণ নম্বর (BIN) নেই।\n• ২৯টি রেস্তোরাঁর বিক্রিতে খাদ্য ডেলিভারি প্ল্যাটফর্মের তথ্যের সঙ্গে ভ্যাট রিটার্নের অমিল পাওয়া গেছে।\n<b>আরও তথ্য</b> <i>(প্রতিবেদন থেকে)</i>\n• ব্যবসাগুলোর তথ্য সংশ্লিষ্ট ভ্যাট কমিশনারেটগুলোতে পাঠানো হয়েছে।\n• প্রতিবেদন অনুযায়ী ই-কমার্স ও কুরিয়ার সার্ভিস খাতকে উল্লেখযোগ্য রাজস্ব সম্ভাবনাময় হিসেবে চিহ্নিত করা হয়েছে।\n<b>উদ্ধৃত দাবি</b> <i>(যাচাইকৃত তথ্য নয়)</i>\n• একজন গোয়েন্দা কর্মকর্তা: অনেক অনলাইন ব্যবসা আনুষ্ঠানিক অর্থনীতির বাইরে রয়েছে এবং এগুলোকে করব্যবস্থার মধ্যে আনা প্রয়োজন।\n• একজন গোয়েন্দা কর্মকর্তা: অনলাইন ব্যবসাগুলো আনুষ্ঠানিক অর্থনীতিতে এলে তাদের আর্থিক প্রবাহ ও ব্যবসায়িক কার্যক্রম সঠিকভাবে প্রতিফলিত হবে এবং জিডিপিতে ইতিবাচক প্রভাব পড়বে।\n<b>বিসিএস-এ কেন গুরুত্বপূর্ণ:</b> এটি রাজস্ব প্রশাসন, ভ্যাট আদায় এবং অনলাইন অর্থনীতিকে আনুষ্ঠানিক খাতে আনার সঙ্গে সরাসরি সম্পর্কিত। বিসিএস-এ NBR, ভ্যাট, BIN, এবং ডিজিটাল ব্যবসার কর-অনুগততা নিয়ে প্রশ্ন আসতে পারে।\n<b>✍️ লিখিত উত্তরের পয়েন্ট</b> <i>(AI বিশ্লেষণ)</i>\n• অনলাইন ব্যবসার দ্রুত বিস্তার রাজস্ব ব্যবস্থার জন্য নতুন চ্যালেঞ্জ তৈরি করেছে।\n• BIN ছাড়া ব্যবসা শনাক্ত করা হলে ভ্যাট নেট সম্প্রসারণ ও কর-অনুগততা বাড়তে পারে।\n• ডিজিটাল প্ল্যাটফর্মের বিক্রয়তথ্য ও ভ্যাট রিটার্নের তুলনা কর ফাঁকি শনাক্তে সহায়ক হতে পারে।\n<b>📚 প্রাসঙ্গিক সাধারণ জ্ঞান</b> <i>(প্রতিবেদনের বাইরের তথ্য; AI দুইবার আলাদাভাবে মিলিয়ে দেখেছে, তবু মূল সূত্রে যাচাই করুন)</i>\n• জাতীয় রাজস্ব বোর্ডের সংক্ষিপ্ত রূপ হলো এনবিআর।\n<b>📝 সম্ভাব্য লিখিত প্রশ্ন:</b> অনলাইন ব্যবসাকে আনুষ্ঠানিক করব্যবস্থার আওতায় আনা ও ভ্যাট আদায়ের চ্যালেঞ্জ আলোচনা করুন।\n🔗 <a href=\"https://www.thedailystar.net/business/economy/news/27000-online-businesses-identified-vat-scrutiny-4334146\">The Daily Star — Business</a>"
+    },
+    {
+     "index": 7,
+     "kind": "text",
+     "sha": "daea176d4bfe3ddd",
+     "text": "<b>৮. কুয়েতে সামরিক স্থাপনায় হামলায় সম্পৃক্ততা অস্বীকার করে যৌথ তদন্তের প্রস্তাব ইরানের</b>\n🏷 পররাষ্ট্রনীতি ও ভূ-রাজনীতি · আন্তর্জাতিক বিষয়াবলি | প্রিলি | স্কোর ৬৬/১০০\n📰 Prothom Alo (প্রথম আলো) · ২৭ নভেম্বর ২০২৬\n\n🎯 সিলেবাস: বিশ্বের প্রধান সংঘাত ও সংকট\n<b>কী ঘটেছে:</b> কুয়েতে একটি আকাশ প্রতিরক্ষা পর্যবেক্ষণ কেন্দ্রে ড্রোন হামলায় দুই ইতালীয় নাগরিক নিহত হন। এর পর ইরান ওই হামলায় নিজেদের সম্পৃক্ততা অস্বীকার করে কুয়েতের সঙ্গে যৌথ তদন্তের প্রস্তাব দেয়। ইতালি ও কুয়েত হামলার জন্য ইরানকে দায়ী করেছে বলে প্রতিবেদনে বলা হয়েছে।\n<b>📌 প্রিলির জন্য মনে রাখুন</b> <i>(প্রতিবেদন থেকে)</i>\n• কুয়েতে ড্রোন হামলায় দুই ইতালীয় নাগরিক নিহত হন।\n• ইরানের পররাষ্ট্রমন্ত্রী আব্বাস আরাগচি কুয়েতের সঙ্গে যৌথ তদন্তের প্রস্তাব দিয়েছেন।\n• কুয়েতে হামলাটি একটি আকাশ প্রতিরক্ষা পর্যবেক্ষণ কেন্দ্রে হয়েছিল।\n<b>আরও তথ্য</b> <i>(প্রতিবেদন থেকে)</i>\n• আহত আরও দুজনের একজন পাকিস্তানি ও অপরজন কুয়েতি সেনাবাহিনীর ক্যাপ্টেন ছিলেন।\n• কুয়েতের প্রতিরক্ষা মন্ত্রণালয় হামলায় বস্তুগত ক্ষয়ক্ষতির কথাও জানিয়েছে।\n<b>উদ্ধৃত দাবি</b> <i>(যাচাইকৃত তথ্য নয়)</i>\n• আবোলফজল শেকারচি, ইরানের সশস্ত্র বাহিনীর জ্যেষ্ঠ মুখপাত্র: কুয়েতের কোনো ‘গুরুত্বপূর্ণ’ স্থাপনায় ইরানের হামলা হয়নি।\n• আন্তোনিও তাজানি, ইতালির পররাষ্ট্রমন্ত্রী: ইরানি ড্রোন দিয়ে ওই পর্যবেক্ষণ কেন্দ্র লক্ষ্যবস্তু করা হয়েছিল।\n<b>বিসিএস-এ কেন গুরুত্বপূর্ণ:</b> এটি মধ্যপ্রাচ্যের আঞ্চলিক সংঘাত ও সীমান্তপারের নিরাপত্তা উত্তেজনা বিষয়ে বিসিএসের আন্তর্জাতিক বিষয়াবলির অংশ। এ ধরনের প্রশ্নে সংঘাতের পটভূমি, সংশ্লিষ্ট দেশগুলোর অবস্থান এবং কূটনৈতিক প্রতিক্রিয়া থেকে লিখিত প্রশ্ন আসতে পারে।\n<b>✍️ লিখিত উত্তরের পয়েন্ট</b> <i>(AI বিশ্লেষণ)</i>\n• মধ্যপ্রাচ্যে প্রতিশোধমূলক হামলা ও পাল্টা অভিযোগ আঞ্চলিক নিরাপত্তা ঝুঁকি বাড়ায়।\n• এ ধরনের ঘটনায় রাষ্ট্রগুলোর মধ্যে তদন্ত, কূটনৈতিক অভিযোগ এবং দায় নির্ধারণ অত্যন্ত গুরুত্বপূর্ণ হয়ে ওঠে।\n• নাগরিক হতাহত ও সামরিক স্থাপনা লক্ষ্যবস্তু হওয়ায় বিষয়টি আন্তর্জাতিক সংঘাত ও কূটনীতির সঙ্গে সরাসরি যুক্ত।\n<b>📚 প্রাসঙ্গিক সাধারণ জ্ঞান</b> <i>(প্রতিবেদনের বাইরের তথ্য; AI দুইবার আলাদাভাবে মিলিয়ে দেখেছে, তবু মূল সূত্রে যাচাই করুন)</i>\n• কুয়েতের রাজধানী কুয়েত সিটি।\n<b>📝 সম্ভাব্য লিখিত প্রশ্ন:</b> মধ্যপ্রাচ্যে সাম্প্রতিক সংঘাতের বিস্তার, কুয়েতে হামলার ঘটনা এবং ইরানের অস্বীকৃতি ও যৌথ তদন্ত প্রস্তাব সম্পর্কে আলোচনা করুন।\n🔗 <a href=\"https://www.prothomalo.com/world/middle-east/qv4bto4xwc\">Prothom Alo (প্রথম আলো)</a>\n🏛 দাপ্তরিক সূত্রে যাচাই: <a href=\"https://mofa.gov.bd/\">Ministry of Foreign Affairs, Bangladesh</a>\n\n<i>AI-সহায়িত নোট। 'প্রতিবেদন থেকে' অংশগুলো মূল লেখার উদ্ধৃতির সঙ্গে মিলিয়ে রাখা হয়েছে; 'AI বিশ্লেষণ' ও 'পটভূমি' ব্যাখ্যামূলক; 'প্রাসঙ্গিক সাধারণ জ্ঞান' প্রতিবেদনের বাইরের। গুরুত্বপূর্ণ তথ্য মূল সূত্রে যাচাই করে নিন।</i>\n\n<b>🧠 আজকের অনুশীলনী: নিচে ৩টি কুইজ</b>\n<i>একটি উত্তরে ট্যাপ করুন — সঙ্গে সঙ্গে সঠিক উত্তর আর ব্যাখ্যা (💡) দেখতে পাবেন।</i>"
+    },
+    {
+     "index": 8,
+     "kind": "quiz",
+     "poll": {
+      "correct_option_id": 1,
+      "explanation": "Meta ১৩ আগস্ট BTRC-এর সঙ্গে বৈঠকের পর এই বিষয়ে আলোচনা করে।",
+      "options": [
+       "জাতীয় রাজস্ব বোর্ড",
+       "বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ কমিশন",
+       "বাংলাদেশ ব্যাংক",
+       "পররাষ্ট্র মন্ত্রণালয়"
+      ],
+      "question": "প্রশ্ন ১. বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে আলোচনায় আসা Meta-এর বিষয়ে কোন প্রতিষ্ঠানটির সঙ্গে ১৩ আগস্ট বৈঠক হয়?"
+     }
+    },
+    {
+     "index": 9,
+     "kind": "quiz",
+     "poll": {
+      "correct_option_id": 1,
+      "explanation": "জাতীয় রাজস্ব বোর্ড প্রায় ২৭,০০০ ই-কমার্স ব্যবসা শনাক্ত করেছে।",
+      "options": [
+       "প্রায় ১৭,০০০",
+       "প্রায় ২৭,০০০",
+       "প্রায় ৩৭,০০০",
+       "প্রায় ৪৭,০০০"
+      ],
+      "question": "প্রশ্ন ২. জাতীয় রাজস্ব বোর্ড প্রায় কতটি ই-কমার্স ব্যবসা শনাক্ত করেছে ভ্যাট যাচাইয়ের জন্য?"
+     }
+    },
+    {
+     "index": 10,
+     "kind": "quiz",
+     "poll": {
+      "correct_option_id": 2,
+      "explanation": "যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তরের সংক্ষিপ্ত রূপ ইউএসটিআর।",
+      "options": [
+       "ডব্লিউটিও",
+       "ইউএনএইচসিআর",
+       "ইউএসটিআর",
+       "ইউএনডিপি"
+      ],
+      "question": "প্রশ্ন ৩. যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তরকে সংক্ষেপে কী বলা হয়?"
+     }
+    },
+    {
+     "event_ids": [
+      "ev_9b72b18bd300",
+      "ev_c9c04c51444f",
+      "ev_5083345ed6ff",
+      "ev_e3b7f7b82936",
+      "ev_d32f50960b37",
+      "ev_e9fc8659c778",
+      "ev_ea07d5b13b7d",
+      "ev_a89a8b9250aa"
+     ],
+     "index": 11,
+     "kind": "poll",
+     "poll": {
+      "allows_multiple_answers": true,
+      "options": [
+       "১. যুক্তরাষ্ট্রে বাংলাদেশি পণ্যে নতুন শুল্কের সর্বোচ্চ সীমা ১৮ শতাংশ প্রস্তাব",
+       "২. জাতিসংঘ সংস্থাগুলো ১৬টি বিশ্ব খাদ্য-সংকট কেন্দ্র নিয়ে দুর্ভিক্ষঝুঁকি বাড়ার সতর্কতা দিল",
+       "৩. যুক্তরাষ্ট্রের নতুন শুল্কে ভারত-যুক্তরাষ্ট্র বাণিজ্য চুক্তি ঘিরে উদ্বেগ",
+       "৪. বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে চায় Meta",
+       "৫. নিউজিল্যান্ডে লাক্সনের জোট সংখ্যাগরিষ্ঠতা পায়নি",
+       "৬. নগদ ডলার বিক্রিতে সর্বোচ্চ হার বেঁধে দিল বাংলাদেশ ব্যাংক",
+       "৭. ভ্যাট নজরদারির আওতায় ২৭,০০০ অনলাইন ব্যবসা চিহ্নিত",
+       "৮. কুয়েতে সামরিক স্থাপনায় হামলায় সম্পৃক্ততা অস্বীকার করে যৌথ তদন্তের প্রস্তাব ইরানের",
+       "কোনোটিই নয়"
+      ],
+      "question": "📊 আজকের কোন খবরগুলো আপনার প্রস্তুতিতে কাজে লাগবে? (একাধিক বেছে নেওয়া যায়, উত্তর গোপন থাকে)"
+     }
+    }
+   ],
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "date": "2026-11-28",
+   "dry_run": false,
+   "edition_date": "2026-11-28",
+   "failure_notified": false,
+   "hold_until": "2026-11-28T02:00:00+00:00",
+   "manual": false,
+   "mcqs": [
+    {
+     "answer_index": 1,
+     "basis": "article",
+     "explanation": "Meta ১৩ আগস্ট BTRC-এর সঙ্গে বৈঠকের পর এই বিষয়ে আলোচনা করে।",
+     "fact_id": "f4",
+     "options": [
+      "জাতীয় রাজস্ব বোর্ড",
+      "বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ কমিশন",
+      "বাংলাদেশ ব্যাংক",
+      "পররাষ্ট্র মন্ত্রণালয়"
+     ],
+     "question": "বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে আলোচনায় আসা Meta-এর বিষয়ে কোন প্রতিষ্ঠানটির সঙ্গে ১৩ আগস্ট বৈঠক হয়?",
+     "source_event_id": "ev_e3b7f7b82936",
+     "source_name": "The Daily Star — Bangladesh",
+     "source_story": "বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে চায় Meta",
+     "source_url": "https://www.thedailystar.net/news/bangladesh/news/meta-plans-own-setup-bangladesh-4334866",
+     "subject": "science_technology"
+    },
+    {
+     "answer_index": 1,
+     "basis": "article",
+     "explanation": "জাতীয় রাজস্ব বোর্ড প্রায় ২৭,০০০ ই-কমার্স ব্যবসা শনাক্ত করেছে।",
+     "fact_id": "f7",
+     "options": [
+      "প্রায় ১৭,০০০",
+      "প্রায় ২৭,০০০",
+      "প্রায় ৩৭,০০০",
+      "প্রায় ৪৭,০০০"
+     ],
+     "question": "জাতীয় রাজস্ব বোর্ড প্রায় কতটি ই-কমার্স ব্যবসা শনাক্ত করেছে ভ্যাট যাচাইয়ের জন্য?",
+     "source_event_id": "ev_ea07d5b13b7d",
+     "source_name": "The Daily Star — Business",
+     "source_story": "ভ্যাট নজরদারির আওতায় ২৭,০০০ অনলাইন ব্যবসা চিহ্নিত",
+     "source_url": "https://www.thedailystar.net/business/economy/news/27000-online-businesses-identified-vat-scrutiny-4334146",
+     "subject": "economy"
+    },
+    {
+     "answer_index": 2,
+     "basis": "gk",
+     "explanation": "যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তরের সংক্ষিপ্ত রূপ ইউএসটিআর।",
+     "fact_id": "f9",
+     "options": [
+      "ডব্লিউটিও",
+      "ইউএনএইচসিআর",
+      "ইউএসটিআর",
+      "ইউএনডিপি"
+     ],
+     "question": "যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তরকে সংক্ষেপে কী বলা হয়?",
+     "source_event_id": "ev_9b72b18bd300",
+     "source_name": "Prothom Alo (প্রথম আলো)",
+     "source_story": "যুক্তরাষ্ট্রে বাংলাদেশি পণ্যে নতুন শুল্কের সর্বোচ্চ সীমা ১৮ শতাংশ প্রস্তাব",
+     "source_url": "https://www.prothomalo.com/business/analysis/lchxpo7pge",
+     "subject": "foreign_policy_geopolitics"
+    }
+   ],
+   "partial": true,
+   "partial_reasons": [
+    "প্রাথমিক বাছাই (screening) সম্পূর্ণ হয়নি।"
+   ],
+   "pdf": {
+    "bytes": 446463,
+    "file": "edition-2026-11-28.pdf",
+    "sha": "6c5f6bbe268c1afe"
+   },
+   "status": "ready",
+   "story_event_ids": [
+    "ev_9b72b18bd300",
+    "ev_c9c04c51444f",
+    "ev_5083345ed6ff",
+    "ev_e3b7f7b82936",
+    "ev_d32f50960b37",
+    "ev_e9fc8659c778",
+    "ev_ea07d5b13b7d",
+    "ev_a89a8b9250aa"
+   ],
+   "unprocessed_candidates": 0
   }
  },
  "events": {
@@ -28536,10 +29191,21 @@
    "event_id": "ev_04b51a167ceb",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "A routine NASA mission update about an astronaut visit is not a substantive space-policy development.",
+    "story_type": "science_technology",
+    "topic": "sci_space"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_04e523ce1a8e": {
    "analysis": null,
@@ -28670,6 +29336,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-19T00:15:38+00:00"
+  },
+  "ev_06740009bfe6": {
+   "analysis": null,
+   "article_ids": [
+    "a_a7cdfa7d08597802"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_06740009bfe6",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "constitution_governance"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "It is a description of rival political rallies and tensions, which is excluded as party politics.",
+    "story_type": "party_politics",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_06bdf98d563e": {
    "analysed_at": "2026-11-15T23:07:46+00:00",
@@ -29117,10 +29809,22 @@
    "event_id": "ev_087b761521fc",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "economy"
+    ],
+    "decision": "reject",
+    "exam_focus": "both",
+    "exam_hook": "Export earnings from goods fell, while service exports showed promise.",
+    "forced_reject": "weak maybe (priority 4)",
+    "priority": 4.0,
+    "rationale": "It touches trade performance, but the item as given is too thin and lacks clear official data in the excerpt.",
+    "story_type": "economic_data",
+    "topic": "bd_trade_industry"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_0889aab118ec": {
    "analysed_at": "2026-11-24T23:52:02+00:00",
@@ -30378,7 +31082,7 @@
    "included_in": null,
    "last_error": null,
    "screening": null,
-   "screening_attempts": 0,
+   "screening_attempts": 1,
    "status": "new",
    "updated_at": "2026-11-27T04:05:14+00:00"
   },
@@ -31038,7 +31742,7 @@
    "included_in": null,
    "last_error": null,
    "screening": null,
-   "screening_attempts": 0,
+   "screening_attempts": 1,
    "status": "new",
    "updated_at": "2026-11-27T08:15:59+00:00"
   },
@@ -31808,10 +32512,21 @@
    "event_id": "ev_18ba7fab8877",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "constitution_governance"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "A city hawker rehabilitation issue is a local administration story and excluded.",
+    "story_type": "local_admin",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_18bb0b81e30b": {
    "analysis": null,
@@ -32879,10 +33594,21 @@
    "event_id": "ev_1fd449778fda",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "economy"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "Routine food price movement is an everyday market update and not a durable policy event.",
+    "story_type": "market_price_update",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_1fe01dab31c3": {
    "analysis": null,
@@ -33176,6 +33902,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-26T23:45:39+00:00"
+  },
+  "ev_2148c43ed6b0": {
+   "analysis": null,
+   "article_ids": [
+    "a_e0f1216a4721a0a3"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_2148c43ed6b0",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "It is a quoted political remark without a substantive new development suitable for exam setting.",
+    "story_type": "foreign_domestic_minor",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_216b62a9b572": {
    "analysis": null,
@@ -34066,17 +34818,30 @@
   "ev_263cc17ef612": {
    "analysis": null,
    "article_ids": [
-    "a_2e881c5abfc5d7f4"
+    "a_2e881c5abfc5d7f4",
+    "a_3651f7a5c78369b0",
+    "a_4eb8bd6f01a8e8c3"
    ],
    "attempts": 0,
    "created_at": "2026-11-27T04:05:14+00:00",
    "event_id": "ev_263cc17ef612",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "Local mobile banking disruption in one district is a routine service issue with no durable policy fact.",
+    "story_type": "foreign_domestic_minor",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_2642f3ed1987": {
    "analysed_at": "2026-11-14T23:19:55+00:00",
@@ -34443,10 +35208,21 @@
    "event_id": "ev_286a9afce10d",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "economy"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "Daily gold-price movement is a routine market update and explicitly excluded.",
+    "story_type": "market_price_update",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_2893133ba901": {
    "analysis": null,
@@ -35117,10 +35893,21 @@
    "event_id": "ev_2d0ff944e26d",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A fiction/creative piece with no factual policy relevance.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_2e5d00d0e984": {
    "analysis": null,
@@ -35316,10 +36103,21 @@
    "event_id": "ev_2eb01455a70c",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is a photo feature about a volcano, not a new disaster or official development.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_2f078d6c3235": {
    "analysed_at": "2026-11-18T00:55:03+00:00",
@@ -35511,10 +36309,21 @@
    "event_id": "ev_2fc497531727",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "environment_climate"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A parade postponement due to weather is a minor incident, not a substantive disaster development.",
+    "story_type": "environment_disaster",
+    "topic": "env_disaster"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_2fd3bdef60b7": {
    "analysis": null,
@@ -37519,6 +38328,32 @@
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
   },
+  "ev_3ed9ed2cff98": {
+   "analysis": null,
+   "article_ids": [
+    "a_170ee2e063c18a41"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_3ed9ed2cff98",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "constitution_governance"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is a speech-style opinion piece with no new official fact or decision.",
+    "story_type": "opinion",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_3ee5946e9fd3": {
    "analysis": null,
    "article_ids": [
@@ -38309,10 +39144,21 @@
    "event_id": "ev_44409ed646e0",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "Moon farming is speculative/feature-style science news without a concrete policy or official milestone.",
+    "story_type": "science_technology",
+    "topic": "sci_space"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_44907934b044": {
    "analysis": null,
@@ -38718,10 +39564,21 @@
    "event_id": "ev_46a852f18e3c",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "awards_reports_indices"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "The honors named are local recognition items without clear national or international exam significance.",
+    "story_type": "award_appointment",
+    "topic": "awd_awards"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_46b664059520": {
    "analysis": null,
@@ -38906,6 +39763,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
+  },
+  "ev_487f6977c1ea": {
+   "analysis": null,
+   "article_ids": [
+    "a_8c391d821a8b5e14"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_487f6977c1ea",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "economy"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is a short-term vegetable price move, which is excluded as a market price update.",
+    "story_type": "market_price_update",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_489fdc7cc098": {
    "analysis": null,
@@ -39488,6 +40371,32 @@
    "status": "rejected",
    "updated_at": "2026-11-19T00:15:38+00:00"
   },
+  "ev_4c43c5a18dcc": {
+   "analysis": null,
+   "article_ids": [
+    "a_7a11e617a18bb64c"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_4c43c5a18dcc",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "constitution_governance"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "Security steps tied to a banned party and alleged sabotage are routine political-security coverage, not a syllabus-worthy decision.",
+    "story_type": "party_politics",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_4c6ca51c47a3": {
    "analysis": null,
    "article_ids": [
@@ -39628,10 +40537,21 @@
    "event_id": "ev_4dcbe2c903e2",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is a literary/feature piece with no policy or exam-relevant durable fact.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_4de31b34a1e8": {
    "analysis": null,
@@ -39748,10 +40668,47 @@
    "event_id": "ev_4f175e1a7acf",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A single traffic accident video is an incident, not a policy or durable fact.",
+    "story_type": "crime_accident",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
+  "ev_4f96008d433c": {
+   "analysis": null,
+   "article_ids": [
+    "a_f0c1a0458cbf0fd4"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_4f96008d433c",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "constitution_governance"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A warning against rumours is not a substantive policy or institutional development.",
+    "story_type": "speculation",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_500d3ec7511b": {
    "analysis": null,
@@ -39789,10 +40746,21 @@
    "event_id": "ev_5010dc58259a",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "constitution_governance"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is a partisan and inflammatory political remark, which is excluded as party politics.",
+    "story_type": "party_politics",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_501678d4a054": {
    "analysis": null,
@@ -39830,10 +40798,21 @@
    "event_id": "ev_502961a54a12",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "NASA's daily picture feature is not a substantive science-policy development.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_5083345ed6ff": {
    "analysed_at": "2026-11-26T23:45:39+00:00",
@@ -39916,6 +40895,15 @@
     "likely_question": "যুক্তরাষ্ট্রের প্রস্তাবিত নতুন শুল্ক ভারত-যুক্তরাষ্ট্র বাণিজ্য সম্পর্ক ও দ্বিপাক্ষিক বাণিজ্য চুক্তির ওপর কী প্রভাব ফেলতে পারে? আলোচনা করুন।",
     "mode": "full",
     "score": 76.0,
+    "static_gk": [
+     {
+      "answer": "ওয়াশিংটন ডিসি",
+      "answer_en": "Washington, D.C.",
+      "kind": "place",
+      "question": "যুক্তরাষ্ট্রের ফেডারেল রাজধানী কী?",
+      "statement": "যুক্তরাষ্ট্রের ফেডারেল রাজধানী ওয়াশিংটন ডিসি।"
+     }
+    ],
     "syllabus_label": "বৈশ্বিক অর্থনীতি ও আন্তর্জাতিক আর্থিক প্রতিষ্ঠান",
     "syllabus_topic": "int_global_economy",
     "unsupported_dropped": 0,
@@ -40911,10 +41899,22 @@
    "event_id": "ev_54aa213c17e9",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "awards_reports_indices"
+    ],
+    "decision": "reject",
+    "exam_focus": "prelims",
+    "exam_hook": "A child health specialist has been elected president of NIGHTAG.",
+    "forced_reject": "weak maybe (priority 3)",
+    "priority": 3.0,
+    "rationale": "This is an institutional appointment, but it is relatively low-value unless the organization is especially prominent.",
+    "story_type": "award_appointment",
+    "topic": "rep_appointments_firsts"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_54b0d1b866a7": {
    "analysis": null,
@@ -40927,7 +41927,7 @@
    "included_in": null,
    "last_error": null,
    "screening": null,
-   "screening_attempts": 0,
+   "screening_attempts": 1,
    "status": "new",
    "updated_at": "2026-11-27T04:05:14+00:00"
   },
@@ -43020,10 +44020,21 @@
    "event_id": "ev_605049e72211",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "A student team travelling for an Olympiad is low-value event news without policy significance.",
+    "story_type": "other_low_value",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_60765d1fc81a": {
    "analysis": null,
@@ -43076,6 +44087,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-25T23:35:28+00:00"
+  },
+  "ev_61db47072391": {
+   "analysis": null,
+   "article_ids": [
+    "a_3a9506e382fea694"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_61db47072391",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "constitution_governance"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "This is party alliance friction ahead of local polls, which falls under party politics and is excluded.",
+    "story_type": "party_politics",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_61dc1ad9ae24": {
    "analysis": null,
@@ -43619,7 +44656,7 @@
    "included_in": null,
    "last_error": null,
    "screening": null,
-   "screening_attempts": 0,
+   "screening_attempts": 1,
    "status": "new",
    "updated_at": "2026-11-27T08:15:59+00:00"
   },
@@ -44062,6 +45099,58 @@
    "status": "rejected",
    "updated_at": "2026-11-25T23:35:28+00:00"
   },
+  "ev_68c45bcf26d3": {
+   "analysis": null,
+   "article_ids": [
+    "a_e698a243bd0611c4"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_68c45bcf26d3",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "economy"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 2.0,
+    "rationale": "This is mainly an industry complaint about work orders shifting, not a clear official decision or durable policy fact.",
+    "story_type": "corporate_commercial",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
+  "ev_693385eb3486": {
+   "analysis": null,
+   "article_ids": [
+    "a_2821cb393c19d109"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_693385eb3486",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "awards_reports_indices"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A cultural event feature with no exam-relevant policy or institutional fact.",
+    "story_type": "religion_culture_local",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_693b5fabeec7": {
    "analysis": null,
    "article_ids": [
@@ -44098,10 +45187,21 @@
    "event_id": "ev_69769dcd08d1",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "It is a speculative security claim about ministers seeking shelter, not a durable policy event.",
+    "story_type": "foreign_domestic_minor",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_69a977617ccf": {
    "analysis": null,
@@ -44165,10 +45265,21 @@
    "event_id": "ev_6b65531f51cc",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "environment_climate"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "This is a human-interest/environment feature about coexistence, not a new policy or official report.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_6b81bf57f7c9": {
    "analysis": null,
@@ -44687,10 +45798,21 @@
    "event_id": "ev_6f8368ea5391",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "environment_climate"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "Another routine severe-weather update in the US without wider policy or exam significance.",
+    "story_type": "environment_disaster",
+    "topic": "env_disaster"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_6f9bb3cd89c7": {
    "analysis": null,
@@ -45211,10 +46333,21 @@
    "event_id": "ev_71d6e37e72dd",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "awards_reports_indices"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A lifestyle/culture profile with no policy or exam-worthy durable fact.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_72124c9ef747": {
    "analysis": null,
@@ -45331,10 +46464,21 @@
    "event_id": "ev_7346132512ed",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "An airport wildlife-smuggling incident is an individual law-enforcement case, which is excluded.",
+    "story_type": "crime_accident",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_7350bd333fc2": {
    "analysis": null,
@@ -45372,10 +46516,21 @@
    "event_id": "ev_740ab05cb2e3",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "A niche marine genetics finding is interesting but not a substantive syllabus-level development.",
+    "story_type": "science_technology",
+    "topic": "sci_discovery"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_7498d8f63d53": {
    "analysis": null,
@@ -45465,10 +46620,21 @@
    "event_id": "ev_7588b023a6d5",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A personal life-story item with no syllabus-level durable fact.",
+    "story_type": "human_interest",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_75907b368511": {
    "analysis": null,
@@ -47368,10 +48534,21 @@
    "event_id": "ev_80c12ddefb82",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 2.0,
+    "rationale": "A sectoral cyber-security report on retail ransomware risk is too general and not a policy decision.",
+    "story_type": "science_technology",
+    "topic": "sci_tech_ai"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_80d5bd772e9c": {
    "analysis": null,
@@ -47682,6 +48859,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
+  },
+  "ev_85074410605a": {
+   "analysis": null,
+   "article_ids": [
+    "a_9024b801d1277086"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_85074410605a",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "environment_climate"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A wildlife feature about birds is not a substantive policy or official event.",
+    "story_type": "feature",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_85617e08c881": {
    "analysis": null,
@@ -48309,10 +49512,21 @@
    "event_id": "ev_87ca40491b15",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "Consumer advice on smartphones is a lifestyle/how-to piece with no exam value.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_884f51e1de6a": {
    "analysis": null,
@@ -48863,15 +50077,26 @@
    "article_ids": [
     "a_606ac8fb55254a3b"
    ],
-   "attempts": 0,
+   "attempts": 1,
    "created_at": "2026-11-27T17:24:26+00:00",
    "event_id": "ev_8c874da04747",
    "included_in": null,
-   "last_error": null,
-   "screening": null,
+   "last_error": "এটি মহাকাশ গবেষণা ও NASA-র গবেষণা সংবাদ। BCS সিলেবাসে এটি সরাসরি কোনো নির্দিষ্ট টপিকের সঙ্গে শক্তভাবে মেলে না; মূলত সাধারণ বিজ্ঞান/প্রযুক্তি-ধরনের গবেষণা তথ্য, পরীক্ষামূলক স্পেস ক্রপস ও মানব টিস্যু নিয়ে বর্ণনা। তাই পরীক্ষার জন্য অগ্রাধিকারযোগ্য নয়।",
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "NASA is sending pioneering space crop research to the International Space Station on NG-25.",
+    "priority": 6.0,
+    "rationale": "A concrete space-science mission with a durable fact and clear prelims value.",
+    "story_type": "science_technology",
+    "topic": "sci_space"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "analysis_rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_8cefe4962e7a": {
    "analysis": null,
@@ -49015,10 +50240,21 @@
    "event_id": "ev_8e5a62d9a811",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "An opinionated feature on day-care centres does not report a new policy decision.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_8e7b0777275b": {
    "analysis": null,
@@ -49539,11 +50775,22 @@
    "created_at": "2026-11-27T04:05:14+00:00",
    "event_id": "ev_9389ddcd70d9",
    "included_in": null,
-   "last_error": null,
-   "screening": null,
+   "last_error": "No accessible article text or sufficient excerpt",
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "The government says family-card allowances now cover 74,000 families, with a plan to expand to 4.10 crore families.",
+    "priority": 6.0,
+    "rationale": "A named safety-net programme with figures and expansion target is durable and exam-relevant.",
+    "story_type": "policy_decision",
+    "topic": "bd_social_sector"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
+   "status": "failed",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_93cfdd1a2f19": {
    "analysis": null,
@@ -50847,6 +52094,32 @@
    "status": "rejected",
    "updated_at": "2026-11-20T23:57:05+00:00"
   },
+  "ev_9a0fdf6ab2d1": {
+   "analysis": null,
+   "article_ids": [
+    "a_d08a958df9245c74"
+   ],
+   "attempts": 1,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_9a0fdf6ab2d1",
+   "included_in": null,
+   "last_error": "Syllabus relevance 6 below 7",
+   "screening": {
+    "categories": [
+     "environment_climate"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "A tanker carrying 7,000 tonnes of diesel is being towed away after capsizing off Ibiza, with spill fears still present.",
+    "priority": 6.0,
+    "rationale": "A major maritime pollution risk with a durable factual detail and clear policy relevance.",
+    "story_type": "environment_disaster",
+    "topic": "env_disaster"
+   },
+   "screening_attempts": 0,
+   "status": "analysis_rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_9a24fcfab110": {
    "analysis": null,
    "article_ids": [
@@ -50883,25 +52156,131 @@
    "event_id": "ev_9b103d7ecc82",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "awards_reports_indices"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is an explanatory feature on GBV services, not a new official development.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_9b72b18bd300": {
-   "analysis": null,
+   "analysed_at": "2026-11-27T23:24:05+00:00",
+   "analysis": {
+    "analysed_article_id": "a_affa4f644413ee5b",
+    "attributed_claims": [],
+    "background_context": "যুক্তরাষ্ট্র বিভিন্ন বাণিজ্যিক ও শ্রমসংক্রান্ত শর্তের ভিত্তিতে আমদানি নীতি কঠোর করতে পারে। বাংলাদেশের তৈরি পোশাক খাত দীর্ঘদিন ধরে যুক্তরাষ্ট্রের বাজারে নির্ভরশীল একটি বড় রপ্তানি খাত।",
+    "categories": [
+     "foreign_policy_geopolitics",
+     "economy"
+    ],
+    "criteria": {
+     "factual_density": 8.0,
+     "novelty": 8.0,
+     "significance": 8.0,
+     "syllabus_relevance": 8.0,
+     "written_potential": 8.0
+    },
+    "exam_focus": "both",
+    "headline_bn": "যুক্তরাষ্ট্রে বাংলাদেশি পণ্যে নতুন শুল্কের সর্বোচ্চ সীমা ১৮ শতাংশ প্রস্তাব",
+    "institutions": [
+     "যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তর (ইউএসটিআর)",
+     "পারস্পরিক বাণিজ্যচুক্তি (এআরটি)",
+     "সেকশন ৩০১"
+    ],
+    "key_facts": [
+     {
+      "evidence": "“যুক্তরাষ্ট্রে বাংলাদেশি পণ্যের শুল্ক সর্বোচ্চ ১৮ শতাংশে থাকবে, নাকি ২০ শতাংশে উঠবে।”",
+      "fact": "যুক্তরাষ্ট্রে বাংলাদেশি পণ্যের শুল্ক সর্বোচ্চ ১৮ শতাংশে রাখার প্রস্তাব এসেছে; আলোচনা সন্তোষজনক না হলে তা ২০ শতাংশে যেতে পারে।",
+      "kind": "number",
+      "prelims": true
+     },
+     {
+      "evidence": "“৫ জানুয়ারির মধ্যে মতামত দিতে হবে, শুনানি ২৫ জানুয়ারি।”",
+      "fact": "৫ জানুয়ারির মধ্যে মতামত দিতে হবে এবং ২৫ জানুয়ারি শুনানি হবে।",
+      "kind": "date",
+      "prelims": true
+     },
+     {
+      "evidence": "“২০২৬ সালের ৯ ফেব্রুয়ারি বাংলাদেশ ১৯ শতাংশ হারে পারস্পরিক বাণিজ্যচুক্তিতে (এআরটি) সই করে।”",
+      "fact": "২০২৬ সালের ৯ ফেব্রুয়ারি বাংলাদেশ ১৯ শতাংশ হারে পারস্পরিক বাণিজ্যচুক্তিতে (এআরটি) সই করে।",
+      "kind": "date",
+      "prelims": true
+     },
+     {
+      "evidence": "“মার্চে যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তর (ইউএসটিআর) সেকশন ৩০১-এর আওতায় দুটি তদন্ত শুরু করে।”",
+      "fact": "মার্চে ইউএসটিআর সেকশন ৩০১-এর আওতায় দুটি তদন্ত শুরু করে—একটি অতিরিক্ত সক্ষমতা নিয়ে, অন্যটি জোরপূর্বক শ্রম নিয়ে।",
+      "kind": "institution",
+      "prelims": false
+     },
+     {
+      "evidence": "“দেশটির পোশাক আমদানিতে পরিমাণের হিসাবে বাংলাদেশের অংশ ১০ দশমিক ৭ শতাংশ।”",
+      "fact": "যুক্তরাষ্ট্রের পোশাক আমদানিতে পরিমাণের হিসাবে বাংলাদেশের অংশ ১০ দশমিক ৭ শতাংশ বলা হয়েছে।",
+      "kind": "number",
+      "prelims": false
+     },
+     {
+      "evidence": "“ইউএসটিআরের প্রস্তাব কার্যকর হলে বাংলাদেশের মোট শুল্ক দাঁড়াবে সর্বোচ্চ ৩৩ দশমিক ৬ শতাংশে।”",
+      "fact": "ইউএসটিআরের প্রস্তাব কার্যকর হলে বাংলাদেশের মোট শুল্ক সর্বোচ্চ ৩৩ দশমিক ৬ শতাংশে দাঁড়াবে।",
+      "kind": "number",
+      "prelims": false
+     }
+    ],
+    "likely_question": "যুক্তরাষ্ট্রে বাংলাদেশি পণ্যের ওপর নতুন শুল্ক প্রস্তাব, আলোচনার ঝুঁকি ও সম্ভাব্য প্রভাব আলোচনা করুন।",
+    "mode": "full",
+    "score": 80.0,
+    "static_gk": [
+     {
+      "answer": "ইউএসটিআর",
+      "answer_en": "USTR",
+      "kind": "institution",
+      "question": "যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তরকে সংক্ষেপে কী বলা হয়?",
+      "statement": "যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তরকে সংক্ষেপে ইউএসটিআর বলা হয়।"
+     }
+    ],
+    "syllabus_label": "বাংলাদেশের দ্বিপক্ষীয় সম্পর্ক, সফর ও চুক্তি",
+    "syllabus_topic": "fp_bilateral",
+    "unsupported_dropped": 0,
+    "what_happened": "যুক্তরাষ্ট্রের বাণিজ্য প্রতিনিধির দপ্তর (ইউএসটিআর) বাংলাদেশি পণ্যের ওপর সর্বোচ্চ ১৮ শতাংশ শুল্কের প্রস্তাব দিয়েছে, যা আলোচনা ও প্রতিশ্রুতি সন্তোষজনক না হলে ২০ শতাংশ পর্যন্ত যেতে পারে। আগামী ৫ জানুয়ারির মধ্যে মতামত দিতে হবে এবং ২৫ জানুয়ারির শুনানিতে অংশ নিতে হবে। প্রতিবেদনে বলা হয়েছে, দেড় বছরের প্রক্রিয়ায় একাধিক শুল্ক ও তদন্তের পর এই নতুন প্রস্তাব এসেছে।",
+    "whats_new": "",
+    "why_it_matters": "এটি বাংলাদেশ-যুক্তরাষ্ট্র বাণিজ্য সম্পর্ক ও রপ্তানি খাতের জন্য গুরুত্বপূর্ণ। বিসিএসের বাণিজ্যনীতি, আন্তর্জাতিক অর্থনীতি ও দ্বিপক্ষীয় সম্পর্ক অংশে শুল্ক, তদন্ত, আলোচনার সময়সূচি এবং রপ্তানি প্রতিযোগিতার প্রভাব থেকে প্রশ্ন আসতে পারে।",
+    "written_points": [
+     "যুক্তরাষ্ট্রের শুল্কনীতি বাংলাদেশের রপ্তানি, বিশেষ করে তৈরি পোশাক খাতের প্রতিযোগিতা সক্ষমতায় সরাসরি প্রভাব ফেলতে পারে।",
+     "আলোচনায় সময়মতো মতামত, শুনানিতে অংশগ্রহণ এবং শ্রম সংস্কার ও মার্কিন তুলা ব্যবহারের মতো প্রতিশ্রুতি দেখানো দরকার।",
+     "দ্বিপক্ষীয় বাণিজ্য আলোচনায় কূটনৈতিক প্রস্তুতি, প্রাতিষ্ঠানিক সমন্বয় এবং নথিভিত্তিক জবাব দেওয়ার গুরুত্ব রয়েছে।"
+    ]
+   },
    "article_ids": [
     "a_affa4f644413ee5b"
    ],
-   "attempts": 0,
+   "attempts": 1,
    "created_at": "2026-11-27T17:24:26+00:00",
    "event_id": "ev_9b72b18bd300",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "New US tariffs are putting Bangladesh under pressure, with the next five weeks described as a test for exports.",
+    "priority": 7.0,
+    "rationale": "This is a concrete trade-policy development affecting Bangladesh and has durable exam relevance.",
+    "story_type": "international_event",
+    "topic": "fp_bilateral"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "analysed",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_9b882fcb5569": {
    "analysis": null,
@@ -51550,10 +52929,45 @@
    "event_id": "ev_9f3df5f7039c",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "environment_climate"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "A post-storm power outage update in the US is a minor local disaster follow-up with limited exam value.",
+    "story_type": "environment_disaster",
+    "topic": "env_disaster"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
+  "ev_9f6b6dee3abd": {
+   "analysis": null,
+   "article_ids": [
+    "a_c949cafca21f03ca"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_9f6b6dee3abd",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is a human-interest profile rather than a policy or official development.",
+    "story_type": "feature",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_9f758bf54b8b": {
    "analysis": null,
@@ -51758,10 +53172,21 @@
    "event_id": "ev_a01dd2f8f6a6",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "This is explanatory legal discussion rather than a new government decision or ruling.",
+    "story_type": "opinion",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_a04acdc70053": {
    "analysis": null,
@@ -51826,10 +53251,47 @@
    "event_id": "ev_a070b28c3a44",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "environment_climate"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "It is a local council fine-hike notice, too local and minor for BPSC study value.",
+    "story_type": "policy_decision",
+    "topic": "env_pollution_conservation"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
+  "ev_a09798e85208": {
+   "analysis": null,
+   "article_ids": [
+    "a_c5882b241e2c4401"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_a09798e85208",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "It is a domestic political dispute over GDP figures in the US, not a substantive macro or policy development for BPSC.",
+    "story_type": "foreign_domestic_minor",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_a0ae3c938b5c": {
    "analysis": null,
@@ -52007,7 +53469,7 @@
    "included_in": null,
    "last_error": null,
    "screening": null,
-   "screening_attempts": 0,
+   "screening_attempts": 1,
    "status": "new",
    "updated_at": "2026-11-27T04:05:14+00:00"
   },
@@ -52896,10 +54358,21 @@
    "event_id": "ev_a81c1c18f64f",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "This is a research finding but too narrow and not clearly exam-prioritised for BPSC.",
+    "story_type": "science_technology",
+    "topic": "sci_discovery"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_a8365c0c6a5b": {
    "analysis": null,
@@ -53231,19 +54704,120 @@
    "updated_at": "2026-11-20T23:57:05+00:00"
   },
   "ev_a89a8b9250aa": {
-   "analysis": null,
+   "analysed_at": "2026-11-27T23:24:05+00:00",
+   "analysis": {
+    "analysed_article_id": "a_7360fc0df6ebe55f",
+    "attributed_claims": [
+     {
+      "attributed_to": "আবোলফজল শেকারচি, ইরানের সশস্ত্র বাহিনীর জ্যেষ্ঠ মুখপাত্র",
+      "claim": "কুয়েতের কোনো ‘গুরুত্বপূর্ণ’ স্থাপনায় ইরানের হামলা হয়নি।",
+      "evidence": "কুয়েতের কোনো ‘গুরুত্বপূর্ণ’ স্থাপনায় হামলা চালানোর কথা অস্বীকার করেছেন।"
+     },
+     {
+      "attributed_to": "আন্তোনিও তাজানি, ইতালির পররাষ্ট্রমন্ত্রী",
+      "claim": "ইরানি ড্রোন দিয়ে ওই পর্যবেক্ষণ কেন্দ্র লক্ষ্যবস্তু করা হয়েছিল।",
+      "evidence": "ইতালির পররাষ্ট্রমন্ত্রী আন্তোনিও তাজানি বলেন, ইরানি ড্রোন দিয়ে ওই পর্যবেক্ষণ কেন্দ্র লক্ষ্যবস্তু করা হয়েছিল।"
+     }
+    ],
+    "background_context": "মধ্যপ্রাচ্যে সামরিক উত্তেজনা ও সীমান্তপারের হামলা আন্তর্জাতিক সম্পর্কের একটি গুরুত্বপূর্ণ বিষয়।",
+    "categories": [
+     "foreign_policy_geopolitics",
+     "international_affairs"
+    ],
+    "criteria": {
+     "factual_density": 6.0,
+     "novelty": 6.0,
+     "significance": 7.0,
+     "syllabus_relevance": 7.0,
+     "written_potential": 6.0
+    },
+    "exam_focus": "prelims",
+    "headline_bn": "কুয়েতে সামরিক স্থাপনায় হামলায় সম্পৃক্ততা অস্বীকার করে যৌথ তদন্তের প্রস্তাব ইরানের",
+    "institutions": [
+     "ইরানের পররাষ্ট্র মন্ত্রণালয়",
+     "কুয়েতের প্রতিরক্ষা মন্ত্রণালয়",
+     "ইতালির পররাষ্ট্র মন্ত্রণালয়",
+     "রাইনমেটাল ইতালিয়া"
+    ],
+    "key_facts": [
+     {
+      "evidence": "কুয়েতে ড্রোন হামলায় দুই ইতালীয় নাগরিক নিহত হওয়ার ঘটনায়",
+      "fact": "কুয়েতে ড্রোন হামলায় দুই ইতালীয় নাগরিক নিহত হন।",
+      "kind": "other",
+      "prelims": true
+     },
+     {
+      "evidence": "ইরানের পররাষ্ট্রমন্ত্রী আব্বাস আরাগচি ঘটনার উৎস ও জড়িত পক্ষগুলো চিহ্নিত করতে কুয়েতের সঙ্গে যৌথ তদন্তের প্রস্তাব দিয়েছেন।",
+      "fact": "ইরানের পররাষ্ট্রমন্ত্রী আব্বাস আরাগচি কুয়েতের সঙ্গে যৌথ তদন্তের প্রস্তাব দিয়েছেন।",
+      "kind": "name",
+      "prelims": true
+     },
+     {
+      "evidence": "কুয়েতের একটি আকাশ প্রতিরক্ষা পর্যবেক্ষণ কেন্দ্রে ড্রোন হামলায়",
+      "fact": "কুয়েতে হামলাটি একটি আকাশ প্রতিরক্ষা পর্যবেক্ষণ কেন্দ্রে হয়েছিল।",
+      "kind": "place",
+      "prelims": true
+     },
+     {
+      "evidence": "এ ঘটনায় আরও দুজন আহত হয়েছেন; তাঁদের একজন পাকিস্তানি ও অপরজন কুয়েতি সেনাবাহিনীর ক্যাপ্টেন।",
+      "fact": "আহত আরও দুজনের একজন পাকিস্তানি ও অপরজন কুয়েতি সেনাবাহিনীর ক্যাপ্টেন ছিলেন।",
+      "kind": "other",
+      "prelims": false
+     },
+     {
+      "evidence": "হামলায় বস্তুগত ক্ষয়ক্ষতিও হয়েছে বলে জানায় মন্ত্রণালয়।",
+      "fact": "কুয়েতের প্রতিরক্ষা মন্ত্রণালয় হামলায় বস্তুগত ক্ষয়ক্ষতির কথাও জানিয়েছে।",
+      "kind": "institution",
+      "prelims": false
+     }
+    ],
+    "likely_question": "মধ্যপ্রাচ্যে সাম্প্রতিক সংঘাতের বিস্তার, কুয়েতে হামলার ঘটনা এবং ইরানের অস্বীকৃতি ও যৌথ তদন্ত প্রস্তাব সম্পর্কে আলোচনা করুন।",
+    "mode": "full",
+    "score": 65.5,
+    "static_gk": [
+     {
+      "answer": "কুয়েত সিটি",
+      "answer_en": "Kuwait City",
+      "kind": "place",
+      "question": "কুয়েতের রাজধানী কোনটি?",
+      "statement": "কুয়েতের রাজধানী কুয়েত সিটি।"
+     }
+    ],
+    "syllabus_label": "বিশ্বের প্রধান সংঘাত ও সংকট",
+    "syllabus_topic": "int_conflicts",
+    "unsupported_dropped": 0,
+    "what_happened": "কুয়েতে একটি আকাশ প্রতিরক্ষা পর্যবেক্ষণ কেন্দ্রে ড্রোন হামলায় দুই ইতালীয় নাগরিক নিহত হন। এর পর ইরান ওই হামলায় নিজেদের সম্পৃক্ততা অস্বীকার করে কুয়েতের সঙ্গে যৌথ তদন্তের প্রস্তাব দেয়। ইতালি ও কুয়েত হামলার জন্য ইরানকে দায়ী করেছে বলে প্রতিবেদনে বলা হয়েছে।",
+    "whats_new": "",
+    "why_it_matters": "এটি মধ্যপ্রাচ্যের আঞ্চলিক সংঘাত ও সীমান্তপারের নিরাপত্তা উত্তেজনা বিষয়ে বিসিএসের আন্তর্জাতিক বিষয়াবলির অংশ। এ ধরনের প্রশ্নে সংঘাতের পটভূমি, সংশ্লিষ্ট দেশগুলোর অবস্থান এবং কূটনৈতিক প্রতিক্রিয়া থেকে লিখিত প্রশ্ন আসতে পারে।",
+    "written_points": [
+     "মধ্যপ্রাচ্যে প্রতিশোধমূলক হামলা ও পাল্টা অভিযোগ আঞ্চলিক নিরাপত্তা ঝুঁকি বাড়ায়।",
+     "এ ধরনের ঘটনায় রাষ্ট্রগুলোর মধ্যে তদন্ত, কূটনৈতিক অভিযোগ এবং দায় নির্ধারণ অত্যন্ত গুরুত্বপূর্ণ হয়ে ওঠে।",
+     "নাগরিক হতাহত ও সামরিক স্থাপনা লক্ষ্যবস্তু হওয়ায় বিষয়টি আন্তর্জাতিক সংঘাত ও কূটনীতির সঙ্গে সরাসরি যুক্ত।"
+    ]
+   },
    "article_ids": [
     "a_7360fc0df6ebe55f"
    ],
-   "attempts": 0,
+   "attempts": 1,
    "created_at": "2026-11-27T04:05:14+00:00",
    "event_id": "ev_a89a8b9250aa",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "Iran denied attacking military facilities in Kuwait and proposed a joint investigation.",
+    "priority": 5.0,
+    "rationale": "A Gulf security incident with diplomatic implications is substantive and exam-relevant.",
+    "story_type": "international_event",
+    "topic": "int_conflicts"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
+   "status": "analysed",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_a8b8720ae295": {
    "analysis": null,
@@ -54447,21 +56021,6 @@
    "status": "rejected",
    "updated_at": "2026-11-26T23:45:39+00:00"
   },
-  "ev_ae64240ef1de": {
-   "analysis": null,
-   "article_ids": [
-    "a_4eb8bd6f01a8e8c3"
-   ],
-   "attempts": 0,
-   "created_at": "2026-11-27T17:24:26+00:00",
-   "event_id": "ev_ae64240ef1de",
-   "included_in": null,
-   "last_error": null,
-   "screening": null,
-   "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
-  },
   "ev_ae79e6f3f7ad": {
    "analysis": null,
    "article_ids": [
@@ -54722,15 +56281,52 @@
    "article_ids": [
     "a_adb3a991a870feab"
    ],
-   "attempts": 0,
+   "attempts": 1,
    "created_at": "2026-11-27T17:24:26+00:00",
    "event_id": "ev_afd219759e4b",
    "included_in": null,
-   "last_error": null,
-   "screening": null,
+   "last_error": "Syllabus relevance 6 below 7",
+   "screening": {
+    "categories": [
+     "awards_reports_indices"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "UNHCR says deep funding cuts are weakening protection work for refugee and stateless women and girls.",
+    "priority": 7.0,
+    "rationale": "A UN agency warning on global protection funding is durable and exam-relevant.",
+    "story_type": "report_index",
+    "topic": "int_global_issues"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "analysis_rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
+  "ev_affa5208556f": {
+   "analysis": null,
+   "article_ids": [
+    "a_4621bd9c5ae6515e"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_affa5208556f",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 2.0,
+    "rationale": "A single military incident with disputed attribution is too thin for durable exam value.",
+    "story_type": "international_event",
+    "topic": "int_conflicts"
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_b07a3474f2ff": {
    "analysis": null,
@@ -55084,10 +56680,21 @@
    "event_id": "ev_b3d7123e8ee1",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "Interesting science feature, but it is a popular-science discovery piece without clear exam utility for this syllabus filter.",
+    "story_type": "science_technology",
+    "topic": "sci_discovery"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_b3f6729a59b4": {
    "analysed_at": "2026-11-17T01:51:34+00:00",
@@ -55205,6 +56812,32 @@
    "screening_attempts": 0,
    "status": "included",
    "updated_at": "2026-11-17T01:51:34+00:00"
+  },
+  "ev_b447bd64b57d": {
+   "analysis": null,
+   "article_ids": [
+    "a_d3c0d662d05a02df"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_b447bd64b57d",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 3.0,
+    "rationale": "Although scientifically interesting, it is a research explainer about sinking cities rather than a major official development or policy decision.",
+    "story_type": "science_technology",
+    "topic": "sci_discovery"
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_b4615f0a5c32": {
    "analysis": null,
@@ -55942,15 +57575,26 @@
    "article_ids": [
     "a_bb249913c67a38cd"
    ],
-   "attempts": 0,
+   "attempts": 1,
    "created_at": "2026-11-27T17:24:26+00:00",
    "event_id": "ev_b8fa15b9805b",
    "included_in": null,
-   "last_error": null,
-   "screening": null,
+   "last_error": "এটি বৈজ্ঞানিক গবেষণার খবর হলেও BCS সিলেবাসের নির্দিষ্ট ও পরীক্ষাযোগ্য বর্তমান-প্রসঙ্গধর্মী বিষয়ের সঙ্গে সরাসরি মেলে না। এটি মূলত একটি গবেষণা-নির্ভর প্রযুক্তিগত আবিষ্কার; বাংলাদেশ-সম্পর্কিত নীতি, জাতীয় সূচক, আইন, সংস্থা বা পরীক্ষায় সাধারণত জিজ্ঞাস্য বড় সিদ্ধান্ত/ঘটনা নয়।",
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "Scientists have turned hard-to-recycle PVC plastic into high-performance lubricating oil in three hours.",
+    "priority": 6.0,
+    "rationale": "A concrete materials-tech breakthrough with a durable fact and policy relevance on pollution and recycling.",
+    "story_type": "science_technology",
+    "topic": "sci_discovery"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "analysis_rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_b93a212cf0d9": {
    "analysis": null,
@@ -56217,6 +57861,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
+  },
+  "ev_bad0eef6232e": {
+   "analysis": null,
+   "article_ids": [
+    "a_9609b427bee2407b"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_bad0eef6232e",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 3.0,
+    "rationale": "This is coalition bargaining in Israel, but not a clear major election result or durable national outcome.",
+    "story_type": "international_event",
+    "topic": "int_leadership_elections"
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_bb1fd00c73e9": {
    "analysis": null,
@@ -57818,6 +59488,32 @@
    "status": "rejected",
    "updated_at": "2026-11-21T23:04:42+00:00"
   },
+  "ev_c39dfa87a253": {
+   "analysis": null,
+   "article_ids": [
+    "a_1c70967012d66845"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_c39dfa87a253",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "It is a speculative geopolitical discussion about Pakistan’s position, not a concrete durable development.",
+    "story_type": "foreign_domestic_minor",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_c3e73eeb28f9": {
    "analysis": null,
    "article_ids": [
@@ -58647,6 +60343,121 @@
    "status": "rejected",
    "updated_at": "2026-11-22T23:34:10+00:00"
   },
+  "ev_c9c04c51444f": {
+   "analysed_at": "2026-11-27T23:24:05+00:00",
+   "analysis": {
+    "analysed_article_id": "a_c08c008b6aa3d31a",
+    "attributed_claims": [
+     {
+      "attributed_to": "জাতিসংঘের খাদ্য ও কৃষি সংস্থা (FAO) এবং বিশ্ব খাদ্য কর্মসূচি (WFP)",
+      "claim": "দাতব্য বা মানবিক সহায়তার তহবিল কমে যাওয়া বিপর্যয় ঠেকানোর প্রচেষ্টাকে দুর্বল করছে।",
+      "evidence": "\"shrinking humanitarian funding was undermining efforts to avert catastrophe\""
+     },
+     {
+      "attributed_to": "FAO ও WFP",
+      "claim": "এল নিনো পরিস্থিতি খরা, চরম তাপমাত্রা এবং কোথাও কোথাও বিধ্বংসী বন্যা বাড়িয়ে সংকটকে আরও তীব্র করতে পারে।",
+      "evidence": "\"The report said the developing El Niño weather pattern could aggravate the crisis\""
+     }
+    ],
+    "background_context": "FAO ও WFP জাতিসংঘের খাদ্যনিরাপত্তা ও মানবিক সহায়তা-সংক্রান্ত গুরুত্বপূর্ণ সংস্থা।",
+    "categories": [
+     "international_affairs"
+    ],
+    "criteria": {
+     "factual_density": 7.0,
+     "novelty": 8.0,
+     "significance": 8.0,
+     "syllabus_relevance": 8.0,
+     "written_potential": 7.0
+    },
+    "exam_focus": "both",
+    "headline_bn": "জাতিসংঘ সংস্থাগুলো ১৬টি বিশ্ব খাদ্য-সংকট কেন্দ্র নিয়ে দুর্ভিক্ষঝুঁকি বাড়ার সতর্কতা দিল",
+    "institutions": [
+     "Food and Agriculture Organization (FAO)",
+     "World Food Programme (WFP)",
+     "জাতিসংঘ"
+    ],
+    "key_facts": [
+     {
+      "evidence": "\"Hunger is set to worsen significantly in 16 global hotspots over the coming six months\"",
+      "fact": "আগামী ছয় মাসে ১৬টি বৈশ্বিক হটস্পটে ক্ষুধা উল্লেখযোগ্যভাবে বাড়তে পারে বলে সতর্ক করেছে দুটি জাতিসংঘ সংস্থা।",
+      "kind": "number",
+      "prelims": true
+     },
+     {
+      "evidence": "\"Sudan, South Sudan, Somalia, northern Nigeria and Yemen faced the gravest threats\"",
+      "fact": "দুর্ভিক্ষের সবচেয়ে বড় ঝুঁকিতে আছে সুদান, দক্ষিণ সুদান, সোমালিয়া, উত্তর নাইজেরিয়া ও ইয়েমেন।",
+      "kind": "name",
+      "prelims": true
+     },
+     {
+      "evidence": "\"In the latest joint report covering December 2026 to May 2027\"",
+      "fact": "সর্বশেষ যৌথ প্রতিবেদনটি ডিসেম্বর ২০২৬ থেকে মে ২০২৭ সময়কালকে কভার করেছে।",
+      "kind": "date",
+      "prelims": true
+     },
+     {
+      "evidence": "\"armed conflict and violence were driving hunger in 12 of the 16 hotspots\"",
+      "fact": "FAO ও WFP বলেছে, ১২টি হটস্পটে সশস্ত্র সংঘাত ও সহিংসতা ক্ষুধার মূল চালক।",
+      "kind": "number",
+      "prelims": false
+     }
+    ],
+    "likely_question": "বিশ্বের খাদ্যসংকট ও দুর্ভিক্ষঝুঁকি বিষয়ে FAO ও WFP-এর সাম্প্রতিক সতর্কতা আলোচনা করুন।",
+    "mode": "full",
+    "score": 76.5,
+    "static_gk": [
+     {
+      "answer": "রোম",
+      "answer_en": "Rome",
+      "kind": "place",
+      "question": "জাতিসংঘের খাদ্য ও কৃষি সংস্থার সদর দপ্তর কোথায়?",
+      "statement": "জাতিসংঘের খাদ্য ও কৃষি সংস্থার সদর দপ্তর ইতালির রোমে অবস্থিত।"
+     },
+     {
+      "answer": "১৯৬১",
+      "answer_en": "1961",
+      "kind": "year",
+      "question": "বিশ্ব খাদ্য কর্মসূচি কোন সালে প্রতিষ্ঠিত হয়?",
+      "statement": "বিশ্ব খাদ্য কর্মসূচি ১৯৬১ সালে প্রতিষ্ঠিত হয়।"
+     }
+    ],
+    "syllabus_label": "বৈশ্বিক সমস্যা: শরণার্থী, মানবাধিকার, মাদক ও ক্ষুধা",
+    "syllabus_topic": "int_global_issues",
+    "unsupported_dropped": 1,
+    "what_happened": "জাতিসংঘের দুটি সংস্থা, FAO ও WFP, জানিয়েছে যে আগামী ছয় মাসে ১৬টি বৈশ্বিক হটস্পটে খাদ্যসংকট আরও খারাপ হবে এবং আফ্রিকার কিছু অংশে দুর্ভিক্ষের ঝুঁকি তৈরি হয়েছে। তারা বলেছে, সংঘাত, বাস্তুচ্যুতি, অর্থনৈতিক দুরবস্থা, চরম আবহাওয়া এবং কমতে থাকা মানবিক সহায়তা এই সংকটকে তীব্র করছে।",
+    "whats_new": "",
+    "why_it_matters": "এটি আন্তর্জাতিক সমস্যা, খাদ্যনিরাপত্তা ও মানবিক সংকট বিষয়ে BCS-এর জন্য প্রাসঙ্গিক। প্রশ্নে FAO-WFP-এর সতর্কতা, কোন অঞ্চলগুলো সবচেয়ে ঝুঁকিতে আছে, এবং সংকটের কারণগুলো জিজ্ঞেস করা হতে পারে।",
+    "written_points": [
+     "খাদ্যনিরাপত্তা এখন শুধু কৃষি নয়, সংঘাত, বাস্তুচ্যুতি, জলবায়ু ও অর্থনৈতিক পরিস্থিতির সঙ্গে গভীরভাবে যুক্ত।",
+     "মানবিক সহায়তা কমে গেলে আগাম সতর্কতা, তথ্যসংগ্রহ ও জরুরি সহায়তা—সবকিছুই দুর্বল হয়ে পড়ে।",
+     "আঞ্চলিকভাবে ভিন্ন ঝুঁকি থাকলেও সুদান, দক্ষিণ সুদান, সোমালিয়া, উত্তর নাইজেরিয়া ও ইয়েমেন এই প্রতিবেদনে সবচেয়ে ঝুঁকিপূর্ণ হিসেবে উঠে এসেছে."
+    ]
+   },
+   "article_ids": [
+    "a_c08c008b6aa3d31a"
+   ],
+   "attempts": 1,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_c9c04c51444f",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "awards_reports_indices"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "UN agencies warned that hunger will worsen in 16 global hotspots and famine may threaten parts of Africa.",
+    "priority": 8.0,
+    "rationale": "A substantive UN agency report with global figures and clear written-exam relevance.",
+    "story_type": "report_index",
+    "topic": "int_global_issues"
+   },
+   "screening_attempts": 0,
+   "status": "analysed",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_c9e070d40d74": {
    "analysed_at": "2026-11-22T23:34:10+00:00",
    "analysis": {
@@ -58775,21 +60586,6 @@
    "status": "failed",
    "updated_at": "2026-11-25T23:35:28+00:00"
   },
-  "ev_ca1ba32ccffe": {
-   "analysis": null,
-   "article_ids": [
-    "a_3651f7a5c78369b0"
-   ],
-   "attempts": 0,
-   "created_at": "2026-11-27T04:05:14+00:00",
-   "event_id": "ev_ca1ba32ccffe",
-   "included_in": null,
-   "last_error": null,
-   "screening": null,
-   "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T04:05:14+00:00"
-  },
   "ev_cac188376649": {
    "analysis": null,
    "article_ids": [
@@ -58826,10 +60622,21 @@
    "event_id": "ev_cb4d13f9f435",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "An individual custody dispute is a private court matter, not a landmark judgment.",
+    "story_type": "court_case_individual",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_cb79b40cd560": {
    "analysis": null,
@@ -59304,10 +61111,21 @@
    "event_id": "ev_cf9d8c409e28",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "This is an interview/opinion-style discussion rather than a new decision or event.",
+    "story_type": "opinion",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_cfae01ee00cc": {
    "analysis": null,
@@ -60366,6 +62184,117 @@
    "status": "included",
    "updated_at": "2026-11-18T00:55:03+00:00"
   },
+  "ev_d32f50960b37": {
+   "analysed_at": "2026-11-27T23:24:05+00:00",
+   "analysis": {
+    "analysed_article_id": "a_c0b11ea347c96ad4",
+    "attributed_claims": [
+     {
+      "attributed_to": "Christopher Luxon, Prime Minister",
+      "claim": "নিউজিল্যান্ডে স্থিতিশীল ও পূর্ণ মেয়াদে কাজ করতে পারে এমন সরকার দরকার।",
+      "evidence": "\"New Zealanders need a government that is stable, that works together and will last for the full term,\" Luxon said."
+     },
+     {
+      "attributed_to": "Christopher Luxon, Prime Minister",
+      "claim": "তাড়াহুড়ো করে করা সমঝোতা ভেঙে গেলে বা আবার ভোট হলে জনগণ তা পছন্দ করবে না।",
+      "evidence": "\"Kiwis won’t thank us for rushing to an agreement that falls apart or for sending them back to the polls.\""
+     }
+    ],
+    "background_context": "নিউজিল্যান্ডে সংসদীয় গণতন্ত্রের মাধ্যমে সরকার গঠিত হয় এবং সংখ্যাগরিষ্ঠতা না পেলে জোট রাজনীতি গুরুত্বপূর্ণ হয়ে ওঠে।",
+    "categories": [
+     "international_affairs",
+     "foreign_policy_geopolitics"
+    ],
+    "criteria": {
+     "factual_density": 7.0,
+     "novelty": 8.0,
+     "significance": 7.0,
+     "syllabus_relevance": 8.0,
+     "written_potential": 7.0
+    },
+    "exam_focus": "both",
+    "headline_bn": "নিউজিল্যান্ডে লাক্সনের জোট সংখ্যাগরিষ্ঠতা পায়নি",
+    "institutions": [
+     "Electoral Commission",
+     "National Party",
+     "ACT",
+     "New Zealand First",
+     "Opportunity Party"
+    ],
+    "key_facts": [
+     {
+      "evidence": "\"New Zealand’s ruling centre-right coalition has narrowly missed winning a parliamentary majority\"",
+      "fact": "নিউজিল্যান্ডের ক্ষমতাসীন মধ্য-ডান জোট সংসদীয় সংখ্যাগরিষ্ঠতা পায়নি।",
+      "kind": "other",
+      "prelims": true
+     },
+     {
+      "evidence": "\"the coalition with 65 seats, one seat short of a majority in the 130-seat parliament.\"",
+      "fact": "জোটটির আসন সংখ্যা 65, যা 130-আসনের সংসদে সংখ্যাগরিষ্ঠতার জন্য এক আসন কম।",
+      "kind": "number",
+      "prelims": true
+     },
+     {
+      "evidence": "\"Luxon’s National Party secured 40 seats in November 7 election\"",
+      "fact": "প্রধানমন্ত্রী Christopher Luxon-এর জাতীয় দল November 7 election-এ 40টি আসন পেয়েছে।",
+      "kind": "number",
+      "prelims": true
+     },
+     {
+      "evidence": "\"its junior coalition partners ACT and New Zealand First won 13 seats and 12 seats, respectively.\"",
+      "fact": "জোটের ছোট অংশীদার ACT ও New Zealand First যথাক্রমে 13 ও 12টি আসন পেয়েছে।",
+      "kind": "number",
+      "prelims": false
+     }
+    ],
+    "likely_question": "নিউজিল্যান্ডের সাম্প্রতিক সংসদীয় নির্বাচনে সংখ্যাগরিষ্ঠতা না পাওয়া ও পরবর্তী সরকার গঠনের সম্ভাবনা আলোচনা করুন।",
+    "mode": "full",
+    "score": 74.0,
+    "static_gk": [
+     {
+      "answer": "এককক্ষবিশিষ্ট",
+      "answer_en": "Unicameral",
+      "kind": "other",
+      "question": "নিউজিল্যান্ডের সংসদ কেমন প্রকৃতির?",
+      "statement": "নিউজিল্যান্ডের সংসদ এককক্ষবিশিষ্ট।"
+     }
+    ],
+    "syllabus_label": "গুরুত্বপূর্ণ দেশের সরকার পরিবর্তন ও জাতীয় নির্বাচন",
+    "syllabus_topic": "int_leadership_elections",
+    "unsupported_dropped": 0,
+    "what_happened": "নিউজিল্যান্ডের ক্ষমতাসীন মধ্য-ডান জোট সংসদীয় সংখ্যাগরিষ্ঠতা পেতে ব্যর্থ হয়েছে। ফলে প্রধানমন্ত্রী Christopher Luxon-এর সরকার টিকিয়ে রাখতে centrist Opportunity Party-এর সমর্থন প্রয়োজন হতে পারে, নতুবা নতুন নির্বাচন হতে পারে।",
+    "whats_new": "",
+    "why_it_matters": "এটি আন্তর্জাতিক বিষয়ের অন্তর্ভুক্ত গুরুত্বপূর্ণ সরকার পরিবর্তন ও নির্বাচনী ফলাফল। BCS-এ এ ধরনের প্রশ্নে সংসদীয় সংখ্যাগরিষ্ঠতা, জোট রাজনীতি এবং সরকার গঠনের প্রক্রিয়া নিয়ে প্রশ্ন আসতে পারে।",
+    "written_points": [
+     "সংখ্যালঘু বা অল্প ব্যবধানের পার্লামেন্টে জোট সরকার গঠন কীভাবে নির্ভরশীল হয়, তা ব্যাখ্যা করা যায়।",
+     "সংখ্যাগরিষ্ঠতা না পেলে জোট, confidence-and-supply deal বা নতুন নির্বাচনের সম্ভাবনা তৈরি হয়।",
+     "সংসদীয় স্থিতিশীলতা, দলীয় সমঝোতা এবং সরকার পরিচালনার ধারাবাহিকতা নির্বাচনী ফলাফলের গুরুত্বপূর্ণ দিক।"
+    ]
+   },
+   "article_ids": [
+    "a_c0b11ea347c96ad4"
+   ],
+   "attempts": 1,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_d32f50960b37",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "New Zealand’s ruling coalition failed to win a parliamentary majority, forcing the prime minister to seek support from another party.",
+    "priority": 7.0,
+    "rationale": "A durable election outcome in a major country with clear exam value.",
+    "story_type": "international_event",
+    "topic": "int_leadership_elections"
+   },
+   "screening_attempts": 0,
+   "status": "analysed",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_d3300991fdd1": {
    "analysis": null,
    "article_ids": [
@@ -60522,6 +62451,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-20T23:57:05+00:00"
+  },
+  "ev_d4674190b639": {
+   "analysis": null,
+   "article_ids": [
+    "a_509bbb21d4077a47"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_d4674190b639",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "constitution_governance"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "This is coalition and dialogue politics, which is excluded as party politics.",
+    "story_type": "party_politics",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_d47bfce85d4d": {
    "analysis": null,
@@ -61132,10 +63087,21 @@
    "event_id": "ev_dad8e7d635f2",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 2.0,
+    "rationale": "This is a reaction/interview-style follow-up on the Rohingya issue without a new substantive decision or fact.",
+    "story_type": "foreign_domestic_minor",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_dade2f9841da": {
    "analysis": null,
@@ -62182,6 +64148,133 @@
    "status": "included",
    "updated_at": "2026-11-25T23:35:28+00:00"
   },
+  "ev_e3b7f7b82936": {
+   "analysed_at": "2026-11-27T23:24:05+00:00",
+   "analysis": {
+    "analysed_article_id": "a_203b516d8a8aad68",
+    "attributed_claims": [
+     {
+      "attributed_to": "Rehan Asad, ICT adviser to the prime minister",
+      "claim": "বাংলাদেশে Meta-এর অবকাঠামো হলে কনটেন্ট দেশেই হোস্ট ও সরবরাহ করা যাবে, ফলে ভারত হয়ে ট্রাফিক রুট করার প্রয়োজন কমবে।",
+      "evidence": "\"With Meta’s infrastructure in Bangladesh, much of this content could be hosted and delivered locally, reducing the need to route traffic through India.\""
+     },
+     {
+      "attributed_to": "Rehan Asad, ICT adviser to the prime minister",
+      "claim": "এতে India বা অন্য দেশের জন্য যে bandwidth cost দিতে হয়, তা সাশ্রয় হবে এবং ব্যবহারকারীদের performance ভালো হবে।",
+      "evidence": "\"We will also save up on the bandwidth costs that we currently pay to India or any other country\""
+     }
+    ],
+    "background_context": "PoP বা points of presence হলো এমন নেটওয়ার্ক নোড, যেখানে কোনো কোম্পানি তার সেবা স্থানীয়ভাবে সরবরাহ করে। বৃহৎ প্ল্যাটফর্মগুলো সাধারণত স্থানীয় অবকাঠামো ও interconnection ব্যবহার করে সেবা দ্রুত করে।",
+    "categories": [
+     "science_technology",
+     "economy"
+    ],
+    "criteria": {
+     "factual_density": 8.0,
+     "novelty": 8.0,
+     "significance": 7.0,
+     "syllabus_relevance": 8.0,
+     "written_potential": 7.0
+    },
+    "exam_focus": "both",
+    "headline_bn": "বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে চায় Meta",
+    "institutions": [
+     "Meta",
+     "Facebook",
+     "Instagram",
+     "WhatsApp",
+     "Bangladesh Telecommunication Regulatory Commission (BTRC)",
+     "Bangladesh Telecommunication Regulation Act 2001",
+     "Telecommunications Network and Licensing Policy 2025",
+     "Edge Network Services"
+    ],
+    "key_facts": [
+     {
+      "evidence": "\"Meta, the parent company of Facebook, Instagram, and WhatsApp, intends to build its own network infrastructure in the country, a move that would require significant capital investment by the American tech giant and reduce Bangladesh’s bandwidth costs.\"",
+      "fact": "Meta বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে চায় এবং এতে উল্লেখযোগ্য মূলধনী বিনিয়োগ প্রয়োজন হবে।",
+      "kind": "other",
+      "prelims": false
+     },
+     {
+      "evidence": "\"The move comes following a meeting with the Bangladesh Telecommunication Regulatory Commission (BTRC) on August 13\"",
+      "fact": "Meta ১৩ আগস্ট BTRC-এর সঙ্গে বৈঠকের পর বাংলাদেশে local infrastructure স্থাপনের বিষয়টি আলোচনা করে।",
+      "kind": "date",
+      "prelims": true
+     },
+     {
+      "evidence": "\"Meta’s platforms account for around 25 percent of international bandwidth consumption, according to industry insiders.\"",
+      "fact": "Meta-এর প্ল্যাটফর্মগুলো বাংলাদেশের আন্তর্জাতিক bandwidth consumption-এর প্রায় ২৫ শতাংশ।",
+      "kind": "number",
+      "prelims": true
+     },
+     {
+      "evidence": "\"As of October, Bangladesh had 77.1 million Facebook users, according to NapoleonCat, a global social media management platform.\"",
+      "fact": "অক্টোবর পর্যন্ত বাংলাদেশে ৭৭.১ মিলিয়ন Facebook user ছিল।",
+      "kind": "number",
+      "prelims": true
+     },
+     {
+      "evidence": "\"The company cited provisions of the Bangladesh Telecommunication Regulation Act 2001 and clause 7.2.10 of the Telecommunications Network and Licensing Policy 2025\"",
+      "fact": "Meta তার আবেদনে Bangladesh Telecommunication Regulation Act 2001 এবং Telecommunications Network and Licensing Policy 2025-এর clause 7.2.10 উল্লেখ করেছে।",
+      "kind": "law_policy",
+      "prelims": false
+     }
+    ],
+    "likely_question": "বাংলাদেশে Meta-এর নিজস্ব নেটওয়ার্ক অবকাঠামো স্থাপনের সম্ভাবনা, এর অর্থনৈতিক প্রভাব এবং নিয়ন্ত্রক চ্যালেঞ্জগুলো আলোচনা করুন।",
+    "mode": "full",
+    "score": 76.0,
+    "static_gk": [
+     {
+      "answer": "বিটিআরসি",
+      "answer_en": "BTRC",
+      "kind": "institution",
+      "question": "বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ কমিশনের সংক্ষিপ্ত রূপ কী?",
+      "statement": "বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ কমিশনের সংক্ষিপ্ত রূপ হলো বিটিআরসি।"
+     },
+     {
+      "answer": "২০০১",
+      "answer_en": "2001",
+      "kind": "year",
+      "question": "বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ আইন কোন সালে প্রণীত হয়?",
+      "statement": "বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ আইন ২০০১ সালে প্রণীত হয়।"
+     }
+    ],
+    "syllabus_label": "আইসিটি, ডিজিটাল সেবা ও সাইবার নীতি",
+    "syllabus_topic": "bd_ict_digital",
+    "unsupported_dropped": 0,
+    "what_happened": "Meta বাংলাদেশে নিজস্ব নেটওয়ার্ক অবকাঠামো গড়তে আগ্রহ প্রকাশ করেছে এবং এ জন্য BTRC-এর কাছে অনুমতির আবেদন করেছে। প্রতিষ্ঠানটি PoP স্থাপন, আন্তর্জাতিক ব্যাকবোনের সঙ্গে সংযোগ, স্থানীয় ইন্টারনেট সেবাদাতা ও মোবাইল অপারেটরের সঙ্গে সরাসরি সংযোগ এবং settlement-free peering-এর অনুমতি চেয়েছে।",
+    "whats_new": "",
+    "why_it_matters": "এটি আইসিটি নীতি, টেলিযোগাযোগ নিয়ন্ত্রণ এবং ডিজিটাল অবকাঠামো উন্নয়নের সঙ্গে সরাসরি সম্পর্কিত। বিসিএস প্রার্থীর জন্য প্রশ্ন হতে পারে—PoP কী, bandwidth cost কীভাবে কমতে পারে, এবং লাইসেন্সিং ও interconnection নীতিতে কী ধরনের সমন্বয় দরকার।",
+    "written_points": [
+     "বাংলাদেশে নিজস্ব PoP ও স্থানীয় সংযোগ স্থাপিত হলে আন্তর্জাতিক ট্রাফিক রাউটিং কমে ডিজিটাল সেবা দ্রুত হতে পারে।",
+     "Bandwidth cost কমলে সেবার খরচ ও নেটওয়ার্ক দক্ষতার ওপর ইতিবাচক প্রভাব পড়তে পারে।",
+     "এ ধরনের বিনিয়োগের ক্ষেত্রে নিয়ন্ত্রক স্বচ্ছতা, লাইসেন্সিং এবং interconnection নীতির সমন্বয় গুরুত্বপূর্ণ হয়ে ওঠে।"
+    ]
+   },
+   "article_ids": [
+    "a_203b516d8a8aad68"
+   ],
+   "attempts": 1,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_e3b7f7b82936",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "Meta plans to build its own network infrastructure in Bangladesh, which could reduce bandwidth costs.",
+    "priority": 6.0,
+    "rationale": "A concrete digital infrastructure development involving a major global tech company and Bangladesh.",
+    "story_type": "policy_decision",
+    "topic": "bd_ict_digital"
+   },
+   "screening_attempts": 0,
+   "status": "analysed",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_e456901dfe8c": {
    "analysis": null,
    "article_ids": [
@@ -62467,19 +64560,102 @@
    "updated_at": "2026-11-19T00:15:38+00:00"
   },
   "ev_e5fb829fc174": {
-   "analysis": null,
+   "analysed_at": "2026-11-27T23:24:05+00:00",
+   "analysis": {
+    "analysed_article_id": "a_9a3d58691a48715b",
+    "attributed_claims": [
+     {
+      "attributed_to": "মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প",
+      "claim": "ইরানের ইউরোপে পৌঁছানোর সক্ষমতা আছে, এমনকি যুক্তরাষ্ট্র পর্যন্ত না পারলেও ইউরোপে আঘাত হানতে পারে।",
+      "evidence": "‘তাদের (ইরানের) ইউরোপে পৌঁছানোর সক্ষমতা রয়েছে। আমাদের (যুক্তরাষ্ট্র) পর্যন্ত পৌঁছানোর ক্ষমতা না থাকলেও ইউরোপে আঘাত হানার সক্ষমতা তাদের আছে।’"
+     },
+     {
+      "attributed_to": "মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প",
+      "claim": "মধ্যপ্রাচ্যের দেশগুলো নিজেদের রক্ষা করার মতো যথেষ্ট শক্তিশালী না হওয়া পর্যন্ত তাদের সমর্থন দিয়ে যেতে হবে।",
+      "evidence": "মধ্যপ্রাচ্যের দেশগুলো নিজেদের রক্ষা করার মতো যথেষ্ট শক্তিশালী না হওয়া পর্যন্ত তাদের সমর্থন দিয়ে যেতে হবে।"
+     }
+    ],
+    "background_context": "ইরান-যুক্তরাষ্ট্র-ইসরায়েল সম্পর্ক বহুদিন ধরে পারমাণবিক ইস্যু ও আঞ্চলিক নিরাপত্তা প্রশ্নে উত্তেজনাপূর্ণ।",
+    "categories": [
+     "foreign_policy_geopolitics",
+     "international_affairs"
+    ],
+    "criteria": {
+     "factual_density": 5.0,
+     "novelty": 5.0,
+     "significance": 7.0,
+     "syllabus_relevance": 7.0,
+     "written_potential": 6.0
+    },
+    "exam_focus": "prelims",
+    "headline_bn": "ইরানের ইউরোপে আঘাতের সক্ষমতা নিয়ে ট্রাম্পের দাবি",
+    "institutions": [
+     "NPT"
+    ],
+    "key_facts": [
+     {
+      "evidence": "ইরানের কাছে ইউরোপে আঘাত হানার মতো শক্তিশালী ক্ষেপণাস্ত্র রয়েছে বলে দাবি করেছেন মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প।",
+      "fact": "ট্রাম্প দাবি করেছেন, ইরানের কাছে ইউরোপে আঘাত হানার মতো শক্তিশালী ক্ষেপণাস্ত্র রয়েছে।",
+      "kind": "other",
+      "prelims": true
+     },
+     {
+      "evidence": "মধ্যপ্রাচ্যে শান্তি প্রতিষ্ঠা না হলে সেখানে ‘পারমাণবিক ধ্বংসযজ্ঞ’ ঘটে যেতে পারে।",
+      "fact": "ট্রাম্প সতর্ক করেছেন, মধ্যপ্রাচ্যে শান্তি না এলে সেখানে পারমাণবিক ধ্বংসযজ্ঞ ঘটতে পারে।",
+      "kind": "other",
+      "prelims": false
+     },
+     {
+      "evidence": "তবে ইরানের কাছে এখনো কোনো পারমাণবিক অস্ত্র থাকার প্রমাণ পাওয়া যায়নি।",
+      "fact": "ইরানের কাছে এখনো কোনো পারমাণবিক অস্ত্র থাকার প্রমাণ পাওয়া যায়নি।",
+      "kind": "other",
+      "prelims": true
+     },
+     {
+      "evidence": "দেশটি পারমাণবিক অস্ত্র বিস্তার রোধ চুক্তিতে (এনপিটি) স্বাক্ষরকারী একটি রাষ্ট্র।",
+      "fact": "ইরান পারমাণবিক অস্ত্র বিস্তার রোধ চুক্তিতে (এনপিটি) স্বাক্ষরকারী রাষ্ট্র।",
+      "kind": "law_policy",
+      "prelims": true
+     }
+    ],
+    "likely_question": "ইরানের পারমাণবিক সক্ষমতা, এনপিটি এবং মধ্যপ্রাচ্য-ইউরোপ নিরাপত্তা পরিস্থিতি নিয়ে ট্রাম্পের বক্তব্যের আলোকে আলোচনা করুন।",
+    "mode": "full",
+    "score": 62.5,
+    "syllabus_label": "পারমাণবিক কর্মসূচি, অস্ত্র নিয়ন্ত্রণ ও নিরাপত্তা",
+    "syllabus_topic": "int_security_nuclear",
+    "unsupported_dropped": 0,
+    "what_happened": "মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প দাবি করেছেন, ইরানের কাছে ইউরোপে আঘাত হানার মতো শক্তিশালী ক্ষেপণাস্ত্র রয়েছে। তিনি আরও সতর্ক করেন, মধ্যপ্রাচ্যে শান্তি প্রতিষ্ঠা না হলে সেখানে পারমাণবিক ধ্বংসযজ্ঞ ঘটতে পারে। একই প্রতিবেদনে বলা হয়েছে, ইরানের কাছে পারমাণবিক অস্ত্র থাকার প্রমাণ পাওয়া যায়নি এবং দেশটি পারমাণবিক অস্ত্র বিস্তার রোধ চুক্তিতে (এনপিটি) স্বাক্ষরকারী রাষ্ট্র।",
+    "whats_new": "",
+    "why_it_matters": "এটি আন্তর্জাতিক নিরাপত্তা, পারমাণবিক অস্ত্র বিস্তার রোধ এবং মধ্যপ্রাচ্য সংকট—এই তিনটি সিলেবাস-ভিত্তিক বিষয়ের সঙ্গে সরাসরি সম্পর্কিত। বিসিএস পরীক্ষায় ইরান, এনপিটি, এবং পারমাণবিক হুমকি নিয়ে বিশ্লেষণধর্মী প্রশ্ন আসতে পারে।",
+    "written_points": [
+     "ইরান-সংক্রান্ত বক্তব্যটি পারমাণবিক নিরাপত্তা, অস্ত্র বিস্তার রোধ এবং আঞ্চলিক স্থিতিশীলতার সঙ্গে যুক্ত।",
+     "এনপিটি সদস্য রাষ্ট্র হিসেবে ইরানের আইনি অবস্থান ও পারমাণবিক কর্মসূচি নিয়ে আন্তর্জাতিক উদ্বেগের প্রেক্ষাপট ব্যাখ্যা করা যায়।",
+     "মধ্যপ্রাচ্যে সংঘাত বাড়লে এর প্রভাব ইউরোপসহ বৃহত্তর আন্তর্জাতিক নিরাপত্তার ওপর পড়তে পারে।"
+    ]
+   },
    "article_ids": [
     "a_9a3d58691a48715b"
    ],
-   "attempts": 0,
+   "attempts": 1,
    "created_at": "2026-11-27T08:15:59+00:00",
    "event_id": "ev_e5fb829fc174",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "select",
+    "exam_focus": "both",
+    "exam_hook": "Trump said Iran has missiles capable of reaching Europe and warned of possible nuclear escalation.",
+    "priority": 5.0,
+    "rationale": "It concerns a major conflict and nuclear-security claim involving a major power and Iran.",
+    "story_type": "international_event",
+    "topic": "int_conflicts"
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T08:15:59+00:00"
+   "status": "analysed",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_e61979312674": {
    "analysis": null,
@@ -63007,10 +65183,21 @@
    "event_id": "ev_e85c238698f3",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "awards_reports_indices"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A fashion-profile feature with no syllabus-relevant development.",
+    "story_type": "feature",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_e865580fe1d4": {
    "analysis": null,
@@ -63295,6 +65482,22 @@
     "likely_question": "নগদ বৈদেশিক মুদ্রা বিক্রির সর্বোচ্চ হার বেঁধে দেওয়ার সিদ্ধান্ত বাংলাদেশের বৈদেশিক মুদ্রাবাজারে কী প্রভাব ফেলতে পারে—আলোচনা করুন।",
     "mode": "full",
     "score": 70.0,
+    "static_gk": [
+     {
+      "answer": "বাংলাদেশ ব্যাংক",
+      "answer_en": "Bangladesh Bank",
+      "kind": "institution",
+      "question": "বাংলাদেশের কেন্দ্রীয় ব্যাংক কোনটি?",
+      "statement": "বাংলাদেশ ব্যাংক দেশের কেন্দ্রীয় ব্যাংক।"
+     },
+     {
+      "answer": "১৯৭২",
+      "answer_en": "1972",
+      "kind": "year",
+      "question": "বাংলাদেশ ব্যাংক কোন সালে প্রতিষ্ঠিত হয়?",
+      "statement": "বাংলাদেশ ব্যাংক ১৯৭২ সালে প্রতিষ্ঠিত হয়।"
+     }
+    ],
     "syllabus_label": "বাংলাদেশ ব্যাংক, মুদ্রানীতি ও আর্থিক খাত",
     "syllabus_topic": "bd_banking_monetary",
     "unsupported_dropped": 0,
@@ -63403,6 +65606,15 @@
     "likely_question": "অনলাইন ব্যবসাকে আনুষ্ঠানিক করব্যবস্থার আওতায় আনা ও ভ্যাট আদায়ের চ্যালেঞ্জ আলোচনা করুন।",
     "mode": "full",
     "score": 66.0,
+    "static_gk": [
+     {
+      "answer": "এনবিআর",
+      "answer_en": "NBR",
+      "kind": "institution",
+      "question": "জাতীয় রাজস্ব বোর্ডের সংক্ষিপ্ত রূপ কী?",
+      "statement": "জাতীয় রাজস্ব বোর্ডের সংক্ষিপ্ত রূপ হলো এনবিআর।"
+     }
+    ],
     "syllabus_label": "বাজেট, রাজস্ব, এডিপি ও সরকারি ঋণ",
     "syllabus_topic": "bd_budget_fiscal",
     "unsupported_dropped": 0,
@@ -63449,10 +65661,21 @@
    "event_id": "ev_ea0a2d4ec24c",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "economy"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "A company advertising strategy piece is corporate-commercial and not a public policy development.",
+    "story_type": "corporate_commercial",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_ea26cd4fa946": {
    "analysis": null,
@@ -64336,6 +66559,33 @@
    "status": "rejected",
    "updated_at": "2026-11-17T01:51:34+00:00"
   },
+  "ev_efb2f325e684": {
+   "analysis": null,
+   "article_ids": [
+    "a_edf2b2f1b7b3f2d6"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_efb2f325e684",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "science_technology"
+    ],
+    "decision": "reject",
+    "exam_focus": "both",
+    "exam_hook": "Dengue cases are continuing late into November, with doctors reporting severe organ complications.",
+    "forced_reject": "weak maybe (priority 5)",
+    "priority": 5.0,
+    "rationale": "Health relevance is clear, but this is more of a situational update than a policy or national-scale development.",
+    "story_type": "public_health",
+    "topic": "sci_health"
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_efc84245e8f3": {
    "analysis": null,
    "article_ids": [
@@ -64787,6 +67037,32 @@
    "status": "analysed",
    "updated_at": "2026-11-18T00:55:03+00:00"
   },
+  "ev_f3a2ed773adf": {
+   "analysis": null,
+   "article_ids": [
+    "a_086180102ca36c3a"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_f3a2ed773adf",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 1.0,
+    "rationale": "A domestic media detention story in Turkey without wider international significance for BPSC study.",
+    "story_type": "foreign_domestic_minor",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
+  },
   "ev_f3f20d2f5cef": {
    "analysis": null,
    "article_ids": [
@@ -64928,10 +67204,21 @@
    "event_id": "ev_f577bf198ab1",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "Team selection in cricket is sports news and outside BPSC high-value syllabus scope.",
+    "story_type": "sports_entertainment",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_f5c4bf19e15d": {
    "analysis": null,
@@ -65307,10 +67594,21 @@
    "event_id": "ev_f8b7274d05f1",
    "included_in": null,
    "last_error": null,
-   "screening": null,
+   "screening": {
+    "categories": [
+     "bangladesh_affairs"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is a violent local political clash and not a substantive policy or law development.",
+    "story_type": "party_politics",
+    "topic": null
+   },
    "screening_attempts": 0,
-   "status": "new",
-   "updated_at": "2026-11-27T17:24:26+00:00"
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_f91533e5cdc5": {
    "analysis": null,
@@ -65614,6 +67912,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-22T23:34:10+00:00"
+  },
+  "ev_fa26b4b1dfcb": {
+   "analysis": null,
+   "article_ids": [
+    "a_319c313cd4997b2a"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_fa26b4b1dfcb",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "environment_climate"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 0.0,
+    "rationale": "This is a human-interest style feature on a canal, not a substantive policy development.",
+    "story_type": "feature",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   },
   "ev_fa7e5f053aec": {
    "analysis": null,
@@ -66457,6 +68781,32 @@
    "screening_attempts": 0,
    "status": "rejected",
    "updated_at": "2026-11-25T23:35:28+00:00"
+  },
+  "ev_ffa53394b17c": {
+   "analysis": null,
+   "article_ids": [
+    "a_b56df493d2fc5424"
+   ],
+   "attempts": 0,
+   "created_at": "2026-11-27T23:24:05+00:00",
+   "event_id": "ev_ffa53394b17c",
+   "included_in": null,
+   "last_error": null,
+   "screening": {
+    "categories": [
+     "foreign_policy_geopolitics"
+    ],
+    "decision": "reject",
+    "exam_focus": "none",
+    "exam_hook": "",
+    "priority": 2.0,
+    "rationale": "It is a rhetorical shift in a leader’s tone, not a durable policy decision or agreement.",
+    "story_type": "foreign_domestic_minor",
+    "topic": null
+   },
+   "screening_attempts": 0,
+   "status": "rejected",
+   "updated_at": "2026-11-27T23:24:05+00:00"
   }
  },
  "last_successful_edition": "2026-11-27",
@@ -67446,37 +69796,6 @@
  "runs": [
   {
    "dry_run": false,
-   "edition_date": "2026-11-18",
-   "errors": [],
-   "estimated_cost_usd": 0.0,
-   "finished_at": "2026-11-18T02:00:57+00:00",
-   "llm_calls": 0,
-   "llm_usage": {
-    "gemini": {
-     "calls_incl_retries": 0,
-     "input_tokens": 0,
-     "output_tokens": 0,
-     "requests": 0
-    },
-    "openai": {
-     "calls_incl_retries": 0,
-     "input_tokens": 0,
-     "output_tokens": 0,
-     "requests": 0
-    }
-   },
-   "manual": false,
-   "mcqs": 0,
-   "outcome": "already_delivered",
-   "partial": false,
-   "prefiltered": 0,
-   "providers_disabled": {},
-   "run_id": "433da21621",
-   "started_at": "2026-11-18T02:00:57+00:00",
-   "stories": 8
-  },
-  {
-   "dry_run": false,
    "edition_date": "2026-11-19",
    "errors": [],
    "estimated_cost_usd": 0.166,
@@ -68409,18 +70728,43 @@
    "run_id": "cb85947fd6",
    "started_at": "2026-11-27T02:01:31+00:00",
    "stories": 8
+  },
+  {
+   "dry_run": false,
+   "edition_date": "2026-11-28",
+   "errors": [],
+   "estimated_cost_usd": 0.1257,
+   "finished_at": "2026-11-27T23:26:06+00:00",
+   "llm_calls": 17,
+   "llm_usage": {
+    "gemini": {
+     "cached_input_tokens": 0,
+     "calls_incl_retries": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "requests": 0
+    },
+    "openai": {
+     "cached_input_tokens": 30976,
+     "calls_incl_retries": 17,
+     "input_tokens": 80244,
+     "output_tokens": 19203,
+     "requests": 17
+    }
+   },
+   "manual": false,
+   "mcqs": 3,
+   "outcome": "prepared",
+   "partial": true,
+   "prefiltered": 1,
+   "providers_disabled": {},
+   "run_id": "6127fbb607",
+   "started_at": "2026-11-27T23:24:05+00:00",
+   "stories": 8
   }
  ],
  "schedule": {
   "days": {
-   "2026-11-17": {
-    "lag_minutes": [
-     463
-    ],
-    "last_job_status": "success",
-    "last_run_at": "2026-11-17T02:00:55+00:00",
-    "runs": 1
-   },
    "2026-11-18": {
     "lag_minutes": [
      407,
@@ -68515,6 +70859,14 @@
     "last_job_status": "success",
     "last_run_at": "2026-11-27T02:01:31+00:00",
     "runs": 3
+   },
+   "2026-11-28": {
+    "lag_minutes": [
+     496
+    ],
+    "last_job_status": "success",
+    "last_run_at": "2026-11-27T23:26:06+00:00",
+    "runs": 1
    }
   }
  },
@@ -68522,79 +70874,79 @@
  "source_health": {
   "bbc_bangla": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 13,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "bbc_science": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 33,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "bbc_technology": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 21,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "dailystar_bangladesh": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "dailystar_business": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "dailystar_environment": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "dailystar_world": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "nasa_news": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 10,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "prothomalo": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
-   "last_item_count": 40,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
+   "last_item_count": 6,
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "sciencedaily": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 40,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   },
   "un_news_all": {
    "consecutive_failures": 0,
-   "last_attempt": "2026-11-27T17:24:26+00:00",
+   "last_attempt": "2026-11-27T23:24:05+00:00",
    "last_item_count": 30,
-   "last_success": "2026-11-27T17:24:26+00:00",
+   "last_success": "2026-11-27T23:24:05+00:00",
    "last_warnings": []
   }
  },
@@ -68657,5 +71009,5 @@
  "telegram": {
   "last_update_id": 894171914
  },
- "updated_at": "2026-11-27T17:24:32+00:00"
+ "updated_at": "2026-11-27T23:26:06+00:00"
 }
